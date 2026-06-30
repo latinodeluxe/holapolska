@@ -10,7 +10,7 @@ export default function CookiesPage() {
       </section>
 
       <section style={{ marginBottom: '1.5rem' }}>
-        <h2>2. Cookies utilizadas en PolskaNol</h2>
+        <h2>2. Cookies utilizadas en HolaPolska</h2>
         <p>Utilizamos dos tipos principales de cookies:</p>
         <ul>
           <li><strong>Cookies Técnicas (Necesarias):</strong> Son estrictamente necesarias para el funcionamiento de la plataforma, como mantener tu sesión de usuario iniciada mediante Supabase Auth y recordar tus preferencias de seguridad. No pueden desactivarse.</li>
@@ -25,7 +25,7 @@ export default function CookiesPage() {
 
       <section>
         <h2>4. Consentimiento</h2>
-        <p>Al continuar navegando en PolskaNol, aceptas el uso de cookies técnicas. Para cualquier cookie de análisis, solicitaremos tu consentimiento explícito a través de nuestro banner de avisos al ingresar por primera vez.</p>
+        <p>Al continuar navegando en HolaPolska, aceptas el uso de cookies técnicas. Para cualquier cookie de análisis, solicitaremos tu consentimiento explícito a través de nuestro banner de avisos al ingresar por primera vez.</p>
       </section>
     </main>
   );

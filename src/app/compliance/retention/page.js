@@ -6,7 +6,7 @@ export default function RetentionPage() {
       
       <section style={{ marginBottom: '1.5rem' }}>
         <h2>1. Principio de Minimización</h2>
-        <p>PolskaNol almacena datos personales solo durante el tiempo estrictamente necesario para cumplir con las finalidades para las que fueron recopilados, o según lo requieran las obligaciones legales vigentes en Polonia.</p>
+        <p>HolaPolska almacena datos personales solo durante el tiempo estrictamente necesario para cumplir con las finalidades para las que fueron recopilados, o según lo requieran las obligaciones legales vigentes en Polonia.</p>
       </section>
 
       <section style={{ marginBottom: '1.5rem' }}>
@@ -25,7 +25,7 @@ export default function RetentionPage() {
 
       <section>
         <h2>4. Excepciones Legales</h2>
-        <p>En casos donde la ley polaca (ej. obligaciones fiscales o tributarias) exija la conservación de ciertos datos por un periodo determinado, PolskaNol cumplirá estrictamente con dichos plazos antes de proceder a la supresión definitiva.</p>
+        <p>En casos donde la ley polaca (ej. obligaciones fiscales o tributarias) exija la conservación de ciertos datos por un periodo determinado, HolaPolska cumplirá estrictamente con dichos plazos antes de proceder a la supresión definitiva.</p>
       </section>
     </main>
   );

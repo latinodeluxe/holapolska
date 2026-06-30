@@ -6,7 +6,7 @@ export default function CopyrightPage() {
       
       <section style={{ marginBottom: '1.5rem' }}>
         <h2>1. Titularidad</h2>
-        <p>Todos los derechos de autor, derechos de base de datos y otros derechos de propiedad intelectual sobre el contenido de PolskaNol (incluyendo, sin limitación, textos, gráficos, logotipos, iconos, imágenes, clips de audio, descargas digitales y compilaciones de datos) son propiedad de LatinoDeluxe.</p>
+        <p>Todos los derechos de autor, derechos de base de datos y otros derechos de propiedad intelectual sobre el contenido de HolaPolska (incluyendo, sin limitación, textos, gráficos, logotipos, iconos, imágenes, clips de audio, descargas digitales y compilaciones de datos) son propiedad de LatinoDeluxe.</p>
       </section>
 
       <section style={{ marginBottom: '1.5rem' }}>
@@ -16,7 +16,7 @@ export default function CopyrightPage() {
 
       <section style={{ marginBottom: '1.5rem' }}>
         <h2>3. Marca Registrada</h2>
-        <p>El nombre "PolskaNol" y su marca visual son activos protegidos. Queda prohibido el uso de nuestros logotipos o nombre comercial en cualquier otra plataforma sin nuestra autorización expresa.</p>
+        <p>El nombre "HolaPolska" y su marca visual son activos protegidos. Queda prohibido el uso de nuestros logotipos o nombre comercial en cualquier otra plataforma sin nuestra autorización expresa.</p>
       </section>
 
       <section>

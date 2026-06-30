@@ -6,7 +6,7 @@ export default function AccessibilityPage() {
       
       <section style={{ marginBottom: '1.5rem' }}>
         <h2>1. Nuestro Compromiso</h2>
-        <p>En PolskaNol, creemos que el acceso al conocimiento y la integración deben ser universales. Estamos comprometidos a garantizar la accesibilidad digital para personas con discapacidad, mejorando continuamente la experiencia de usuario para todos.</p>
+        <p>En HolaPolska, creemos que el acceso al conocimiento y la integración deben ser universales. Estamos comprometidos a garantizar la accesibilidad digital para personas con discapacidad, mejorando continuamente la experiencia de usuario para todos.</p>
       </section>
 
       <section style={{ marginBottom: '1.5rem' }}>

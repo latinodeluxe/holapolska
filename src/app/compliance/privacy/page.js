@@ -6,7 +6,7 @@ export default function PrivacyPage() {
       
       <section style={{ marginBottom: '1.5rem' }}>
         <h2>1. Introducción</h2>
-        <p>En PolskaNol, la protección de tus datos personales es nuestra prioridad. Esta política describe qué información recopilamos cuando utilizas nuestra plataforma y cómo la tratamos para mejorar tu experiencia de integración en Polonia.</p>
+        <p>En HolaPolska, la protección de tus datos personales es nuestra prioridad. Esta política describe qué información recopilamos cuando utilizas nuestra plataforma y cómo la tratamos para mejorar tu experiencia de integración en Polonia.</p>
       </section>
 
       <section style={{ marginBottom: '1.5rem' }}>

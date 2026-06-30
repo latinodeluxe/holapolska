@@ -3,16 +3,16 @@ export default function Home() {
     <main className="min-h-screen bg-white">
 
       {/* NAVBAR */}
-      <nav className="flex items-center justify-between px-8 py-5 border-b border-gray-100">
-        <div className="flex items-center gap-2">
-          <span className="text-2xl font-bold text-gray-900">Polska</span>
-          <span className="text-2xl font-bold text-red-500">Nol</span>
-        </div>
+    <nav className="flex items-center justify-between px-8 py-5 border-b border-gray-100">
+  <div className="flex items-center gap-2">
+    <span className="text-2xl font-bold text-gray-900">Hola</span>
+    <span className="text-2xl font-bold text-red-500">Polska</span>
+  </div>
         <div className="flex items-center gap-4">
-          <a href="/login" className="text-gray-600 hover:text-gray-900 text-sm font-medium transition-colors">
+          <a href="/idioma/login" className="text-gray-600 hover:text-gray-900 text-sm font-medium transition-colors">
             Iniciar sesión
           </a>
-          <a href="/registro" className="bg-red-500 hover:bg-red-600 text-white text-sm font-medium px-5 py-2.5 rounded-full transition-colors">
+          <a href="/idioma/registro" className="bg-red-500 hover:bg-red-600 text-white text-sm font-medium px-5 py-2.5 rounded-full transition-colors">
             Empezar gratis
           </a>
         </div>
@@ -28,14 +28,14 @@ export default function Home() {
           <span className="text-red-500"> natural y efectiva</span>
         </h1>
         <p className="text-xl text-gray-500 max-w-2xl mb-10">
-          La plataforma gratuita para hispanohablantes que quieren aprender polaco. 
-          Lecciones cortas, ejercicios interactivos y progreso real.
-        </p>
+  La plataforma gratuita HolaPolska para hispanohablantes que quieren aprender polaco. 
+  Lecciones cortas, ejercicios interactivos y progreso real.
+</p>
         <div className="flex flex-col sm:flex-row gap-4">
-          <a href="/registro" className="bg-red-500 hover:bg-red-600 text-white font-semibold px-8 py-4 rounded-full text-lg transition-colors">
+          <a href="/idioma/registro" className="bg-red-500 hover:bg-red-600 text-white font-semibold px-8 py-4 rounded-full text-lg transition-colors">
             Comenzar ahora — es gratis
           </a>
-          <a href="/cursos" className="border border-gray-200 hover:border-gray-300 text-gray-700 font-semibold px-8 py-4 rounded-full text-lg transition-colors">
+          <a href="/idioma/cursos/polaco-a1" className="border border-gray-200 hover:border-gray-300 text-gray-700 font-semibold px-8 py-4 rounded-full text-lg transition-colors">
             Ver el curso A1
           </a>
         </div>
@@ -90,10 +90,17 @@ export default function Home() {
       </section>
 
       {/* FOOTER */}
-      <footer className="py-10 px-6 text-center text-gray-400 text-sm">
-        <p>PolskaNol — Aprende polaco gratis 🇵🇱</p>
-        <p className="mt-2">Hecho con ❤️ para la comunidad hispanohablante</p>
-      </footer>
+<footer className="py-10 px-6 text-center border-t border-gray-100 mt-20">
+  <p className="text-gray-900 font-semibold mb-4">HolaPolska — Aprende polaco gratis 🇵🇱</p>
+  <div className="flex flex-wrap justify-center gap-4 text-sm text-gray-500">
+    <a href="/compliance/legal" className="hover:text-red-500">Aviso Legal</a>
+    <a href="/compliance/privacy" className="hover:text-red-500">Privacidad</a>
+    <a href="/compliance/cookies" className="hover:text-red-500">Cookies</a>
+    <a href="/compliance/accessibility" className="hover:text-red-500">Accesibilidad</a>
+    <a href="/compliance/copyright" className="hover:text-red-500">Copyright</a>
+  </div>
+  <p className="mt-8 text-gray-400 text-xs">Hecho con ❤️ para la comunidad hispanohablante</p>
+</footer>
 
     </main>
   )

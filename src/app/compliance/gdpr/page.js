@@ -6,12 +6,12 @@ export default function GdprPage() {
       
       <section style={{ marginBottom: '1.5rem' }}>
         <h2>1. Compromiso con el RODO</h2>
-        <p>PolskaNol cumple estrictamente con el Reglamento General de Protección de Datos (RGPD), conocido en Polonia como RODO (Rozporządzenie o Ochronie Danych Osobowych). Nuestra infraestructura técnica ha sido diseñada bajo el principio de "privacidad desde el diseño" (privacy by design).</p>
+        <p>HolaPolska cumple estrictamente con el Reglamento General de Protección de Datos (RGPD), conocido en Polonia como RODO (Rozporządzenie o Ochronie Danych Osobowych). Nuestra infraestructura técnica ha sido diseñada bajo el principio de "privacidad desde el diseño" (privacy by design).</p>
       </section>
 
       <section style={{ marginBottom: '1.5rem' }}>
         <h2>2. Responsable del Tratamiento</h2>
-        <p>El responsable del tratamiento de tus datos es PolskaNol. Nos comprometemos a procesar tus datos de manera lícita, leal y transparente.</p>
+        <p>El responsable del tratamiento de tus datos es HolaPolska. Nos comprometemos a procesar tus datos de manera lícita, leal y transparente.</p>
       </section>
 
       <section style={{ marginBottom: '1.5rem' }}>

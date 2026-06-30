@@ -6,12 +6,12 @@ export default function LicensesPage() {
       
       <section style={{ marginBottom: '1.5rem' }}>
         <h2>1. Propiedad del Contenido</h2>
-        <p>Todo el material educativo, guías de integración, diseños y herramientas desarrollados específicamente para PolskaNol son propiedad exclusiva de LatinoDeluxe y están protegidos por leyes internacionales de derechos de autor.</p>
+        <p>Todo el material educativo, guías de integración, diseños y herramientas desarrollados específicamente para HolaPolska son propiedad exclusiva de LatinoDeluxe y están protegidos por leyes internacionales de derechos de autor.</p>
       </section>
 
       <section style={{ marginBottom: '1.5rem' }}>
         <h2>2. Software de Terceros</h2>
-        <p>PolskaNol integra tecnologías de terceros para su funcionamiento óptimo. Reconocemos y respetamos las licencias de las siguientes tecnologías:</p>
+        <p>HolaPolska integra tecnologías de terceros para su funcionamiento óptimo. Reconocemos y respetamos las licencias de las siguientes tecnologías:</p>
         <ul>
           <li><strong>Next.js (Framework):</strong> Utilizado bajo licencia MIT.</li>
           <li><strong>Supabase (Backend/Database):</strong> Plataforma de gestión de datos y autenticación.</li>
