@@ -1,32 +1,23 @@
-import { Inter } from "next/font/google";
-import "./globals.css";
-import CookieBanner from "@/components/CookieBanner";
-
-const inter = Inter({
-  subsets: ["latin"],
-});
+import './globals.css'
 
 export const metadata = {
-  title: "HolaPolska — Plataforma de integracion para hispanohablantes en Polonia",
-  description: "Aprende polaco, conoce tus derechos, entiende la cultura y conecta con la comunidad latina en Polonia. Todo gratis, todo en espanol.",
-  keywords: "polaco, aprender polaco, hispanohablantes Polonia, latinos Polonia, vivir en Polonia, tramites Polonia",
+  title: 'HolaPolska — Plataforma de integracion para hispanohablantes en Polonia',
+  description: 'Aprende polaco, conoce tus derechos, entiende la cultura y conecta con la comunidad latina en Polonia. Todo gratis, todo en espanol.',
+  keywords: 'polaco, aprender polaco, hispanohablantes Polonia, latinos Polonia, vivir en Polonia, tramites Polonia',
   openGraph: {
-    title: "HolaPolska — Tu vida en Polonia empieza aqui",
-    description: "Idioma, tramites, cultura y comunidad para hispanohablantes en Polonia. 100% gratuito.",
-    url: "https://holapolska.vercel.app",
-    siteName: "HolaPolska",
-    locale: "es_ES",
-    type: "website",
+    title: 'HolaPolska — Tu vida en Polonia empieza aqui',
+    description: 'Idioma, tramites, cultura y comunidad para hispanohablantes en Polonia. 100% gratuito.',
+    url: 'https://holapolska.vercel.app',
+    siteName: 'HolaPolska',
+    locale: 'es_ES',
+    type: 'website',
   },
-};
+}
 
 export default function RootLayout({ children }) {
   return (
     <html lang="es">
-      <body className={inter.className}>
-        {children}
-        <CookieBanner />
-      </body>
+      <body>{children}</body>
     </html>
-  );
+  )
 }
