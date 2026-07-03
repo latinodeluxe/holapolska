@@ -1,3 +1,8 @@
+export const metadata = {
+  title: "HolaPolska — recursos",
+  description: "Informacion y recursos para hispanohablantes en Polonia. Todo en espanol y gratis.",
+}
+
 export default function Recursos() {
   const temas = [
     { titulo: 'Guias en PDF', desc: 'Documentos descargables para tener a mano los tramites mas importantes', icono: '📄', href: '/recursos/guias', disponible: true },

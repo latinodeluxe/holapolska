@@ -1,3 +1,5 @@
+export const metadata = { title: "ZUS en Polonia — Sistema de seguridad social | HolaPolska", description: "Que es el ZUS, como funciona y que cubre el sistema de seguridad social polaco." }
+
 export default function Zus() {
   return (
     <main className="min-h-screen bg-gray-50">

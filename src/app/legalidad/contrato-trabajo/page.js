@@ -1,3 +1,5 @@
+export const metadata = { title: "Contrato de trabajo en Polonia — Tipos y derechos | HolaPolska", description: "Todo sobre contratos laborales en Polonia: umowa o prace, zlecenie, derechos y obligaciones." }
+
 export default function ContratoTrabajo() {
   return (
     <main className="min-h-screen bg-gray-50">

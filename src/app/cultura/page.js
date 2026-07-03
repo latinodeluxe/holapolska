@@ -1,3 +1,8 @@
+export const metadata = {
+  title: "HolaPolska — cultura",
+  description: "Informacion y recursos para hispanohablantes en Polonia. Todo en espanol y gratis.",
+}
+
 export default function Cultura() {
   const temas = [
     { titulo: 'Costumbres polacas', desc: 'Lo que sorprende a los latinos al llegar a Polonia', icono: '🎭', href: '/cultura/costumbres', disponible: true },

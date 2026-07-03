@@ -1,3 +1,8 @@
+export const metadata = {
+  title: "HolaPolska — legalidad",
+  description: "Informacion y recursos para hispanohablantes en Polonia. Todo en espanol y gratis.",
+}
+
 export default function Legalidad() {
   const temas = [
     { titulo: 'Permiso de residencia', desc: 'Tipos, requisitos y como tramitar tu Karta Pobytu', icono: '📄', href: '/legalidad/permiso-residencia', disponible: true },

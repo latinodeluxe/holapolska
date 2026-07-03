@@ -1,3 +1,5 @@
+export const metadata = { title: "Normas sociales en Polonia — Que hacer y evitar | HolaPolska", description: "Las normas de convivencia y cultura social en Polonia para integrarte sin errores." }
+
 export default function NormasSociales() {
   return (
     <main className="min-h-screen bg-gray-50">

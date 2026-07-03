@@ -1,3 +1,5 @@
+export const metadata = { title: "Karta Pobytu — Permiso de residencia en Polonia | HolaPolska", description: "Guia completa para tramitar el permiso de residencia en Polonia. Documentos, plazos y consejos." }
+
 export default function PermisoResidencia() {
   return (
     <main className="min-h-screen bg-gray-50">

@@ -1,3 +1,8 @@
+export const metadata = {
+  title: "HolaPolska — vivir en polonia",
+  description: "Informacion y recursos para hispanohablantes en Polonia. Todo en espanol y gratis.",
+}
+
 export default function VivirEnPolonia() {
   const temas = [
     { titulo: 'PESEL', desc: 'Que es, para que sirve y como tramitarlo', icono: '🆔', href: '/vivir-en-polonia/pesel', disponible: true },

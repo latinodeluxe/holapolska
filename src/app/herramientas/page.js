@@ -1,3 +1,8 @@
+export const metadata = {
+  title: "HolaPolska — herramientas",
+  description: "Informacion y recursos para hispanohablantes en Polonia. Todo en espanol y gratis.",
+}
+
 export default function Herramientas() {
   const temas = [
     { titulo: 'Conversor PLN', desc: 'Convierte entre zlotys y las principales monedas latinas', icono: '💱', href: '/herramientas/conversor-pln', disponible: true },

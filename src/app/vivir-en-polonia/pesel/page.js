@@ -1,3 +1,5 @@
+export const metadata = { title: "PESEL en Polonia — Guia completa en espanol | HolaPolska", description: "Como obtener el numero PESEL en Polonia paso a paso. Guia completa para hispanohablantes." }
+
 export default function Pesel() {
   return (
     <main className="min-h-screen bg-gray-50">

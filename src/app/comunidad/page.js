@@ -1,3 +1,8 @@
+export const metadata = {
+  title: "HolaPolska — comunidad",
+  description: "Informacion y recursos para hispanohablantes en Polonia. Todo en espanol y gratis.",
+}
+
 export default function Comunidad() {
   const temas = [
     { titulo: 'Eventos y fiestas', desc: 'Eventos latinos, multiculturales y encuentros de la comunidad en Polonia', icono: '🎉', href: '/comunidad/eventos', disponible: true },

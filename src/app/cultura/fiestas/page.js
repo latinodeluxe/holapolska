@@ -1,3 +1,5 @@
+export const metadata = { title: "Fiestas y festividades en Polonia | HolaPolska", description: "El calendario festivo polaco explicado en espanol. Navidad, Pascua, Todos los Santos y mas." }
+
 export default function Fiestas() {
   return (
     <main className="min-h-screen bg-gray-50">

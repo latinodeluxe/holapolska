@@ -1,3 +1,5 @@
+export const metadata = { title: "Cuenta bancaria en Polonia — Guia en espanol | HolaPolska", description: "Como abrir una cuenta bancaria en Polonia siendo extranjero. Bancos, requisitos y consejos." }
+
 export default function Banco() {
   return (
     <main className="min-h-screen bg-gray-50">

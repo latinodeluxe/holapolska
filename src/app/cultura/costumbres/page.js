@@ -1,3 +1,5 @@
+export const metadata = { title: "Costumbres polacas — Lo que sorprende a los latinos | HolaPolska", description: Las costumbres y normas culturales de Polonia explicadas para hispanohablantes." }
+
 export default function Costumbres() {
   return (
     <main className="min-h-screen bg-gray-50">

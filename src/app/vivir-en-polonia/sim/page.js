@@ -1,3 +1,5 @@
+export const metadata = { title: "Tarjeta SIM en Polonia — Operadores y precios | HolaPolska", description: "Los mejores operadores de telefonia en Polonia para hispanohablantes. Orange, Play, T-Mobile." }
+
 export default function Sim() {
   return (
     <main className="min-h-screen bg-gray-50">

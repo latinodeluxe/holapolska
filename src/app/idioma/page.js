@@ -1,3 +1,5 @@
+export const metadata = { title: "Aprender polaco gratis — Curso A1 completo | HolaPolska", description: "Aprende polaco desde cero con 100 lecciones gratis. Vocabulario, ejercicios y gamificacion." }
+
 export default function Idioma() {
   return (
     <main className="min-h-screen bg-gray-50">
