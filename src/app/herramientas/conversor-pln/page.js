@@ -1,5 +1,7 @@
 'use client'
 import { useState } from 'react'
+import Navbar from '@/components/Navbar'
+import Footer from '@/components/Footer'
 
 const tasas = {
   MXN: 4.07,
@@ -29,32 +31,27 @@ export default function ConversorPln() {
   const calcular = () => {
     const num = parseFloat(cantidad)
     if (isNaN(num)) return ''
-    if (modo === 'pln_a_moneda') {
-      return (num * tasas[moneda]).toLocaleString('es-MX', { maximumFractionDigits: 2 })
-    } else {
-      return (num / tasas[moneda]).toLocaleString('es-MX', { maximumFractionDigits: 2 })
-    }
+    if (modo === 'pln_a_moneda') return (num * tasas[moneda]).toLocaleString('es-MX', { maximumFractionDigits: 2 })
+    return (num / tasas[moneda]).toLocaleString('es-MX', { maximumFractionDigits: 2 })
   }
 
   return (
-    <main className="min-h-screen bg-gray-50">
-      <nav className="bg-white border-b px-6 py-4 flex justify-between items-center">
-        <a href="/"><span className="font-bold text-red-500">Hola</span><span className="font-bold text-gray-900">Polska</span></a>
-        <a href="/herramientas" className="text-sm text-gray-500">Volver a Herramientas</a>
-      </nav>
-      <div className="max-w-xl mx-auto px-6 py-16">
-        <span className="text-sm text-red-500 font-medium">Herramientas</span>
-        <h1 className="text-4xl font-bold text-gray-900 mt-2 mb-4">Conversor de PLN</h1>
-        <p className="text-gray-500 mb-2">Convierte entre zlotys polacos y las principales monedas latinas.</p>
-        <p className="text-xs text-gray-400 mb-8">Tasas de referencia aproximadas al 1 de julio 2026. Para operaciones financieras reales usa siempre tasas actualizadas en Wise, Google o tu banco.</p>
+    <div className="min-h-screen bg-cream flex flex-col font-sans">
+      <Navbar volver="Herramientas" volverHref="/herramientas" />
+      <div className="max-w-xl mx-auto px-8 py-12 flex-1 w-full">
+        <div className="mb-8">
+          <a href="/herramientas" className="text-xs font-bold text-navy/40 tracking-widest uppercase hover:text-navy transition-colors">← Herramientas</a>
+          <h1 className="font-display text-4xl font-extrabold text-navy tracking-tight mt-3 mb-2">Conversor de PLN</h1>
+          <p className="text-navy/50 text-sm">Tasas de referencia aproximadas al 1 de julio 2026. Para operaciones reales usa Wise o Google.</p>
+        </div>
 
-        <div className="bg-white rounded-2xl shadow-sm p-8 space-y-6">
+        <div className="bg-white rounded-2xl border border-navy/8 p-6 space-y-5">
           <div>
-            <label className="text-sm font-medium text-gray-700 mb-2 block">Moneda</label>
+            <label className="text-xs font-bold text-navy/50 uppercase tracking-widest block mb-3">Moneda</label>
             <div className="grid grid-cols-2 gap-2">
               {monedas.map((m) => (
                 <button key={m.codigo} onClick={() => setMoneda(m.codigo)}
-                  className={"p-3 rounded-xl border text-sm font-medium transition-colors text-left " + (moneda === m.codigo ? 'bg-red-500 text-white border-red-500' : 'border-gray-200 text-gray-700 hover:border-red-300')}>
+                  className={`p-3 rounded-xl border text-sm font-medium transition-colors text-left ${moneda === m.codigo ? 'bg-magenta text-white border-magenta' : 'border-navy/10 text-navy hover:border-magenta/30'}`}>
                   {m.bandera} {m.codigo} — {m.nombre}
                 </button>
               ))}
@@ -62,49 +59,46 @@ export default function ConversorPln() {
           </div>
 
           <div>
-            <label className="text-sm font-medium text-gray-700 mb-2 block">Direccion</label>
+            <label className="text-xs font-bold text-navy/50 uppercase tracking-widest block mb-3">Direccion</label>
             <div className="flex gap-2">
               <button onClick={() => setModo('pln_a_moneda')}
-                className={"flex-1 p-3 rounded-xl border text-sm font-medium " + (modo === 'pln_a_moneda' ? 'bg-red-500 text-white border-red-500' : 'border-gray-200 text-gray-700')}>
+                className={`flex-1 p-3 rounded-xl border text-sm font-semibold transition-colors ${modo === 'pln_a_moneda' ? 'bg-magenta text-white border-magenta' : 'border-navy/10 text-navy hover:border-magenta/30'}`}>
                 PLN → {moneda}
               </button>
               <button onClick={() => setModo('moneda_a_pln')}
-                className={"flex-1 p-3 rounded-xl border text-sm font-medium " + (modo === 'moneda_a_pln' ? 'bg-red-500 text-white border-red-500' : 'border-gray-200 text-gray-700')}>
+                className={`flex-1 p-3 rounded-xl border text-sm font-semibold transition-colors ${modo === 'moneda_a_pln' ? 'bg-magenta text-white border-magenta' : 'border-navy/10 text-navy hover:border-magenta/30'}`}>
                 {moneda} → PLN
               </button>
             </div>
           </div>
 
           <div>
-            <label className="text-sm font-medium text-gray-700 mb-2 block">
+            <label className="text-xs font-bold text-navy/50 uppercase tracking-widest block mb-2">
               Cantidad en {modo === 'pln_a_moneda' ? 'PLN' : moneda}
             </label>
             <input type="number" value={cantidad} onChange={(e) => setCantidad(e.target.value)}
               placeholder="0.00"
-              className="w-full border border-gray-200 rounded-xl px-4 py-3 text-lg focus:outline-none focus:border-red-400" />
+              className="w-full border border-navy/10 rounded-xl px-4 py-3 text-lg text-navy focus:outline-none focus:border-magenta bg-cream" />
           </div>
 
           {cantidad && calcular() && (
-            <div className="bg-red-50 rounded-xl p-6 text-center">
-              <p className="text-sm text-gray-500 mb-1">
+            <div className="bg-magenta-light rounded-xl p-6 text-center">
+              <p className="text-sm text-navy/50 mb-1">
                 {cantidad} {modo === 'pln_a_moneda' ? 'PLN' : moneda} equivale aproximadamente a
               </p>
-              <p className="text-4xl font-bold text-red-500">
+              <p className="text-4xl font-extrabold text-magenta tracking-tight">
                 {calcular()} {modo === 'pln_a_moneda' ? moneda : 'PLN'}
               </p>
-              <p className="text-xs text-gray-400 mt-2">Tasa de referencia: 1 PLN = {tasas[moneda]} {moneda}</p>
+              <p className="text-xs text-navy/40 mt-2">Tasa: 1 PLN = {tasas[moneda]} {moneda}</p>
             </div>
           )}
         </div>
 
-        <div className="mt-6 bg-yellow-50 border border-yellow-200 rounded-xl p-4">
-          <p className="text-sm text-gray-700">Para tasas en tiempo real usa <strong>Wise.com</strong> o busca "PLN a {moneda}" en Google.</p>
-        </div>
-
-        <div className="mt-12 pt-8 border-t border-gray-200">
-          <a href="/herramientas" className="text-red-500 font-medium hover:underline">← Volver a Herramientas</a>
+        <div className="mt-4 bg-mango-light rounded-xl p-4">
+          <p className="text-sm text-yellow-800">💡 Para tasas en tiempo real usa <strong>Wise.com</strong> o busca directamente en Google.</p>
         </div>
       </div>
-    </main>
+      <Footer />
+    </div>
   )
 }

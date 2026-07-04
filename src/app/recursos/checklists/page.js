@@ -1,90 +1,113 @@
-export default function Checklists() {
-  const listas = [
-    {
-      titulo: 'Al llegar a Polonia',
-      icono: '✈️',
-      items: [
-        'Comprar tarjeta SIM local (Orange, Play, T-Mobile o Plus)',
-        'Registrar tu direccion en el Urzad Miasta (meldunek)',
-        'Solicitar el numero PESEL',
-        'Abrir cuenta bancaria',
-        'Conseguir seguro medico (privado mientras no tienes ZUS activo)',
-        'Guardar los numeros de emergencia (112, 999, 997)',
-      ]
-    },
-    {
-      titulo: 'Para trabajar legalmente',
-      icono: '💼',
-      items: [
-        'Verificar que tu empleador tiene permiso para contratarte',
-        'Firmar contrato de trabajo (umowa o prace) antes de empezar',
-        'Pedir copia del contrato en un idioma que entiendas',
-        'Confirmar que el empleador te ha registrado en el ZUS',
-        'Verificar en zus.pl que tu cotizacion esta activa',
-        'Guardar copia del contrato y de tu permiso de trabajo',
-      ]
-    },
-    {
-      titulo: 'Para tramitar la Karta Pobytu',
-      icono: '📄',
-      items: [
-        'Verificar que aun tienes dias de estancia legal validos',
-        'Descargar el formulario del Urzad Wojewodzki de tu region',
-        'Reunir: pasaporte, seguro medico, comprobante de domicilio, contrato de trabajo',
-        'Hacer copias de todos los documentos',
-        'Pedir cita o presentarte en el Urzad Wojewodzki',
-        'Guardar el recibo o sello de presentacion de solicitud',
-        'Renovar con al menos 45 dias de anticipacion al vencimiento',
-      ]
-    },
-    {
-      titulo: 'Documentos siempre a mano',
-      icono: '📁',
-      items: [
-        'Pasaporte vigente',
-        'Karta Pobytu (si ya la tienes)',
-        'Contrato de trabajo',
-        'Numero PESEL apuntado en lugar seguro',
-        'Numero de cuenta bancaria',
-        'Numero de tu SIM polaca',
-        'Numero de emergencias: 112',
-        'Numero de tu consulado o embajada',
-      ]
-    },
-  ]
+export const metadata = {
+  title: 'Checklists para vivir en Polonia | HolaPolska',
+  description: 'Listas de verificacion para los momentos clave de tu vida en Polonia. Llegada, trabajo, Karta Pobytu y mas.',
+}
 
+import Navbar from '@/components/Navbar'
+import Footer from '@/components/Footer'
+
+const listas = [
+  {
+    titulo: 'Al llegar a Polonia',
+    icono: '✈️',
+    color: 'magenta',
+    items: [
+      'Comprar tarjeta SIM local (Orange, Play, T-Mobile o Plus)',
+      'Registrar tu direccion en el Urzad Miasta (meldunek)',
+      'Solicitar el numero PESEL',
+      'Abrir cuenta bancaria',
+      'Conseguir seguro medico',
+      'Guardar los numeros de emergencia (112, 999, 997)',
+    ]
+  },
+  {
+    titulo: 'Para trabajar legalmente',
+    icono: '💼',
+    color: 'teal',
+    items: [
+      'Verificar que tu empleador tiene permiso para contratarte',
+      'Firmar contrato de trabajo antes de empezar',
+      'Pedir copia del contrato en un idioma que entiendas',
+      'Confirmar que el empleador te ha registrado en el ZUS',
+      'Verificar en zus.pl que tu cotizacion esta activa',
+      'Guardar copia del contrato y de tu permiso de trabajo',
+    ]
+  },
+  {
+    titulo: 'Para tramitar la Karta Pobytu',
+    icono: '📄',
+    color: 'mango',
+    items: [
+      'Verificar que aun tienes dias de estancia legal validos',
+      'Descargar el formulario del Urzad Wojewodzki de tu region',
+      'Reunir: pasaporte, seguro medico, comprobante de domicilio, contrato',
+      'Hacer copias de todos los documentos',
+      'Pedir cita en el Urzad Wojewodzki',
+      'Guardar el recibo o sello de presentacion de solicitud',
+    ]
+  },
+  {
+    titulo: 'Documentos siempre a mano',
+    icono: '📁',
+    color: 'navy',
+    items: [
+      'Pasaporte vigente',
+      'Karta Pobytu (si ya la tienes)',
+      'Contrato de trabajo',
+      'Numero PESEL apuntado en lugar seguro',
+      'Numero de cuenta bancaria',
+      'Numero de tu SIM polaca',
+      'Numero de emergencias: 112',
+      'Numero de tu consulado o embajada',
+    ]
+  },
+]
+
+const headerColors = {
+  magenta: 'bg-magenta',
+  teal: 'bg-teal',
+  mango: 'bg-mango',
+  navy: 'bg-navy',
+}
+
+const dotColors = {
+  magenta: 'text-magenta',
+  teal: 'text-teal',
+  mango: 'text-mango',
+  navy: 'text-navy/40',
+}
+
+export default function Checklists() {
   return (
-    <main className="min-h-screen bg-gray-50">
-      <nav className="bg-white border-b px-6 py-4 flex justify-between items-center">
-        <a href="/"><span className="font-bold text-red-500">Hola</span><span className="font-bold text-gray-900">Polska</span></a>
-        <a href="/recursos" className="text-sm text-gray-500">Volver a Recursos</a>
-      </nav>
-      <div className="max-w-3xl mx-auto px-6 py-16">
-        <span className="text-sm text-red-500 font-medium">Recursos</span>
-        <h1 className="text-4xl font-bold text-gray-900 mt-2 mb-4">Checklists para vivir en Polonia</h1>
-        <p className="text-gray-500 mb-10">Listas de verificacion para los momentos clave. Guardala, imprimela o compartela.</p>
-        <div className="space-y-8">
+    <div className="min-h-screen bg-cream flex flex-col font-sans">
+      <Navbar volver="Recursos" volverHref="/recursos" />
+      <div className="max-w-3xl mx-auto px-8 py-12 flex-1 w-full">
+        <div className="mb-8">
+          <a href="/recursos" className="text-xs font-bold text-navy/40 tracking-widest uppercase hover:text-navy transition-colors">← Recursos</a>
+          <h1 className="font-display text-4xl font-extrabold text-navy tracking-tight mt-3 mb-3">Checklists para vivir en Polonia</h1>
+          <p className="text-navy/50 text-base">Listas de verificacion para los momentos clave. Guardalas, imprimelas o compartilas.</p>
+        </div>
+
+        <div className="space-y-6">
           {listas.map((lista) => (
-            <div key={lista.titulo} className="bg-white rounded-2xl shadow-sm overflow-hidden">
-              <div className="bg-red-500 px-6 py-4 flex items-center gap-3">
-                <span className="text-2xl">{lista.icono}</span>
-                <h2 className="text-white font-bold text-lg">{lista.titulo}</h2>
+            <div key={lista.titulo} className="bg-white rounded-2xl border border-navy/8 overflow-hidden">
+              <div className={`${headerColors[lista.color]} px-6 py-4 flex items-center gap-3`}>
+                <span className="text-xl">{lista.icono}</span>
+                <h2 className="text-white font-bold">{lista.titulo}</h2>
               </div>
               <ul className="p-6 space-y-3">
                 {lista.items.map((item, idx) => (
                   <li key={idx} className="flex items-start gap-3">
-                    <span className="text-red-500 mt-0.5">☐</span>
-                    <span className="text-gray-700 text-sm">{item}</span>
+                    <span className={`${dotColors[lista.color]} mt-0.5 text-lg leading-none`}>☐</span>
+                    <span className="text-navy/65 text-sm leading-relaxed">{item}</span>
                   </li>
                 ))}
               </ul>
             </div>
           ))}
         </div>
-        <div className="mt-12 pt-8 border-t border-gray-200">
-          <a href="/recursos" className="text-red-500 font-medium hover:underline">← Volver a Recursos</a>
-        </div>
       </div>
-    </main>
+      <Footer />
+    </div>
   )
 }
