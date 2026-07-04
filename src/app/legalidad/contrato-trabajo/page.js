@@ -1,59 +1,53 @@
-export const metadata = { title: "Contrato de trabajo en Polonia — Tipos y derechos | HolaPolska", description: "Todo sobre contratos laborales en Polonia: umowa o prace, zlecenie, derechos y obligaciones." }
+export const metadata = {
+  title: 'Contrato de trabajo en Polonia — Tipos y derechos | HolaPolska',
+  description: 'Todo sobre contratos laborales en Polonia: umowa o prace, zlecenie, derechos y obligaciones.',
+}
+
+import Navbar from '@/components/Navbar'
+import Footer from '@/components/Footer'
 
 export default function ContratoTrabajo() {
   return (
-    <main className="min-h-screen bg-gray-50">
-      <nav className="bg-white border-b px-6 py-4 flex justify-between items-center">
-        <a href="/"><span className="font-bold text-red-500">Hola</span><span className="font-bold text-gray-900">Polska</span></a>
-        <a href="/legalidad" className="text-sm text-gray-500">Volver a Legalidad</a>
-      </nav>
-      <div className="max-w-3xl mx-auto px-6 py-16">
-        <span className="text-sm text-red-500 font-medium">Legalidad</span>
-        <h1 className="text-4xl font-bold text-gray-900 mt-2 mb-8">Contratos de trabajo en Polonia: lo que debes saber antes de firmar</h1>
-        <div className="prose prose-lg max-w-none">
-          <p className="text-gray-700 leading-relaxed mb-6">
-            El tipo de contrato que firmes en Polonia no es un detalle menor: define tus derechos, tu cobertura social, tus vacaciones y hasta si puedes acceder a una hipoteca. Y desde 2025 hay un cambio importante que te afecta directamente si eres extranjero.
-          </p>
-          <h2 className="text-2xl font-bold text-gray-900 mt-10 mb-4">El contrato que te protege de verdad: Umowa o Prace</h2>
-          <p className="text-gray-700 leading-relaxed mb-4">
-            El contrato de trabajo formal (umowa o prace) es el unico que te da todas las garantias del Codigo Laboral polaco:
-          </p>
-          <ul className="space-y-2 text-gray-700 mb-6">
-            <li>• Vacaciones pagadas: 20 dias al ano con menos de 10 anos de servicio, 26 dias con 10 o mas</li>
-            <li>• Baja por enfermedad remunerada</li>
-            <li>• Proteccion ante despido injustificado</li>
-            <li>• Cotizacion al ZUS (seguridad social) y acceso al sistema de salud publica</li>
-            <li>• Salario minimo garantizado: 4.666 PLN brutos mensuales en 2025</li>
-          </ul>
-          <p className="text-gray-700 leading-relaxed mb-6">
-            Dentro de este contrato hay tres variantes: a prueba (hasta 3 meses), por tiempo determinado (con fecha de fin) e indefinido (sin fecha de fin, el que mas proteccion ofrece). Si firmas tres contratos de duracion determinada seguidos con el mismo empleador, el cuarto se convierte automaticamente en indefinido.
-          </p>
-          <h2 className="text-2xl font-bold text-gray-900 mt-10 mb-4">Cambio importante desde 2025: extranjeros solo con Umowa o Prace</h2>
-          <div className="bg-yellow-50 border border-yellow-200 rounded-2xl p-6 mb-6">
-            <p className="text-gray-800 font-medium mb-2">Novedad legal 2025</p>
-            <p className="text-gray-700 text-sm">Desde el 1 de enero de 2025, los empleadores ya no pueden contratar a trabajadores extranjeros bajo contratos civiles (umowa zlecenie u otros). Todos los extranjeros deben trabajar exclusivamente bajo umowa o prace. Esto es una proteccion para ti: garantiza tus derechos desde el primer dia.</p>
-          </div>
-          <h2 className="text-2xl font-bold text-gray-900 mt-10 mb-4">Lo que debes revisar antes de firmar</h2>
-          <ul className="space-y-2 text-gray-700 mb-6">
-            <li>• Que el contrato sea por escrito y te entreguen una copia antes de empezar a trabajar</li>
-            <li>• Que exista una version en un idioma que entiendas (el empleador esta obligado a proporcionarla)</li>
-            <li>• Que el puesto, salario, horario y lugar de trabajo coincidan exactamente con lo que te prometieron de palabra</li>
-            <li>• Que el salario no sea inferior al minimo legal vigente</li>
-            <li>• Que los datos del contrato coincidan con los de tu permiso de trabajo (si aplica)</li>
-          </ul>
-          <h2 className="text-2xl font-bold text-gray-900 mt-10 mb-4">Tips que te van a ahorrar dolores de cabeza</h2>
-          <div className="bg-red-50 rounded-2xl p-6 space-y-3">
-            <p className="text-gray-700">💡 No empieces a trabajar sin contrato firmado. El empleador esta obligado por ley a darte el contrato escrito antes de tu primer dia.</p>
-            <p className="text-gray-700">💡 Todo lo que te prometan verbalmente debe estar escrito: alojamiento, comida, pasajes, bonos. Si no esta en el papel, no existe legalmente.</p>
-            <p className="text-gray-700">💡 Si cambias de empleador con residencia vinculada a ese trabajo, puede que necesites actualizar tu permiso antes de cambiar.</p>
-            <p className="text-gray-700">💡 Si tienes dudas o sospechas que te estan explotando, puedes contactar la Inspeccion Nacional del Trabajo (PIP): pip.gov.pl. Tienen informacion en varios idiomas.</p>
-          </div>
+    <div className="min-h-screen bg-cream flex flex-col font-sans">
+      <Navbar volver="Legalidad" volverHref="/legalidad" />
+      <div className="max-w-3xl mx-auto px-8 py-12 flex-1 w-full">
+        <div className="mb-8">
+          <a href="/legalidad" className="text-xs font-bold text-navy/40 tracking-widest uppercase hover:text-navy transition-colors">← Legalidad</a>
+          <h1 className="font-display text-4xl font-extrabold text-navy tracking-tight mt-3 mb-4">Contratos de trabajo en Polonia</h1>
+          <p className="text-navy/50 text-base leading-relaxed">En Polonia existen varios tipos de contrato con derechos y obligaciones distintas. Conocerlos te ayuda a negociar mejor y proteger tus derechos.</p>
         </div>
-        <div className="mt-12 pt-8 border-t border-gray-200">
-          <p className="text-xs text-gray-400 mb-4">Este contenido es informativo y no sustituye asesoria legal profesional.</p>
-          <a href="/legalidad" className="text-red-500 font-medium hover:underline">← Volver a Legalidad</a>
+        <div className="space-y-4">
+          {[
+            { titulo: 'Umowa o pracę — Contrato laboral', desc: 'El contrato mas protegido. Da derecho a vacaciones pagas (26 dias/ano), baja por enfermedad, contribuciones al ZUS y proteccion ante despido. Es el que debes preferir siempre que sea posible.', color: 'bg-teal', tag: 'Mas recomendado' },
+            { titulo: 'Umowa zlecenie — Contrato de mandato', desc: 'Contrato civil flexible. Incluye contribuciones basicas al ZUS pero menos protecciones que el laboral. Comun en trabajos temporales, estudiantes y freelance.', color: 'bg-mango', tag: 'Frecuente' },
+            { titulo: 'Umowa o dzielo — Contrato de obra', desc: 'Para trabajos puntuales con resultado especifico (diseno, traduccion, etc.). Sin contribuciones al ZUS en muchos casos. Ofrece menos proteccion.', color: 'bg-navy', tag: 'Menor proteccion' },
+          ].map((item) => (
+            <div key={item.titulo} className="bg-white rounded-2xl p-6 border border-navy/8">
+              <div className="flex items-center gap-3 mb-3">
+                <div className={`${item.color} w-3 h-3 rounded-full flex-shrink-0`}></div>
+                <h2 className="font-display text-base font-bold text-navy">{item.titulo}</h2>
+                <span className="text-xs bg-navy/5 text-navy/50 px-2 py-0.5 rounded-full ml-auto">{item.tag}</span>
+              </div>
+              <p className="text-navy/65 leading-relaxed text-sm">{item.desc}</p>
+            </div>
+          ))}
+          <div className="bg-white rounded-2xl p-6 border border-navy/8">
+            <h2 className="font-display text-base font-bold text-navy mb-4">Tus derechos basicos</h2>
+            <ul className="space-y-2">
+              {['Salario minimo garantizado (actualmente 4300 PLN bruto/mes)', '26 dias de vacaciones anuales con umowa o prace', 'Baja por enfermedad pagada por el empleador y luego por el ZUS', 'Derecho a recibir el contrato por escrito antes de empezar', 'Periodo de preaviso segun antiguedad (de 2 semanas a 3 meses)'].map((d, i) => (
+                <li key={i} className="flex items-start gap-2 text-sm text-navy/65">
+                  <span className="text-teal mt-0.5">✓</span>{d}
+                </li>
+              ))}
+            </ul>
+          </div>
+          <div className="bg-magenta-light rounded-2xl p-6">
+            <p className="text-sm text-pink-900 font-semibold mb-2">⚠️ Importante</p>
+            <p className="text-sm text-pink-900">Nunca empieces a trabajar sin contrato firmado. Si tu empleador no te da contrato, puedes denunciarlo ante la Inspekcja Pracy (Inspeccion de Trabajo).</p>
+          </div>
         </div>
       </div>
-    </main>
+      <Footer />
+    </div>
   )
 }

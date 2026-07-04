@@ -1,53 +1,44 @@
-export const metadata = { title: "PESEL en Polonia — Guia completa en espanol | HolaPolska", description: "Como obtener el numero PESEL en Polonia paso a paso. Guia completa para hispanohablantes." }
+export const metadata = {
+  title: 'PESEL en Polonia — Guia completa en espanol | HolaPolska',
+  description: 'Como obtener el numero PESEL en Polonia paso a paso. Guia completa para hispanohablantes.',
+}
+
+import Navbar from '@/components/Navbar'
+import Footer from '@/components/Footer'
 
 export default function Pesel() {
   return (
-    <main className="min-h-screen bg-gray-50">
-      <nav className="bg-white border-b px-6 py-4 flex justify-between items-center">
-        <a href="/"><span className="font-bold text-red-500">Hola</span><span className="font-bold text-gray-900">Polska</span></a>
-        <a href="/vivir-en-polonia" className="text-sm text-gray-500">Volver a Vivir en Polonia</a>
-      </nav>
-      <div className="max-w-3xl mx-auto px-6 py-16">
-        <span className="text-sm text-red-500 font-medium">Vivir en Polonia</span>
-        <h1 className="text-4xl font-bold text-gray-900 mt-2 mb-8">Que es el PESEL y por que lo vas a necesitar si o si</h1>
-
-        <div className="prose prose-lg max-w-none">
-          <p className="text-gray-700 leading-relaxed mb-6">
-            Apenas pongas un pie en Polonia con planes de quedarte, vas a escuchar esta palabra todo el tiempo: PESEL. Es tu numero de identificacion personal, compuesto por 11 digitos y asignado a cada persona registrada en el sistema administrativo polaco. Aunque tecnicamente no siempre es obligatorio, en la practica facilita absolutamente todo: sin el, vas a tener trabas para abrir cuenta bancaria, firmar contrato de trabajo, ir al medico por el sistema publico, o incluso alquilar un apartamento de forma legal.
-          </p>
-
-          <h2 className="text-2xl font-bold text-gray-900 mt-10 mb-4">Lo que necesitas llevar</h2>
-          <p className="text-gray-700 leading-relaxed mb-4">
-            Vas a solicitarlo en el Urzad Miasta (oficina municipal) de la ciudad donde vives. Lleva contigo:
-          </p>
-          <ul className="space-y-2 text-gray-700 mb-6">
-            <li>• El formulario de solicitud completado (normalmente se descarga desde la web del municipio)</li>
-            <li>• Tu pasaporte</li>
-            <li>• Tu permiso de residencia (Karta Pobytu), si ya lo tienes</li>
-            <li>• En muchos casos te lo piden junto con el comprobante de direccion, porque el PESEL suele solicitarse junto con el empadronamiento (meldunek)</li>
-          </ul>
-
-          <h2 className="text-2xl font-bold text-gray-900 mt-10 mb-4">El paso a paso</h2>
-          <ol className="space-y-3 text-gray-700 mb-6">
-            <li><strong>1.</strong> Ubica el Urzad Miasta o Urzad Gminy que corresponde a tu zona de residencia</li>
-            <li><strong>2.</strong> Completa el formulario de solicitud (lleva traduccion si no manejas polaco)</li>
-            <li><strong>3.</strong> Presentate en persona, el tramite se hace de forma presencial y es bastante directo</li>
-            <li><strong>4.</strong> Espera la asignacion, en la mayoria de los casos se asigna el mismo dia o en pocos dias laborables</li>
-          </ol>
-
-          <h2 className="text-2xl font-bold text-gray-900 mt-10 mb-4">Tips que te van a ahorrar dolores de cabeza</h2>
-          <div className="bg-red-50 rounded-2xl p-6 space-y-3">
-            <p className="text-gray-700">💡 El tramite es completamente gratuito. Si alguien te cobra "por gestionarlo rapido", desconfia.</p>
-            <p className="text-gray-700">💡 Tramitalo apenas llegues, no lo dejes para despues: lo vas a necesitar para casi todo, desde el banco hasta el contrato de luz.</p>
-            <p className="text-gray-700">💡 Tambien lo vas a necesitar para domiciliar pagos de alquiler, electricidad y para recibir tu nomina.</p>
-            <p className="text-gray-700">💡 Si te mudas de ciudad o cambias de direccion, mantener tu direccion actualizada en el registro municipal ayuda a que cualquier notificacion oficial te llegue sin problemas.</p>
+    <div className="min-h-screen bg-cream flex flex-col font-sans">
+      <Navbar volver="Vivir en Polonia" volverHref="/vivir-en-polonia" />
+      <div className="max-w-3xl mx-auto px-8 py-12 flex-1 w-full">
+        <div className="mb-8">
+          <a href="/vivir-en-polonia" className="text-xs font-bold text-navy/40 tracking-widest uppercase hover:text-navy transition-colors">← Vivir en Polonia</a>
+          <h1 className="font-display text-4xl font-extrabold text-navy tracking-tight mt-3 mb-4">Que es el PESEL y como obtenerlo</h1>
+          <p className="text-navy/50 text-base leading-relaxed">El PESEL es el numero de identificacion personal en Polonia. Lo necesitas para casi todo: abrir una cuenta bancaria, contratar telefono, acceder al sistema de salud y hacer tramites oficiales.</p>
+        </div>
+        <div className="space-y-4">
+          {[
+            { paso: '1', titulo: 'Donde solicitarlo', desc: 'En el Urzad Miasta (oficina municipal) de la ciudad donde vives. No puedes hacerlo online — debes ir en persona.' },
+            { paso: '2', titulo: 'Que documentos necesitas', desc: 'Pasaporte vigente, documento que acredite tu residencia en Polonia (contrato de alquiler, declaracion del propietario o certificado de registro), y en algunos casos tu contrato de trabajo o carta de matriculacion si eres estudiante.' },
+            { paso: '3', titulo: 'Como es el proceso', desc: 'Pides cita o vas directamente segun el municipio. Presentas los documentos, rellenas un formulario y te asignan el numero PESEL en el momento o en pocos dias.' },
+            { paso: '4', titulo: 'Cuanto tarda', desc: 'Normalmente es inmediato o en 1-2 dias habiles. En ciudades grandes como Varsovia puede haber mas espera.' },
+          ].map((item) => (
+            <div key={item.paso} className="bg-white rounded-2xl p-6 border border-navy/8 flex items-start gap-4">
+              <div className="w-10 h-10 rounded-xl bg-mango flex items-center justify-center text-white font-extrabold text-sm flex-shrink-0">{item.paso}</div>
+              <div>
+                <h2 className="font-display text-base font-bold text-navy mb-2">{item.titulo}</h2>
+                <p className="text-navy/65 leading-relaxed text-sm">{item.desc}</p>
+              </div>
+            </div>
+          ))}
+          <div className="bg-teal-light rounded-2xl p-6 space-y-3">
+            {['El PESEL no caduca y es tuyo para siempre aunque cambies de ciudad.', 'Si tienes permiso de residencia temporal, igual puedes obtener el PESEL.', 'Guarda tu numero PESEL en un lugar seguro — lo necesitaras constantemente.'].map((tip, i) => (
+              <p key={i} className="text-sm text-teal-900">💡 {tip}</p>
+            ))}
           </div>
         </div>
-
-        <div className="mt-12 pt-8 border-t border-gray-200">
-          <a href="/vivir-en-polonia" className="text-red-500 font-medium hover:underline">← Volver a Vivir en Polonia</a>
-        </div>
       </div>
-    </main>
+      <Footer />
+    </div>
   )
 }

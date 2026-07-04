@@ -1,56 +1,51 @@
-export const metadata = { title: "Tarjeta SIM en Polonia — Operadores y precios | HolaPolska", description: "Los mejores operadores de telefonia en Polonia para hispanohablantes. Orange, Play, T-Mobile." }
+export const metadata = {
+  title: 'Tarjeta SIM en Polonia — Operadores y precios | HolaPolska',
+  description: 'Los mejores operadores de telefonia en Polonia para hispanohablantes. Orange, Play, T-Mobile.',
+}
+
+import Navbar from '@/components/Navbar'
+import Footer from '@/components/Footer'
+
+const operadores = [
+  { nombre: 'Orange', desc: 'Buena cobertura en todo el pais. Planes desde 30 PLN/mes con datos ilimitados. Atencion al cliente en ingles disponible.', recomendado: true },
+  { nombre: 'Play', desc: 'El operador mas grande de Polonia. Precios competitivos y excelente cobertura en ciudades grandes. App intuitiva.', recomendado: true },
+  { nombre: 'T-Mobile', desc: 'Buena opcion si ya usas T-Mobile en tu pais de origen. Planes familiares interesantes.', recomendado: false },
+  { nombre: 'Plus', desc: 'Buena cobertura rural. Menos opciones para prepago pero planes de contrato competitivos.', recomendado: false },
+]
 
 export default function Sim() {
   return (
-    <main className="min-h-screen bg-gray-50">
-      <nav className="bg-white border-b px-6 py-4 flex justify-between items-center">
-        <a href="/"><span className="font-bold text-red-500">Hola</span><span className="font-bold text-gray-900">Polska</span></a>
-        <a href="/vivir-en-polonia" className="text-sm text-gray-500">Volver a Vivir en Polonia</a>
-      </nav>
-      <div className="max-w-3xl mx-auto px-6 py-16">
-        <span className="text-sm text-red-500 font-medium">Vivir en Polonia</span>
-        <h1 className="text-4xl font-bold text-gray-900 mt-2 mb-8">Como conseguir tu numero de telefono en Polonia</h1>
-        <div className="prose prose-lg max-w-none">
-          <p className="text-gray-700 leading-relaxed mb-6">
-            Tener un numero polaco no es solo para llamar y enviar mensajes: lo vas a necesitar para verificar tu cuenta bancaria, registrarte en plataformas de trabajo, usar apps de transporte y delivery, e incluso para que te contacten por temas de PESEL o vivienda. Conseguirlo es de lo mas facil y rapido que vas a tramitar al llegar.
-          </p>
-          <h2 className="text-2xl font-bold text-gray-900 mt-10 mb-4">Las principales companias en Polonia</h2>
-          <ul className="space-y-2 text-gray-700 mb-6">
-            <li>• <strong>Orange</strong> — una de las redes mas grandes y con mejor cobertura en todo el pais</li>
-            <li>• <strong>Play</strong> — buenos paquetes de datos, especialmente fuerte en zonas urbanas</li>
-            <li>• <strong>T-Mobile</strong> — servicio solido y consistente en todo el territorio</li>
-            <li>• <strong>Plus</strong> — opciones competitivas y promociones frecuentes para nuevos usuarios</li>
-          </ul>
-          <p className="text-gray-700 leading-relaxed mb-6">
-            Todas tienen tiendas fisicas en las ciudades grandes donde puedes comprar la SIM directamente y que te ayuden con la activacion en el momento.
-          </p>
-          <h2 className="text-2xl font-bold text-gray-900 mt-10 mb-4">Donde comprarla</h2>
-          <ul className="space-y-2 text-gray-700 mb-6">
-            <li>• En tiendas oficiales de cada operador, presentes en cualquier centro comercial</li>
-            <li>• En kioscos, supermercados y algunas tiendas de conveniencia</li>
-            <li>• En los aeropuertos principales (Varsovia Chopin, Cracovia Balice, Gdansk Lech Walesa), aunque suele ser un poco mas caro</li>
-            <li>• Tambien existe la opcion eSIM si tu telefono es compatible, util para tener datos desde el primer dia sin moverte de casa</li>
-          </ul>
-          <h2 className="text-2xl font-bold text-gray-900 mt-10 mb-4">Lo que necesitas para comprarla</h2>
-          <p className="text-gray-700 leading-relaxed mb-6">
-            En la mayoria de los casos solo necesitas tu pasaporte para registrar la SIM a tu nombre. El proceso es rapido, normalmente toma unos minutos en tienda.
-          </p>
-          <h2 className="text-2xl font-bold text-gray-900 mt-10 mb-4">Prepago o plan mensual</h2>
-          <p className="text-gray-700 leading-relaxed mb-6">
-            Si recien llegas, lo mas practico es empezar con prepago: no requiere contrato ni cuenta bancaria, y puedes recargar segun necesites. Una vez tengas PESEL y cuenta bancaria activa, puedes cambiarte a un plan mensual si te conviene mas por precio o cantidad de datos.
-          </p>
-          <h2 className="text-2xl font-bold text-gray-900 mt-10 mb-4">Tips que te van a ahorrar dolores de cabeza</h2>
-          <div className="bg-red-50 rounded-2xl p-6 space-y-3">
-            <p className="text-gray-700">💡 Los precios de SIM prepago suelen empezar desde unos 20 PLN por un paquete basico, bastante accesible.</p>
-            <p className="text-gray-700">💡 Comprarla en tienda fisica de la compania (no en el aeropuerto) suele salir mas barato y con mejores promociones.</p>
-            <p className="text-gray-700">💡 Si tu telefono soporta eSIM, puedes activarla antes de llegar y tener datos desde que aterrizas, sin pasar por tienda.</p>
-            <p className="text-gray-700">💡 Guarda el numero de tu SIM polaca: lo vas a necesitar para verificar casi cualquier cuenta o servicio que abras despues.</p>
+    <div className="min-h-screen bg-cream flex flex-col font-sans">
+      <Navbar volver="Vivir en Polonia" volverHref="/vivir-en-polonia" />
+      <div className="max-w-3xl mx-auto px-8 py-12 flex-1 w-full">
+        <div className="mb-8">
+          <a href="/vivir-en-polonia" className="text-xs font-bold text-navy/40 tracking-widest uppercase hover:text-navy transition-colors">← Vivir en Polonia</a>
+          <h1 className="font-display text-4xl font-extrabold text-navy tracking-tight mt-3 mb-4">Como conseguir una tarjeta SIM en Polonia</h1>
+          <p className="text-navy/50 text-base leading-relaxed">Polonia tiene cuatro operadores principales con buena cobertura. Puedes comprar una SIM prepago el mismo dia que llegas sin necesitar documentos especiales.</p>
+        </div>
+        <div className="space-y-4">
+          {operadores.map((op) => (
+            <div key={op.nombre} className="bg-white rounded-2xl p-6 border border-navy/8 flex items-start gap-4">
+              <div className={`w-11 h-11 rounded-xl flex items-center justify-center text-white font-extrabold text-sm flex-shrink-0 ${op.recomendado ? 'bg-mango' : 'bg-navy/20'}`}>
+                {op.nombre[0]}
+              </div>
+              <div className="flex-1">
+                <div className="flex items-center gap-2 mb-2">
+                  <h2 className="font-display text-base font-bold text-navy">{op.nombre}</h2>
+                  {op.recomendado && <span className="text-xs bg-mango-light text-yellow-800 px-2 py-0.5 rounded-full font-semibold">Recomendado</span>}
+                </div>
+                <p className="text-navy/65 leading-relaxed text-sm">{op.desc}</p>
+              </div>
+            </div>
+          ))}
+          <div className="bg-teal-light rounded-2xl p-6 space-y-3">
+            {['Puedes comprar SIM prepago en cualquier kiosco, supermercado o tienda del operador sin documentos.', 'Para contrato necesitaras pasaporte y en algunos casos el PESEL.', 'Los planes de 30-40 PLN/mes suelen incluir datos ilimitados y llamadas dentro de Polonia.'].map((tip, i) => (
+              <p key={i} className="text-sm text-teal-900">💡 {tip}</p>
+            ))}
           </div>
         </div>
-        <div className="mt-12 pt-8 border-t border-gray-200">
-          <a href="/vivir-en-polonia" className="text-red-500 font-medium hover:underline">← Volver a Vivir en Polonia</a>
-        </div>
       </div>
-    </main>
+      <Footer />
+    </div>
   )
 }
