@@ -42,9 +42,6 @@ export default function Home() {
           <span className="text-xl font-extrabold text-navy tracking-tight">Polska</span>
         </Link>
         <div className="flex items-center gap-3">
-          <SelectorIdioma />
-          <Link href="/nosotros" className="text-sm text-navy/50 font-medium hover:text-navy transition-colors hidden sm:block">{t(`+"`"+nav.nosotros+"`"+`)}</Link>
-          <SelectorIdioma />
           <Link href="/nosotros" className="text-sm text-navy/50 font-medium hover:text-navy transition-colors hidden sm:block">
             {t('nav.nosotros')}
           </Link>
