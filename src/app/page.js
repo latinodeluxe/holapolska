@@ -43,6 +43,12 @@ export default function Home() {
         </Link>
         <div className="flex items-center gap-3">
           <SelectorIdioma />
+          <Link href="/nosotros" className="text-sm text-navy/50 font-medium hover:text-navy transition-colors hidden sm:block">{t(`+"`"+nav.nosotros+"`"+`)}</Link>
+          <SelectorIdioma />
+          <Link href="/nosotros" className="text-sm text-navy/50 font-medium hover:text-navy transition-colors hidden sm:block">
+            {t('nav.nosotros')}
+          </Link>
+          <SelectorIdioma />
           <Link href="/idioma/login" className="text-sm text-navy/45 font-medium hidden sm:block hover:text-navy transition-colors">
             {t('nav.iniciarSesion')}
           </Link>
