@@ -76,9 +76,14 @@ export default function Nosotros() {
               <h2 className="font-display text-xl font-bold text-navy">Tienes una idea, una correccion o quieres colaborar?</h2>
             </div>
             <p className="text-navy/65 leading-relaxed text-sm mb-4">Escribenos — leemos todos los mensajes.</p>
-            <a href="mailto:lavozlatinapl@gmail.com" className="inline-flex items-center gap-2 bg-magenta text-white text-sm font-bold px-5 py-3 rounded-full hover:bg-magenta/90 transition-colors">
-              lavozlatinapl@gmail.com
-            </a>
+            <div className="flex gap-3 flex-wrap">
+              <a href="mailto:lavozlatinapl@gmail.com" className="inline-flex items-center gap-2 bg-magenta text-white text-sm font-bold px-5 py-3 rounded-full hover:bg-magenta/90 transition-colors">
+                ✉️ lavozlatinapl@gmail.com
+              </a>
+              <a href="https://wa.me/48733205803?text=Hola%20HolaPolska%2C%20quiero%20contactarlos" target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-2 bg-navy text-white text-sm font-bold px-5 py-3 rounded-full hover:bg-navy/90 transition-colors">
+                💬 WhatsApp
+              </a>
+            </div>
           </div>
         </div>
       </div>
