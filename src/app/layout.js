@@ -8,7 +8,7 @@ export const metadata = {
   openGraph: {
     title: 'HolaPolska — Tu vida en Polonia empieza aqui',
     description: 'Idioma, tramites, cultura y comunidad para hispanohablantes en Polonia. 100% gratuito.',
-    url: 'https://holapolska.vercel.app',
+    url: 'https://holapolska.com',
     siteName: 'HolaPolska',
     locale: 'es_ES',
     type: 'website',

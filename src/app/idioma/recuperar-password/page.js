@@ -13,7 +13,7 @@ export default function RecuperarPassword() {
     setError('')
     if (!correo) { setError('Ingresa tu correo electronico.'); return }
     setCargando(true)
-    const { error } = await supabase.auth.resetPasswordForEmail(correo, { redirectTo: 'https://holapolska.vercel.app/idioma/nueva-password' })
+    const { error } = await supabase.auth.resetPasswordForEmail(correo, { redirectTo: 'https://holapolska.com/idioma/nueva-password' })
     if (error) { setError('No pudimos enviar el enlace. Verifica el correo.'); setCargando(false); return }
     setEnviado(true)
     setCargando(false)
