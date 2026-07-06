@@ -28,7 +28,7 @@ export default function Registro() {
     if (err) { setError(err); return }
     setCargando(true)
     const { error } = await supabase.auth.signUp({ email: correo, password: contrasena, options: { data: { nombre: nombre.trim() } } })
-    if (error) { setError('Error al crear la cuenta. Intentalo de nuevo.'); setCargando(false); return }
+    if (error) { console.error('Supabase error:', error); setError(error.message || 'Error al crear la cuenta. Intentalo de nuevo.'); setCargando(false); return }
     setExito(true)
     setCargando(false)
   }
