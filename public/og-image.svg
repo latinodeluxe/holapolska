@@ -1,0 +1,27 @@
+<svg width="1200" height="630" viewBox="0 0 1200 630" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1200" height="630" fill="#16213E"/>
+  
+  <rect x="0" y="0" width="6" height="630" fill="#E0447B"/>
+  <rect x="0" y="0" width="1200" height="6" fill="#E0447B"/>
+  <rect x="1194" y="0" width="6" height="630" fill="#E0447B"/>
+  <rect x="0" y="624" width="1200" height="6" fill="#E0447B"/>
+
+  <circle cx="950" cy="180" r="280" fill="#E0447B" opacity="0.06"/>
+  <circle cx="1050" cy="500" r="180" fill="#F4A300" opacity="0.05"/>
+  <circle cx="150" cy="500" r="200" fill="#0F9B8E" opacity="0.05"/>
+
+  <text x="80" y="200" font-family="Inter, Arial, sans-serif" font-size="96" font-weight="800" fill="#E0447B" letter-spacing="-3">Hola</text>
+  <text x="310" y="200" font-family="Inter, Arial, sans-serif" font-size="96" font-weight="800" fill="#FFFFFF" letter-spacing="-3">Polska</text>
+
+  <text x="80" y="290" font-family="Inter, Arial, sans-serif" font-size="28" font-weight="400" fill="#FFFFFF" opacity="0.5">Plataforma de integracion para hispanohablantes en Polonia</text>
+
+  <rect x="80" y="340" width="540" height="2" fill="#E0447B" opacity="0.3"/>
+
+  <text x="80" y="420" font-family="Inter, Arial, sans-serif" font-size="42" font-weight="700" fill="#FFFFFF">Idioma · Tramites · Cultura</text>
+  <text x="80" y="475" font-family="Inter, Arial, sans-serif" font-size="42" font-weight="700" fill="#F4A300">Comunidad · Todo gratis</text>
+
+  <rect x="80" y="540" width="180" height="50" rx="25" fill="#E0447B"/>
+  <text x="170" y="572" font-family="Inter, Arial, sans-serif" font-size="20" font-weight="600" fill="#FFFFFF" text-anchor="middle">holapolska.com</text>
+
+  <text x="1120" y="572" font-family="Inter, Arial, sans-serif" font-size="22" font-weight="700" fill="#FFFFFF" opacity="0.3" text-anchor="middle">🇵🇱</text>
+</svg>
