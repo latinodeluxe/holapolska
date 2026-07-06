@@ -42,7 +42,7 @@ export default function Copyright() {
 
           <section>
             <h2 className="text-2xl font-bold text-gray-900 mb-3">5. Reclamaciones</h2>
-            <p className="text-gray-700">Si consideras que algun contenido de HolaPolska vulnera tus derechos de autor, contacta a: <a href="mailto:lavozlatinapl@gmail.com" className="text-red-500">lavozlatinapl@gmail.com</a>. Responderemos en un plazo maximo de 14 dias habiles.</p>
+            <p className="text-gray-700">Si consideras que algun contenido de HolaPolska vulnera tus derechos de autor, contacta a: <a href="mailto:biuro@holapolska.com" className="text-red-500">biuro@holapolska.com</a>. Responderemos en un plazo maximo de 14 dias habiles.</p>
           </section>
         </div>
       </div>

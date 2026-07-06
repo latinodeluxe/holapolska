@@ -16,7 +16,7 @@ export default function Legal() {
               <p><strong>Titular:</strong> Pablo Sebastian Cupajita Chitiva</p>
               <p><strong>Proyecto:</strong> HolaPolska — plataforma digital de integracion</p>
               <p><strong>Pais de operacion:</strong> Polonia (Union Europea)</p>
-              <p><strong>Correo electronico:</strong> <a href="mailto:lavozlatinapl@gmail.com" className="text-red-500">lavozlatinapl@gmail.com</a></p>
+              <p><strong>Correo electronico:</strong> <a href="mailto:biuro@holapolska.com" className="text-red-500">biuro@holapolska.com</a></p>
               <p className="text-sm text-gray-500 mt-2">Nota: HolaPolska es un proyecto personal en fase de lanzamiento, sin actividad comercial ni registro mercantil activo. No se realizan transacciones economicas en la plataforma.</p>
             </div>
           </section>
@@ -43,7 +43,7 @@ export default function Legal() {
 
           <section>
             <h2 className="text-2xl font-bold text-gray-900 mb-3">6. Contacto</h2>
-            <p className="text-gray-700">Para cualquier consulta legal: <a href="mailto:lavozlatinapl@gmail.com" className="text-red-500">lavozlatinapl@gmail.com</a></p>
+            <p className="text-gray-700">Para cualquier consulta legal: <a href="mailto:biuro@holapolska.com" className="text-red-500">biuro@holapolska.com</a></p>
           </section>
         </div>
       </div>

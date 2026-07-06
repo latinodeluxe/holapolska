@@ -47,7 +47,7 @@ export default function Accessibility() {
           <section>
             <h2 className="text-2xl font-bold text-gray-900 mb-3">5. Contacto y mecanismo de reclamacion</h2>
             <p className="text-gray-700 mb-3">Si encuentras alguna barrera de accesibilidad en HolaPolska, contacta a:</p>
-            <p className="text-gray-700"><a href="mailto:lavozlatinapl@gmail.com" className="text-red-500">lavozlatinapl@gmail.com</a></p>
+            <p className="text-gray-700"><a href="mailto:biuro@holapolska.com" className="text-red-500">biuro@holapolska.com</a></p>
             <p className="text-gray-700 mt-3">Nos comprometemos a responder en un plazo maximo de 7 dias habiles e implementar mejoras en la medida de lo posible.</p>
           </section>
 

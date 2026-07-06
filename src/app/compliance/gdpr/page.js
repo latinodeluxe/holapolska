@@ -23,7 +23,7 @@ export default function Gdpr() {
           </section>
           <section>
             <h2 className="text-2xl font-bold text-gray-900 mb-3">Como ejercer tus derechos</h2>
-            <p className="text-gray-700">Envia tu solicitud a: <a href="mailto:lavozlatinapl@gmail.com" className="text-red-500">lavozlatinapl@gmail.com</a></p>
+            <p className="text-gray-700">Envia tu solicitud a: <a href="mailto:biuro@holapolska.com" className="text-red-500">biuro@holapolska.com</a></p>
             <p className="text-gray-700 mt-3">Indica en el asunto: "Solicitud GDPR" y especifica el derecho que deseas ejercer. Responderemos en un plazo maximo de 30 dias naturales.</p>
           </section>
           <section>
@@ -40,7 +40,7 @@ export default function Gdpr() {
             <div className="bg-white rounded-xl p-5 shadow-sm">
               <p className="text-gray-700"><strong>Nombre:</strong> Pablo Sebastian Cupajita Chitiva</p>
               <p className="text-gray-700"><strong>Proyecto:</strong> HolaPolska</p>
-              <p className="text-gray-700"><strong>Correo:</strong> <a href="mailto:lavozlatinapl@gmail.com" className="text-red-500">lavozlatinapl@gmail.com</a></p>
+              <p className="text-gray-700"><strong>Correo:</strong> <a href="mailto:biuro@holapolska.com" className="text-red-500">biuro@holapolska.com</a></p>
             </div>
           </section>
         </div>

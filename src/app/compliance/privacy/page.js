@@ -16,7 +16,7 @@ export default function Privacy() {
               <p><strong>Nombre:</strong> Pablo Sebastian Cupajita Chitiva</p>
               <p><strong>Proyecto:</strong> HolaPolska</p>
               <p><strong>Pais de operacion:</strong> Polonia (Union Europea)</p>
-              <p><strong>Correo de contacto:</strong> <a href="mailto:lavozlatinapl@gmail.com" className="text-red-500">lavozlatinapl@gmail.com</a></p>
+              <p><strong>Correo de contacto:</strong> <a href="mailto:biuro@holapolska.com" className="text-red-500">biuro@holapolska.com</a></p>
             </div>
           </section>
 
@@ -64,7 +64,7 @@ export default function Privacy() {
               <li>• <strong>Oposicion:</strong> oponerte a determinados tratamientos</li>
               <li>• <strong>Reclamacion:</strong> presentar reclamacion ante la UODO (autoridad polaca de proteccion de datos) en <a href="https://uodo.gov.pl" className="text-red-500">uodo.gov.pl</a></li>
             </ul>
-            <p className="text-gray-700 mt-3">Para ejercer cualquier derecho: <a href="mailto:lavozlatinapl@gmail.com" className="text-red-500">lavozlatinapl@gmail.com</a>. Responderemos en un plazo maximo de 30 dias.</p>
+            <p className="text-gray-700 mt-3">Para ejercer cualquier derecho: <a href="mailto:biuro@holapolska.com" className="text-red-500">biuro@holapolska.com</a>. Responderemos en un plazo maximo de 30 dias.</p>
           </section>
 
           <section>

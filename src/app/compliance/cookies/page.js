@@ -61,7 +61,7 @@ export default function Cookies() {
 
           <section>
             <h2 className="text-2xl font-bold text-gray-900 mb-3">5. Contacto</h2>
-            <p className="text-gray-700">Para cualquier consulta sobre el uso de cookies: <a href="mailto:lavozlatinapl@gmail.com" className="text-red-500">lavozlatinapl@gmail.com</a></p>
+            <p className="text-gray-700">Para cualquier consulta sobre el uso de cookies: <a href="mailto:biuro@holapolska.com" className="text-red-500">biuro@holapolska.com</a></p>
           </section>
         </div>
       </div>
