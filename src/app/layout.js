@@ -1,6 +1,7 @@
 import './globals.css'
 import CookieBanner from '@/components/CookieBanner'
 import { LanguageProvider } from '@/context/LanguageContext'
+import GoogleAnalytics from '@/components/GoogleAnalytics'
 
 export const metadata = {
   title: 'HolaPolska — Plataforma de integracion para hispanohablantes en Polonia',
@@ -34,11 +35,13 @@ export default function RootLayout({ children }) {
   return (
     <html lang="es">
       <body>
+        <>
+        <GoogleAnalytics />
         <LanguageProvider>
           {children}
           <CookieBanner />
         </LanguageProvider>
-      </body>
+      </>
     </html>
   )
 }
