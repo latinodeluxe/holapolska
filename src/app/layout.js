@@ -35,13 +35,12 @@ export default function RootLayout({ children }) {
   return (
     <html lang="es">
       <body>
-        <>
         <GoogleAnalytics />
         <LanguageProvider>
           {children}
           <CookieBanner />
         </LanguageProvider>
-      </>
+      </body>
     </html>
   )
 }
