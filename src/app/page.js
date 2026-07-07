@@ -13,6 +13,7 @@ const modulos = [
   { key: 'herramientas', icono: '🛠️', href: '/herramientas', color: 'mango' },
   { key: 'comunidad', icono: '🤝', href: '/comunidad', color: 'magenta' },
   { key: 'recursos', icono: '📚', href: '/recursos', color: 'teal' },
+  { key: 'espanolPolacos', icono: '🇪🇸', href: '/idioma/cursos/espanol-polacos', color: 'mango' },
 ]
 
 const negocios = [
