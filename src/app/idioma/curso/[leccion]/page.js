@@ -44,7 +44,7 @@ export default function LeccionDinamica() {
     const { data: leccionData, error: errorLeccion } = await supabase
       .from('lecciones')
       .select('id, titulo, objetivo, nivel_id, niveles(titulo, curso_id)')
-      .eq('numero_global', numeroLeccion)
+      .eq('id', numeroLeccion)
       .single()
 
     if (errorLeccion || !leccionData) {
@@ -111,9 +111,13 @@ export default function LeccionDinamica() {
     )
   }
 
-  const moduloNum = Math.ceil(numeroLeccion / 10)
+  const cursoId = leccion.niveles?.curso_id
+  const esCursoTrabajo = cursoId === 2
+  const primerIdCurso = esCursoTrabajo ? 101 : 1
+  const ultimoIdCurso = esCursoTrabajo ? 150 : 100
+  const moduloNum = esCursoTrabajo ? Math.ceil((numeroLeccion - 100) / 10) : Math.ceil(numeroLeccion / 10)
   const siguienteLeccion = numeroLeccion + 1
-  const moduloHref = moduloNum === 1 ? '/idioma/cursos/polaco-a1' : '/idioma/cursos/polaco-a1/modulo-' + moduloNum
+  const moduloHref = esCursoTrabajo ? '/idioma/cursos/polaco-trabajo' : '/idioma/cursos/polaco-a1'
 
   return (
     <main className="min-h-screen bg-gray-50">
@@ -222,7 +226,7 @@ export default function LeccionDinamica() {
                 </div>
                 <div className="flex gap-4 justify-center">
                   <button onClick={() => { setRespuestas({}); setMostrarResultado(false); setXpGuardado(false) }} className="px-6 py-3 border border-gray-200 rounded-xl text-gray-600">Intentar de nuevo</button>
-                  {siguienteLeccion <= 100 && (
+                  {siguienteLeccion <= ultimoIdCurso && (
                     <a href={"/idioma/curso/" + siguienteLeccion} className="px-6 py-3 bg-red-500 text-white rounded-xl font-semibold">Siguiente leccion</a>
                   )}
                 </div>
