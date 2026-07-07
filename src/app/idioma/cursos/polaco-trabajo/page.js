@@ -96,13 +96,16 @@ export default function PolacoTrabajo() {
                 </div>
                 <div className="text-sm text-navy/40 font-medium flex-shrink-0">{m.completadas}/{m.lecciones.length}</div>
               </div>
-              <div className="grid grid-cols-2 sm:grid-cols-5 gap-2 p-4">
+              <div className="divide-y divide-navy/5">
                 {m.lecciones.map((l, idx) => {
                   const completada = idx < m.completadas
                   return (
                     <Link key={l.id} href={`/idioma/curso/${l.id}`}
-                      className={`text-center py-3 rounded-xl text-xs font-medium transition-colors ${completada ? 'bg-teal-light text-teal-900' : 'bg-cream text-navy/50 hover:bg-navy/5'}`}>
-                      {completada ? '✓' : idx + 1}
+                      className="flex items-center gap-3 px-5 py-3.5 hover:bg-cream transition-colors group">
+                      <div className={`w-7 h-7 rounded-full flex items-center justify-center text-xs font-bold flex-shrink-0 ${completada ? 'bg-teal text-white' : 'bg-navy/5 text-navy/40'}`}>
+                        {completada ? '✓' : idx + 1}
+                      </div>
+                      <span className="text-sm text-navy/70 group-hover:text-navy transition-colors">{l.titulo}</span>
                     </Link>
                   )
                 })}
