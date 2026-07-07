@@ -15,23 +15,11 @@ const niveles = [
   { nombre: 'Nativo Honorario', min: 5400, max: 99999 },
 ]
 
-const modulos = [
-  { num: 1, titulo: 'Saludos y presentaciones', rango: '1-10' },
-  { num: 2, titulo: 'Familia y profesiones', rango: '11-20' },
-  { num: 3, titulo: 'Casa y hogar', rango: '21-30' },
-  { num: 4, titulo: 'Comida y restaurante', rango: '31-40' },
-  { num: 5, titulo: 'Tiempo y calendario', rango: '41-50' },
-  { num: 6, titulo: 'Transporte y ciudad', rango: '51-60' },
-  { num: 7, titulo: 'Salud y cuerpo', rango: '61-70' },
-  { num: 8, titulo: 'Trabajo y oficina', rango: '71-80' },
-  { num: 9, titulo: 'Conversaciones reales', rango: '81-90' },
-  { num: 10, titulo: 'Repaso final A1', rango: '91-100' },
-]
-
 export default function Dashboard() {
   const [usuario, setUsuario] = useState(null)
   const [datos, setDatos] = useState(null)
-  const [lecciones, setLecciones] = useState(0)
+  const [cursoA1, setCursoA1] = useState({ completadas: 0, total: 100 })
+  const [cursoTrabajo, setCursoTrabajo] = useState({ completadas: 0, total: 50 })
   const [cargando, setCargando] = useState(true)
 
   useEffect(() => {
@@ -39,10 +27,43 @@ export default function Dashboard() {
       const { data: { user } } = await supabase.auth.getUser()
       if (!user) { window.location.href = '/idioma/login'; return }
       setUsuario(user)
+
       const { data: perfil } = await supabase.from('usuarios').select('*').eq('id', user.id).single()
       setDatos(perfil)
-      const { count } = await supabase.from('progreso').select('*', { count: 'exact', head: true }).eq('usuario_id', user.id).eq('completada', true)
-      setLecciones(count || 0)
+
+      // Progreso curso A1 (curso_id = 1, lecciones con numero_global)
+      const { data: leccionesA1 } = await supabase
+        .from('lecciones')
+        .select('id, niveles!inner(curso_id)')
+        .eq('niveles.curso_id', 1)
+
+      const idsA1 = (leccionesA1 || []).map(l => l.id)
+
+      // Progreso curso Trabajo (curso_id = 2)
+      const { data: leccionesTrabajo } = await supabase
+        .from('lecciones')
+        .select('id, niveles!inner(curso_id)')
+        .eq('niveles.curso_id', 2)
+
+      const idsTrabajo = (leccionesTrabajo || []).map(l => l.id)
+
+      const { data: progreso } = await supabase
+        .from('progreso')
+        .select('leccion_id')
+        .eq('usuario_id', user.id)
+        .eq('completada', true)
+
+      const completadasIds = new Set((progreso || []).map(p => p.leccion_id))
+
+      setCursoA1({
+        completadas: idsA1.filter(id => completadasIds.has(id)).length,
+        total: idsA1.length || 100,
+      })
+      setCursoTrabajo({
+        completadas: idsTrabajo.filter(id => completadasIds.has(id)).length,
+        total: idsTrabajo.length || 50,
+      })
+
       setCargando(false)
     }
     cargar()
@@ -57,10 +78,11 @@ export default function Dashboard() {
   const xp = datos?.xp || 0
   const racha = datos?.racha_dias || 0
   const nivel = niveles.find(n => xp >= n.min && xp < n.max) || niveles[0]
-  const progreso = Math.round(((xp - nivel.min) / (nivel.max - nivel.min)) * 100)
-  const porcentajeCurso = Math.round((lecciones / 100) * 100)
+  const progresoNivel = Math.round(((xp - nivel.min) / (nivel.max - nivel.min)) * 100)
   const nombre = datos?.nombre || usuario?.user_metadata?.nombre || 'Estudiante'
-  const leccionSiguiente = Math.min(lecciones + 1, 100)
+
+  const porcentajeA1 = cursoA1.total ? Math.round((cursoA1.completadas / cursoA1.total) * 100) : 0
+  const porcentajeTrabajo = cursoTrabajo.total ? Math.round((cursoTrabajo.completadas / cursoTrabajo.total) * 100) : 0
 
   return (
     <main className="min-h-screen bg-cream font-sans">
@@ -70,16 +92,16 @@ export default function Dashboard() {
           <span className="text-xl font-extrabold text-navy tracking-tight">Polska</span>
         </a>
         <div className="flex items-center gap-4">
-          <a href="/idioma/cursos/polaco-a1" className="text-sm text-navy/45 hover:text-navy transition-colors">Curso</a>
+          <a href="/idioma" className="text-sm text-navy/45 hover:text-navy transition-colors">Cursos</a>
           <button onClick={async () => { await supabase.auth.signOut(); window.location.href = '/' }} className="text-sm text-navy/45 hover:text-navy transition-colors">Salir</button>
         </div>
       </nav>
 
-      <div className="max-w-6xl mx-auto px-8 py-10">
+      <div className="max-w-4xl mx-auto px-8 py-10">
 
         <div className="mb-8">
           <h1 className="font-display text-3xl font-extrabold text-navy tracking-tight mb-1">Hola, {nombre}</h1>
-          <p className="text-navy/45 text-sm">Continua aprendiendo polaco</p>
+          <p className="text-navy/45 text-sm">Este es tu progreso general</p>
         </div>
 
         <div className="bg-navy rounded-2xl p-6 mb-6">
@@ -94,15 +116,11 @@ export default function Dashboard() {
             </div>
           </div>
           <div className="h-2 bg-white/10 rounded-full overflow-hidden">
-            <div className="h-full bg-teal rounded-full transition-all" style={{ width: `${progreso}%` }}></div>
-          </div>
-          <div className="flex justify-between mt-2">
-            <span className="text-xs text-white/30">{xp} XP</span>
-            <span className="text-xs text-white/30">{nivel.max} XP</span>
+            <div className="h-full bg-mango rounded-full transition-all" style={{ width: `${progresoNivel}%` }}></div>
           </div>
         </div>
 
-        <div className="grid grid-cols-3 gap-4 mb-6">
+        <div className="grid grid-cols-2 gap-4 mb-6">
           <div className="bg-white rounded-2xl border border-navy/8 p-5 text-center">
             <div className="text-3xl font-extrabold text-magenta mb-1">{xp}</div>
             <div className="text-xs text-navy/40 font-medium">XP total</div>
@@ -111,52 +129,44 @@ export default function Dashboard() {
             <div className="text-3xl font-extrabold text-mango mb-1">{racha}</div>
             <div className="text-xs text-navy/40 font-medium">Racha de dias</div>
           </div>
-          <div className="bg-white rounded-2xl border border-navy/8 p-5 text-center">
-            <div className="text-3xl font-extrabold text-teal mb-1">{lecciones}</div>
-            <div className="text-xs text-navy/40 font-medium">Lecciones</div>
-          </div>
         </div>
 
-        <div className="bg-white rounded-2xl border border-navy/8 p-6 mb-6">
-          <div className="flex items-center justify-between mb-4">
-            <div>
-              <div className="font-display font-bold text-navy text-lg">Polaco A1</div>
-              <div className="text-sm text-navy/45">Nivel basico desde cero · {lecciones} de 100 lecciones</div>
+        <div className="text-xs font-bold text-navy/40 tracking-widest uppercase mb-4">Tus cursos</div>
+
+        <div className="space-y-4">
+          <a href="/idioma/cursos/polaco-a1" className="bg-white rounded-2xl border border-navy/8 p-6 block hover:border-magenta/30 transition-colors">
+            <div className="flex items-center justify-between mb-3">
+              <div className="flex items-center gap-3">
+                <div className="w-10 h-10 rounded-xl bg-magenta-light flex items-center justify-center text-lg">🇵🇱</div>
+                <div>
+                  <div className="font-display font-bold text-navy">Polaco General A1</div>
+                  <div className="text-xs text-navy/45">{cursoA1.completadas} de {cursoA1.total} lecciones</div>
+                </div>
+              </div>
+              <div className="text-2xl font-extrabold text-magenta">{porcentajeA1}%</div>
             </div>
-            <div className="text-2xl font-extrabold text-magenta">{porcentajeCurso}%</div>
-          </div>
-          <div className="h-2 bg-navy/5 rounded-full overflow-hidden mb-4">
-            <div className="h-full bg-magenta rounded-full transition-all" style={{ width: `${porcentajeCurso}%` }}></div>
-          </div>
-          <a href={`/idioma/curso/${leccionSiguiente}`} className="w-full bg-magenta hover:bg-magenta/90 text-white font-semibold py-3 rounded-xl transition-colors text-sm text-center block">
-            Continuar aprendiendo
+            <div className="h-2 bg-navy/5 rounded-full overflow-hidden">
+              <div className="h-full bg-magenta rounded-full transition-all" style={{ width: `${porcentajeA1}%` }}></div>
+            </div>
+          </a>
+
+          <a href="/idioma/cursos/polaco-trabajo" className="bg-white rounded-2xl border border-navy/8 p-6 block hover:border-teal/30 transition-colors">
+            <div className="flex items-center justify-between mb-3">
+              <div className="flex items-center gap-3">
+                <div className="w-10 h-10 rounded-xl bg-teal-light flex items-center justify-center text-lg">🏭</div>
+                <div>
+                  <div className="font-display font-bold text-navy">Polaco para el Trabajo</div>
+                  <div className="text-xs text-navy/45">{cursoTrabajo.completadas} de {cursoTrabajo.total} lecciones</div>
+                </div>
+              </div>
+              <div className="text-2xl font-extrabold text-teal">{porcentajeTrabajo}%</div>
+            </div>
+            <div className="h-2 bg-navy/5 rounded-full overflow-hidden">
+              <div className="h-full bg-teal rounded-full transition-all" style={{ width: `${porcentajeTrabajo}%` }}></div>
+            </div>
           </a>
         </div>
 
-        <div>
-          <div className="text-xs font-bold text-mango tracking-widest uppercase mb-4">Modulos del curso</div>
-          <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
-            {modulos.map((m) => {
-              const leccionInicio = parseInt(m.rango.split('-')[0])
-              const completadas = Math.min(Math.max(lecciones - leccionInicio + 1, 0), 10)
-              const pct = Math.round((completadas / 10) * 100)
-              return (
-                <a key={m.num} href={`/idioma/curso/${leccionInicio}`} className="bg-white rounded-xl border border-navy/8 p-4 flex items-center gap-4 hover:border-magenta/30 transition-colors">
-                  <div className="w-10 h-10 rounded-xl bg-magenta/10 flex items-center justify-center flex-shrink-0">
-                    <span className="text-sm font-bold text-magenta">{m.num}</span>
-                  </div>
-                  <div className="flex-1 min-w-0">
-                    <div className="text-sm font-semibold text-navy truncate">{m.titulo}</div>
-                    <div className="text-xs text-navy/40 mt-0.5">{completadas}/10 lecciones</div>
-                    <div className="h-1 bg-navy/5 rounded-full mt-2 overflow-hidden">
-                      <div className="h-full bg-teal rounded-full" style={{ width: `${pct}%` }}></div>
-                    </div>
-                  </div>
-                </a>
-              )
-            })}
-          </div>
-        </div>
       </div>
     </main>
   )
