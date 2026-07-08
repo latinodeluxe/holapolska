@@ -5,6 +5,7 @@ export const metadata = {
 
 import Navbar from '@/components/Navbar'
 import Footer from '@/components/Footer'
+import DisclaimerLegal from '@/components/DisclaimerLegal'
 
 export default function Pesel() {
   return (
@@ -37,6 +38,7 @@ export default function Pesel() {
             ))}
           </div>
         </div>
+        <DisclaimerLegal modulo="Esta guia sobre el PESEL" />
       </div>
       <Footer />
     </div>

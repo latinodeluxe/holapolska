@@ -5,6 +5,7 @@ export const metadata = {
 
 import Navbar from '@/components/Navbar'
 import Footer from '@/components/Footer'
+import DisclaimerLegal from '@/components/DisclaimerLegal'
 
 const WA_LINK = 'https://wa.me/48733205803?text=Hola%20HolaPolska%2C%20me%20interesa%20aparecer%20en%20el%20directorio%20de%20negocios%20latinos.'
 
@@ -48,6 +49,7 @@ export default function NegociosLatinos() {
             Contactanos
           </a>
         </div>
+        <DisclaimerLegal modulo="Este directorio de negocios" />
       </div>
       <Footer />
     </div>

@@ -5,6 +5,7 @@ export const metadata = {
 
 import Navbar from '@/components/Navbar'
 import Footer from '@/components/Footer'
+import DisclaimerLegal from '@/components/DisclaimerLegal'
 
 export default function Costumbres() {
   return (
@@ -35,6 +36,7 @@ export default function Costumbres() {
             ))}
           </div>
         </div>
+        <DisclaimerLegal modulo="Este contenido sobre cultura polaca" />
       </div>
       <Footer />
     </div>

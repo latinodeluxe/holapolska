@@ -5,6 +5,7 @@ export const metadata = {
 
 import Navbar from '@/components/Navbar'
 import Footer from '@/components/Footer'
+import DisclaimerLegal from '@/components/DisclaimerLegal'
 
 export default function Eventos() {
   return (
@@ -31,6 +32,7 @@ export default function Eventos() {
             <li>• Eventbrite Polonia — filtra por eventos latinos o multiculturales</li>
           </ul>
         </div>
+        <DisclaimerLegal modulo="Este contenido sobre eventos" />
       </div>
       <Footer />
     </div>

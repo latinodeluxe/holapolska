@@ -5,6 +5,7 @@ export const metadata = {
 
 import Navbar from '@/components/Navbar'
 import Footer from '@/components/Footer'
+import DisclaimerLegal from '@/components/DisclaimerLegal'
 
 const categorias = [
   {
@@ -101,6 +102,7 @@ export default function FrasesUtiles() {
           <p className="text-sm text-pink-900">Quieres aprender polaco de verdad? Tenemos 100 lecciones gratis.</p>
           <a href="/idioma" className="bg-magenta text-white text-xs font-bold px-4 py-2 rounded-full whitespace-nowrap hover:bg-magenta/90 transition-colors">Ver el curso</a>
         </div>
+        <DisclaimerLegal modulo="Este contenido sobre frases utiles" />
       </div>
       <Footer />
     </div>

@@ -5,6 +5,7 @@ export const metadata = {
 
 import Navbar from '@/components/Navbar'
 import Footer from '@/components/Footer'
+import DisclaimerLegal from '@/components/DisclaimerLegal'
 
 export default function Zus() {
   return (
@@ -34,6 +35,7 @@ export default function Zus() {
             ))}
           </div>
         </div>
+        <DisclaimerLegal modulo="Esta guia sobre el ZUS" />
       </div>
       <Footer />
     </div>

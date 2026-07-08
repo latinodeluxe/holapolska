@@ -5,6 +5,7 @@ export const metadata = {
 
 import Navbar from '@/components/Navbar'
 import Footer from '@/components/Footer'
+import DisclaimerLegal from '@/components/DisclaimerLegal'
 
 export default function ContratoTrabajo() {
   return (
@@ -46,6 +47,7 @@ export default function ContratoTrabajo() {
             <p className="text-sm text-pink-900">Nunca empieces a trabajar sin contrato firmado. Si tu empleador no te da contrato, puedes denunciarlo ante la Inspekcja Pracy (Inspeccion de Trabajo).</p>
           </div>
         </div>
+        <DisclaimerLegal modulo="Esta guia sobre contratos de trabajo" />
       </div>
       <Footer />
     </div>

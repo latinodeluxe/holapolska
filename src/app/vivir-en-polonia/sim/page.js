@@ -5,6 +5,7 @@ export const metadata = {
 
 import Navbar from '@/components/Navbar'
 import Footer from '@/components/Footer'
+import DisclaimerLegal from '@/components/DisclaimerLegal'
 
 const operadores = [
   { nombre: 'Orange', desc: 'Buena cobertura en todo el pais. Planes desde 30 PLN/mes con datos ilimitados. Atencion al cliente en ingles disponible.', recomendado: true },
@@ -44,6 +45,7 @@ export default function Sim() {
             ))}
           </div>
         </div>
+        <DisclaimerLegal modulo="Esta guia sobre tarjetas SIM" />
       </div>
       <Footer />
     </div>

@@ -5,6 +5,7 @@ export const metadata = {
 
 import Navbar from '@/components/Navbar'
 import Footer from '@/components/Footer'
+import DisclaimerLegal from '@/components/DisclaimerLegal'
 
 export default function PermisoResidencia() {
   return (
@@ -38,6 +39,7 @@ export default function PermisoResidencia() {
             ))}
           </div>
         </div>
+        <DisclaimerLegal modulo="Esta guia sobre permisos de residencia" />
       </div>
       <Footer />
     </div>

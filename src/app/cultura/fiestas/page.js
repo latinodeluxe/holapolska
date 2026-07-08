@@ -5,6 +5,7 @@ export const metadata = {
 
 import Navbar from '@/components/Navbar'
 import Footer from '@/components/Footer'
+import DisclaimerLegal from '@/components/DisclaimerLegal'
 
 const fiestas = [
   { nombre: 'Boże Narodzenie — Navidad (24-26 dic)', desc: 'La fiesta mas importante del ano. La Nochebuena (Wigilia) es el momento central: cena familiar con 12 platos tradicionales e intercambio de regalos esa misma noche.', icono: '🎄' },
@@ -40,6 +41,7 @@ export default function Fiestas() {
             ))}
           </div>
         </div>
+        <DisclaimerLegal modulo="Este contenido sobre fiestas en Polonia" />
       </div>
       <Footer />
     </div>
