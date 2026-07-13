@@ -9,10 +9,10 @@ import DisclaimerLegal from '@/components/DisclaimerLegal'
 
 const categorias = [
   {
-    titulo: 'Saludos basicos',
+    título: 'Saludos basicos',
     color: 'magenta',
     frases: [
-      { polaco: 'Dzień dobry', pronunciacion: 'dyen DOB-ri', espanol: 'Buenos dias / Buenas tardes' },
+      { polaco: 'Dzień dobry', pronunciacion: 'dyen DOB-ri', espanol: 'Buenos días / Buenas tardes' },
       { polaco: 'Cześć', pronunciacion: 'cheshch', espanol: 'Hola (informal)' },
       { polaco: 'Dobry wieczór', pronunciacion: 'DOB-ri VYE-chur', espanol: 'Buenas noches' },
       { polaco: 'Do widzenia', pronunciacion: 'do vi-DZE-nya', espanol: 'Hasta luego' },
@@ -22,7 +22,7 @@ const categorias = [
     ]
   },
   {
-    titulo: 'En el trabajo y oficinas',
+    título: 'En el trabajo y oficinas',
     color: 'teal',
     frases: [
       { polaco: 'Nie rozumiem', pronunciacion: 'nye ro-ZU-myem', espanol: 'No entiendo' },
@@ -33,7 +33,7 @@ const categorias = [
     ]
   },
   {
-    titulo: 'Emergencias',
+    título: 'Emergencias',
     color: 'mango',
     frases: [
       { polaco: 'Potrzebuję pomocy', pronunciacion: 'po-tshe-BU-ye PO-mo-tsi', espanol: 'Necesito ayuda' },
@@ -44,7 +44,7 @@ const categorias = [
     ]
   },
   {
-    titulo: 'Transporte',
+    título: 'Transporte',
     color: 'navy',
     frases: [
       { polaco: 'Gdzie jest przystanek?', pronunciacion: 'GDZHE yest pshi-STA-nek', espanol: 'Donde esta la parada?' },
@@ -78,9 +78,9 @@ export default function FrasesUtiles() {
           {categorias.map((cat) => {
             const c = colorClasses[cat.color]
             return (
-              <div key={cat.titulo} className="bg-white rounded-2xl border border-navy/8 overflow-hidden">
+              <div key={cat.título} className="bg-white rounded-2xl border border-navy/8 overflow-hidden">
                 <div className={`${c.header} px-5 py-3`}>
-                  <h2 className="text-white font-bold text-sm">{cat.titulo}</h2>
+                  <h2 className="text-white font-bold text-sm">{cat.título}</h2>
                 </div>
                 <div className="divide-y divide-navy/5">
                   {cat.frases.map((f) => (

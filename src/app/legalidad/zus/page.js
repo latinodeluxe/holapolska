@@ -19,13 +19,13 @@ export default function Zus() {
         </div>
         <div className="space-y-4">
           {[
-            { titulo: 'Que cubre el ZUS', desc: 'Seguro de jubilacion (emerytura), seguro de invalidez, seguro de enfermedad (baja medica pagada), seguro de accidentes de trabajo y seguro de desempleo. Las contribuciones se descuentan automaticamente de tu salario bruto.' },
-            { titulo: 'Como verificar que estas dado de alta', desc: 'Entra a zus.pl con tu PESEL y crea una cuenta en el Portal PUE ZUS. Ahi puedes ver tu historial de contribuciones, datos de tu empleador y documentos.' },
-            { titulo: 'Baja por enfermedad (L4)', desc: 'Si te enfermas, el medico puede emitir una baja electronica (e-ZLA). Los primeros 33 dias del ano los paga el empleador, a partir del dia 34 los paga el ZUS directamente. El importe es el 80% de tu salario base.' },
-            { titulo: 'Si trabajas por cuenta propia', desc: 'Como autonomo (dzialalnosc gospodarcza) debes pagar el ZUS tu mismo. Hay contribuciones reducidas durante los primeros 2 anos. El importe mensual varia segun la base elegida.' },
+            { título: 'Que cubre el ZUS', desc: 'Seguro de jubilacion (emerytura), seguro de invalidez, seguro de enfermedad (baja medica pagada), seguro de accidentes de trabajo y seguro de desempleo. Las contribuciones se descuentan automaticamente de tu salario bruto.' },
+            { título: 'Como verificar que estas dado de alta', desc: 'Entra a zus.pl con tu PESEL y crea una cuenta en el Portal PUE ZUS. Ahi puedes ver tu historial de contribuciones, datos de tu empleador y documentos.' },
+            { título: 'Baja por enfermedad (L4)', desc: 'Si te enfermas, el médico puede emitir una baja electronica (e-ZLA). Los primeros 33 días del ano los paga el empleador, a partir del dia 34 los paga el ZUS directamente. El importe es el 80% de tu salario base.' },
+            { título: 'Si trabajas por cuenta propia', desc: 'Como autonomo (dzialalnosc gospodarcza) debes pagar el ZUS tu mismo. Hay contribuciones reducidas durante los primeros 2 anos. El importe mensual varia según la base elegida.' },
           ].map((item) => (
-            <div key={item.titulo} className="bg-white rounded-2xl p-6 border border-navy/8">
-              <h2 className="font-display text-base font-bold text-navy mb-2">{item.titulo}</h2>
+            <div key={item.título} className="bg-white rounded-2xl p-6 border border-navy/8">
+              <h2 className="font-display text-base font-bold text-navy mb-2">{item.título}</h2>
               <p className="text-navy/65 leading-relaxed text-sm">{item.desc}</p>
             </div>
           ))}

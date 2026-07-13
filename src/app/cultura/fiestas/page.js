@@ -9,7 +9,7 @@ import DisclaimerLegal from '@/components/DisclaimerLegal'
 
 const fiestas = [
   { nombre: 'Boże Narodzenie — Navidad (24-26 dic)', desc: 'La fiesta mas importante del ano. La Nochebuena (Wigilia) es el momento central: cena familiar con 12 platos tradicionales e intercambio de regalos esa misma noche.', icono: '🎄' },
-  { nombre: 'Wielkanoc — Semana Santa y Pascua', desc: 'El Lunes de Pascua (Smigus-Dyngus) tiene una tradicion unica: la gente se moja con agua en la calle. Es festivo nacional y las tiendas cierran el domingo y lunes.', icono: '🐣' },
+  { nombre: 'Wielkanoc — Semana Santa y Pascua', desc: 'El Lunes de Pascua (Smigus-Dyngus) tiene una tradicion única: la gente se moja con agua en la calle. Es festivo nacional y las tiendas cierran el domingo y lunes.', icono: '🐣' },
   { nombre: 'Wszystkich Swietych — Todos los Santos (1 nov)', desc: 'Las familias visitan los cementerios, encienden velas y llevan flores. Los cementerios polacos en esta fecha son visualmente impresionantes.', icono: '🕯️' },
   { nombre: 'Swieto Niepodleglosci — Independencia (11 nov)', desc: 'Fiesta nacional muy importante. Conmemora la recuperacion de la independencia polaca en 1918. Hay desfiles y actos oficiales especialmente en Varsovia.', icono: '🇵🇱' },
   { nombre: 'Nowy Rok — Año Nuevo (1 enero)', desc: 'Festivo nacional. Las ciudades grandes tienen fuegos artificiales y fiestas en espacios publicos.', icono: '🎆' },

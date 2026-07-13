@@ -15,17 +15,17 @@ export default function Banco() {
         <div className="mb-8">
           <a href="/vivir-en-polonia" className="text-xs font-bold text-navy/40 tracking-widest uppercase hover:text-navy transition-colors">← Vivir en Polonia</a>
           <h1 className="font-display text-4xl font-extrabold text-navy tracking-tight mt-3 mb-4">Como abrir una cuenta bancaria en Polonia</h1>
-          <p className="text-navy/50 text-base leading-relaxed">Abrir una cuenta bancaria en Polonia es mas facil de lo que parece. La mayoria de bancos permiten abrir cuenta con solo el pasaporte, sin necesitar el PESEL todavia.</p>
+          <p className="text-navy/50 text-base leading-relaxed">Abrir una cuenta bancaria en Polonia es mas fácil de lo que parece. La mayoria de bancos permiten abrir cuenta con solo el pasaporte, sin necesitar el PESEL todavia.</p>
         </div>
         <div className="space-y-4">
           {[
-            { titulo: 'Bancos recomendados para extranjeros', desc: 'PKO BP, Santander Bank Polska, mBank e ING Bank Slaski son los mas accesibles para extranjeros. Todos tienen app en ingles y algunas sucursales con atencion en ingles.' },
-            { titulo: 'Documentos que necesitas', desc: 'Pasaporte vigente es suficiente en la mayoria de casos. Algunos bancos piden ademas el PESEL o un comprobante de domicilio. Lleva siempre el pasaporte y una copia.' },
-            { titulo: 'El proceso', desc: 'Ve a una sucursal, pide abrir una cuenta de ahorro (konto osobiste). Te pediran los documentos, firmaras el contrato y en el momento o en pocos dias tendras tu tarjeta de debito.' },
-            { titulo: 'Cuentas online sin ir a sucursal', desc: 'Revolut y Wise son excelentes opciones si quieres empezar a operar antes de tener cuenta polaca. Se abren 100% online y son muy usadas por la comunidad latina en Polonia.' },
+            { título: 'Bancos recomendados para extranjeros', desc: 'PKO BP, Santander Bank Polska, mBank e ING Bank Slaski son los mas accesibles para extranjeros. Todos tienen app en ingles y algunas sucursales con atención en ingles.' },
+            { título: 'Documentos que necesitas', desc: 'Pasaporte vigente es suficiente en la mayoria de casos. Algunos bancos piden además el PESEL o un comprobante de domicilio. Lleva siempre el pasaporte y una copia.' },
+            { título: 'El proceso', desc: 'Ve a una sucursal, pide abrir una cuenta de ahorro (konto osobiste). Te pediran los documentos, firmaras el contrato y en el momento o en pocos días tendras tu tarjeta de debito.' },
+            { título: 'Cuentas online sin ir a sucursal', desc: 'Revolut y Wise son excelentes opciones si quieres empezar a operar antes de tener cuenta polaca. Se abren 100% online y son muy usadas por la comunidad latina en Polonia.' },
           ].map((item) => (
-            <div key={item.titulo} className="bg-white rounded-2xl p-6 border border-navy/8">
-              <h2 className="font-display text-base font-bold text-navy mb-2">{item.titulo}</h2>
+            <div key={item.título} className="bg-white rounded-2xl p-6 border border-navy/8">
+              <h2 className="font-display text-base font-bold text-navy mb-2">{item.título}</h2>
               <p className="text-navy/65 leading-relaxed text-sm">{item.desc}</p>
             </div>
           ))}

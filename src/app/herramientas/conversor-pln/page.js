@@ -14,13 +14,13 @@ const tasas = {
 }
 
 const monedas = [
-  { codigo: 'MXN', nombre: 'Peso mexicano', bandera: '🇲🇽' },
-  { codigo: 'COP', nombre: 'Peso colombiano', bandera: '🇨🇴' },
-  { codigo: 'ARS', nombre: 'Peso argentino', bandera: '🇦🇷' },
-  { codigo: 'CLP', nombre: 'Peso chileno', bandera: '🇨🇱' },
-  { codigo: 'PEN', nombre: 'Sol peruano', bandera: '🇵🇪' },
-  { codigo: 'EUR', nombre: 'Euro', bandera: '🇪🇺' },
-  { codigo: 'USD', nombre: 'Dolar americano', bandera: '🇺🇸' },
+  { código: 'MXN', nombre: 'Peso mexicano', bandera: '🇲🇽' },
+  { código: 'COP', nombre: 'Peso colombiano', bandera: '🇨🇴' },
+  { código: 'ARS', nombre: 'Peso argentino', bandera: '🇦🇷' },
+  { código: 'CLP', nombre: 'Peso chileno', bandera: '🇨🇱' },
+  { código: 'PEN', nombre: 'Sol peruano', bandera: '🇵🇪' },
+  { código: 'EUR', nombre: 'Euro', bandera: '🇪🇺' },
+  { código: 'USD', nombre: 'Dolar americano', bandera: '🇺🇸' },
 ]
 
 export default function ConversorPln() {
@@ -50,16 +50,16 @@ export default function ConversorPln() {
             <label className="text-xs font-bold text-navy/50 uppercase tracking-widest block mb-3">Moneda</label>
             <div className="grid grid-cols-2 gap-2">
               {monedas.map((m) => (
-                <button key={m.codigo} onClick={() => setMoneda(m.codigo)}
-                  className={`p-3 rounded-xl border text-sm font-medium transition-colors text-left ${moneda === m.codigo ? 'bg-magenta text-white border-magenta' : 'border-navy/10 text-navy hover:border-magenta/30'}`}>
-                  {m.bandera} {m.codigo} — {m.nombre}
+                <button key={m.código} onClick={() => setMoneda(m.código)}
+                  className={`p-3 rounded-xl border text-sm font-medium transition-colors text-left ${moneda === m.código ? 'bg-magenta text-white border-magenta' : 'border-navy/10 text-navy hover:border-magenta/30'}`}>
+                  {m.bandera} {m.código} — {m.nombre}
                 </button>
               ))}
             </div>
           </div>
 
           <div>
-            <label className="text-xs font-bold text-navy/50 uppercase tracking-widest block mb-3">Direccion</label>
+            <label className="text-xs font-bold text-navy/50 uppercase tracking-widest block mb-3">Dirección</label>
             <div className="flex gap-2">
               <button onClick={() => setModo('pln_a_moneda')}
                 className={`flex-1 p-3 rounded-xl border text-sm font-semibold transition-colors ${modo === 'pln_a_moneda' ? 'bg-magenta text-white border-magenta' : 'border-navy/10 text-navy hover:border-magenta/30'}`}>

@@ -1,6 +1,6 @@
 export const metadata = {
   title: 'Quienes somos | HolaPolska',
-  description: 'HolaPolska nacio de una necesidad real. Conoce la historia, la mision y quien esta detras de la plataforma de integracion para hispanohablantes en Polonia.',
+  description: 'HolaPolska nacio de una necesidad real. Conoce la historia, la mision y quien esta detras de la plataforma de integración para hispanohablantes en Polonia.',
 }
 
 import Navbar from '@/components/Navbar'
@@ -19,7 +19,7 @@ export default function Nosotros() {
         </div>
         <div className="space-y-6 text-navy/70 leading-relaxed text-base">
           <p>No soy experto en polaco ni linguista — soy alguien que llego a Polonia y tuvo que aprender a las malas, como todos. Con el tiempo empece a reunir lo que iba aprendiendo en el dia a dia: las palabras y frases que realmente usaba para sobrevivir, los tramites que tuve que resolver a tientas, las costumbres que nadie me explico antes de llegar. Fui guardando todo eso porque me hubiera gustado tenerlo yo mismo cuando llegue.</p>
-          <p>Asi que decidimos construirlo.</p>
+          <p>Así que decidimos construirlo.</p>
           <p>HolaPolska empezo en 2025 como un curso de polaco basado en esa experiencia y crecio hasta convertirse en la plataforma que hoy tienes frente a ti: un espacio gratuito donde encuentras el idioma, los tramites, la legalidad, la cultura y la comunidad latina en Polonia, todo en un solo lugar y en espanol.</p>
         </div>
 
@@ -47,15 +47,15 @@ export default function Nosotros() {
             </div>
             <ul className="space-y-5">
               {[
-                { titulo: 'Siempre gratis lo esencial.', desc: 'Aprender polaco basico y entender tus tramites no deberia tener costo.' },
-                { titulo: 'Informacion real, de la calle, no de un manual.', desc: 'No copiamos de foros ni traducimos a medias — esto sale de vivirlo.' },
-                { titulo: 'Hecho por alguien que lo vivio, no por un experto.', desc: 'HolaPolska no nacio de un estudio de mercado ni de un titulo en filologia polaca, nacio de la necesidad de sobrevivir el dia a dia.' },
-                { titulo: 'Honestidad ante todo.', desc: 'Si algo en la plataforma esta incompleto o en construccion, te lo decimos — preferimos ser claros a prometer de mas.' },
+                { título: 'Siempre gratis lo esencial.', desc: 'Aprender polaco básico y entender tus tramites no deberia tener costo.' },
+                { título: 'Información real, de la calle, no de un manual.', desc: 'No copiamos de foros ni traducimos a medias — esto sale de vivirlo.' },
+                { título: 'Hecho por alguien que lo vivio, no por un experto.', desc: 'HolaPolska no nacio de un estudio de mercado ni de un título en filologia polaca, nacio de la necesidad de sobrevivir el dia a dia.' },
+                { título: 'Honestidad ante todo.', desc: 'Si algo en la plataforma esta incompleto o en construcción, te lo decimos — preferimos ser claros a prometer de mas.' },
               ].map((item, i) => (
                 <li key={i} className="flex items-start gap-3">
                   <div className="w-2 h-2 rounded-full bg-mango flex-shrink-0 mt-2"></div>
                   <p className="text-navy/65 leading-relaxed text-sm">
-                    <span className="font-semibold text-navy">{item.titulo}</span>{' '}{item.desc}
+                    <span className="font-semibold text-navy">{item.título}</span>{' '}{item.desc}
                   </p>
                 </li>
               ))}
@@ -67,7 +67,7 @@ export default function Nosotros() {
               <div className="w-10 h-10 rounded-xl bg-white/10 flex items-center justify-center text-white text-lg flex-shrink-0">👤</div>
               <h2 className="font-display text-xl font-bold text-white">Quien esta detras?</h2>
             </div>
-            <p className="text-white/65 leading-relaxed text-sm">HolaPolska es un proyecto creado y desarrollado por <span className="text-white font-semibold">Pablo Sebastian Cupajita Chitiva</span> (conocido tambien como DJ CBASS), hispanohablante viviendo en Polonia. Todo el proyecto —desde el codigo hasta cada guia— se construye de forma independiente, con la comunidad latina en Polonia como unica motivacion.</p>
+            <p className="text-white/65 leading-relaxed text-sm">HolaPolska es un proyecto creado y desarrollado por <span className="text-white font-semibold">Pablo Sebastian Cupajita Chitiva</span> (conocido también como DJ CBASS), hispanohablante viviendo en Polonia. Todo el proyecto —desde el código hasta cada guia— se construye de forma independiente, con la comunidad latina en Polonia como única motivacion.</p>
           </div>
 
           <div className="bg-magenta-light rounded-2xl p-7">

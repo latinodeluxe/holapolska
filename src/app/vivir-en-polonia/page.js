@@ -7,15 +7,15 @@ import Navbar from '@/components/Navbar'
 import Footer from '@/components/Footer'
 
 const temas = [
-  { titulo: 'PESEL', desc: 'El numero de identificacion que necesitas para todo en Polonia', icono: '🪪', href: '/vivir-en-polonia/pesel', disponible: true },
-  { titulo: 'Cuenta bancaria', desc: 'Como abrir una cuenta siendo extranjero', icono: '🏦', href: '/vivir-en-polonia/banco', disponible: true },
-  { titulo: 'Tarjeta SIM', desc: 'Operadores, precios y recomendaciones', icono: '📱', href: '/vivir-en-polonia/sim', disponible: true },
-  { titulo: 'Alquiler de apartamento', desc: 'Como buscar piso y que revisar antes de firmar', icono: '🏠', href: '#', disponible: false },
-  { titulo: 'Transporte publico', desc: 'Buses, tranvias y metro en las principales ciudades', icono: '🚌', href: '#', disponible: false },
-  { titulo: 'Sistema de salud NFZ', desc: 'Como acceder a la sanidad publica en Polonia', icono: '🏥', href: '#', disponible: false },
-  { titulo: 'Busqueda de empleo', desc: 'Portales, contratos y derechos laborales basicos', icono: '💼', href: '#', disponible: false },
-  { titulo: 'Impuestos PIT', desc: 'Como declarar la renta en Polonia', icono: '📋', href: '#', disponible: false },
-  { titulo: 'Escuelas y educacion', desc: 'Sistema educativo polaco para familias con hijos', icono: '🎒', href: '#', disponible: false },
+  { título: 'PESEL', desc: 'El número de identificacion que necesitas para todo en Polonia', icono: '🪪', href: '/vivir-en-polonia/pesel', disponible: true },
+  { título: 'Cuenta bancaria', desc: 'Como abrir una cuenta siendo extranjero', icono: '🏦', href: '/vivir-en-polonia/banco', disponible: true },
+  { título: 'Tarjeta SIM', desc: 'Operadores, precios y recomendaciones', icono: '📱', href: '/vivir-en-polonia/sim', disponible: true },
+  { título: 'Alquiler de apartamento', desc: 'Como buscar piso y que revisar antes de firmar', icono: '🏠', href: '#', disponible: false },
+  { título: 'Transporte público', desc: 'Buses, tranvias y metro en las principales ciudades', icono: '🚌', href: '#', disponible: false },
+  { título: 'Sistema de salud NFZ', desc: 'Como acceder a la sanidad pública en Polonia', icono: '🏥', href: '#', disponible: false },
+  { título: 'Busqueda de empleo', desc: 'Portales, contratos y derechos laborales basicos', icono: '💼', href: '#', disponible: false },
+  { título: 'Impuestos PIT', desc: 'Como declarar la renta en Polonia', icono: '📋', href: '#', disponible: false },
+  { título: 'Escuelas y educacion', desc: 'Sistema educativo polaco para familias con hijos', icono: '🎒', href: '#', disponible: false },
 ]
 
 export default function VivirEnPolonia() {
@@ -31,18 +31,18 @@ export default function VivirEnPolonia() {
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
           {temas.map((tema) => (
             tema.disponible ? (
-              <a key={tema.titulo} href={tema.href} className="bg-white rounded-2xl p-5 border border-navy/8 flex items-start gap-4 hover:border-mango/40 hover:shadow-sm transition-all group">
+              <a key={tema.título} href={tema.href} className="bg-white rounded-2xl p-5 border border-navy/8 flex items-start gap-4 hover:border-mango/40 hover:shadow-sm transition-all group">
                 <div className="w-11 h-11 rounded-xl bg-mango-light flex items-center justify-center text-xl flex-shrink-0">{tema.icono}</div>
                 <div className="flex-1">
-                  <h3 className="font-semibold text-navy text-sm mb-1 group-hover:text-mango transition-colors">{tema.titulo}</h3>
+                  <h3 className="font-semibold text-navy text-sm mb-1 group-hover:text-mango transition-colors">{tema.título}</h3>
                   <p className="text-xs text-navy/45 leading-relaxed">{tema.desc}</p>
                 </div>
               </a>
             ) : (
-              <div key={tema.titulo} className="bg-white/60 rounded-2xl p-5 border border-navy/5 flex items-start gap-4 opacity-50">
+              <div key={tema.título} className="bg-white/60 rounded-2xl p-5 border border-navy/5 flex items-start gap-4 opacity-50">
                 <div className="w-11 h-11 rounded-xl bg-navy/5 flex items-center justify-center text-xl flex-shrink-0">{tema.icono}</div>
                 <div className="flex-1">
-                  <h3 className="font-semibold text-navy text-sm mb-1">{tema.titulo}</h3>
+                  <h3 className="font-semibold text-navy text-sm mb-1">{tema.título}</h3>
                   <p className="text-xs text-navy/45 leading-relaxed">{tema.desc}</p>
                   <span className="inline-block mt-2 text-xs bg-navy/5 text-navy/40 px-2 py-0.5 rounded-full">Proximamente</span>
                 </div>

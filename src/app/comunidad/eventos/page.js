@@ -21,7 +21,7 @@ export default function Eventos() {
         <div className="bg-white rounded-2xl border border-navy/8 p-10 text-center mb-6">
           <div className="text-5xl mb-4">🎉</div>
           <h2 className="font-display text-xl font-bold text-navy mb-2">Proximamente</h2>
-          <p className="text-navy/50 text-sm leading-relaxed max-w-sm mx-auto">Estamos construyendo el directorio de eventos. Si organizas eventos latinos en Polonia, contactanos para aparecer aqui.</p>
+          <p className="text-navy/50 text-sm leading-relaxed max-w-sm mx-auto">Estamos construyendo el directorio de eventos. Si organizas eventos latinos en Polonia, contactanos para aparecer aquí.</p>
         </div>
 
         <div className="bg-magenta-light rounded-2xl p-6">

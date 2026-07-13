@@ -24,7 +24,7 @@ export default function NegociosLatinos() {
         <div className="mb-8">
           <a href="/comunidad" className="text-xs font-bold text-navy/40 tracking-widest uppercase hover:text-navy transition-colors">← Comunidad</a>
           <h1 className="font-display text-4xl font-extrabold text-navy tracking-tight mt-3 mb-3">Negocios latinos en Polonia</h1>
-          <p className="text-navy/50 text-base">Directorio de negocios y servicios de la comunidad hispanohablante. Pronto podras registrar tu negocio aqui.</p>
+          <p className="text-navy/50 text-base">Directorio de negocios y servicios de la comunidad hispanohablante. Pronto podras registrar tu negocio aquí.</p>
         </div>
 
         <div className="grid gap-4 mb-6">
@@ -42,7 +42,7 @@ export default function NegociosLatinos() {
         <div className="bg-navy rounded-2xl p-6 flex flex-col sm:flex-row items-start sm:items-center justify-between gap-4">
           <div>
             <div className="text-base font-semibold text-white mb-1">Tienes un negocio latino en Polonia?</div>
-            <div className="text-sm text-white/40">Aparecer aqui es gratis durante el lanzamiento.</div>
+            <div className="text-sm text-white/40">Aparecer aquí es gratis durante el lanzamiento.</div>
           </div>
           <a href={WA_LINK} target="_blank" rel="noopener noreferrer"
             className="bg-mango text-navy text-sm font-bold px-5 py-2.5 rounded-full whitespace-nowrap hover:bg-mango/90 transition-colors">

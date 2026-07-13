@@ -24,14 +24,14 @@ export default function NormasSociales() {
               {[
                 ['Ser directo y honesto', 'Los polacos prefieren la sinceridad a las respuestas vagas. Si algo no te gusta o no puedes, dilo claramente.'],
                 ['Respetar los turnos y las filas', 'Colarse en una fila es visto como una falta grave de respeto.'],
-                ['Hablar en voz baja en espacios publicos', 'En transporte, restaurantes o tiendas, hablar muy alto llama la atencion negativamente.'],
+                ['Hablar en voz baja en espacios publicos', 'En transporte, restaurantes o tiendas, hablar muy alto llama la atención negativamente.'],
                 ['Saludar al entrar a tiendas pequenas', 'Un Dzien dobry al entrar a una tienda o consultorio es lo correcto y muy valorado.'],
-              ].map(([titulo, desc]) => (
-                <li key={titulo} className="flex items-start gap-3">
+              ].map(([título, desc]) => (
+                <li key={título} className="flex items-start gap-3">
                   <div className="w-5 h-5 rounded-full bg-teal-light flex items-center justify-center flex-shrink-0 mt-0.5">
                     <div className="w-2 h-2 rounded-full bg-teal"></div>
                   </div>
-                  <div><span className="text-sm font-semibold text-navy">{titulo} — </span><span className="text-sm text-navy/65">{desc}</span></div>
+                  <div><span className="text-sm font-semibold text-navy">{título} — </span><span className="text-sm text-navy/65">{desc}</span></div>
                 </li>
               ))}
             </ul>
@@ -40,16 +40,16 @@ export default function NormasSociales() {
             <h2 className="font-display text-lg font-bold text-navy mb-4">Lo que conviene evitar</h2>
             <ul className="space-y-3">
               {[
-                ['Hacer ruido despues de las 22h', 'En edificios de apartamentos hay normas de silencio nocturno. Musica alta o fiestas puede generar conflictos reales con los vecinos.'],
+                ['Hacer ruido después de las 22h', 'En edificios de apartamentos hay normas de silencio nocturno. Musica alta o fiestas puede generar conflictos reales con los vecinos.'],
                 ['Hablar de politica o religion con desconocidos', 'Son temas sensibles, especialmente en contextos mixtos.'],
                 ['Comparar constantemente con tu pais de origen', 'Decir todo el tiempo que en tu pais las cosas son mejores puede generar distancia.'],
                 ['No saludar', 'Puede interpretarse como mala educacion. Un Dziekuje va muy lejos.'],
-              ].map(([titulo, desc]) => (
-                <li key={titulo} className="flex items-start gap-3">
+              ].map(([título, desc]) => (
+                <li key={título} className="flex items-start gap-3">
                   <div className="w-5 h-5 rounded-full bg-magenta-light flex items-center justify-center flex-shrink-0 mt-0.5">
                     <div className="w-2 h-2 rounded-full bg-magenta"></div>
                   </div>
-                  <div><span className="text-sm font-semibold text-navy">{titulo} — </span><span className="text-sm text-navy/65">{desc}</span></div>
+                  <div><span className="text-sm font-semibold text-navy">{título} — </span><span className="text-sm text-navy/65">{desc}</span></div>
                 </li>
               ))}
             </ul>

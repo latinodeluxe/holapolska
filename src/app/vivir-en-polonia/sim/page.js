@@ -8,9 +8,9 @@ import Footer from '@/components/Footer'
 import DisclaimerLegal from '@/components/DisclaimerLegal'
 
 const operadores = [
-  { nombre: 'Orange', desc: 'Buena cobertura en todo el pais. Planes desde 30 PLN/mes con datos ilimitados. Atencion al cliente en ingles disponible.', recomendado: true },
+  { nombre: 'Orange', desc: 'Buena cobertura en todo el pais. Planes desde 30 PLN/mes con datos ilimitados. Atención al cliente en ingles disponible.', recomendado: true },
   { nombre: 'Play', desc: 'El operador mas grande de Polonia. Precios competitivos y excelente cobertura en ciudades grandes. App intuitiva.', recomendado: true },
-  { nombre: 'T-Mobile', desc: 'Buena opcion si ya usas T-Mobile en tu pais de origen. Planes familiares interesantes.', recomendado: false },
+  { nombre: 'T-Mobile', desc: 'Buena opción si ya usas T-Mobile en tu pais de origen. Planes familiares interesantes.', recomendado: false },
   { nombre: 'Plus', desc: 'Buena cobertura rural. Menos opciones para prepago pero planes de contrato competitivos.', recomendado: false },
 ]
 

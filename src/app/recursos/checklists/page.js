@@ -1,6 +1,6 @@
 export const metadata = {
   title: 'Checklists para vivir en Polonia | HolaPolska',
-  description: 'Listas de verificacion para los momentos clave de tu vida en Polonia. Llegada, trabajo, Karta Pobytu y mas.',
+  description: 'Listas de verificación para los momentos clave de tu vida en Polonia. Llegada, trabajo, Karta Pobytu y mas.',
 }
 
 import Navbar from '@/components/Navbar'
@@ -8,20 +8,20 @@ import Footer from '@/components/Footer'
 
 const listas = [
   {
-    titulo: 'Al llegar a Polonia',
+    título: 'Al llegar a Polonia',
     icono: '✈️',
     color: 'magenta',
     items: [
       'Comprar tarjeta SIM local (Orange, Play, T-Mobile o Plus)',
-      'Registrar tu direccion en el Urzad Miasta (meldunek)',
-      'Solicitar el numero PESEL',
+      'Registrar tu dirección en el Urzad Miasta (meldunek)',
+      'Solicitar el número PESEL',
       'Abrir cuenta bancaria',
-      'Conseguir seguro medico',
-      'Guardar los numeros de emergencia (112, 999, 997)',
+      'Conseguir seguro médico',
+      'Guardar los números de emergencia (112, 999, 997)',
     ]
   },
   {
-    titulo: 'Para trabajar legalmente',
+    título: 'Para trabajar legalmente',
     icono: '💼',
     color: 'teal',
     items: [
@@ -34,31 +34,31 @@ const listas = [
     ]
   },
   {
-    titulo: 'Para tramitar la Karta Pobytu',
+    título: 'Para tramitar la Karta Pobytu',
     icono: '📄',
     color: 'mango',
     items: [
-      'Verificar que aun tienes dias de estancia legal validos',
+      'Verificar que aun tienes días de estancia legal validos',
       'Descargar el formulario del Urzad Wojewodzki de tu region',
-      'Reunir: pasaporte, seguro medico, comprobante de domicilio, contrato',
+      'Reunir: pasaporte, seguro médico, comprobante de domicilio, contrato',
       'Hacer copias de todos los documentos',
       'Pedir cita en el Urzad Wojewodzki',
       'Guardar el recibo o sello de presentacion de solicitud',
     ]
   },
   {
-    titulo: 'Documentos siempre a mano',
+    título: 'Documentos siempre a mano',
     icono: '📁',
     color: 'navy',
     items: [
       'Pasaporte vigente',
       'Karta Pobytu (si ya la tienes)',
       'Contrato de trabajo',
-      'Numero PESEL apuntado en lugar seguro',
-      'Numero de cuenta bancaria',
-      'Numero de tu SIM polaca',
-      'Numero de emergencias: 112',
-      'Numero de tu consulado o embajada',
+      'Número PESEL apuntado en lugar seguro',
+      'Número de cuenta bancaria',
+      'Número de tu SIM polaca',
+      'Número de emergencias: 112',
+      'Número de tu consulado o embajada',
     ]
   },
 ]
@@ -85,15 +85,15 @@ export default function Checklists() {
         <div className="mb-8">
           <a href="/recursos" className="text-xs font-bold text-navy/40 tracking-widest uppercase hover:text-navy transition-colors">← Recursos</a>
           <h1 className="font-display text-4xl font-extrabold text-navy tracking-tight mt-3 mb-3">Checklists para vivir en Polonia</h1>
-          <p className="text-navy/50 text-base">Listas de verificacion para los momentos clave. Guardalas, imprimelas o compartilas.</p>
+          <p className="text-navy/50 text-base">Listas de verificación para los momentos clave. Guardalas, imprimelas o compartilas.</p>
         </div>
 
         <div className="space-y-6">
           {listas.map((lista) => (
-            <div key={lista.titulo} className="bg-white rounded-2xl border border-navy/8 overflow-hidden">
+            <div key={lista.título} className="bg-white rounded-2xl border border-navy/8 overflow-hidden">
               <div className={`${headerColors[lista.color]} px-6 py-4 flex items-center gap-3`}>
                 <span className="text-xl">{lista.icono}</span>
-                <h2 className="text-white font-bold">{lista.titulo}</h2>
+                <h2 className="text-white font-bold">{lista.título}</h2>
               </div>
               <ul className="p-6 space-y-3">
                 {lista.items.map((item, idx) => (

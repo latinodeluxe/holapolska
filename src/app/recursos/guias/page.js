@@ -7,10 +7,10 @@ import Navbar from '@/components/Navbar'
 import Footer from '@/components/Footer'
 
 const guias = [
-  { titulo: 'Guia de llegada a Polonia', desc: 'Los primeros pasos al llegar: SIM, banco, PESEL y registro de residencia', icono: '✈️' },
-  { titulo: 'Guia de tramites esenciales', desc: 'PESEL, Karta Pobytu, ZUS y NFZ explicados paso a paso', icono: '📋' },
-  { titulo: 'Guia de derechos laborales', desc: 'Todo sobre contratos, salario minimo, vacaciones y como denunciar abusos', icono: '⚖️' },
-  { titulo: 'Guia de salud en Polonia', desc: 'Como usar el NFZ, encontrar medico y que hacer en emergencias', icono: '🏥' },
+  { título: 'Guia de llegada a Polonia', desc: 'Los primeros pasos al llegar: SIM, banco, PESEL y registro de residencia', icono: '✈️' },
+  { título: 'Guia de tramites esenciales', desc: 'PESEL, Karta Pobytu, ZUS y NFZ explicados paso a paso', icono: '📋' },
+  { título: 'Guia de derechos laborales', desc: 'Todo sobre contratos, salario mínimo, vacaciones y como denunciar abusos', icono: '⚖️' },
+  { título: 'Guia de salud en Polonia', desc: 'Como usar el NFZ, encontrar médico y que hacer en emergencias', icono: '🏥' },
 ]
 
 export default function Guias() {
@@ -26,10 +26,10 @@ export default function Guias() {
 
         <div className="grid gap-4 mb-6">
           {guias.map((g) => (
-            <div key={g.titulo} className="bg-white/60 rounded-2xl border border-navy/5 p-5 flex items-start gap-4 opacity-60">
+            <div key={g.título} className="bg-white/60 rounded-2xl border border-navy/5 p-5 flex items-start gap-4 opacity-60">
               <div className="w-12 h-12 rounded-xl bg-teal-light flex items-center justify-center text-xl flex-shrink-0">{g.icono}</div>
               <div className="flex-1">
-                <h3 className="font-semibold text-navy text-sm mb-1">{g.titulo}</h3>
+                <h3 className="font-semibold text-navy text-sm mb-1">{g.título}</h3>
                 <p className="text-xs text-navy/50 leading-relaxed">{g.desc}</p>
                 <span className="inline-block mt-2 text-xs bg-navy/5 text-navy/40 px-2 py-0.5 rounded-full">Proximamente</span>
               </div>
@@ -38,7 +38,7 @@ export default function Guias() {
         </div>
 
         <div className="bg-teal-light rounded-2xl p-6">
-          <p className="text-sm text-teal-900 mb-4">💡 Mientras preparamos las guias, toda la informacion esta disponible en los modulos.</p>
+          <p className="text-sm text-teal-900 mb-4">💡 Mientras preparamos las guias, toda la información esta disponible en los modulos.</p>
           <div className="flex gap-3 flex-wrap">
             <a href="/vivir-en-polonia" className="bg-teal text-white px-4 py-2 rounded-full text-sm font-semibold hover:bg-teal/90 transition-colors">Vivir en Polonia</a>
             <a href="/legalidad" className="border border-teal text-teal px-4 py-2 rounded-full text-sm font-semibold hover:bg-teal/10 transition-colors">Legalidad</a>
