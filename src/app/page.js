@@ -18,6 +18,7 @@ const modulos = [
 
 const negocios = [
   { nombre: 'La Mancha Gdynia', tipo: 'Escuela de español · Gdynia', icono: '🎓', color: 'magenta', link: 'https://lamanchagdynia.pl/' },
+  { nombre: 'Liliana Poszumska', tipo: 'Traductora jurada de español · Gdynia', icono: '📋', color: 'teal', link: 'https://tlumaczeniahiszpanski.com.pl/' },
 ]
 
 const colorClasses = {
