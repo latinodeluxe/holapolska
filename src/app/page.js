@@ -17,11 +17,7 @@ const modulos = [
 ]
 
 const negocios = [
-  { nombre: 'Latino Kitchen', tipo: 'Restaurante · Varsovia', icono: '🍽️', color: 'magenta' },
-  { nombre: 'Asesor Legal PL', tipo: 'Servicios legales', icono: '💼', color: 'teal' },
-  { nombre: 'Tienda Latina', tipo: 'Productos · Cracovia', icono: '🛍️', color: 'mango' },
-  { nombre: 'Estilo Latino', tipo: 'Peluqueria · Gdansk', icono: '✂️', color: 'navy' },
-  { nombre: 'Ritmos PL', tipo: 'Eventos · Wroclaw', icono: '🎵', color: 'magenta' },
+  { nombre: 'La Mancha Gdynia', tipo: 'Escuela de español · Gdynia', icono: '🎓', color: 'magenta', link: 'https://lamanchagdynia.pl/' },
 ]
 
 const colorClasses = {
@@ -153,13 +149,13 @@ export default function Home() {
             {negocios.map((n) => {
               const c = colorClasses[n.color]
               return (
-                <div key={n.nombre} className="bg-white rounded-2xl border border-navy/8 p-5 flex items-center gap-4">
+                <a key={n.nombre} href={n.link} target="_blank" rel="noopener noreferrer" className="bg-white rounded-2xl border border-navy/8 p-5 flex items-center gap-4 hover:border-navy/20 hover:shadow-sm transition-all">
                   <div className={`${c.icon} w-12 h-12 rounded-xl flex items-center justify-center text-xl flex-shrink-0`}>{n.icono}</div>
                   <div>
                     <div className="text-sm font-bold text-navy">{n.nombre}</div>
                     <div className="text-xs text-navy/40 mt-0.5">{n.tipo}</div>
                   </div>
-                </div>
+                </a>
               )
             })}
             <Link href={WA_LINK} target="_blank" rel="noopener noreferrer"
