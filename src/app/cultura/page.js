@@ -10,8 +10,8 @@ const temas = [
   { título: 'Costumbres polacas', desc: 'Lo que sorprende a los latinos al llegar a Polonia', icono: '🎭', href: '/cultura/costumbres', disponible: true },
   { título: 'Fiestas y festividades', desc: 'Navidad, Pascua, Todos los Santos y mas celebraciones', icono: '🎉', href: '/cultura/fiestas', disponible: true },
   { título: 'Normas sociales', desc: 'Que hacer y que evitar para integrarte sin errores', icono: '🤝', href: '/cultura/normas-sociales', disponible: true },
-  { título: 'Sistema educativo', desc: 'Como funciona la escuela en Polonia', icono: '🎒', href: '#', disponible: false },
-  { título: 'Gastronomia polaca', desc: 'Platos tipicos, ingredientes y donde comer bien', icono: '🥟', href: '#', disponible: false },
+  { título: 'Sistema educativo', desc: 'Cómo funciona la escuela en Polonia', icono: '🎒', href: '/cultura/sistema-educativo', disponible: true },
+  { título: 'Gastronomía polaca', desc: 'Platos típicos, ingredientes y dónde comer bien', icono: '🥟', href: '/cultura/gastronomia', disponible: true },
 ]
 
 export default function Cultura() {
