@@ -10,11 +10,11 @@ const temas = [
   { título: 'Permiso de residencia (Karta Pobytu)', desc: 'Tipos, requisitos y proceso paso a paso', icono: '📄', href: '/legalidad/permiso-residencia', disponible: true },
   { título: 'Contrato de trabajo', desc: 'Tipos de contrato, derechos y obligaciones', icono: '📝', href: '/legalidad/contrato-trabajo', disponible: true },
   { título: 'ZUS — Seguridad social', desc: 'Como funciona el sistema de cotizaciones en Polonia', icono: '🛡️', href: '/legalidad/zus', disponible: true },
-  { título: 'Tipos de visa', desc: 'Visas de trabajo, estudio y residencia', icono: '🛂', href: '#', disponible: false },
-  { título: 'NFZ — Seguro médico', desc: 'Como acceder al seguro de salud público', icono: '🏥', href: '#', disponible: false },
-  { título: 'Impuestos y PIT', desc: 'Como declarar impuestos siendo extranjero', icono: '💰', href: '#', disponible: false },
-  { título: 'Inspeccion de trabajo', desc: 'Donde denunciar abusos laborales', icono: '⚖️', href: '#', disponible: false },
-  { título: 'Multas y sanciones', desc: 'Que hacer si recibes una multa en Polonia', icono: '🚨', href: '#', disponible: false },
+  { título: 'Tipos de visa', desc: 'Visas de trabajo, estudio y residencia', icono: '🛂', href: '/legalidad/visas', disponible: true },
+  { título: 'NFZ — Seguro médico', desc: 'Cómo acceder al seguro de salud público', icono: '🏥', href: '/legalidad/nfz', disponible: true },
+  { título: 'Impuestos y PIT', desc: 'Cómo declarar impuestos siendo extranjero', icono: '💰', href: '/legalidad/impuestos', disponible: true },
+  { título: 'Inspección de trabajo', desc: 'Dónde denunciar abusos laborales', icono: '⚖️', href: '/legalidad/inspeccion-trabajo', disponible: true },
+  { título: 'Multas y sanciones', desc: 'Qué hacer si recibes una multa en Polonia', icono: '🚨', href: '/legalidad/multas', disponible: true },
 ]
 
 export default function Legalidad() {
