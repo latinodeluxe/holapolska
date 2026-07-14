@@ -15,7 +15,7 @@ const temas = [
   { título: 'Sistema de salud NFZ', desc: 'Como acceder a la sanidad pública en Polonia', icono: '🏥', href: '#', disponible: false },
   { título: 'Busqueda de empleo', desc: 'Portales, contratos y derechos laborales basicos', icono: '💼', href: '#', disponible: false },
   { título: 'Impuestos PIT', desc: 'Como declarar la renta en Polonia', icono: '📋', href: '#', disponible: false },
-  { título: 'Escuelas y educacion', desc: 'Sistema educativo polaco para familias con hijos', icono: '🎒', href: '#', disponible: false },
+  { título: 'Escuelas y educacion', desc: 'Sistema educativo polaco para familias con hijos', icono: '🎒', href: '/vivir-en-polonia/escuelas', disponible: true },
 ]
 
 export default function VivirEnPolonia() {
