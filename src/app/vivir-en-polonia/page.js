@@ -10,11 +10,11 @@ const temas = [
   { título: 'PESEL', desc: 'El número de identificacion que necesitas para todo en Polonia', icono: '🪪', href: '/vivir-en-polonia/pesel', disponible: true },
   { título: 'Cuenta bancaria', desc: 'Como abrir una cuenta siendo extranjero', icono: '🏦', href: '/vivir-en-polonia/banco', disponible: true },
   { título: 'Tarjeta SIM', desc: 'Operadores, precios y recomendaciones', icono: '📱', href: '/vivir-en-polonia/sim', disponible: true },
-  { título: 'Alquiler de apartamento', desc: 'Como buscar piso y que revisar antes de firmar', icono: '🏠', href: '#', disponible: false },
-  { título: 'Transporte público', desc: 'Buses, tranvias y metro en las principales ciudades', icono: '🚌', href: '#', disponible: false },
-  { título: 'Sistema de salud NFZ', desc: 'Como acceder a la sanidad pública en Polonia', icono: '🏥', href: '#', disponible: false },
-  { título: 'Busqueda de empleo', desc: 'Portales, contratos y derechos laborales basicos', icono: '💼', href: '#', disponible: false },
-  { título: 'Impuestos PIT', desc: 'Como declarar la renta en Polonia', icono: '📋', href: '#', disponible: false },
+  { título: 'Alquiler de apartamento', desc: 'Cómo buscar piso y qué revisar antes de firmar', icono: '🏠', href: '/vivir-en-polonia/alquiler', disponible: true },
+  { título: 'Transporte público', desc: 'Buses, tranvías y metro en las principales ciudades', icono: '🚌', href: '/vivir-en-polonia/transporte', disponible: true },
+  { título: 'Sistema de salud NFZ', desc: 'Cómo acceder a la sanidad pública en Polonia', icono: '🏥', href: '/vivir-en-polonia/salud', disponible: true },
+  { título: 'Búsqueda de empleo', desc: 'Portales, contratos y derechos laborales básicos', icono: '💼', href: '/vivir-en-polonia/empleo', disponible: true },
+  { título: 'Impuestos PIT', desc: 'Cómo declarar la renta en Polonia', icono: '📋', href: '/vivir-en-polonia/impuestos', disponible: true },
   { título: 'Escuelas y educacion', desc: 'Sistema educativo polaco para familias con hijos', icono: '🎒', href: '/vivir-en-polonia/escuelas', disponible: true },
 ]
 
