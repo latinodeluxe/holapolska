@@ -17,6 +17,7 @@ export default function Legal() {
               <p><strong>Proyecto:</strong> HolaPolska — plataforma digital de integracion</p>
               <p><strong>Pais de operacion:</strong> Polonia (Union Europea)</p>
               <p><strong>Correo electronico:</strong> <a href="mailto:biuro@holapolska.com" className="text-red-500">biuro@holapolska.com</a></p>
+              <p><strong>Dirección:</strong> ul. Wolności 10A/1, 81-314 Gdynia, Polonia</p>
               <p className="text-sm text-gray-500 mt-2">Nota: HolaPolska es un proyecto personal en fase de lanzamiento, sin actividad comercial ni registro mercantil activo. No se realizan transacciones economicas en la plataforma.</p>
             </div>
           </section>
