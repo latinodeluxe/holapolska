@@ -9,9 +9,7 @@ import Footer from '@/components/Footer'
 const temas = [
   { título: 'Eventos y fiestas', desc: 'Eventos latinos y multiculturales en Polonia', icono: '🎉', href: '/comunidad/eventos', disponible: true },
   { título: 'Negocios latinos', desc: 'Directorio de restaurantes, tiendas y servicios', icono: '🏪', href: '/comunidad/negocios-latinos', disponible: true },
-  { título: 'Noticias', desc: 'Lo mas relevante para la comunidad latina en Polonia', icono: '📰', href: '#', disponible: false },
-  { título: 'Foro', desc: 'Preguntas, respuestas y experiencias de la comunidad', icono: '💬', href: '#', disponible: false },
-  { título: 'Voluntariado', desc: 'Oportunidades para contribuir y conectar', icono: '🤝', href: '#', disponible: false },
+  { título: 'Voluntariado', desc: 'Oportunidades para contribuir y conectar', icono: '🤝', href: '/comunidad/voluntariado', disponible: true },
 ]
 
 export default function Comunidad() {

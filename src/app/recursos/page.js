@@ -9,8 +9,6 @@ import Footer from '@/components/Footer'
 const temas = [
   { título: 'Guias en PDF', desc: 'Documentos descargables para tener a mano', icono: '📄', href: '/recursos/guias', disponible: true },
   { título: 'Checklists', desc: 'Listas de verificación para cada proceso clave', icono: '✅', href: '/recursos/checklists', disponible: true },
-  { título: 'Videos explicativos', desc: 'Tutoriales en video sobre tramites y vida en Polonia', icono: '🎬', href: '#', disponible: false },
-  { título: 'Plantillas de documentos', desc: 'Modelos de cartas y solicitudes en espanol y polaco', icono: '📝', href: '#', disponible: false },
 ]
 
 export default function Recursos() {

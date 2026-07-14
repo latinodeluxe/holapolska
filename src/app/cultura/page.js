@@ -11,6 +11,7 @@ const temas = [
   { título: 'Fiestas y festividades', desc: 'Navidad, Pascua, Todos los Santos y mas celebraciones', icono: '🎉', href: '/cultura/fiestas', disponible: true },
   { título: 'Normas sociales', desc: 'Que hacer y que evitar para integrarte sin errores', icono: '🤝', href: '/cultura/normas-sociales', disponible: true },
   { título: 'Sistema educativo', desc: 'Cómo funciona la escuela en Polonia', icono: '🎒', href: '/cultura/sistema-educativo', disponible: true },
+  { título: 'Música polaca', desc: 'Chopin, hip-hop, disco polo y lo que suena hoy en Polonia', icono: '🎵', href: '/cultura/musica', disponible: true },
   { título: 'Gastronomía polaca', desc: 'Platos típicos, ingredientes y dónde comer bien', icono: '🥟', href: '/cultura/gastronomia', disponible: true },
 ]
 

@@ -10,9 +10,7 @@ const temas = [
   { título: 'Conversor PLN', desc: 'Convierte entre zlotys y las principales monedas latinas', icono: '💱', href: '/herramientas/conversor-pln', disponible: true },
   { título: 'Frases utiles en polaco', desc: 'Las frases mas practicas para el dia a dia', icono: '💬', href: '/herramientas/frases-utiles', disponible: true },
   { título: 'Números de emergencia', desc: 'Los números que debes tener guardados', icono: '🚨', href: '/herramientas/números-emergencia', disponible: true },
-  { título: 'Traductor de documentos', desc: 'Guia para traducir documentos oficiales', icono: '📄', href: '#', disponible: false },
-  { título: 'Buscador de oficinas', desc: 'Encuentra el Urzad o banco mas cercano', icono: '📍', href: '#', disponible: false },
-  { título: 'Plantillas y modelos', desc: 'Cartas, solicitudes y documentos listos para usar', icono: '📝', href: '#', disponible: false },
+  { título: 'Traductor de documentos', desc: 'Guía para traducir documentos oficiales', icono: '📄', href: '/herramientas/traductor-documentos', disponible: true },
 ]
 
 export default function Herramientas() {
