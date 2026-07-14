@@ -7,7 +7,6 @@ import Navbar from '@/components/Navbar'
 import Footer from '@/components/Footer'
 
 const temas = [
-  { título: 'Guias en PDF', desc: 'Documentos descargables para tener a mano', icono: '📄', href: '/recursos/guias', disponible: true },
   { título: 'Checklists', desc: 'Listas de verificación para cada proceso clave', icono: '✅', href: '/recursos/checklists', disponible: true },
 ]
 
