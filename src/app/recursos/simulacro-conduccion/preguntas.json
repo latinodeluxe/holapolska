@@ -1,0 +1,962 @@
+[
+  {
+    "id": 1,
+    "puntos": 3,
+    "pregunta": "¿Debes ceder el paso a los peatones que esperan en el borde de un paso de peatones señalizado con intención de cruzar?",
+    "respuesta_correcta": "SÍ",
+    "justificacion": "Ley vigente desde junio 2021: Obligación absoluta de ceder el paso a peatones wchodzący (entrando) al paso.",
+    "tipo": "si_no"
+  },
+  {
+    "id": 2,
+    "puntos": 3,
+    "pregunta": "¿Puedes adelantar a otro vehículo cruzando una línea continua en el centro de la calzada?",
+    "respuesta_correcta": "NO",
+    "justificacion": "Prohibición estricta de cruzar líneas continuas (P-4).",
+    "tipo": "si_no"
+  },
+  {
+    "id": 3,
+    "puntos": 3,
+    "pregunta": "¿Está permitido usar el teléfono móvil sujetándolo con la mano mientras conduces?",
+    "respuesta_correcta": "NO",
+    "justificacion": "Prohibido sostener el aparato. Multa: 500 PLN y 12 puntos.",
+    "tipo": "si_no"
+  },
+  {
+    "id": 4,
+    "puntos": 3,
+    "pregunta": "En una carretera convencional de doble sentido, ¿la velocidad máxima durante el día es de 90 km/h?",
+    "respuesta_correcta": "SÍ",
+    "justificacion": "Límite general para carretera de calzada única fuera de poblado.",
+    "tipo": "si_no"
+  },
+  {
+    "id": 5,
+    "puntos": 3,
+    "pregunta": "¿Debes encender las luces de cruce cuando conduces en un túnel aunque sea de día?",
+    "respuesta_correcta": "SÍ",
+    "justificacion": "Obligatorio por ley. En Polonia las luces de cruce son obligatorias 24/7.",
+    "tipo": "si_no"
+  },
+  {
+    "id": 6,
+    "puntos": 3,
+    "pregunta": "¿Puedes conducir legalmente con una tasa de alcohol en sangre de 0,2 g/l en Polonia?",
+    "respuesta_correcta": "NO",
+    "justificacion": "CORREGIDO: El límite es hasta 0,19 g/l. Si marcas 0,2 g/l exactos (stan po użyciu alkoholu), es infracción.",
+    "tipo": "si_no"
+  },
+  {
+    "id": 7,
+    "puntos": 3,
+    "pregunta": "¿El cinturón de seguridad es obligatorio tanto para el conductor como para todos los pasajeros en Polonia?",
+    "respuesta_correcta": "SÍ",
+    "justificacion": "Obligatorio en todos los asientos equipados con ellos.",
+    "tipo": "si_no"
+  },
+  {
+    "id": 8,
+    "puntos": 3,
+    "pregunta": "¿La señal de STOP (B-20) exige detenerse completamente aunque no haya otros vehículos ni peatones?",
+    "respuesta_correcta": "SÍ",
+    "justificacion": "Detención absoluta obligatoria en la línea (P-12) o antes de la intersección.",
+    "tipo": "si_no"
+  },
+  {
+    "id": 9,
+    "puntos": 3,
+    "pregunta": "En autopista en Polonia, ¿la velocidad máxima permitida de noche es de 140 km/h?",
+    "respuesta_correcta": "SÍ",
+    "justificacion": "CORREGIDO: El límite en autopista (140 km/h) es igual de día y de noche.",
+    "tipo": "si_no"
+  },
+  {
+    "id": 10,
+    "puntos": 3,
+    "pregunta": "¿Está prohibido superar los 50 km/h en zona urbana en Polonia entre las 23:00 y las 05:00?",
+    "respuesta_correcta": "SÍ",
+    "justificacion": "CORREGIDO: Ley vigente desde 2021 unificó el límite a 50 km/h las 24 horas.",
+    "tipo": "si_no"
+  },
+  {
+    "id": 11,
+    "puntos": 3,
+    "pregunta": "¿Tienes obligación de ceder el paso a un vehículo de emergencia con luces azules y sirena encendida?",
+    "respuesta_correcta": "SÍ",
+    "justificacion": "Vehículo privilegiado en servicio. Se debe facilitar el \"korytarz życia\" (pasillo de vida).",
+    "tipo": "si_no"
+  },
+  {
+    "id": 12,
+    "puntos": 3,
+    "pregunta": "¿Está prohibido adelantar en una curva sin visibilidad suficiente?",
+    "respuesta_correcta": "SÍ",
+    "justificacion": "Prohibido por falta de visibilidad y seguridad.",
+    "tipo": "si_no"
+  },
+  {
+    "id": 13,
+    "puntos": 3,
+    "pregunta": "¿Puedes conducir en Polonia con una tasa de alcohol de 0,5 g/l en sangre?",
+    "respuesta_correcta": "NO",
+    "justificacion": "Constituye delito (przestępstwo) a partir de 0,5 g/l.",
+    "tipo": "si_no"
+  },
+  {
+    "id": 14,
+    "puntos": 3,
+    "pregunta": "¿La velocidad máxima en autopista polaca de día es de 140 km/h?",
+    "respuesta_correcta": "SÍ",
+    "justificacion": "Límite general para turismos en autostrada.",
+    "tipo": "si_no"
+  },
+  {
+    "id": 15,
+    "puntos": 3,
+    "pregunta": "¿Un conductor novel (con menos de 2 años de carnet) puede superar los 100 km/h en autopista?",
+    "respuesta_correcta": "SÍ",
+    "justificacion": "CORREGIDO: En Polonia los conductores noveles tienen los mismos límites genéricos de velocidad que el resto.",
+    "tipo": "si_no"
+  },
+  {
+    "id": 16,
+    "puntos": 3,
+    "pregunta": "¿Está obligado el conductor a ceder el paso a los ciclistas al girar en una intersección?",
+    "respuesta_correcta": "SÍ",
+    "justificacion": "Obligatorio ceder el paso si cruzan la vía a la que te incorporas.",
+    "tipo": "si_no"
+  },
+  {
+    "id": 17,
+    "puntos": 3,
+    "pregunta": "¿Se puede conducir en Polonia con una tasa de 0,0 g/l de alcohol para conductores con menos de 2 años de permiso?",
+    "respuesta_correcta": "SÍ",
+    "justificacion": "0,0 g/l es legal para todos los conductores.",
+    "tipo": "si_no"
+  },
+  {
+    "id": 18,
+    "puntos": 3,
+    "pregunta": "¿El semáforo en ámbar siempre significa que debes acelerar para cruzar antes del rojo?",
+    "respuesta_correcta": "NO",
+    "justificacion": "Obliga a detenerse, salvo que se esté tan cerca que frenar genere un peligro.",
+    "tipo": "si_no"
+  },
+  {
+    "id": 19,
+    "puntos": 3,
+    "pregunta": "¿Está prohibido usar el teléfono con manos libres (auricular o altavoz) mientras conduces en Polonia?",
+    "respuesta_correcta": "NO",
+    "justificacion": "El manos libres está permitido. Lo prohibido es sostener el aparato.",
+    "tipo": "si_no"
+  },
+  {
+    "id": 20,
+    "puntos": 3,
+    "pregunta": "¿Un vehículo que circula por la derecha en una intersección sin señalizar tiene prioridad sobre el que viene por la izquierda?",
+    "respuesta_correcta": "SÍ",
+    "justificacion": "Regla de la mano derecha (Zasada prawej ręki).",
+    "tipo": "si_no"
+  },
+  {
+    "id": 21,
+    "puntos": 3,
+    "pregunta": "¿El conductor debe reducir la velocidad al acercarse a un paso de peatones aunque no haya nadie cruzando?",
+    "respuesta_correcta": "SÍ",
+    "justificacion": "Obligación de mantener extrema precaución y reducir velocidad.",
+    "tipo": "si_no"
+  },
+  {
+    "id": 22,
+    "puntos": 3,
+    "pregunta": "¿Está permitido aparcar delante de una entrada de garaje aunque sea por poco tiempo?",
+    "respuesta_correcta": "NO",
+    "justificacion": "El estacionamiento (postój, > 1 minuto) está prohibido si bloquea el acceso.",
+    "tipo": "si_no"
+  },
+  {
+    "id": 23,
+    "puntos": 3,
+    "pregunta": "¿La señal triangular roja con borde blanco (A-7) obliga a ceder el paso en una intersección?",
+    "respuesta_correcta": "SÍ",
+    "justificacion": "Señal A-7: Ustąp pierwszeństwa (Ceda el paso).",
+    "tipo": "si_no"
+  },
+  {
+    "id": 24,
+    "puntos": 3,
+    "pregunta": "¿Puedes circular por el carril de emergencia de una autopista si el tráfico está muy lento?",
+    "respuesta_correcta": "NO",
+    "justificacion": "Solo para averías o emergencias (pasillo de vida).",
+    "tipo": "si_no"
+  },
+  {
+    "id": 25,
+    "puntos": 3,
+    "pregunta": "¿Es obligatorio encender las luces de posición en área urbana cuando la visibilidad es inferior a 100 metros?",
+    "respuesta_correcta": "NO",
+    "justificacion": "Se deben usar luces de cruce o antiniebla, no solo las de posición.",
+    "tipo": "si_no"
+  },
+  {
+    "id": 26,
+    "puntos": 3,
+    "pregunta": "¿Está prohibido adelantar inmediatamente antes de un paso a nivel sin barreras?",
+    "respuesta_correcta": "SÍ",
+    "justificacion": "Prohibido por seguridad.",
+    "tipo": "si_no"
+  },
+  {
+    "id": 27,
+    "puntos": 3,
+    "pregunta": "¿El conductor de un tranvía tiene siempre prioridad sobre los demás vehículos en Polonia?",
+    "respuesta_correcta": "NO",
+    "justificacion": "Excepciones: al salir de vía subordinada, salir de depósito, o en rotonda con semáforos si él tiene rojo.",
+    "tipo": "si_no"
+  },
+  {
+    "id": 28,
+    "puntos": 3,
+    "pregunta": "¿Es obligatorio que los niños menores de 12 años y con menos de 150 cm viajen en silla infantil homologada?",
+    "respuesta_correcta": "NO",
+    "justificacion": "La ley actual en Polonia se basa en la altura (menos de 150 cm), sin importar la edad.",
+    "tipo": "si_no"
+  },
+  {
+    "id": 29,
+    "puntos": 3,
+    "pregunta": "¿Puedes circular con neumáticos de invierno durante todo el año en Polonia?",
+    "respuesta_correcta": "SÍ",
+    "justificacion": "No es ilegal (aunque no es recomendable en verano). Los neumáticos de invierno no son obligatorios por ley, pero sí altamente recomendados.",
+    "tipo": "si_no"
+  },
+  {
+    "id": 30,
+    "puntos": 3,
+    "pregunta": "¿Está prohibido estacionar a menos de 10 metros de un cruce o intersección?",
+    "respuesta_correcta": "SÍ",
+    "justificacion": "Regla básica de estacionamiento.",
+    "tipo": "si_no"
+  },
+  {
+    "id": 31,
+    "puntos": 2,
+    "pregunta": "¿En una zona 30, la velocidad máxima permitida es de 30 km/h?",
+    "respuesta_correcta": "SÍ",
+    "justificacion": "Señal B-43.",
+    "tipo": "si_no"
+  },
+  {
+    "id": 32,
+    "puntos": 2,
+    "pregunta": "¿Los faros antiniebla delanteros solo pueden usarse cuando hay niebla o lluvia intensa?",
+    "respuesta_correcta": "NO",
+    "justificacion": "También permitidos en carreteras sinuosas señalizadas (A-14) desde el anochecer al amanecer.",
+    "tipo": "si_no"
+  },
+  {
+    "id": 33,
+    "puntos": 2,
+    "pregunta": "¿El conductor debe señalar con el intermitente antes de cada cambio de carril?",
+    "respuesta_correcta": "SÍ",
+    "justificacion": "Obligación de señalizar intención clara y anticipadamente.",
+    "tipo": "si_no"
+  },
+  {
+    "id": 34,
+    "puntos": 2,
+    "pregunta": "¿En una rotonda en Polonia, los vehículos que circulan dentro tienen siempre prioridad sobre los que entran?",
+    "respuesta_correcta": "NO",
+    "justificacion": "Solo si está la señal A-7 (Ceda el paso) antes de entrar, lo cual es el 99% de los casos. En rotondas sin señalización, rige la regla de la derecha (el que entra tiene prioridad), aunque son raras.",
+    "tipo": "si_no"
+  },
+  {
+    "id": 35,
+    "puntos": 2,
+    "pregunta": "¿Los ciclistas están obligados a circular siempre por el carril bici cuando existe uno junto a la calzada?",
+    "respuesta_correcta": "SÍ",
+    "justificacion": "Si el carril va en la dirección en la que viajan, es obligatorio usarlo.",
+    "tipo": "si_no"
+  },
+  {
+    "id": 36,
+    "puntos": 2,
+    "pregunta": "¿La velocidad máxima en zona urbana de noche en Polonia es de 60 km/h?",
+    "respuesta_correcta": "NO",
+    "justificacion": "Es de 50 km/h las 24 horas.",
+    "tipo": "si_no"
+  },
+  {
+    "id": 37,
+    "puntos": 2,
+    "pregunta": "¿Las luces de posición son suficientes para circular por una carretera nacional de noche?",
+    "respuesta_correcta": "NO",
+    "justificacion": "Deben usarse luces de cruce o carretera.",
+    "tipo": "si_no"
+  },
+  {
+    "id": 38,
+    "puntos": 2,
+    "pregunta": "¿Es obligatorio llevar un triángulo de señalización de emergencia en el vehículo en Polonia?",
+    "respuesta_correcta": "SÍ",
+    "justificacion": "Equipamiento obligatorio.",
+    "tipo": "si_no"
+  },
+  {
+    "id": 39,
+    "puntos": 2,
+    "pregunta": "¿Puedes usar las luces largas en autopista si no hay ningún vehículo frente a ti?",
+    "respuesta_correcta": "SÍ",
+    "justificacion": "Permitido si no se deslumbra a nadie (incluyendo el sentido contrario).",
+    "tipo": "si_no"
+  },
+  {
+    "id": 40,
+    "puntos": 2,
+    "pregunta": "¿El conductor debe ceder el paso a los autobuses que salen de una parada señalizada en zona urbana?",
+    "respuesta_correcta": "SÍ",
+    "justificacion": "Obligación de facilitar la incorporación.",
+    "tipo": "si_no"
+  },
+  {
+    "id": 41,
+    "puntos": 2,
+    "pregunta": "¿Está prohibido estacionar sobre un paso de peatones o a menos de 10 metros antes de él?",
+    "respuesta_correcta": "SÍ",
+    "justificacion": "Prohibición expresa por visibilidad.",
+    "tipo": "si_no"
+  },
+  {
+    "id": 42,
+    "puntos": 2,
+    "pregunta": "¿Puedes girar a la izquierda en un semáforo rojo si no viene nadie?",
+    "respuesta_correcta": "NO",
+    "justificacion": "La flecha verde condicional (zielona strzałka) es generalmente para la derecha.",
+    "tipo": "si_no"
+  },
+  {
+    "id": 43,
+    "puntos": 2,
+    "pregunta": "¿Es obligatorio el uso de cadenas de nieve cuando lo indica la señalización vial?",
+    "respuesta_correcta": "SÍ",
+    "justificacion": "Señal C-18 (Nakaz używania łańcuchów).",
+    "tipo": "si_no"
+  },
+  {
+    "id": 44,
+    "puntos": 2,
+    "pregunta": "¿La distancia mínima de seguridad en autopista a 120 km/h debe ser al menos de 120 metros?",
+    "respuesta_correcta": "NO",
+    "justificacion": "La regla es la mitad de la velocidad en metros: a 120 km/h son 60 metros.",
+    "tipo": "si_no"
+  },
+  {
+    "id": 45,
+    "puntos": 2,
+    "pregunta": "¿El uso de luces de avería (cuatro intermitentes) está permitido cuando el vehículo está remolcando?",
+    "respuesta_correcta": "NO",
+    "justificacion": "Prohibido. El vehículo remolcado debe llevar el triángulo en la parte trasera izquierda y luces de posición encendidas si es de noche.",
+    "tipo": "si_no"
+  },
+  {
+    "id": 46,
+    "puntos": 2,
+    "pregunta": "¿Está permitido circular marcha atrás en una autopista o vía rápida?",
+    "respuesta_correcta": "NO",
+    "justificacion": "Prohibición absoluta.",
+    "tipo": "si_no"
+  },
+  {
+    "id": 47,
+    "puntos": 2,
+    "pregunta": "¿El conductor debe apagar las luces largas cuando se acerca a un vehículo de frente a menos de 150 metros?",
+    "respuesta_correcta": "SÍ",
+    "justificacion": "Para evitar deslumbramiento.",
+    "tipo": "si_no"
+  },
+  {
+    "id": 48,
+    "puntos": 2,
+    "pregunta": "¿Es obligatorio señalizar la apertura de la puerta del vehículo antes de salir cuando hay tráfico?",
+    "respuesta_correcta": "NO",
+    "justificacion": "No existe tal obligación de señalización, pero sí de asegurarse de que es seguro abrirla.",
+    "tipo": "si_no"
+  },
+  {
+    "id": 49,
+    "puntos": 2,
+    "pregunta": "¿En una vía con dos o más carriles en el mismo sentido, el carril izquierdo es el carril normal de circulación?",
+    "respuesta_correcta": "NO",
+    "justificacion": "Polonia aplica la norma de circular por la derecha (Ruch prawostronny).",
+    "tipo": "si_no"
+  },
+  {
+    "id": 50,
+    "puntos": 2,
+    "pregunta": "¿El conductor puede continuar circulando si el nivel de aceite del motor está por debajo del mínimo?",
+    "respuesta_correcta": "NO",
+    "justificacion": "Puede causar daños graves al motor; debe detenerse.",
+    "tipo": "si_no"
+  },
+  {
+    "id": 51,
+    "puntos": 1,
+    "pregunta": "¿La señal triangular roja con exclamación indica un peligro no especificado en la carretera?",
+    "respuesta_correcta": "SÍ",
+    "justificacion": "Señal A-30 (Inne niebezpieczeństwo).",
+    "tipo": "si_no"
+  },
+  {
+    "id": 52,
+    "puntos": 1,
+    "pregunta": "¿Es obligatorio llevar un chaleco reflectante en el vehículo en Polonia?",
+    "respuesta_correcta": "NO",
+    "justificacion": "No es obligatorio llevarlo en el habitáculo, PERO es obligatorio ponérselo si se sale del coche fuera de poblado tras anochecer (por lo que es altamente recomendable).",
+    "tipo": "si_no"
+  },
+  {
+    "id": 53,
+    "puntos": 1,
+    "pregunta": "¿La distancia de seguridad en autopista equivale numéricamente a la velocidad expresada en metros?",
+    "respuesta_correcta": "NO",
+    "justificacion": "Equivale a la mitad (ej. 140 km/h = 70 metros).",
+    "tipo": "si_no"
+  },
+  {
+    "id": 54,
+    "puntos": 1,
+    "pregunta": "¿Se puede aparcar en doble fila si solo vas a estar un momento y el motor está en marcha?",
+    "respuesta_correcta": "NO",
+    "justificacion": "Prohibido aparcar o parar en doble fila obstruyendo.",
+    "tipo": "si_no"
+  },
+  {
+    "id": 55,
+    "puntos": 1,
+    "pregunta": "¿El extintor es obligatorio en los vehículos particulares (turismos) en Polonia?",
+    "respuesta_correcta": "SÍ",
+    "justificacion": "Equipamiento obligatorio (mínimo 1 kg).",
+    "tipo": "si_no"
+  },
+  {
+    "id": 56,
+    "puntos": 1,
+    "pregunta": "¿La señal circular azul con flecha blanca indica una dirección de circulación obligatoria?",
+    "respuesta_correcta": "SÍ",
+    "justificacion": "Señales de tipo C (Nakaz).",
+    "tipo": "si_no"
+  },
+  {
+    "id": 57,
+    "puntos": 1,
+    "pregunta": "¿Está permitido conducir con auriculares en ambos oídos en Polonia?",
+    "respuesta_correcta": "SÍ",
+    "justificacion": "No está expresamente prohibido por ley, aunque no se recomienda.",
+    "tipo": "si_no"
+  },
+  {
+    "id": 58,
+    "puntos": 1,
+    "pregunta": "¿El uso de neumáticos de invierno es obligatorio en Polonia durante los meses de diciembre, enero y febrero?",
+    "respuesta_correcta": "NO",
+    "justificacion": "No hay obligación legal, aunque el sentido común y las aseguradoras lo exigen tácitamente en accidentes.",
+    "tipo": "si_no"
+  },
+  {
+    "id": 59,
+    "puntos": 1,
+    "pregunta": "¿Los vehículos que circulan en sentido contrario deben apagar sus luces largas antes de cruzarse?",
+    "respuesta_correcta": "SÍ",
+    "justificacion": "Evitar deslumbramiento.",
+    "tipo": "si_no"
+  },
+  {
+    "id": 60,
+    "puntos": 1,
+    "pregunta": "¿La señal cuadrada azul con letra P blanca indica una zona de estacionamiento permitido?",
+    "respuesta_correcta": "SÍ",
+    "justificacion": "Señal D-18.",
+    "tipo": "si_no"
+  },
+  {
+    "id": 61,
+    "puntos": 4,
+    "pregunta": "Llegas a una intersección sin señalizar. Por tu derecha se acerca otro vehículo al mismo tiempo. ¿Qué debes hacer?",
+    "opciones": {
+      "A": "Ceder el paso.",
+      "B": "Continuar.",
+      "C": "Pitar."
+    },
+    "respuesta_correcta": "A",
+    "tipo": "abc"
+  },
+  {
+    "id": 62,
+    "puntos": 4,
+    "pregunta": "Conduces de noche por carretera convencional. Un coche viene de frente con luces largas encendidas. ¿Qué debes hacer?",
+    "opciones": {
+      "A": "Poner largas.",
+      "B": "Cambiar a cortas y reducir.",
+      "C": "Frenar seco."
+    },
+    "respuesta_correcta": "B",
+    "tipo": "abc"
+  },
+  {
+    "id": 63,
+    "puntos": 4,
+    "pregunta": "El semáforo lleva mucho tiempo en verde para ti. ¿Qué implica esto según el código polaco?",
+    "opciones": {
+      "A": "Pasar sin problema.",
+      "B": "Prepararse para el ámbar.",
+      "C": "Detenerse."
+    },
+    "respuesta_correcta": "B",
+    "tipo": "abc"
+  },
+  {
+    "id": 64,
+    "puntos": 4,
+    "pregunta": "En autopista, ¿cuál es el uso correcto del carril izquierdo?",
+    "opciones": {
+      "A": "Circular libremente.",
+      "B": "Exclusivamente adelantar.",
+      "C": "Si hay atasco."
+    },
+    "respuesta_correcta": "B",
+    "tipo": "abc"
+  },
+  {
+    "id": 65,
+    "puntos": 4,
+    "pregunta": "Ves a un peatón parado en el borde de un paso de peatones con clara intención de cruzar. ¿Qué debes hacer?",
+    "opciones": {
+      "A": "Continuar.",
+      "B": "Ceder el paso.",
+      "C": "Pitar."
+    },
+    "respuesta_correcta": "B",
+    "tipo": "abc"
+  },
+  {
+    "id": 66,
+    "puntos": 4,
+    "pregunta": "Conduces a 90 km/h con neumáticos en buen estado y suelo seco. ¿Cuál es aproximadamente la distancia total de frenado?",
+    "opciones": {
+      "A": "25m.",
+      "B": "50m.",
+      "C": "90m."
+    },
+    "respuesta_correcta": "B",
+    "tipo": "abc"
+  },
+  {
+    "id": 67,
+    "puntos": 4,
+    "pregunta": "Un vehículo de emergencia con sirena y luces azules se acerca por detrás. ¿Qué debes hacer?",
+    "opciones": {
+      "A": "Acelerar.",
+      "B": "Mantener.",
+      "C": "Ceder el paso al arcén/derecha."
+    },
+    "respuesta_correcta": "C",
+    "tipo": "abc"
+  },
+  {
+    "id": 68,
+    "puntos": 4,
+    "pregunta": "Tu vehículo empieza a derrapar por la parte trasera en una curva mojada a la izquierda. ¿Qué haces?",
+    "opciones": {
+      "A": "Girar más a la derecha.",
+      "B": "Frenar fuerte.",
+      "C": "Soltar acelerador y girar levemente hacia el derrape."
+    },
+    "respuesta_correcta": "C",
+    "tipo": "abc"
+  },
+  {
+    "id": 69,
+    "puntos": 4,
+    "pregunta": "Ves un indicador de nivel de aceite del motor extremadamente bajo. ¿Qué debes hacer?",
+    "opciones": {
+      "A": "Continuar.",
+      "B": "Detenerte y no arrancar.",
+      "C": "Conducir despacio al taller."
+    },
+    "respuesta_correcta": "B",
+    "tipo": "abc"
+  },
+  {
+    "id": 70,
+    "puntos": 4,
+    "pregunta": "Vas a girar a la izquierda en una intersección. Viene un ciclista en sentido contrario por el carril de bici. ¿Qué haces?",
+    "opciones": {
+      "A": "Cruzar rápido.",
+      "B": "Ceder el paso al ciclista.",
+      "C": "Tienes prioridad."
+    },
+    "respuesta_correcta": "B",
+    "tipo": "abc"
+  },
+  {
+    "id": 71,
+    "puntos": 4,
+    "pregunta": "Conduces detrás de un camión grande en autopista a 90 km/h. ¿Cuál es la distancia de seguridad mínima recomendada?",
+    "opciones": {
+      "A": "50m.",
+      "B": "Distancia de 2 segundos.",
+      "C": "30m."
+    },
+    "respuesta_correcta": "B",
+    "tipo": "abc"
+  },
+  {
+    "id": 72,
+    "puntos": 4,
+    "pregunta": "En una intersección con semáforo, el semáforo peatonal está en verde. ¿Qué significa para ti como conductor al girar?",
+    "opciones": {
+      "A": "Girar si no cruzan.",
+      "B": "Detenerte y esperar.",
+      "C": "Tienes prioridad."
+    },
+    "respuesta_correcta": "B",
+    "tipo": "abc"
+  },
+  {
+    "id": 73,
+    "puntos": 4,
+    "pregunta": "Tu vehículo tiene un pinchazo en la autopista. ¿Qué debes hacer primero?",
+    "opciones": {
+      "A": "Frenar brusco.",
+      "B": "Volante firme, soltar acelerador, ir al arcén.",
+      "C": "Ir al carril izquierdo."
+    },
+    "respuesta_correcta": "B",
+    "tipo": "abc"
+  },
+  {
+    "id": 74,
+    "puntos": 4,
+    "pregunta": "Llegas a un paso a nivel sin barreras. Las luces rojas están parpadeando. ¿Qué haces?",
+    "opciones": {
+      "A": "Cruzar si no hay tren.",
+      "B": "Detenerte.",
+      "C": "Reducir a 20 km/h."
+    },
+    "respuesta_correcta": "B",
+    "tipo": "abc"
+  },
+  {
+    "id": 75,
+    "puntos": 4,
+    "pregunta": "Hay un accidente y el conductor afectado está inconsciente pero respira. ¿Cuál es la posición correcta?",
+    "opciones": {
+      "A": "Boca arriba.",
+      "B": "Posición lateral de seguridad.",
+      "C": "Sentado."
+    },
+    "respuesta_correcta": "B",
+    "tipo": "abc"
+  },
+  {
+    "id": 76,
+    "puntos": 4,
+    "pregunta": "Conduces en una zona de obras con límite de 60 km/h. Los conos se han retirado pero las señales siguen. ¿Qué haces?",
+    "opciones": {
+      "A": "Circular normal.",
+      "B": "Respetar límite hasta señal de fin.",
+      "C": "Reducir a 40 km/h."
+    },
+    "respuesta_correcta": "B",
+    "tipo": "abc"
+  },
+  {
+    "id": 77,
+    "puntos": 2,
+    "pregunta": "¿Qué significa la señal D-1 (flecha azul recta hacia adelante)?",
+    "opciones": {
+      "A": "Sentido único.",
+      "B": "Incorporación a autopista.",
+      "C": "Dirección recomendada."
+    },
+    "respuesta_correcta": "A",
+    "tipo": "abc"
+  },
+  {
+    "id": 78,
+    "puntos": 2,
+    "pregunta": "¿Cuándo está prohibido adelantar?",
+    "opciones": {
+      "A": "En autopista.",
+      "B": "En curvas y cimas sin visibilidad.",
+      "C": "A más de 80 km/h."
+    },
+    "respuesta_correcta": "B",
+    "tipo": "abc"
+  },
+  {
+    "id": 79,
+    "puntos": 2,
+    "pregunta": "¿Qué indica la línea discontinua en el centro de la calzada?",
+    "opciones": {
+      "A": "Prohibición de cruzar.",
+      "B": "Separación de sentidos, cruzable si es seguro.",
+      "C": "Zona de obras."
+    },
+    "respuesta_correcta": "B",
+    "tipo": "abc"
+  },
+  {
+    "id": 80,
+    "puntos": 2,
+    "pregunta": "¿Cuándo debes encender las luces de avería?",
+    "opciones": {
+      "A": "Carga y descarga.",
+      "B": "Lluvia intensa.",
+      "C": "Peligro para otros (parado en calzada)."
+    },
+    "respuesta_correcta": "C",
+    "tipo": "abc"
+  },
+  {
+    "id": 81,
+    "puntos": 2,
+    "pregunta": "¿Cuánto es la velocidad máxima en zona urbana de noche en Polonia?",
+    "opciones": {
+      "A": "50 km/h.",
+      "B": "60 km/h.",
+      "C": "30 km/h."
+    },
+    "respuesta_correcta": "A (CORREGIDO)",
+    "tipo": "abc"
+  },
+  {
+    "id": 82,
+    "puntos": 2,
+    "pregunta": "¿Qué debes hacer si el semáforo cambia a ámbar cuando ya estás muy cerca de la línea?",
+    "opciones": {
+      "A": "Frenar emergencia.",
+      "B": "Continuar con precaución.",
+      "C": "Acelerar."
+    },
+    "respuesta_correcta": "B",
+    "tipo": "abc"
+  },
+  {
+    "id": 83,
+    "puntos": 2,
+    "pregunta": "¿Qué significa la señal B-2 (círculo rojo con borde blanco vacío)?",
+    "opciones": {
+      "A": "Prohibición de circulación en ambos sentidos.",
+      "B": "Velocidad limitada.",
+      "C": "Ceda el paso."
+    },
+    "respuesta_correcta": "A",
+    "tipo": "abc"
+  },
+  {
+    "id": 84,
+    "puntos": 2,
+    "pregunta": "Ves una señal de zona residencial (D-40). ¿Cuál es la velocidad máxima?",
+    "opciones": {
+      "A": "20 km/h.",
+      "B": "30 km/h.",
+      "C": "10 km/h."
+    },
+    "respuesta_correcta": "A",
+    "tipo": "abc"
+  },
+  {
+    "id": 85,
+    "puntos": 2,
+    "pregunta": "¿Qué indica la señal A-30 con un número bajo el triángulo de peligro?",
+    "opciones": {
+      "A": "Velocidad máxima.",
+      "B": "Distancia hasta el peligro.",
+      "C": "Número de carriles."
+    },
+    "respuesta_correcta": "B",
+    "tipo": "abc"
+  },
+  {
+    "id": 86,
+    "puntos": 2,
+    "pregunta": "Al incorporarte a una autopista por un carril de aceleración, ¿quién tiene la prioridad?",
+    "opciones": {
+      "A": "Tú.",
+      "B": "Vehículos ya en autopista.",
+      "C": "El más rápido."
+    },
+    "respuesta_correcta": "B",
+    "tipo": "abc"
+  },
+  {
+    "id": 87,
+    "puntos": 2,
+    "pregunta": "¿A qué distancia mínima antes de un cruce debes activar el intermitente?",
+    "opciones": {
+      "A": "10m.",
+      "B": "50m.",
+      "C": "Tan pronto como sea posible."
+    },
+    "respuesta_correcta": "C",
+    "tipo": "abc"
+  },
+  {
+    "id": 88,
+    "puntos": 2,
+    "pregunta": "Conduces un vehículo con ABS. ¿Cómo frenas de emergencia?",
+    "opciones": {
+      "A": "Bombear el freno.",
+      "B": "Frenar a fondo y mantener.",
+      "C": "Freno de mano."
+    },
+    "respuesta_correcta": "B",
+    "tipo": "abc"
+  },
+  {
+    "id": 89,
+    "puntos": 2,
+    "pregunta": "¿Qué significa que una señal vertical esté tachada con una barra diagonal roja?",
+    "opciones": {
+      "A": "Solo a la derecha.",
+      "B": "Fuera de servicio.",
+      "C": "Fin de restricción."
+    },
+    "respuesta_correcta": "C",
+    "tipo": "abc"
+  },
+  {
+    "id": 90,
+    "puntos": 2,
+    "pregunta": "Conduces por la noche con lluvia intensa. ¿Qué luces debes usar?",
+    "opciones": {
+      "A": "Largas.",
+      "B": "Cruce.",
+      "C": "Posición."
+    },
+    "respuesta_correcta": "B",
+    "tipo": "abc"
+  },
+  {
+    "id": 91,
+    "puntos": 1,
+    "pregunta": "¿Qué significa la señal B-20 (octágono rojo)?",
+    "opciones": {
+      "A": "No girar a la derecha.",
+      "B": "STOP.",
+      "C": "Fin de prohibiciones."
+    },
+    "respuesta_correcta": "B",
+    "tipo": "abc"
+  },
+  {
+    "id": 92,
+    "puntos": 1,
+    "pregunta": "¿Qué indica la señal D-6?",
+    "opciones": {
+      "A": "Zona escolar.",
+      "B": "Paso de peatones.",
+      "C": "Prohibido peatones."
+    },
+    "respuesta_correcta": "B",
+    "tipo": "abc"
+  },
+  {
+    "id": 93,
+    "puntos": 1,
+    "pregunta": "¿Qué indica la marca vial de una línea amarilla continua en el borde?",
+    "opciones": {
+      "A": "No adelantar.",
+      "B": "No estacionar.",
+      "C": "Obras."
+    },
+    "respuesta_correcta": "B",
+    "tipo": "abc"
+  },
+  {
+    "id": 94,
+    "puntos": 1,
+    "pregunta": "¿Cuándo está obligado el conductor a ceder el paso a los peatones?",
+    "opciones": {
+      "A": "Con semáforo verde.",
+      "B": "En pasos de peatones señalizados.",
+      "C": "Solo con semáforo."
+    },
+    "respuesta_correcta": "B (CORREGIDO: Solo señalizados).",
+    "tipo": "abc"
+  },
+  {
+    "id": 95,
+    "puntos": 1,
+    "pregunta": "¿Qué significa la señal A-11a?",
+    "opciones": {
+      "A": "Curvas peligrosas.",
+      "B": "Un giro peligroso.",
+      "C": "Firme deslizante."
+    },
+    "respuesta_correcta": "A",
+    "tipo": "abc"
+  },
+  {
+    "id": 96,
+    "puntos": 1,
+    "pregunta": "La señal D-52 indica que:",
+    "opciones": {
+      "A": "Peaje.",
+      "B": "Carretera principal con prioridad.",
+      "C": "Reducir velocidad."
+    },
+    "respuesta_correcta": "B",
+    "tipo": "abc"
+  },
+  {
+    "id": 97,
+    "puntos": 1,
+    "pregunta": "¿Qué debes hacer al ver la señal A-30 con 'start' debajo?",
+    "opciones": {
+      "A": "Cuenta atrás.",
+      "B": "Comienzo de zona de peligro.",
+      "C": "Estacionar."
+    },
+    "respuesta_correcta": "B",
+    "tipo": "abc"
+  },
+  {
+    "id": 98,
+    "puntos": 1,
+    "pregunta": "¿Qué significa circular azul con flecha doblada a la derecha?",
+    "opciones": {
+      "A": "Recomendación.",
+      "B": "Obligación.",
+      "C": "Prohibición a izquierda."
+    },
+    "respuesta_correcta": "B",
+    "tipo": "abc"
+  },
+  {
+    "id": 99,
+    "puntos": 1,
+    "pregunta": "¿Qué indica la señal F-10 en semáforo?",
+    "opciones": {
+      "A": "Girar con semáforo rojo.",
+      "B": "Girar obligatoriamente.",
+      "C": "Peatones tienen prioridad."
+    },
+    "respuesta_correcta": "A (La \"zielona strzałka\" permite el giro tras detenerse, cediendo paso).",
+    "tipo": "abc"
+  },
+  {
+    "id": 100,
+    "puntos": 1,
+    "pregunta": "¿Qué indica la señal de zona de calmado de tráfico (D-40)?",
+    "opciones": {
+      "A": "30 km/h.",
+      "B": "20 km/h y prioridad peatonal absoluta.",
+      "C": "Zona peatonal estricta."
+    },
+    "respuesta_correcta": "B",
+    "tipo": "abc"
+  }
+]

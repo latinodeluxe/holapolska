@@ -7,6 +7,7 @@ import Navbar from '@/components/Navbar'
 import Footer from '@/components/Footer'
 
 const temas = [
+  { título: 'Test de conducción', desc: 'Simulacro del examen teórico de conducir en Polonia — en español', icono: '🚗', href: '/recursos/simulacro-conduccion', disponible: true },
   { título: 'Checklists', desc: 'Listas de verificación para cada proceso clave', icono: '✅', href: '/recursos/checklists', disponible: true },
 ]
 
