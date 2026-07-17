@@ -1,962 +1,1023 @@
 [
   {
     "id": 1,
-    "puntos": 3,
-    "pregunta": "¿Debes ceder el paso a los peatones que esperan en el borde de un paso de peatones señalizado con intención de cruzar?",
-    "respuesta_correcta": "SÍ",
-    "justificacion": "Ley vigente desde junio 2021: Obligación absoluta de ceder el paso a peatones wchodzący (entrando) al paso.",
-    "tipo": "si_no"
+    "puntos": "2",
+    "pregunta_pl": "Czy zażycie przez prowadzącego pojazd niewielkiej ilości narkotyku wpływa na poprawę zdolności do prawidłowej oceny ryzyka na drodze?",
+    "pregunta": "¿El consumo de una pequeña cantidad de droga por parte del conductor mejora su capacidad para evaluar correctamente el riesgo en la carretera?",
+    "respuesta_correcta": "NO",
+    "tipo": "si_no",
+    "fuente": "Ministerstwo Infrastruktury (CC BY-SA 4.0)"
   },
   {
     "id": 2,
-    "puntos": 3,
-    "pregunta": "¿Puedes adelantar a otro vehículo cruzando una línea continua en el centro de la calzada?",
-    "respuesta_correcta": "NO",
-    "justificacion": "Prohibición estricta de cruzar líneas continuas (P-4).",
-    "tipo": "si_no"
+    "puntos": "2",
+    "pregunta_pl": "Czy kierujący pojazdem po spożyciu alkoholu, może mieć trudności w jednoczesnym wykonywaniu dwóch i więcej czynności?",
+    "pregunta": "¿Puede el conductor que ha consumido alcohol tener dificultades para realizar dos o más acciones simultáneamente?",
+    "respuesta_correcta": "SÍ",
+    "tipo": "si_no",
+    "fuente": "Ministerstwo Infrastruktury (CC BY-SA 4.0)"
   },
   {
     "id": 3,
-    "puntos": 3,
-    "pregunta": "¿Está permitido usar el teléfono móvil sujetándolo con la mano mientras conduces?",
-    "respuesta_correcta": "NO",
-    "justificacion": "Prohibido sostener el aparato. Multa: 500 PLN y 12 puntos.",
-    "tipo": "si_no"
+    "puntos": "1",
+    "pregunta_pl": "Czy będąc uczestnikiem wypadku drogowego, masz obowiązek udzielenia pomocy rannym nawet, jeśli nie masz kwalifikacji medycznych?",
+    "pregunta": "Como partícipe de un accidente de tráfico, ¿tienes la obligación de prestar ayuda a los heridos aunque no tengas cualificación médica?",
+    "respuesta_correcta": "SÍ",
+    "tipo": "si_no",
+    "fuente": "Ministerstwo Infrastruktury (CC BY-SA 4.0)"
   },
   {
     "id": 4,
-    "puntos": 3,
-    "pregunta": "En una carretera convencional de doble sentido, ¿la velocidad máxima durante el día es de 90 km/h?",
+    "puntos": "1",
+    "pregunta_pl": "Czy numer telefonu 112 jest ogólnopolskim numerem alarmowym dla wszystkich służb ratowniczych?",
+    "pregunta": "¿El número 112 es el número de emergencia nacional para todos los servicios de rescate en Polonia?",
     "respuesta_correcta": "SÍ",
-    "justificacion": "Límite general para carretera de calzada única fuera de poblado.",
-    "tipo": "si_no"
+    "tipo": "si_no",
+    "fuente": "Ministerstwo Infrastruktury (CC BY-SA 4.0)"
   },
   {
     "id": 5,
-    "puntos": 3,
-    "pregunta": "¿Debes encender las luces de cruce cuando conduces en un túnel aunque sea de día?",
+    "puntos": "2",
+    "pregunta_pl": "Czy spożyty alkohol wpływa na zmianę pola widzenia kierującego pojazdem?",
+    "pregunta": "¿El alcohol consumido afecta al campo de visión del conductor?",
     "respuesta_correcta": "SÍ",
-    "justificacion": "Obligatorio por ley. En Polonia las luces de cruce son obligatorias 24/7.",
-    "tipo": "si_no"
+    "tipo": "si_no",
+    "fuente": "Ministerstwo Infrastruktury (CC BY-SA 4.0)"
   },
   {
     "id": 6,
-    "puntos": 3,
-    "pregunta": "¿Puedes conducir legalmente con una tasa de alcohol en sangre de 0,2 g/l en Polonia?",
-    "respuesta_correcta": "NO",
-    "justificacion": "CORREGIDO: El límite es hasta 0,19 g/l. Si marcas 0,2 g/l exactos (stan po użyciu alkoholu), es infracción.",
-    "tipo": "si_no"
+    "puntos": "2",
+    "pregunta_pl": "Czy masz obowiązek zabezpieczyć przed stoczeniem się pojazd zaparkowany na wzniesieniu?",
+    "pregunta": "¿Tienes la obligación de asegurar contra el deslizamiento un vehículo estacionado en una pendiente?",
+    "respuesta_correcta": "SÍ",
+    "tipo": "si_no",
+    "fuente": "Ministerstwo Infrastruktury (CC BY-SA 4.0)"
   },
   {
     "id": 7,
-    "puntos": 3,
-    "pregunta": "¿El cinturón de seguridad es obligatorio tanto para el conductor como para todos los pasajeros en Polonia?",
+    "puntos": "3",
+    "pregunta_pl": "Czy na jezdni jednokierunkowej dopuszcza się wyprzedzanie pojazdu szynowego z jego lewej strony?",
+    "pregunta": "En una calzada de sentido único, ¿se permite adelantar a un vehículo sobre raíles por su lado izquierdo?",
     "respuesta_correcta": "SÍ",
-    "justificacion": "Obligatorio en todos los asientos equipados con ellos.",
-    "tipo": "si_no"
+    "tipo": "si_no",
+    "fuente": "Ministerstwo Infrastruktury (CC BY-SA 4.0)"
   },
   {
     "id": 8,
-    "puntos": 3,
-    "pregunta": "¿La señal de STOP (B-20) exige detenerse completamente aunque no haya otros vehículos ni peatones?",
+    "puntos": "1",
+    "pregunta_pl": "Czy masz obowiązek stosować się do poleceń lub sygnałów dawanych przez pilota pojazdu nienormatywnego?",
+    "pregunta": "¿Tienes la obligación de obedecer las órdenes o señales dadas por el piloto de un vehículo de dimensiones especiales?",
     "respuesta_correcta": "SÍ",
-    "justificacion": "Detención absoluta obligatoria en la línea (P-12) o antes de la intersección.",
-    "tipo": "si_no"
+    "tipo": "si_no",
+    "fuente": "Ministerstwo Infrastruktury (CC BY-SA 4.0)"
   },
   {
     "id": 9,
-    "puntos": 3,
-    "pregunta": "En autopista en Polonia, ¿la velocidad máxima permitida de noche es de 140 km/h?",
+    "puntos": "3",
+    "pregunta_pl": "Czy dojeżdżając do przejścia dla pieszych, na które wchodzi osoba niepełnosprawna, używająca specjalnego znaku lub osoba o widocznej ograniczonej sprawności ruchowej, powinieneś wziąć pod uwagę, że będziesz musiał zatrzymać pojazd?",
+    "pregunta": "Al acercarte a un paso de peatones donde entra una persona discapacitada con distintivo especial o con movilidad visiblemente reducida, ¿debes prever que tendrás que detener el vehículo?",
     "respuesta_correcta": "SÍ",
-    "justificacion": "CORREGIDO: El límite en autopista (140 km/h) es igual de día y de noche.",
-    "tipo": "si_no"
+    "tipo": "si_no",
+    "fuente": "Ministerstwo Infrastruktury (CC BY-SA 4.0)"
   },
   {
     "id": 10,
-    "puntos": 3,
-    "pregunta": "¿Está prohibido superar los 50 km/h en zona urbana en Polonia entre las 23:00 y las 05:00?",
+    "puntos": "3",
+    "pregunta_pl": "Czy w razie braku możliwości usunięcia uszkodzonego pojazdu z torowiska masz obowiązek ostrzec o zagrożeniu kierującego pociągiem?",
+    "pregunta": "Si no puedes retirar el vehículo averiado de las vías del tren, ¿tienes la obligación de advertir del peligro al maquinista?",
     "respuesta_correcta": "SÍ",
-    "justificacion": "CORREGIDO: Ley vigente desde 2021 unificó el límite a 50 km/h las 24 horas.",
-    "tipo": "si_no"
+    "tipo": "si_no",
+    "fuente": "Ministerstwo Infrastruktury (CC BY-SA 4.0)"
   },
   {
     "id": 11,
-    "puntos": 3,
-    "pregunta": "¿Tienes obligación de ceder el paso a un vehículo de emergencia con luces azules y sirena encendida?",
-    "respuesta_correcta": "SÍ",
-    "justificacion": "Vehículo privilegiado en servicio. Se debe facilitar el \"korytarz życia\" (pasillo de vida).",
-    "tipo": "si_no"
+    "puntos": "3",
+    "pregunta_pl": "Czy w razie unieruchomienia pojazdu na przejeździe kolejowym masz obowiązek w pierwszej kolejności ostrzec o niebezpieczeństwie kierującego pojazdem szynowym?",
+    "pregunta": "Si tu vehículo queda inmovilizado en un paso a nivel, ¿tu primera obligación es advertir del peligro al maquinista?",
+    "respuesta_correcta": "NO",
+    "tipo": "si_no",
+    "fuente": "Ministerstwo Infrastruktury (CC BY-SA 4.0)"
   },
   {
     "id": 12,
-    "puntos": 3,
-    "pregunta": "¿Está prohibido adelantar en una curva sin visibilidad suficiente?",
+    "puntos": "3",
+    "pregunta_pl": "Czy konstrukcja zapór pozwala na ich wyłamanie, jeśli pojazd znalazł się na przejeździe kolejowym pomiędzy zamkniętymi zaporami.",
+    "pregunta": "¿La construcción de las barreras permite romperlas si el vehículo queda atrapado en el paso a nivel entre barreras cerradas?",
     "respuesta_correcta": "SÍ",
-    "justificacion": "Prohibido por falta de visibilidad y seguridad.",
-    "tipo": "si_no"
+    "tipo": "si_no",
+    "fuente": "Ministerstwo Infrastruktury (CC BY-SA 4.0)"
   },
   {
     "id": 13,
-    "puntos": 3,
-    "pregunta": "¿Puedes conducir en Polonia con una tasa de alcohol de 0,5 g/l en sangre?",
+    "puntos": "3",
+    "pregunta_pl": "Czy, zachowując zwiększoną uwagę, masz prawo wjechać na przejazd kolejowy, jeżeli opuszczanie półzapór dopiero się rozpoczęło?",
+    "pregunta": "Extremando la precaución, ¿tienes derecho a entrar en un paso a nivel si el descenso de las semibarreras acaba de comenzar?",
     "respuesta_correcta": "NO",
-    "justificacion": "Constituye delito (przestępstwo) a partir de 0,5 g/l.",
-    "tipo": "si_no"
+    "tipo": "si_no",
+    "fuente": "Ministerstwo Infrastruktury (CC BY-SA 4.0)"
   },
   {
     "id": 14,
-    "puntos": 3,
-    "pregunta": "¿La velocidad máxima en autopista polaca de día es de 140 km/h?",
+    "puntos": "3",
+    "pregunta_pl": "Czy podczas przechodzenia przez jezdnię, poza przejściem dla pieszych, przez osobę  o widocznej ograniczonej sprawności ruchowej, jesteś obowiązany zatrzymać się, aby umożliwić jej przejście ?",
+    "pregunta": "Cuando una persona con movilidad visiblemente reducida cruza la calzada fuera de un paso de peatones, ¿estás obligado a detenerte para permitirle cruzar?",
     "respuesta_correcta": "SÍ",
-    "justificacion": "Límite general para turismos en autostrada.",
-    "tipo": "si_no"
+    "tipo": "si_no",
+    "fuente": "Ministerstwo Infrastruktury (CC BY-SA 4.0)"
   },
   {
     "id": 15,
-    "puntos": 3,
-    "pregunta": "¿Un conductor novel (con menos de 2 años de carnet) puede superar los 100 km/h en autopista?",
+    "puntos": "3",
+    "pregunta_pl": "Czy kierujący pojazdem podczas omijania pieszego musi w razie potrzeby zmniejszyć prędkość?",
+    "pregunta": "Al esquivar a un peatón, ¿debe el conductor reducir la velocidad si es necesario?",
     "respuesta_correcta": "SÍ",
-    "justificacion": "CORREGIDO: En Polonia los conductores noveles tienen los mismos límites genéricos de velocidad que el resto.",
-    "tipo": "si_no"
+    "tipo": "si_no",
+    "fuente": "Ministerstwo Infrastruktury (CC BY-SA 4.0)"
   },
   {
     "id": 16,
-    "puntos": 3,
-    "pregunta": "¿Está obligado el conductor a ceder el paso a los ciclistas al girar en una intersección?",
+    "puntos": "3",
+    "pregunta_pl": "Czy kierujący pojazdem silnikowym w czasie wyprzedzania pieszego, podczas mgły poza obszarem zabudowanym, powinien dawać krótkotrwałe sygnały dźwiękowe?",
+    "pregunta": "El conductor de un vehículo de motor, al adelantar a un peatón con niebla fuera de zona urbana, ¿debe dar señales acústicas breves?",
     "respuesta_correcta": "SÍ",
-    "justificacion": "Obligatorio ceder el paso si cruzan la vía a la que te incorporas.",
-    "tipo": "si_no"
+    "tipo": "si_no",
+    "fuente": "Ministerstwo Infrastruktury (CC BY-SA 4.0)"
   },
   {
     "id": 17,
-    "puntos": 3,
-    "pregunta": "¿Se puede conducir en Polonia con una tasa de 0,0 g/l de alcohol para conductores con menos de 2 años de permiso?",
+    "puntos": "3",
+    "pregunta_pl": "Czy kierujący pojazdem silnikowym w czasie omijania pieszego, podczas mgły poza obszarem zabudowanym, powinien dawać krótkotrwałe sygnały dźwiękowe?",
+    "pregunta": "El conductor de un vehículo de motor, al esquivar a un peatón con niebla fuera de zona urbana, ¿debe dar señales acústicas breves?",
     "respuesta_correcta": "SÍ",
-    "justificacion": "0,0 g/l es legal para todos los conductores.",
-    "tipo": "si_no"
+    "tipo": "si_no",
+    "fuente": "Ministerstwo Infrastruktury (CC BY-SA 4.0)"
   },
   {
     "id": 18,
-    "puntos": 3,
-    "pregunta": "¿El semáforo en ámbar siempre significa que debes acelerar para cruzar antes del rojo?",
-    "respuesta_correcta": "NO",
-    "justificacion": "Obliga a detenerse, salvo que se esté tan cerca que frenar genere un peligro.",
-    "tipo": "si_no"
+    "puntos": "3",
+    "pregunta_pl": "Czy kierujący pojazdem przejeżdżając obok przystanku tramwajowego i autobusowego komunikacji miejskiej, nie wyposażonego w wyspę dla pasażerów i wymagającego wyjścia pasażerów na jezdnię, ma obowiązek zatrzymać pojazd w takim miejscu, aby zapewnić pieszemu swobodne dojście do stojącego na tym przystanku autobusu?",
+    "pregunta": "Al pasar junto a una parada de tranvía o autobús sin isleta que obliga a los pasajeros a salir a la calzada, ¿debe el conductor detener el vehículo para garantizar al peatón el libre acceso al autobús?",
+    "respuesta_correcta": "SÍ",
+    "tipo": "si_no",
+    "fuente": "Ministerstwo Infrastruktury (CC BY-SA 4.0)"
   },
   {
     "id": 19,
-    "puntos": 3,
-    "pregunta": "¿Está prohibido usar el teléfono con manos libres (auricular o altavoz) mientras conduces en Polonia?",
-    "respuesta_correcta": "NO",
-    "justificacion": "El manos libres está permitido. Lo prohibido es sostener el aparato.",
-    "tipo": "si_no"
+    "puntos": "2",
+    "pregunta_pl": "Kierując pojazdem poza obszarem zabudowanym w nocy na nieoświetlonej, krętej drodze, aby uniknąć najechania na nieoświetloną przeszkodę nie powinno się jechać z wykorzystaniem maksymalnego limitu prędkości. Czy to prawda ?",
+    "pregunta": "Al conducir de noche fuera de zona urbana en una carretera sinuosa sin iluminación, para evitar chocar con un obstáculo no iluminado no se debe circular al límite máximo de velocidad. ¿Es cierto?",
+    "respuesta_correcta": "SÍ",
+    "tipo": "si_no",
+    "fuente": "Ministerstwo Infrastruktury (CC BY-SA 4.0)"
   },
   {
     "id": 20,
-    "puntos": 3,
-    "pregunta": "¿Un vehículo que circula por la derecha en una intersección sin señalizar tiene prioridad sobre el que viene por la izquierda?",
+    "puntos": "2",
+    "pregunta_pl": "Czy pojazd poruszający się z dużą prędkością może być trudniejszy do zauważenia przez innych uczestników ruchu drogowego?",
+    "pregunta": "¿Un vehículo que circula a gran velocidad puede ser más difícil de percibir por los demás usuarios de la vía?",
     "respuesta_correcta": "SÍ",
-    "justificacion": "Regla de la mano derecha (Zasada prawej ręki).",
-    "tipo": "si_no"
+    "tipo": "si_no",
+    "fuente": "Ministerstwo Infrastruktury (CC BY-SA 4.0)"
   },
   {
     "id": 21,
-    "puntos": 3,
-    "pregunta": "¿El conductor debe reducir la velocidad al acercarse a un paso de peatones aunque no haya nadie cruzando?",
+    "puntos": "2",
+    "pregunta_pl": "Czy opóźnienie reakcji kierowcy o 1 sekundę przy prędkości dopuszczalnej na drodze ekspresowej może zwiększyć drogę zatrzymania o kilkadziesiąt metrów ?",
+    "pregunta": "¿Un retraso de 1 segundo en la reacción del conductor a la velocidad permitida en una vía rápida puede aumentar la distancia de detención en varias decenas de metros?",
     "respuesta_correcta": "SÍ",
-    "justificacion": "Obligación de mantener extrema precaución y reducir velocidad.",
-    "tipo": "si_no"
+    "tipo": "si_no",
+    "fuente": "Ministerstwo Infrastruktury (CC BY-SA 4.0)"
   },
   {
     "id": 22,
-    "puntos": 3,
-    "pregunta": "¿Está permitido aparcar delante de una entrada de garaje aunque sea por poco tiempo?",
-    "respuesta_correcta": "NO",
-    "justificacion": "El estacionamiento (postój, > 1 minuto) está prohibido si bloquea el acceso.",
-    "tipo": "si_no"
+    "puntos": "2",
+    "pregunta_pl": "Czy jadąc z prędkością 100 km/h pojazd pokonuje około 28 metrów na sekundę?",
+    "pregunta": "¿Circulando a 100 km/h, el vehículo recorre aproximadamente 28 metros por segundo?",
+    "respuesta_correcta": "SÍ",
+    "tipo": "si_no",
+    "fuente": "Ministerstwo Infrastruktury (CC BY-SA 4.0)"
   },
   {
     "id": 23,
-    "puntos": 3,
-    "pregunta": "¿La señal triangular roja con borde blanco (A-7) obliga a ceder el paso en una intersección?",
-    "respuesta_correcta": "SÍ",
-    "justificacion": "Señal A-7: Ustąp pierwszeństwa (Ceda el paso).",
-    "tipo": "si_no"
+    "puntos": "1",
+    "pregunta_pl": "Czy kierujący hulajnogą elektryczną może przewozić pasażera?",
+    "pregunta": "¿El conductor de un patinete eléctrico puede llevar a un pasajero?",
+    "respuesta_correcta": "NO",
+    "tipo": "si_no",
+    "fuente": "Ministerstwo Infrastruktury (CC BY-SA 4.0)"
   },
   {
     "id": 24,
-    "puntos": 3,
-    "pregunta": "¿Puedes circular por el carril de emergencia de una autopista si el tráfico está muy lento?",
+    "puntos": "1",
+    "pregunta_pl": "Czy kierującemu pojazdem zezwala się na ciągnięcie osoby korzystającej z urządzenia wspomagającego ruch?",
+    "pregunta": "¿Se permite al conductor de un vehículo remolcar a una persona que usa un dispositivo de ayuda a la movilidad?",
     "respuesta_correcta": "NO",
-    "justificacion": "Solo para averías o emergencias (pasillo de vida).",
-    "tipo": "si_no"
+    "tipo": "si_no",
+    "fuente": "Ministerstwo Infrastruktury (CC BY-SA 4.0)"
   },
   {
     "id": 25,
-    "puntos": 3,
-    "pregunta": "¿Es obligatorio encender las luces de posición en área urbana cuando la visibilidad es inferior a 100 metros?",
-    "respuesta_correcta": "NO",
-    "justificacion": "Se deben usar luces de cruce o antiniebla, no solo las de posición.",
-    "tipo": "si_no"
+    "puntos": "2",
+    "pregunta_pl": "Czy kierujący hulajnogą elektryczną może wyjątkowo korzystać z drogi dla pieszych?",
+    "pregunta": "¿El conductor de un patinete eléctrico puede, excepcionalmente, usar la vía peatonal?",
+    "respuesta_correcta": "SÍ",
+    "tipo": "si_no",
+    "fuente": "Ministerstwo Infrastruktury (CC BY-SA 4.0)"
   },
   {
     "id": 26,
-    "puntos": 3,
-    "pregunta": "¿Está prohibido adelantar inmediatamente antes de un paso a nivel sin barreras?",
-    "respuesta_correcta": "SÍ",
-    "justificacion": "Prohibido por seguridad.",
-    "tipo": "si_no"
+    "puntos": "2",
+    "pregunta_pl": "Czy kierujący urządzeniem transportu osobistego może przejeżdżać przez przejście dla pieszych?",
+    "pregunta": "¿El conductor de un dispositivo de movilidad personal puede cruzar por un paso de peatones sobre el dispositivo?",
+    "respuesta_correcta": "NO",
+    "tipo": "si_no",
+    "fuente": "Ministerstwo Infrastruktury (CC BY-SA 4.0)"
   },
   {
     "id": 27,
-    "puntos": 3,
-    "pregunta": "¿El conductor de un tranvía tiene siempre prioridad sobre los demás vehículos en Polonia?",
-    "respuesta_correcta": "NO",
-    "justificacion": "Excepciones: al salir de vía subordinada, salir de depósito, o en rotonda con semáforos si él tiene rojo.",
-    "tipo": "si_no"
+    "puntos": "3",
+    "pregunta_pl": "Czy dojeżdżając do przejazdu kolejowego masz obowiązek upewnić się czy nie zbliża się pojazd szynowy w sytuacji, w której zapory są podniesione ?",
+    "pregunta": "Al acercarte a un paso a nivel, ¿tienes la obligación de asegurarte de que no se aproxima un tren aunque las barreras estén levantadas?",
+    "respuesta_correcta": "SÍ",
+    "tipo": "si_no",
+    "fuente": "Ministerstwo Infrastruktury (CC BY-SA 4.0)"
   },
   {
     "id": 28,
-    "puntos": 3,
-    "pregunta": "¿Es obligatorio que los niños menores de 12 años y con menos de 150 cm viajen en silla infantil homologada?",
-    "respuesta_correcta": "NO",
-    "justificacion": "La ley actual en Polonia se basa en la altura (menos de 150 cm), sin importar la edad.",
-    "tipo": "si_no"
+    "puntos": "3",
+    "pregunta_pl": "Czy zbliżając się do przejazdu kolejowego powinieneś zwracać uwagę na sygnały, które mogą wskazywać, że zbliża się pojazd szynowy?",
+    "pregunta": "Al aproximarte a un paso a nivel, ¿debes prestar atención a las señales que puedan indicar que se acerca un tren?",
+    "respuesta_correcta": "SÍ",
+    "tipo": "si_no",
+    "fuente": "Ministerstwo Infrastruktury (CC BY-SA 4.0)"
   },
   {
     "id": 29,
-    "puntos": 3,
-    "pregunta": "¿Puedes circular con neumáticos de invierno durante todo el año en Polonia?",
-    "respuesta_correcta": "SÍ",
-    "justificacion": "No es ilegal (aunque no es recomendable en verano). Los neumáticos de invierno no son obligatorios por ley, pero sí altamente recomendados.",
-    "tipo": "si_no"
+    "puntos": "2",
+    "pregunta_pl": "Czy wymijając hulajnogę elektryczną, jesteś obowiązany zachować odstęp minimum     1 m ?",
+    "pregunta": "Al cruzarte con un patinete eléctrico, ¿estás obligado a mantener una distancia mínima de 1 m?",
+    "respuesta_correcta": "NO",
+    "tipo": "si_no",
+    "fuente": "Ministerstwo Infrastruktury (CC BY-SA 4.0)"
   },
   {
     "id": 30,
-    "puntos": 3,
-    "pregunta": "¿Está prohibido estacionar a menos de 10 metros de un cruce o intersección?",
-    "respuesta_correcta": "SÍ",
-    "justificacion": "Regla básica de estacionamiento.",
-    "tipo": "si_no"
+    "puntos": "1",
+    "pregunta_pl": "Jakiej kategorii prawo jazdy jest wymagane, gdy chcesz kierować czterokołowcem innym niż lekki?",
+    "pregunta": "¿Qué categoría de permiso de conducir se requiere para conducir un cuatriciclo que no sea ligero?",
+    "opciones_pl": {
+      "A": "B1.",
+      "B": "A.",
+      "C": "AM."
+    },
+    "opciones": {
+      "A": "B1.",
+      "B": "A.",
+      "C": "AM."
+    },
+    "respuesta_correcta": "A",
+    "tipo": "abc",
+    "fuente": "Ministerstwo Infrastruktury (CC BY-SA 4.0)"
   },
   {
     "id": 31,
-    "puntos": 2,
-    "pregunta": "¿En una zona 30, la velocidad máxima permitida es de 30 km/h?",
-    "respuesta_correcta": "SÍ",
-    "justificacion": "Señal B-43.",
-    "tipo": "si_no"
+    "puntos": "1",
+    "pregunta_pl": "Który z obowiązków dotyczy właściciela samochodu osobowego?",
+    "pregunta": "¿Cuál de estas obligaciones corresponde al propietario de un turismo?",
+    "opciones_pl": {
+      "A": "Poddawanie pojazdu okresowym badaniom technicznym.",
+      "B": "Zawarcie umowy ubezpieczenia NW.",
+      "C": "Zawarcie umowy ubezpieczenia Autocasco."
+    },
+    "opciones": {
+      "A": "Someter el vehículo a inspecciones técnicas periódicas.",
+      "B": "Contratar un seguro de accidentes.",
+      "C": "Contratar un seguro a todo riesgo."
+    },
+    "respuesta_correcta": "A",
+    "tipo": "abc",
+    "fuente": "Ministerstwo Infrastruktury (CC BY-SA 4.0)"
   },
   {
     "id": 32,
-    "puntos": 2,
-    "pregunta": "¿Los faros antiniebla delanteros solo pueden usarse cuando hay niebla o lluvia intensa?",
-    "respuesta_correcta": "NO",
-    "justificacion": "También permitidos en carreteras sinuosas señalizadas (A-14) desde el anochecer al amanecer.",
-    "tipo": "si_no"
+    "puntos": "2",
+    "pregunta_pl": "Kiedy powinieneś sprawdzać ciśnienie w ogumieniu samochodu osobowego?",
+    "pregunta": "¿Cuándo debes comprobar la presión de los neumáticos de un turismo?",
+    "opciones_pl": {
+      "A": "Bezpośrednio przed rozpoczęciem podróży.",
+      "B": "Po zakończeniu jazdy.",
+      "C": "Co najmniej dobę przed zaplanowaną podróżą."
+    },
+    "opciones": {
+      "A": "Justo antes de iniciar el viaje.",
+      "B": "Al terminar de conducir.",
+      "C": "Al menos un día antes del viaje previsto."
+    },
+    "respuesta_correcta": "A",
+    "tipo": "abc",
+    "fuente": "Ministerstwo Infrastruktury (CC BY-SA 4.0)"
   },
   {
     "id": 33,
-    "puntos": 2,
-    "pregunta": "¿El conductor debe señalar con el intermitente antes de cada cambio de carril?",
-    "respuesta_correcta": "SÍ",
-    "justificacion": "Obligación de señalizar intención clara y anticipadamente.",
-    "tipo": "si_no"
+    "puntos": "2",
+    "pregunta_pl": "W jaki sposób wolno Ci przewozić ładunek w przyczepie ciągniętej przez samochód osobowy?",
+    "pregunta": "¿Cómo puedes transportar una carga en un remolque tirado por un turismo?",
+    "opciones_pl": {
+      "A": "Ładunek może zasłaniać niektóre światła przyczepy.",
+      "B": "Ładunek nie może naruszać stateczności pojazdu.",
+      "C": "Ładunek nie musi być zabezpieczony przed zmianą położenia."
+    },
+    "opciones": {
+      "A": "La carga puede tapar algunas luces del remolque.",
+      "B": "La carga no puede alterar la estabilidad del vehículo.",
+      "C": "La carga no tiene que asegurarse contra desplazamientos."
+    },
+    "respuesta_correcta": "B",
+    "tipo": "abc",
+    "fuente": "Ministerstwo Infrastruktury (CC BY-SA 4.0)"
   },
   {
     "id": 34,
-    "puntos": 2,
-    "pregunta": "¿En una rotonda en Polonia, los vehículos que circulan dentro tienen siempre prioridad sobre los que entran?",
-    "respuesta_correcta": "NO",
-    "justificacion": "Solo si está la señal A-7 (Ceda el paso) antes de entrar, lo cual es el 99% de los casos. En rotondas sin señalización, rige la regla de la derecha (el que entra tiene prioridad), aunque son raras.",
-    "tipo": "si_no"
+    "puntos": "2",
+    "pregunta_pl": "W jaki sposób przewieziesz ładunek w przyczepie ciągniętej przez samochód osobowy?",
+    "pregunta": "¿Cómo transportarás una carga en un remolque tirado por un turismo?",
+    "opciones_pl": {
+      "A": "Zabezpieczę go przed przemieszczaniem.",
+      "B": "Umieszczę ładunek luźno na przyczepie.",
+      "C": "Nie zabezpieczę ładunku przed przemieszczaniem, jeżeli będę jechał wolno."
+    },
+    "opciones": {
+      "A": "La aseguraré contra desplazamientos.",
+      "B": "Colocaré la carga suelta sobre el remolque.",
+      "C": "No aseguraré la carga si voy despacio."
+    },
+    "respuesta_correcta": "A",
+    "tipo": "abc",
+    "fuente": "Ministerstwo Infrastruktury (CC BY-SA 4.0)"
   },
   {
     "id": 35,
-    "puntos": 2,
-    "pregunta": "¿Los ciclistas están obligados a circular siempre por el carril bici cuando existe uno junto a la calzada?",
-    "respuesta_correcta": "SÍ",
-    "justificacion": "Si el carril va en la dirección en la que viajan, es obligatorio usarlo.",
-    "tipo": "si_no"
+    "puntos": "2",
+    "pregunta_pl": "Jak przewieziesz ładunek sypki w przyczepie ciągniętej przez samochód osobowy?",
+    "pregunta": "¿Cómo transportarás una carga a granel en un remolque tirado por un turismo?",
+    "opciones_pl": {
+      "A": "Niezasłonięty - umieszczony poniżej wysokości burt.",
+      "B": "Nie przekraczajac prędkości 30 km/h.",
+      "C": "Zasłonięty w szczelnej skrzyni ładunkowej."
+    },
+    "opciones": {
+      "A": "Sin cubrir, por debajo de la altura de los laterales.",
+      "B": "Sin superar los 30 km/h.",
+      "C": "Cubierta en una caja de carga estanca."
+    },
+    "respuesta_correcta": "C",
+    "tipo": "abc",
+    "fuente": "Ministerstwo Infrastruktury (CC BY-SA 4.0)"
   },
   {
     "id": 36,
-    "puntos": 2,
-    "pregunta": "¿La velocidad máxima en zona urbana de noche en Polonia es de 60 km/h?",
-    "respuesta_correcta": "NO",
-    "justificacion": "Es de 50 km/h las 24 horas.",
-    "tipo": "si_no"
+    "puntos": "2",
+    "pregunta_pl": "Jak powinieneś zabezpieczyć urządzenie, którym zamocowałeś ładunek w przyczepie ciągniętej przez samochód osobowy?",
+    "pregunta": "¿Cómo debes asegurar el dispositivo con el que has fijado la carga en un remolque tirado por un turismo?",
+    "opciones_pl": {
+      "A": "Tak, żeby mocowanie nie rozluźniło się.",
+      "B": "Może swobodnie zwisać z przyczepy.",
+      "C": "Nie musi być zabezpieczone przed spadnięciem podczas jazdy."
+    },
+    "opciones": {
+      "A": "De modo que la fijación no se afloje.",
+      "B": "Puede colgar libremente del remolque.",
+      "C": "No necesita asegurarse contra caídas durante la marcha."
+    },
+    "respuesta_correcta": "A",
+    "tipo": "abc",
+    "fuente": "Ministerstwo Infrastruktury (CC BY-SA 4.0)"
   },
   {
     "id": 37,
-    "puntos": 2,
-    "pregunta": "¿Las luces de posición son suficientes para circular por una carretera nacional de noche?",
-    "respuesta_correcta": "NO",
-    "justificacion": "Deben usarse luces de cruce o carretera.",
-    "tipo": "si_no"
+    "puntos": "2",
+    "pregunta_pl": "W jaki sposób powinien być umieszczony ładunek na samochodzie osobowym?",
+    "pregunta": "¿Cómo debe colocarse una carga en un turismo?",
+    "opciones_pl": {
+      "A": "Może nieznacznie zasłaniać tablice rejestracyjne.",
+      "B": "Może zasłaniać tylne światło przeciwmgłowe.",
+      "C": "Nie może ograniczać widoczności drogi."
+    },
+    "opciones": {
+      "A": "Puede tapar ligeramente las matrículas.",
+      "B": "Puede tapar la luz antiniebla trasera.",
+      "C": "No puede limitar la visibilidad de la vía."
+    },
+    "respuesta_correcta": "C",
+    "tipo": "abc",
+    "fuente": "Ministerstwo Infrastruktury (CC BY-SA 4.0)"
   },
   {
     "id": 38,
-    "puntos": 2,
-    "pregunta": "¿Es obligatorio llevar un triángulo de señalización de emergencia en el vehículo en Polonia?",
-    "respuesta_correcta": "SÍ",
-    "justificacion": "Equipamiento obligatorio.",
-    "tipo": "si_no"
+    "puntos": "2",
+    "pregunta_pl": "Jak umieścisz bagaż w samochodzie osobowym?",
+    "pregunta": "¿Cómo colocarás el equipaje en un turismo?",
+    "opciones_pl": {
+      "A": "Najcięższe bagaże włożę najgłębiej i najniżej, w centralnej części bagażnika.",
+      "B": "W dowolny sposób.",
+      "C": "Najcięższe bagaże włożę w górnej części bagażnika, nad lżejszymi."
+    },
+    "opciones": {
+      "A": "El equipaje más pesado, lo más al fondo y abajo, en la parte central del maletero.",
+      "B": "De cualquier manera.",
+      "C": "El equipaje más pesado en la parte superior del maletero, sobre el más ligero."
+    },
+    "respuesta_correcta": "A",
+    "tipo": "abc",
+    "fuente": "Ministerstwo Infrastruktury (CC BY-SA 4.0)"
   },
   {
     "id": 39,
-    "puntos": 2,
-    "pregunta": "¿Puedes usar las luces largas en autopista si no hay ningún vehículo frente a ti?",
-    "respuesta_correcta": "SÍ",
-    "justificacion": "Permitido si no se deslumbra a nadie (incluyendo el sentido contrario).",
-    "tipo": "si_no"
+    "puntos": "2",
+    "pregunta_pl": "W jaki sposób umieścisz ładunek na przyczepie samochodu osobowego?",
+    "pregunta": "¿Cómo colocarás una carga en el remolque de un turismo?",
+    "opciones_pl": {
+      "A": "Tak, aby nie zasłaniał świateł przyczepy.",
+      "B": "Umieszczę go po jednej stronie przyczepy.",
+      "C": "Umieszczę go zawsze w tylnej części przyczepy."
+    },
+    "opciones": {
+      "A": "De modo que no tape las luces del remolque.",
+      "B": "La colocaré en un lado del remolque.",
+      "C": "La colocaré siempre en la parte trasera del remolque."
+    },
+    "respuesta_correcta": "A",
+    "tipo": "abc",
+    "fuente": "Ministerstwo Infrastruktury (CC BY-SA 4.0)"
   },
   {
     "id": 40,
-    "puntos": 2,
-    "pregunta": "¿El conductor debe ceder el paso a los autobuses que salen de una parada señalizada en zona urbana?",
-    "respuesta_correcta": "SÍ",
-    "justificacion": "Obligación de facilitar la incorporación.",
-    "tipo": "si_no"
+    "puntos": "2",
+    "pregunta_pl": "Czego nie możesz robić kierując samochodem osobowym?",
+    "pregunta": "¿Qué no puedes hacer conduciendo un turismo?",
+    "opciones_pl": {
+      "A": "Ciągnąć za pojazdem osoby na sankach.",
+      "B": "Korzystać z radia CB.",
+      "C": "Przewozić dziecka w foteliku ochronnym na przednim siedzeniu."
+    },
+    "opciones": {
+      "A": "Remolcar detrás del vehículo a una persona en trineo.",
+      "B": "Usar la radio CB.",
+      "C": "Llevar a un niño en silla infantil en el asiento delantero."
+    },
+    "respuesta_correcta": "A",
+    "tipo": "abc",
+    "fuente": "Ministerstwo Infrastruktury (CC BY-SA 4.0)"
   },
   {
     "id": 41,
-    "puntos": 2,
-    "pregunta": "¿Está prohibido estacionar sobre un paso de peatones o a menos de 10 metros antes de él?",
-    "respuesta_correcta": "SÍ",
-    "justificacion": "Prohibición expresa por visibilidad.",
-    "tipo": "si_no"
+    "puntos": "2",
+    "pregunta_pl": "Który z wymienionych sposobów przewożenia gaśnicy w samochodzie osobowym jest właściwy?",
+    "pregunta": "¿Cuál de estas formas de transportar un extintor en un turismo es correcta?",
+    "opciones_pl": {
+      "A": "Gaśnica umieszczona jest na tylnej półce.",
+      "B": "Gaśnica umieszczona jest luźno między siedzeniami.",
+      "C": "Gaśnica zamocowana pod fotelem pasażera."
+    },
+    "opciones": {
+      "A": "El extintor colocado en la bandeja trasera.",
+      "B": "El extintor colocado suelto entre los asientos.",
+      "C": "El extintor fijado bajo el asiento del pasajero."
+    },
+    "respuesta_correcta": "C",
+    "tipo": "abc",
+    "fuente": "Ministerstwo Infrastruktury (CC BY-SA 4.0)"
   },
   {
     "id": 42,
-    "puntos": 2,
-    "pregunta": "¿Puedes girar a la izquierda en un semáforo rojo si no viene nadie?",
-    "respuesta_correcta": "NO",
-    "justificacion": "La flecha verde condicional (zielona strzałka) es generalmente para la derecha.",
-    "tipo": "si_no"
+    "puntos": "2",
+    "pregunta_pl": "Jaki jest cel stosowania układu ASR w samochodzie osobowym?",
+    "pregunta": "¿Cuál es el objetivo del sistema ASR en un turismo?",
+    "opciones_pl": {
+      "A": "Przeciwdziałanie poślizgowi podczas hamowania silnikiem.",
+      "B": "Zapobieganie blokowaniu kół hamowanych.",
+      "C": "Przeciwdziałanie poślizgowi kół podczas ruszania."
+    },
+    "opciones": {
+      "A": "Evitar el derrape al frenar con el motor.",
+      "B": "Evitar el bloqueo de las ruedas al frenar.",
+      "C": "Evitar el patinado de las ruedas al arrancar."
+    },
+    "respuesta_correcta": "C",
+    "tipo": "abc",
+    "fuente": "Ministerstwo Infrastruktury (CC BY-SA 4.0)"
   },
   {
     "id": 43,
-    "puntos": 2,
-    "pregunta": "¿Es obligatorio el uso de cadenas de nieve cuando lo indica la señalización vial?",
-    "respuesta_correcta": "SÍ",
-    "justificacion": "Señal C-18 (Nakaz używania łańcuchów).",
-    "tipo": "si_no"
+    "puntos": "2",
+    "pregunta_pl": "Jaki jest cel stosowania układu ESP w samochodzie osobowym?",
+    "pregunta": "¿Cuál es el objetivo del sistema ESP en un turismo?",
+    "opciones_pl": {
+      "A": "Przeciwdziałanie poślizgowi kół podczas hamowania silnikiem.",
+      "B": "Zapobieganie blokowaniu kół hamowanych.",
+      "C": "Stabilizowanie ruchu pojazdu podczas jazdy po łuku drogi."
+    },
+    "opciones": {
+      "A": "Evitar el derrape de las ruedas al frenar con el motor.",
+      "B": "Evitar el bloqueo de las ruedas al frenar.",
+      "C": "Estabilizar el movimiento del vehículo al circular por una curva."
+    },
+    "respuesta_correcta": "C",
+    "tipo": "abc",
+    "fuente": "Ministerstwo Infrastruktury (CC BY-SA 4.0)"
   },
   {
     "id": 44,
-    "puntos": 2,
-    "pregunta": "¿La distancia mínima de seguridad en autopista a 120 km/h debe ser al menos de 120 metros?",
-    "respuesta_correcta": "NO",
-    "justificacion": "La regla es la mitad de la velocidad en metros: a 120 km/h son 60 metros.",
-    "tipo": "si_no"
+    "puntos": "3",
+    "pregunta_pl": "Jak zabezpieczysz krwawienie z rany przy braku jałowego opatrunku?",
+    "pregunta": "¿Cómo detendrás una hemorragia de una herida si no dispones de un apósito estéril?",
+    "opciones_pl": {
+      "A": "Wstrzymam się z opatrywaniem.",
+      "B": "Użyję do opatrunku odzieży poszkodowanego.",
+      "C": "Poczekam, aż ktoś użyczy swojej apteczki."
+    },
+    "opciones": {
+      "A": "Esperaré para hacer la cura.",
+      "B": "Usaré la ropa del herido como apósito.",
+      "C": "Esperaré a que alguien preste su botiquín."
+    },
+    "respuesta_correcta": "B",
+    "tipo": "abc",
+    "fuente": "Ministerstwo Infrastruktury (CC BY-SA 4.0)"
   },
   {
     "id": 45,
-    "puntos": 2,
-    "pregunta": "¿El uso de luces de avería (cuatro intermitentes) está permitido cuando el vehículo está remolcando?",
-    "respuesta_correcta": "NO",
-    "justificacion": "Prohibido. El vehículo remolcado debe llevar el triángulo en la parte trasera izquierda y luces de posición encendidas si es de noche.",
-    "tipo": "si_no"
+    "puntos": "3",
+    "pregunta_pl": "Kiedy należy założyć opatrunek uciskowy?",
+    "pregunta": "¿Cuándo debe aplicarse un vendaje compresivo?",
+    "opciones_pl": {
+      "A": "W przypadku zmiażdżenia kończyny.",
+      "B": "W przypadku wycieku krwistej wydzieliny z ucha.",
+      "C": "W przypadku krwotoku."
+    },
+    "opciones": {
+      "A": "En caso de aplastamiento de una extremidad.",
+      "B": "En caso de secreción sanguinolenta del oído.",
+      "C": "En caso de hemorragia."
+    },
+    "respuesta_correcta": "C",
+    "tipo": "abc",
+    "fuente": "Ministerstwo Infrastruktury (CC BY-SA 4.0)"
   },
   {
     "id": 46,
-    "puntos": 2,
-    "pregunta": "¿Está permitido circular marcha atrás en una autopista o vía rápida?",
-    "respuesta_correcta": "NO",
-    "justificacion": "Prohibición absoluta.",
-    "tipo": "si_no"
+    "puntos": "3",
+    "pregunta_pl": "Kierujesz pojazdem w czasie deszczu. Którą z wymienionych czynności powinieneś przede wszystkim wykonać, by jechać bezpieczniej?",
+    "pregunta": "Conduces bajo la lluvia. ¿Cuál de estas acciones debes realizar ante todo para conducir con más seguridad?",
+    "opciones_pl": {
+      "A": "Wyłączyć system kontroli trakcji.",
+      "B": "Jechać w koleinach.",
+      "C": "Zmniejszyć prędkość."
+    },
+    "opciones": {
+      "A": "Desactivar el control de tracción.",
+      "B": "Circular por las rodadas.",
+      "C": "Reducir la velocidad."
+    },
+    "respuesta_correcta": "C",
+    "tipo": "abc",
+    "fuente": "Ministerstwo Infrastruktury (CC BY-SA 4.0)"
   },
   {
     "id": 47,
-    "puntos": 2,
-    "pregunta": "¿El conductor debe apagar las luces largas cuando se acerca a un vehículo de frente a menos de 150 metros?",
-    "respuesta_correcta": "SÍ",
-    "justificacion": "Para evitar deslumbramiento.",
-    "tipo": "si_no"
+    "puntos": "3",
+    "pregunta_pl": "Kierujesz samochodem osobowym podczas ulewnego deszczu. Którą z wymienionych czynności należy wykonać po wjechaniu w koleinę wypełnioną wodą?",
+    "pregunta": "Conduces un turismo bajo lluvia intensa. ¿Qué debes hacer tras entrar en una rodada llena de agua?",
+    "opciones_pl": {
+      "A": "Płynnie zmniejszyć prędkość.",
+      "B": "Zdecydowanie przyhamować.",
+      "C": "Zdecydowanie przyspieszyć."
+    },
+    "opciones": {
+      "A": "Reducir la velocidad de forma suave.",
+      "B": "Frenar con decisión.",
+      "C": "Acelerar con decisión."
+    },
+    "respuesta_correcta": "A",
+    "tipo": "abc",
+    "fuente": "Ministerstwo Infrastruktury (CC BY-SA 4.0)"
   },
   {
     "id": 48,
-    "puntos": 2,
-    "pregunta": "¿Es obligatorio señalizar la apertura de la puerta del vehículo antes de salir cuando hay tráfico?",
-    "respuesta_correcta": "NO",
-    "justificacion": "No existe tal obligación de señalización, pero sí de asegurarse de que es seguro abrirla.",
-    "tipo": "si_no"
+    "puntos": "3",
+    "pregunta_pl": "Która z wymienionych czynności może zwiększyć bezpieczeństwo podczas jazdy po zaśnieżonej drodze?",
+    "pregunta": "¿Cuál de estas acciones puede aumentar la seguridad al conducir por una vía nevada?",
+    "opciones_pl": {
+      "A": "Hamowanie wyłącznie przy użyciu hamulca ręcznego.",
+      "B": "Stosowanie opon zimowych.",
+      "C": "Zdecydowane przyspieszanie."
+    },
+    "opciones": {
+      "A": "Frenar únicamente con el freno de mano.",
+      "B": "Usar neumáticos de invierno.",
+      "C": "Acelerar con decisión."
+    },
+    "respuesta_correcta": "B",
+    "tipo": "abc",
+    "fuente": "Ministerstwo Infrastruktury (CC BY-SA 4.0)"
   },
   {
     "id": 49,
-    "puntos": 2,
-    "pregunta": "¿En una vía con dos o más carriles en el mismo sentido, el carril izquierdo es el carril normal de circulación?",
-    "respuesta_correcta": "NO",
-    "justificacion": "Polonia aplica la norma de circular por la derecha (Ruch prawostronny).",
-    "tipo": "si_no"
+    "puntos": "2",
+    "pregunta_pl": "Którą z wymienionych czynności powinieneś wykonać, aby płynnie ruszyć z miejsca?",
+    "pregunta": "¿Cuál de estas acciones debes realizar para arrancar suavemente?",
+    "opciones_pl": {
+      "A": "Stopniowo zwalniać pedał sprzęgła.",
+      "B": "Gwałtownie zwolnić pedał sprzęgła.",
+      "C": "Najpierw znacznie zwiększyć obroty silnika, następnie szybko zwolnić pedał sprzęgła."
+    },
+    "opciones": {
+      "A": "Soltar gradualmente el pedal del embrague.",
+      "B": "Soltar bruscamente el pedal del embrague.",
+      "C": "Primero subir mucho las revoluciones y luego soltar rápido el embrague."
+    },
+    "respuesta_correcta": "A",
+    "tipo": "abc",
+    "fuente": "Ministerstwo Infrastruktury (CC BY-SA 4.0)"
   },
   {
     "id": 50,
-    "puntos": 2,
-    "pregunta": "¿El conductor puede continuar circulando si el nivel de aceite del motor está por debajo del mínimo?",
-    "respuesta_correcta": "NO",
-    "justificacion": "Puede causar daños graves al motor; debe detenerse.",
-    "tipo": "si_no"
+    "puntos": "2",
+    "pregunta_pl": "Czego nie masz prawa robić, gdy kierujesz samochodem osobowym?",
+    "pregunta": "¿Qué no tienes derecho a hacer conduciendo un turismo?",
+    "opciones_pl": {
+      "A": "Przewozić osób w stanie nietrzeźwości.",
+      "B": "Korzystać z telefonu wymagającego trzymania mikrofonu w ręku.",
+      "C": "Używać tempomatu na obszarze zabudowanym."
+    },
+    "opciones": {
+      "A": "Transportar a personas en estado de embriaguez.",
+      "B": "Usar un teléfono que requiera sostener el micrófono con la mano.",
+      "C": "Usar el control de crucero en zona urbana."
+    },
+    "respuesta_correcta": "B",
+    "tipo": "abc",
+    "fuente": "Ministerstwo Infrastruktury (CC BY-SA 4.0)"
   },
   {
     "id": 51,
-    "puntos": 1,
-    "pregunta": "¿La señal triangular roja con exclamación indica un peligro no especificado en la carretera?",
-    "respuesta_correcta": "SÍ",
-    "justificacion": "Señal A-30 (Inne niebezpieczeństwo).",
-    "tipo": "si_no"
+    "puntos": "3",
+    "pregunta_pl": "Którą z wymienionych czynności należy wykonać, kierując samochodem osobowym w nocy podczas mgły?",
+    "pregunta": "¿Cuál de estas acciones debes realizar al conducir un turismo de noche con niebla?",
+    "opciones_pl": {
+      "A": "Zmniejszyć prędkość.",
+      "B": "Włączyć światła drogowe w celu polepszenia widoczności.",
+      "C": "Jechać bardzo blisko poprzedzającego pojazdu, aby widzieć jego światła pozycyjne."
+    },
+    "opciones": {
+      "A": "Reducir la velocidad.",
+      "B": "Encender las luces largas para mejorar la visibilidad.",
+      "C": "Circular muy cerca del vehículo precedente para ver sus luces de posición."
+    },
+    "respuesta_correcta": "A",
+    "tipo": "abc",
+    "fuente": "Ministerstwo Infrastruktury (CC BY-SA 4.0)"
   },
   {
     "id": 52,
-    "puntos": 1,
-    "pregunta": "¿Es obligatorio llevar un chaleco reflectante en el vehículo en Polonia?",
-    "respuesta_correcta": "NO",
-    "justificacion": "No es obligatorio llevarlo en el habitáculo, PERO es obligatorio ponérselo si se sale del coche fuera de poblado tras anochecer (por lo que es altamente recomendable).",
-    "tipo": "si_no"
+    "puntos": "3",
+    "pregunta_pl": "Kierujesz samochodem osobowym. Jak powinieneś postąpić w czasie przejazdu przez rozległą kałużę?",
+    "pregunta": "Conduces un turismo. ¿Cómo debes actuar al pasar por un charco extenso?",
+    "opciones_pl": {
+      "A": "Zdecydowanie przyśpieszyć.",
+      "B": "Gwałtownie przyhamować.",
+      "C": "Płynnie zmniejszyć prędkość jazdy."
+    },
+    "opciones": {
+      "A": "Acelerar con decisión.",
+      "B": "Frenar bruscamente.",
+      "C": "Reducir la velocidad de forma suave."
+    },
+    "respuesta_correcta": "C",
+    "tipo": "abc",
+    "fuente": "Ministerstwo Infrastruktury (CC BY-SA 4.0)"
   },
   {
     "id": 53,
-    "puntos": 1,
-    "pregunta": "¿La distancia de seguridad en autopista equivale numéricamente a la velocidad expresada en metros?",
-    "respuesta_correcta": "NO",
-    "justificacion": "Equivale a la mitad (ej. 140 km/h = 70 metros).",
-    "tipo": "si_no"
+    "puntos": "3",
+    "pregunta_pl": "Jesteś świadkiem potrącenia pieszego. Jak powinieneś się zachować?",
+    "pregunta": "Eres testigo del atropello de un peatón. ¿Cómo debes actuar?",
+    "opciones_pl": {
+      "A": "Nie podejmować działań, gdyż pomocy musi udzielić sprawca wypadku.",
+      "B": "Wezwać pomoc drogową.",
+      "C": "Zatrzymać się, wezwać pomoć medyczną i udzielić pierwszej pomocy poszkodowanemu."
+    },
+    "opciones": {
+      "A": "No actuar, pues debe socorrer el causante del accidente.",
+      "B": "Llamar a la asistencia en carretera.",
+      "C": "Detenerte, llamar a asistencia médica y prestar primeros auxilios al herido."
+    },
+    "respuesta_correcta": "C",
+    "tipo": "abc",
+    "fuente": "Ministerstwo Infrastruktury (CC BY-SA 4.0)"
   },
   {
     "id": 54,
-    "puntos": 1,
-    "pregunta": "¿Se puede aparcar en doble fila si solo vas a estar un momento y el motor está en marcha?",
-    "respuesta_correcta": "NO",
-    "justificacion": "Prohibido aparcar o parar en doble fila obstruyendo.",
-    "tipo": "si_no"
+    "puntos": "3",
+    "pregunta_pl": "Jaki odstęp należy zachować podczas wymijania samochodem osobowym innego pojazdu?",
+    "pregunta": "¿Qué distancia debes mantener al cruzarte con otro vehículo conduciendo un turismo?",
+    "opciones_pl": {
+      "A": "Bezpieczny, ale nie mniejszy niż 1,5 metra.",
+      "B": "Bezpieczny, uzależniony od szerokości jezdni i warunków ruchu.",
+      "C": "Bezpieczny, czyli zawsze taki sam."
+    },
+    "opciones": {
+      "A": "Segura, pero no menor de 1,5 metros.",
+      "B": "Segura, en función del ancho de la calzada y las condiciones del tráfico.",
+      "C": "Segura, es decir, siempre la misma."
+    },
+    "respuesta_correcta": "B",
+    "tipo": "abc",
+    "fuente": "Ministerstwo Infrastruktury (CC BY-SA 4.0)"
   },
   {
     "id": 55,
-    "puntos": 1,
-    "pregunta": "¿El extintor es obligatorio en los vehículos particulares (turismos) en Polonia?",
-    "respuesta_correcta": "SÍ",
-    "justificacion": "Equipamiento obligatorio (mínimo 1 kg).",
-    "tipo": "si_no"
+    "puntos": "3",
+    "pregunta_pl": "Podczas wykonywania którego z wymienionych manewrów masz obowiązek zachować odstęp nie mniejszy niż 1 metr od pojazdu?",
+    "pregunta": "¿Durante cuál de estas maniobras tienes la obligación de mantener una distancia no menor de 1 metro respecto al vehículo?",
+    "opciones_pl": {
+      "A": "Wymijania samochodu osobowego.",
+      "B": "Wyprzedzania roweru.",
+      "C": "Omijania dowolnego pojazdu."
+    },
+    "opciones": {
+      "A": "Al cruzarte con un turismo.",
+      "B": "Al adelantar a una bicicleta.",
+      "C": "Al esquivar cualquier vehículo."
+    },
+    "respuesta_correcta": "B",
+    "tipo": "abc",
+    "fuente": "Ministerstwo Infrastruktury (CC BY-SA 4.0)"
   },
   {
     "id": 56,
-    "puntos": 1,
-    "pregunta": "¿La señal circular azul con flecha blanca indica una dirección de circulación obligatoria?",
-    "respuesta_correcta": "SÍ",
-    "justificacion": "Señales de tipo C (Nakaz).",
-    "tipo": "si_no"
+    "puntos": "3",
+    "pregunta_pl": "Jaki odstęp należy zachować podczas omijania samochodem osobowym przeszkody na drodze?",
+    "pregunta": "¿Qué distancia debes mantener al esquivar con un turismo un obstáculo en la vía?",
+    "opciones_pl": {
+      "A": "Bezpieczny, ale nie mniejszy niż 0,8 metra.",
+      "B": "Bezpieczny, czyli zawsze jednakowy.",
+      "C": "Bezpieczny, uzależniony od szerokości jezdni i warunków ruchu."
+    },
+    "opciones": {
+      "A": "Segura, pero no menor de 0,8 metros.",
+      "B": "Segura, es decir, siempre la misma.",
+      "C": "Segura, en función del ancho de la calzada y las condiciones del tráfico."
+    },
+    "respuesta_correcta": "C",
+    "tipo": "abc",
+    "fuente": "Ministerstwo Infrastruktury (CC BY-SA 4.0)"
   },
   {
     "id": 57,
-    "puntos": 1,
-    "pregunta": "¿Está permitido conducir con auriculares en ambos oídos en Polonia?",
-    "respuesta_correcta": "SÍ",
-    "justificacion": "No está expresamente prohibido por ley, aunque no se recomienda.",
-    "tipo": "si_no"
+    "puntos": "3",
+    "pregunta_pl": "Jaki odstęp należy zachować podczas wyprzedzania samochodu osobowego?",
+    "pregunta": "¿Qué distancia debes mantener al adelantar a un turismo?",
+    "opciones_pl": {
+      "A": "Bezpieczny, uzależniony od szerokości jezdni i warunków ruchu.",
+      "B": "Bezpieczny, ale większy niż 1,5 metra.",
+      "C": "Bezpieczny, ale mniejszy niż 0,5 metra."
+    },
+    "opciones": {
+      "A": "Segura, en función del ancho de la calzada y las condiciones del tráfico.",
+      "B": "Segura, pero mayor de 1,5 metros.",
+      "C": "Segura, pero menor de 0,5 metros."
+    },
+    "respuesta_correcta": "A",
+    "tipo": "abc",
+    "fuente": "Ministerstwo Infrastruktury (CC BY-SA 4.0)"
   },
   {
     "id": 58,
-    "puntos": 1,
-    "pregunta": "¿El uso de neumáticos de invierno es obligatorio en Polonia durante los meses de diciembre, enero y febrero?",
-    "respuesta_correcta": "NO",
-    "justificacion": "No hay obligación legal, aunque el sentido común y las aseguradoras lo exigen tácitamente en accidentes.",
-    "tipo": "si_no"
+    "puntos": "3",
+    "pregunta_pl": "Jaki odstęp należy zachować podczas wyprzedzania motocykla?",
+    "pregunta": "¿Qué distancia debes mantener al adelantar a una motocicleta?",
+    "opciones_pl": {
+      "A": "Bezpieczny, ale nie większy niż 0,5 metra.",
+      "B": "Bezpieczny, ale nie większy niż 1 metr.",
+      "C": "Bezpieczny, ale nie mniejszy niż 1 metr."
+    },
+    "opciones": {
+      "A": "Segura, pero no mayor de 0,5 metros.",
+      "B": "Segura, pero no mayor de 1 metro.",
+      "C": "Segura, pero no menor de 1 metro."
+    },
+    "respuesta_correcta": "C",
+    "tipo": "abc",
+    "fuente": "Ministerstwo Infrastruktury (CC BY-SA 4.0)"
   },
   {
     "id": 59,
-    "puntos": 1,
-    "pregunta": "¿Los vehículos que circulan en sentido contrario deben apagar sus luces largas antes de cruzarse?",
-    "respuesta_correcta": "SÍ",
-    "justificacion": "Evitar deslumbramiento.",
-    "tipo": "si_no"
+    "puntos": "3",
+    "pregunta_pl": "Jaki odstęp należy zachować podczas wyprzedzania kolumny pieszych?",
+    "pregunta": "¿Qué distancia debes mantener al adelantar a una columna de peatones?",
+    "opciones_pl": {
+      "A": "Bezpieczny, ale nie mniejszy niż 0,6 metra.",
+      "B": "Bezpieczny, ale nie mniejszy niż 0,8 metra.",
+      "C": "Bezpieczny, ale nie mniejszy niż 1 metr."
+    },
+    "opciones": {
+      "A": "Segura, pero no menor de 0,6 metros.",
+      "B": "Segura, pero no menor de 0,8 metros.",
+      "C": "Segura, pero no menor de 1 metro."
+    },
+    "respuesta_correcta": "C",
+    "tipo": "abc",
+    "fuente": "Ministerstwo Infrastruktury (CC BY-SA 4.0)"
   },
   {
     "id": 60,
-    "puntos": 1,
-    "pregunta": "¿La señal cuadrada azul con letra P blanca indica una zona de estacionamiento permitido?",
-    "respuesta_correcta": "SÍ",
-    "justificacion": "Señal D-18.",
-    "tipo": "si_no"
+    "puntos": "3",
+    "pregunta_pl": "Jak dwukrotne zwiększenie prędkości samochodu osobowego wpływa na długość jego drogi hamowania?",
+    "pregunta": "¿Cómo influye duplicar la velocidad de un turismo en su distancia de frenado?",
+    "opciones_pl": {
+      "A": "Zwiększa dwukrotnie długość drogi hamowania.",
+      "B": "Zwiększa czterokrotnie długość drogi hamowania.",
+      "C": "Nie powoduje zmiany długości drogi hamowania."
+    },
+    "opciones": {
+      "A": "Duplica la distancia de frenado.",
+      "B": "Cuadruplica la distancia de frenado.",
+      "C": "No cambia la distancia de frenado."
+    },
+    "respuesta_correcta": "B",
+    "tipo": "abc",
+    "fuente": "Ministerstwo Infrastruktury (CC BY-SA 4.0)"
   },
   {
     "id": 61,
-    "puntos": 4,
-    "pregunta": "Llegas a una intersección sin señalizar. Por tu derecha se acerca otro vehículo al mismo tiempo. ¿Qué debes hacer?",
+    "puntos": "3",
+    "pregunta_pl": "Jak duży odstęp od poprzedzającego pojazdu należy utrzymywać, kierując samochodem osobowym poza obszarem zabudowanym w tunelu o długości 600 metrów?",
+    "pregunta": "¿Qué distancia respecto al vehículo precedente debes mantener conduciendo un turismo fuera de zona urbana en un túnel de 600 metros?",
+    "opciones_pl": {
+      "A": "Nie mniejszy niż 50 metrów.",
+      "B": "Nie mniejszy niż 40 metrów.",
+      "C": "Nie mniejszy niż 30 metrów."
+    },
     "opciones": {
-      "A": "Ceder el paso.",
-      "B": "Continuar.",
-      "C": "Pitar."
+      "A": "No menor de 50 metros.",
+      "B": "No menor de 40 metros.",
+      "C": "No menor de 30 metros."
     },
     "respuesta_correcta": "A",
-    "tipo": "abc"
+    "tipo": "abc",
+    "fuente": "Ministerstwo Infrastruktury (CC BY-SA 4.0)"
   },
   {
     "id": 62,
-    "puntos": 4,
-    "pregunta": "Conduces de noche por carretera convencional. Un coche viene de frente con luces largas encendidas. ¿Qué debes hacer?",
-    "opciones": {
-      "A": "Poner largas.",
-      "B": "Cambiar a cortas y reducir.",
-      "C": "Frenar seco."
+    "puntos": "3",
+    "pregunta_pl": "Który z czynników ma bezpośredni wpływ na długość drogi zatrzymania samochodu osobowego?",
+    "pregunta": "¿Cuál de estos factores influye directamente en la distancia de detención de un turismo?",
+    "opciones_pl": {
+      "A": "Czas reakcji kierującego pojazdem.",
+      "B": "Masa pasażerów.",
+      "C": "Masa pojazdu."
     },
-    "respuesta_correcta": "B",
-    "tipo": "abc"
+    "opciones": {
+      "A": "El tiempo de reacción del conductor.",
+      "B": "La masa de los pasajeros.",
+      "C": "La masa del vehículo."
+    },
+    "respuesta_correcta": "A",
+    "tipo": "abc",
+    "fuente": "Ministerstwo Infrastruktury (CC BY-SA 4.0)"
   },
   {
     "id": 63,
-    "puntos": 4,
-    "pregunta": "El semáforo lleva mucho tiempo en verde para ti. ¿Qué implica esto según el código polaco?",
+    "puntos": "3",
+    "pregunta_pl": "Który z czynników ma bezpośredni wpływ na długość drogi zatrzymania samochodu osobowego?",
+    "pregunta": "¿Cuál de estos factores influye directamente en la distancia de detención de un turismo?",
+    "opciones_pl": {
+      "A": "Masa pasażera.",
+      "B": "Prędkość i stan nawierzchni.",
+      "C": "Masa pojazdu."
+    },
     "opciones": {
-      "A": "Pasar sin problema.",
-      "B": "Prepararse para el ámbar.",
-      "C": "Detenerse."
+      "A": "La masa del pasajero.",
+      "B": "La velocidad y el estado del firme.",
+      "C": "La masa del vehículo."
     },
     "respuesta_correcta": "B",
-    "tipo": "abc"
+    "tipo": "abc",
+    "fuente": "Ministerstwo Infrastruktury (CC BY-SA 4.0)"
   },
   {
     "id": 64,
-    "puntos": 4,
-    "pregunta": "En autopista, ¿cuál es el uso correcto del carril izquierdo?",
-    "opciones": {
-      "A": "Circular libremente.",
-      "B": "Exclusivamente adelantar.",
-      "C": "Si hay atasco."
+    "puntos": "3",
+    "pregunta_pl": "Który z wymienionych elementów stanowi obowiązkowe wyposażenie każdego samochodu osobowego?",
+    "pregunta": "¿Cuál de estos elementos es equipamiento obligatorio de todo turismo?",
+    "opciones_pl": {
+      "A": "Trójkąt ostrzegawczy.",
+      "B": "Apteczka.",
+      "C": "Koło zapasowe."
     },
-    "respuesta_correcta": "B",
-    "tipo": "abc"
+    "opciones": {
+      "A": "Triángulo de preseñalización.",
+      "B": "Botiquín.",
+      "C": "Rueda de repuesto."
+    },
+    "respuesta_correcta": "A",
+    "tipo": "abc",
+    "fuente": "Ministerstwo Infrastruktury (CC BY-SA 4.0)"
   },
   {
     "id": 65,
-    "puntos": 4,
-    "pregunta": "Ves a un peatón parado en el borde de un paso de peatones con clara intención de cruzar. ¿Qué debes hacer?",
+    "puntos": "3",
+    "pregunta_pl": "Który z wymienionych elementów stanowi obowiązkowe wyposażenie każdego samochodu osobowego?",
+    "pregunta": "¿Cuál de estos elementos es equipamiento obligatorio de todo turismo?",
+    "opciones_pl": {
+      "A": "Apteczka.",
+      "B": "Gaśnica.",
+      "C": "Koło zapasowe."
+    },
     "opciones": {
-      "A": "Continuar.",
-      "B": "Ceder el paso.",
-      "C": "Pitar."
+      "A": "Botiquín.",
+      "B": "Extintor.",
+      "C": "Rueda de repuesto."
     },
     "respuesta_correcta": "B",
-    "tipo": "abc"
+    "tipo": "abc",
+    "fuente": "Ministerstwo Infrastruktury (CC BY-SA 4.0)"
   },
   {
     "id": 66,
-    "puntos": 4,
-    "pregunta": "Conduces a 90 km/h con neumáticos en buen estado y suelo seco. ¿Cuál es aproximadamente la distancia total de frenado?",
+    "puntos": "3",
+    "pregunta_pl": "Którego z wymienionych świateł wolno Ci używać, gdy kierujesz samochodem osobowym podczas mgły?",
+    "pregunta": "¿Cuál de estas luces puedes usar conduciendo un turismo con niebla?",
+    "opciones_pl": {
+      "A": "Świateł do jazdy dziennej.",
+      "B": "Świateł przeciwmgłowych przednich.",
+      "C": "Wyłącznie świateł drogowych."
+    },
     "opciones": {
-      "A": "25m.",
-      "B": "50m.",
-      "C": "90m."
+      "A": "Luces de circulación diurna.",
+      "B": "Luces antiniebla delanteras.",
+      "C": "Únicamente luces largas."
     },
     "respuesta_correcta": "B",
-    "tipo": "abc"
+    "tipo": "abc",
+    "fuente": "Ministerstwo Infrastruktury (CC BY-SA 4.0)"
   },
   {
     "id": 67,
-    "puntos": 4,
-    "pregunta": "Un vehículo de emergencia con sirena y luces azules se acerca por detrás. ¿Qué debes hacer?",
-    "opciones": {
-      "A": "Acelerar.",
-      "B": "Mantener.",
-      "C": "Ceder el paso al arcén/derecha."
+    "puntos": "3",
+    "pregunta_pl": "Którą z tych czynności masz obowiązek wykonać podczas wyprzedzania samochodem osobowym we mgle poza obszarem zabudowanym?",
+    "pregunta": "¿Cuál de estas acciones tienes la obligación de realizar al adelantar con un turismo en niebla fuera de zona urbana?",
+    "opciones_pl": {
+      "A": "Dawać krótkotrwałe sygnały świetlne.",
+      "B": "Dawać krótkotrwałe sygnały dźwiękowe.",
+      "C": "Włączyć tylne światła przeciwmgłowe, niezależnie od stopnia ograniczenia widoczności."
     },
-    "respuesta_correcta": "C",
-    "tipo": "abc"
+    "opciones": {
+      "A": "Dar señales luminosas breves.",
+      "B": "Dar señales acústicas breves.",
+      "C": "Encender las luces antiniebla traseras, sea cual sea el grado de reducción de visibilidad."
+    },
+    "respuesta_correcta": "B",
+    "tipo": "abc",
+    "fuente": "Ministerstwo Infrastruktury (CC BY-SA 4.0)"
   },
   {
     "id": 68,
-    "puntos": 4,
-    "pregunta": "Tu vehículo empieza a derrapar por la parte trasera en una curva mojada a la izquierda. ¿Qué haces?",
+    "puntos": "3",
+    "pregunta_pl": "Jak należy zachować się podczas wymijania samochodem osobowym w nocy innego pojazdu?",
+    "pregunta": "¿Cómo debes comportarte al cruzarte de noche con otro vehículo conduciendo un turismo?",
+    "opciones_pl": {
+      "A": "Patrzeć prosto w światła pojazdu nadjeżdżającego z przeciwka.",
+      "B": "Zmienić światła mijania na drogowe.",
+      "C": "Patrzeć w prawo od źródła światła pojazdu nadjeżdżającego z przeciwka i wypatrywać tam ewentualnej przeszkody. "
+    },
     "opciones": {
-      "A": "Girar más a la derecha.",
-      "B": "Frenar fuerte.",
-      "C": "Soltar acelerador y girar levemente hacia el derrape."
+      "A": "Mirar directamente a las luces del vehículo que viene de frente.",
+      "B": "Cambiar las luces de cruce por las largas.",
+      "C": "Mirar a la derecha del foco del vehículo que viene de frente y vigilar allí posibles obstáculos."
     },
     "respuesta_correcta": "C",
-    "tipo": "abc"
+    "tipo": "abc",
+    "fuente": "Ministerstwo Infrastruktury (CC BY-SA 4.0)"
   },
   {
     "id": 69,
-    "puntos": 4,
-    "pregunta": "Ves un indicador de nivel de aceite del motor extremadamente bajo. ¿Qué debes hacer?",
+    "puntos": "2",
+    "pregunta_pl": "Czy w każdym reflektorze samochodu osobowego wolno Ci zamiast żarówki halogenowej wykorzystywać lampę ksenonową?",
+    "pregunta": "¿Puedes usar en cualquier faro de un turismo una lámpara de xenón en lugar de una bombilla halógena?",
+    "opciones_pl": {
+      "A": "Tak, w sytuacjach awaryjnych.",
+      "B": "Nie, ponieważ może to doprowadzić do oślepienia innych kierujących.",
+      "C": "Tak, jeżeli trzonek źródła światła pasuje do oprawki w reflektorze."
+    },
     "opciones": {
-      "A": "Continuar.",
-      "B": "Detenerte y no arrancar.",
-      "C": "Conducir despacio al taller."
+      "A": "Sí, en situaciones de emergencia.",
+      "B": "No, porque puede deslumbrar a otros conductores.",
+      "C": "Sí, si el casquillo de la fuente de luz encaja en el portalámparas del faro."
     },
     "respuesta_correcta": "B",
-    "tipo": "abc"
-  },
-  {
-    "id": 70,
-    "puntos": 4,
-    "pregunta": "Vas a girar a la izquierda en una intersección. Viene un ciclista en sentido contrario por el carril de bici. ¿Qué haces?",
-    "opciones": {
-      "A": "Cruzar rápido.",
-      "B": "Ceder el paso al ciclista.",
-      "C": "Tienes prioridad."
-    },
-    "respuesta_correcta": "B",
-    "tipo": "abc"
-  },
-  {
-    "id": 71,
-    "puntos": 4,
-    "pregunta": "Conduces detrás de un camión grande en autopista a 90 km/h. ¿Cuál es la distancia de seguridad mínima recomendada?",
-    "opciones": {
-      "A": "50m.",
-      "B": "Distancia de 2 segundos.",
-      "C": "30m."
-    },
-    "respuesta_correcta": "B",
-    "tipo": "abc"
-  },
-  {
-    "id": 72,
-    "puntos": 4,
-    "pregunta": "En una intersección con semáforo, el semáforo peatonal está en verde. ¿Qué significa para ti como conductor al girar?",
-    "opciones": {
-      "A": "Girar si no cruzan.",
-      "B": "Detenerte y esperar.",
-      "C": "Tienes prioridad."
-    },
-    "respuesta_correcta": "B",
-    "tipo": "abc"
-  },
-  {
-    "id": 73,
-    "puntos": 4,
-    "pregunta": "Tu vehículo tiene un pinchazo en la autopista. ¿Qué debes hacer primero?",
-    "opciones": {
-      "A": "Frenar brusco.",
-      "B": "Volante firme, soltar acelerador, ir al arcén.",
-      "C": "Ir al carril izquierdo."
-    },
-    "respuesta_correcta": "B",
-    "tipo": "abc"
-  },
-  {
-    "id": 74,
-    "puntos": 4,
-    "pregunta": "Llegas a un paso a nivel sin barreras. Las luces rojas están parpadeando. ¿Qué haces?",
-    "opciones": {
-      "A": "Cruzar si no hay tren.",
-      "B": "Detenerte.",
-      "C": "Reducir a 20 km/h."
-    },
-    "respuesta_correcta": "B",
-    "tipo": "abc"
-  },
-  {
-    "id": 75,
-    "puntos": 4,
-    "pregunta": "Hay un accidente y el conductor afectado está inconsciente pero respira. ¿Cuál es la posición correcta?",
-    "opciones": {
-      "A": "Boca arriba.",
-      "B": "Posición lateral de seguridad.",
-      "C": "Sentado."
-    },
-    "respuesta_correcta": "B",
-    "tipo": "abc"
-  },
-  {
-    "id": 76,
-    "puntos": 4,
-    "pregunta": "Conduces en una zona de obras con límite de 60 km/h. Los conos se han retirado pero las señales siguen. ¿Qué haces?",
-    "opciones": {
-      "A": "Circular normal.",
-      "B": "Respetar límite hasta señal de fin.",
-      "C": "Reducir a 40 km/h."
-    },
-    "respuesta_correcta": "B",
-    "tipo": "abc"
-  },
-  {
-    "id": 77,
-    "puntos": 2,
-    "pregunta": "¿Qué significa la señal D-1 (flecha azul recta hacia adelante)?",
-    "opciones": {
-      "A": "Sentido único.",
-      "B": "Incorporación a autopista.",
-      "C": "Dirección recomendada."
-    },
-    "respuesta_correcta": "A",
-    "tipo": "abc"
-  },
-  {
-    "id": 78,
-    "puntos": 2,
-    "pregunta": "¿Cuándo está prohibido adelantar?",
-    "opciones": {
-      "A": "En autopista.",
-      "B": "En curvas y cimas sin visibilidad.",
-      "C": "A más de 80 km/h."
-    },
-    "respuesta_correcta": "B",
-    "tipo": "abc"
-  },
-  {
-    "id": 79,
-    "puntos": 2,
-    "pregunta": "¿Qué indica la línea discontinua en el centro de la calzada?",
-    "opciones": {
-      "A": "Prohibición de cruzar.",
-      "B": "Separación de sentidos, cruzable si es seguro.",
-      "C": "Zona de obras."
-    },
-    "respuesta_correcta": "B",
-    "tipo": "abc"
-  },
-  {
-    "id": 80,
-    "puntos": 2,
-    "pregunta": "¿Cuándo debes encender las luces de avería?",
-    "opciones": {
-      "A": "Carga y descarga.",
-      "B": "Lluvia intensa.",
-      "C": "Peligro para otros (parado en calzada)."
-    },
-    "respuesta_correcta": "C",
-    "tipo": "abc"
-  },
-  {
-    "id": 81,
-    "puntos": 2,
-    "pregunta": "¿Cuánto es la velocidad máxima en zona urbana de noche en Polonia?",
-    "opciones": {
-      "A": "50 km/h.",
-      "B": "60 km/h.",
-      "C": "30 km/h."
-    },
-    "respuesta_correcta": "A (CORREGIDO)",
-    "tipo": "abc"
-  },
-  {
-    "id": 82,
-    "puntos": 2,
-    "pregunta": "¿Qué debes hacer si el semáforo cambia a ámbar cuando ya estás muy cerca de la línea?",
-    "opciones": {
-      "A": "Frenar emergencia.",
-      "B": "Continuar con precaución.",
-      "C": "Acelerar."
-    },
-    "respuesta_correcta": "B",
-    "tipo": "abc"
-  },
-  {
-    "id": 83,
-    "puntos": 2,
-    "pregunta": "¿Qué significa la señal B-2 (círculo rojo con borde blanco vacío)?",
-    "opciones": {
-      "A": "Prohibición de circulación en ambos sentidos.",
-      "B": "Velocidad limitada.",
-      "C": "Ceda el paso."
-    },
-    "respuesta_correcta": "A",
-    "tipo": "abc"
-  },
-  {
-    "id": 84,
-    "puntos": 2,
-    "pregunta": "Ves una señal de zona residencial (D-40). ¿Cuál es la velocidad máxima?",
-    "opciones": {
-      "A": "20 km/h.",
-      "B": "30 km/h.",
-      "C": "10 km/h."
-    },
-    "respuesta_correcta": "A",
-    "tipo": "abc"
-  },
-  {
-    "id": 85,
-    "puntos": 2,
-    "pregunta": "¿Qué indica la señal A-30 con un número bajo el triángulo de peligro?",
-    "opciones": {
-      "A": "Velocidad máxima.",
-      "B": "Distancia hasta el peligro.",
-      "C": "Número de carriles."
-    },
-    "respuesta_correcta": "B",
-    "tipo": "abc"
-  },
-  {
-    "id": 86,
-    "puntos": 2,
-    "pregunta": "Al incorporarte a una autopista por un carril de aceleración, ¿quién tiene la prioridad?",
-    "opciones": {
-      "A": "Tú.",
-      "B": "Vehículos ya en autopista.",
-      "C": "El más rápido."
-    },
-    "respuesta_correcta": "B",
-    "tipo": "abc"
-  },
-  {
-    "id": 87,
-    "puntos": 2,
-    "pregunta": "¿A qué distancia mínima antes de un cruce debes activar el intermitente?",
-    "opciones": {
-      "A": "10m.",
-      "B": "50m.",
-      "C": "Tan pronto como sea posible."
-    },
-    "respuesta_correcta": "C",
-    "tipo": "abc"
-  },
-  {
-    "id": 88,
-    "puntos": 2,
-    "pregunta": "Conduces un vehículo con ABS. ¿Cómo frenas de emergencia?",
-    "opciones": {
-      "A": "Bombear el freno.",
-      "B": "Frenar a fondo y mantener.",
-      "C": "Freno de mano."
-    },
-    "respuesta_correcta": "B",
-    "tipo": "abc"
-  },
-  {
-    "id": 89,
-    "puntos": 2,
-    "pregunta": "¿Qué significa que una señal vertical esté tachada con una barra diagonal roja?",
-    "opciones": {
-      "A": "Solo a la derecha.",
-      "B": "Fuera de servicio.",
-      "C": "Fin de restricción."
-    },
-    "respuesta_correcta": "C",
-    "tipo": "abc"
-  },
-  {
-    "id": 90,
-    "puntos": 2,
-    "pregunta": "Conduces por la noche con lluvia intensa. ¿Qué luces debes usar?",
-    "opciones": {
-      "A": "Largas.",
-      "B": "Cruce.",
-      "C": "Posición."
-    },
-    "respuesta_correcta": "B",
-    "tipo": "abc"
-  },
-  {
-    "id": 91,
-    "puntos": 1,
-    "pregunta": "¿Qué significa la señal B-20 (octágono rojo)?",
-    "opciones": {
-      "A": "No girar a la derecha.",
-      "B": "STOP.",
-      "C": "Fin de prohibiciones."
-    },
-    "respuesta_correcta": "B",
-    "tipo": "abc"
-  },
-  {
-    "id": 92,
-    "puntos": 1,
-    "pregunta": "¿Qué indica la señal D-6?",
-    "opciones": {
-      "A": "Zona escolar.",
-      "B": "Paso de peatones.",
-      "C": "Prohibido peatones."
-    },
-    "respuesta_correcta": "B",
-    "tipo": "abc"
-  },
-  {
-    "id": 93,
-    "puntos": 1,
-    "pregunta": "¿Qué indica la marca vial de una línea amarilla continua en el borde?",
-    "opciones": {
-      "A": "No adelantar.",
-      "B": "No estacionar.",
-      "C": "Obras."
-    },
-    "respuesta_correcta": "B",
-    "tipo": "abc"
-  },
-  {
-    "id": 94,
-    "puntos": 1,
-    "pregunta": "¿Cuándo está obligado el conductor a ceder el paso a los peatones?",
-    "opciones": {
-      "A": "Con semáforo verde.",
-      "B": "En pasos de peatones señalizados.",
-      "C": "Solo con semáforo."
-    },
-    "respuesta_correcta": "B (CORREGIDO: Solo señalizados).",
-    "tipo": "abc"
-  },
-  {
-    "id": 95,
-    "puntos": 1,
-    "pregunta": "¿Qué significa la señal A-11a?",
-    "opciones": {
-      "A": "Curvas peligrosas.",
-      "B": "Un giro peligroso.",
-      "C": "Firme deslizante."
-    },
-    "respuesta_correcta": "A",
-    "tipo": "abc"
-  },
-  {
-    "id": 96,
-    "puntos": 1,
-    "pregunta": "La señal D-52 indica que:",
-    "opciones": {
-      "A": "Peaje.",
-      "B": "Carretera principal con prioridad.",
-      "C": "Reducir velocidad."
-    },
-    "respuesta_correcta": "B",
-    "tipo": "abc"
-  },
-  {
-    "id": 97,
-    "puntos": 1,
-    "pregunta": "¿Qué debes hacer al ver la señal A-30 con 'start' debajo?",
-    "opciones": {
-      "A": "Cuenta atrás.",
-      "B": "Comienzo de zona de peligro.",
-      "C": "Estacionar."
-    },
-    "respuesta_correcta": "B",
-    "tipo": "abc"
-  },
-  {
-    "id": 98,
-    "puntos": 1,
-    "pregunta": "¿Qué significa circular azul con flecha doblada a la derecha?",
-    "opciones": {
-      "A": "Recomendación.",
-      "B": "Obligación.",
-      "C": "Prohibición a izquierda."
-    },
-    "respuesta_correcta": "B",
-    "tipo": "abc"
-  },
-  {
-    "id": 99,
-    "puntos": 1,
-    "pregunta": "¿Qué indica la señal F-10 en semáforo?",
-    "opciones": {
-      "A": "Girar con semáforo rojo.",
-      "B": "Girar obligatoriamente.",
-      "C": "Peatones tienen prioridad."
-    },
-    "respuesta_correcta": "A (La \"zielona strzałka\" permite el giro tras detenerse, cediendo paso).",
-    "tipo": "abc"
-  },
-  {
-    "id": 100,
-    "puntos": 1,
-    "pregunta": "¿Qué indica la señal de zona de calmado de tráfico (D-40)?",
-    "opciones": {
-      "A": "30 km/h.",
-      "B": "20 km/h y prioridad peatonal absoluta.",
-      "C": "Zona peatonal estricta."
-    },
-    "respuesta_correcta": "B",
-    "tipo": "abc"
+    "tipo": "abc",
+    "fuente": "Ministerstwo Infrastruktury (CC BY-SA 4.0)"
   }
 ]

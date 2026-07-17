@@ -71,9 +71,9 @@ export default function SimulacroConduccion() {
         <a href="/recursos" className="text-sm text-navy/45 hover:text-navy transition-colors">← Recursos</a>
       </nav>
       <div className="max-w-2xl mx-auto px-8 py-12">
-        <div className="text-xs font-bold text-mango tracking-widest uppercase mb-2">Simulacro</div>
+        <div className="text-xs font-bold text-mango tracking-widest uppercase mb-2">Simulacro oficial</div>
         <h1 className="font-display text-4xl font-extrabold text-navy tracking-tight mb-4">Test de conducción en Polonia</h1>
-        <p className="text-navy/50 text-base leading-relaxed mb-8">Practica con preguntas reales del examen teórico polaco, traducidas al español. 32 preguntas aleatorias con límite de 25 minutos — igual que el examen real.</p>
+        <p className="text-navy/50 text-base leading-relaxed mb-8">Practica con preguntas oficiales del examen teórico polaco (categoría B), en polaco con traducción al español. 32 preguntas aleatorias con límite de 25 minutos — igual que el examen real en el WORD.</p>
 
         <div className="bg-white rounded-2xl border border-navy/8 p-6 mb-6">
           <h2 className="font-display font-bold text-navy mb-4">Estructura del examen</h2>
@@ -87,7 +87,7 @@ export default function SimulacroConduccion() {
               <div className="text-xs text-teal-900 mt-1">Preguntas A / B / C</div>
             </div>
           </div>
-          <div className="grid grid-cols-3 gap-3 mb-4">
+          <div className="grid grid-cols-3 gap-3">
             <div className="bg-cream rounded-xl p-3 text-center">
               <div className="text-lg font-bold text-navy">25 min</div>
               <div className="text-xs text-navy/40">Tiempo límite</div>
@@ -108,7 +108,7 @@ export default function SimulacroConduccion() {
         </button>
 
         <div className="mt-6 bg-mango-light rounded-xl p-4">
-          <p className="text-sm text-yellow-800">💡 Este simulacro es orientativo y educativo. Las preguntas están basadas en el temario real del examen polaco pero no sustituyen la preparación oficial.</p>
+          <p className="text-sm text-yellow-800">💡 Preguntas basadas en la base oficial del Ministerstwo Infrastruktury (CC BY-SA 4.0). Este simulacro es orientativo y no sustituye la preparación oficial en una autoescuela.</p>
         </div>
       </div>
     </main>
@@ -155,7 +155,7 @@ export default function SimulacroConduccion() {
               </div>
               <div className="bg-white/20 rounded-xl p-3">
                 <div className="text-2xl font-extrabold text-white">68</div>
-                <div className="text-xs text-white/60">puntos para aprobar</div>
+                <div className="text-xs text-white/60">para aprobar</div>
               </div>
             </div>
           </div>
@@ -171,11 +171,11 @@ export default function SimulacroConduccion() {
                       {correcta ? '✓' : '✗'}
                     </div>
                     <div className="flex-1">
+                      <p className="text-xs text-navy/50 italic mb-0.5">{q.pregunta_pl}</p>
                       <p className="text-sm text-navy font-medium mb-1">{q.pregunta}</p>
                       <p className="text-xs text-navy/50">
                         Tu respuesta: {noRespondida ? 'Sin responder' : respuestas[i]} · Correcta: {q.respuesta_correcta} · {q.puntos} pts
                       </p>
-                      {q.justificacion && <p className="text-xs text-teal mt-1">{q.justificacion}</p>}
                     </div>
                   </div>
                 </div>
@@ -187,7 +187,7 @@ export default function SimulacroConduccion() {
             <button onClick={iniciar} className="flex-1 bg-magenta hover:bg-magenta/90 text-white font-bold py-3 rounded-xl transition-colors text-sm">
               Repetir simulacro
             </button>
-            <a href="/recursos" className="flex-1 bg-navy/10 hover:bg-navy/15 text-navy font-bold py-3 rounded-xl transition-colors text-sm text-center">
+            <a href="/recursos" className="flex-1 bg-navy/10 hover:bg-navy/15 text-navy font-bold py-3 rounded-xl transition-colors text-sm text-center flex items-center justify-center">
               Volver a Recursos
             </a>
           </div>
@@ -222,6 +222,7 @@ export default function SimulacroConduccion() {
           <div className="text-xs font-bold text-mango uppercase tracking-widest mb-3">
             {pregunta.tipo === 'si_no' ? 'Responde SÍ o NO' : 'Elige A, B o C'}
           </div>
+          <p className="text-navy/45 text-sm italic leading-relaxed mb-2">{pregunta.pregunta_pl}</p>
           <p className="text-navy font-medium text-base leading-relaxed">{pregunta.pregunta}</p>
         </div>
 
@@ -246,7 +247,7 @@ export default function SimulacroConduccion() {
           </div>
         ) : (
           <div className="space-y-3 mb-6">
-            {Object.entries(pregunta.opciones).map(([letra, texto]) => {
+            {['A', 'B', 'C'].map((letra) => {
               let estilo = 'bg-white border-navy/10 text-navy hover:border-magenta/30'
               if (mostrarResultado && yaRespondida) {
                 if (letra === pregunta.respuesta_correcta) estilo = 'bg-teal text-white border-teal'
@@ -257,9 +258,12 @@ export default function SimulacroConduccion() {
               return (
                 <button key={letra} onClick={() => { if (yaRespondida === false) responder(letra) }}
                   disabled={yaRespondida}
-                  className={`w-full p-4 rounded-xl border-2 text-left transition-colors flex items-center gap-3 ${estilo}`}>
-                  <span className="font-bold text-lg">{letra}</span>
-                  <span className="text-sm">{texto}</span>
+                  className={`w-full p-4 rounded-xl border-2 text-left transition-colors flex items-start gap-3 ${estilo}`}>
+                  <span className="font-bold text-lg flex-shrink-0">{letra}</span>
+                  <div className="flex-1">
+                    <span className="text-sm block opacity-60 italic">{pregunta.opciones_pl[letra]}</span>
+                    <span className="text-sm block">{pregunta.opciones[letra]}</span>
+                  </div>
                 </button>
               )
             })}
@@ -268,12 +272,9 @@ export default function SimulacroConduccion() {
 
         {mostrarResultado && (
           <div className={`${esCorrecta ? 'bg-teal-light' : 'bg-magenta-light'} rounded-xl p-4 mb-6`}>
-            <p className={`text-sm font-semibold ${esCorrecta ? 'text-teal-900' : 'text-pink-900'} mb-1`}>
-              {esCorrecta ? '✓ Correcto' : '✗ Incorrecto'} — {pregunta.puntos} puntos
+            <p className={`text-sm font-semibold ${esCorrecta ? 'text-teal-900' : 'text-pink-900'}`}>
+              {esCorrecta ? '✓ Correcto' : '✗ Incorrecto'} — {pregunta.puntos} {pregunta.puntos === 1 ? 'punto' : 'puntos'}
             </p>
-            {pregunta.justificacion && (
-              <p className={`text-sm ${esCorrecta ? 'text-teal-900/70' : 'text-pink-900/70'}`}>{pregunta.justificacion}</p>
-            )}
           </div>
         )}
 
