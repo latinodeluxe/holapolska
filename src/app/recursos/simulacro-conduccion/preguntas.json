@@ -1,7 +1,7 @@
 [
   {
     "id": 1,
-    "puntos": "2",
+    "puntos": 2,
     "pregunta_pl": "Czy zażycie przez prowadzącego pojazd niewielkiej ilości narkotyku wpływa na poprawę zdolności do prawidłowej oceny ryzyka na drodze?",
     "pregunta": "¿El consumo de una pequeña cantidad de droga por parte del conductor mejora su capacidad para evaluar correctamente el riesgo en la carretera?",
     "respuesta_correcta": "NO",
@@ -10,7 +10,7 @@
   },
   {
     "id": 2,
-    "puntos": "2",
+    "puntos": 2,
     "pregunta_pl": "Czy kierujący pojazdem po spożyciu alkoholu, może mieć trudności w jednoczesnym wykonywaniu dwóch i więcej czynności?",
     "pregunta": "¿Puede el conductor que ha consumido alcohol tener dificultades para realizar dos o más acciones simultáneamente?",
     "respuesta_correcta": "SÍ",
@@ -19,7 +19,7 @@
   },
   {
     "id": 3,
-    "puntos": "1",
+    "puntos": 1,
     "pregunta_pl": "Czy będąc uczestnikiem wypadku drogowego, masz obowiązek udzielenia pomocy rannym nawet, jeśli nie masz kwalifikacji medycznych?",
     "pregunta": "Como partícipe de un accidente de tráfico, ¿tienes la obligación de prestar ayuda a los heridos aunque no tengas cualificación médica?",
     "respuesta_correcta": "SÍ",
@@ -28,7 +28,7 @@
   },
   {
     "id": 4,
-    "puntos": "1",
+    "puntos": 1,
     "pregunta_pl": "Czy numer telefonu 112 jest ogólnopolskim numerem alarmowym dla wszystkich służb ratowniczych?",
     "pregunta": "¿El número 112 es el número de emergencia nacional para todos los servicios de rescate en Polonia?",
     "respuesta_correcta": "SÍ",
@@ -37,7 +37,7 @@
   },
   {
     "id": 5,
-    "puntos": "2",
+    "puntos": 2,
     "pregunta_pl": "Czy spożyty alkohol wpływa na zmianę pola widzenia kierującego pojazdem?",
     "pregunta": "¿El alcohol consumido afecta al campo de visión del conductor?",
     "respuesta_correcta": "SÍ",
@@ -46,7 +46,7 @@
   },
   {
     "id": 6,
-    "puntos": "2",
+    "puntos": 2,
     "pregunta_pl": "Czy masz obowiązek zabezpieczyć przed stoczeniem się pojazd zaparkowany na wzniesieniu?",
     "pregunta": "¿Tienes la obligación de asegurar contra el deslizamiento un vehículo estacionado en una pendiente?",
     "respuesta_correcta": "SÍ",
@@ -55,7 +55,7 @@
   },
   {
     "id": 7,
-    "puntos": "3",
+    "puntos": 3,
     "pregunta_pl": "Czy na jezdni jednokierunkowej dopuszcza się wyprzedzanie pojazdu szynowego z jego lewej strony?",
     "pregunta": "En una calzada de sentido único, ¿se permite adelantar a un vehículo sobre raíles por su lado izquierdo?",
     "respuesta_correcta": "SÍ",
@@ -64,7 +64,7 @@
   },
   {
     "id": 8,
-    "puntos": "1",
+    "puntos": 1,
     "pregunta_pl": "Czy masz obowiązek stosować się do poleceń lub sygnałów dawanych przez pilota pojazdu nienormatywnego?",
     "pregunta": "¿Tienes la obligación de obedecer las órdenes o señales dadas por el piloto de un vehículo de dimensiones especiales?",
     "respuesta_correcta": "SÍ",
@@ -73,7 +73,7 @@
   },
   {
     "id": 9,
-    "puntos": "3",
+    "puntos": 3,
     "pregunta_pl": "Czy dojeżdżając do przejścia dla pieszych, na które wchodzi osoba niepełnosprawna, używająca specjalnego znaku lub osoba o widocznej ograniczonej sprawności ruchowej, powinieneś wziąć pod uwagę, że będziesz musiał zatrzymać pojazd?",
     "pregunta": "Al acercarte a un paso de peatones donde entra una persona discapacitada con distintivo especial o con movilidad visiblemente reducida, ¿debes prever que tendrás que detener el vehículo?",
     "respuesta_correcta": "SÍ",
@@ -82,7 +82,7 @@
   },
   {
     "id": 10,
-    "puntos": "3",
+    "puntos": 3,
     "pregunta_pl": "Czy w razie braku możliwości usunięcia uszkodzonego pojazdu z torowiska masz obowiązek ostrzec o zagrożeniu kierującego pociągiem?",
     "pregunta": "Si no puedes retirar el vehículo averiado de las vías del tren, ¿tienes la obligación de advertir del peligro al maquinista?",
     "respuesta_correcta": "SÍ",
@@ -91,7 +91,7 @@
   },
   {
     "id": 11,
-    "puntos": "3",
+    "puntos": 3,
     "pregunta_pl": "Czy w razie unieruchomienia pojazdu na przejeździe kolejowym masz obowiązek w pierwszej kolejności ostrzec o niebezpieczeństwie kierującego pojazdem szynowym?",
     "pregunta": "Si tu vehículo queda inmovilizado en un paso a nivel, ¿tu primera obligación es advertir del peligro al maquinista?",
     "respuesta_correcta": "NO",
@@ -100,7 +100,7 @@
   },
   {
     "id": 12,
-    "puntos": "3",
+    "puntos": 3,
     "pregunta_pl": "Czy konstrukcja zapór pozwala na ich wyłamanie, jeśli pojazd znalazł się na przejeździe kolejowym pomiędzy zamkniętymi zaporami.",
     "pregunta": "¿La construcción de las barreras permite romperlas si el vehículo queda atrapado en el paso a nivel entre barreras cerradas?",
     "respuesta_correcta": "SÍ",
@@ -109,7 +109,7 @@
   },
   {
     "id": 13,
-    "puntos": "3",
+    "puntos": 3,
     "pregunta_pl": "Czy, zachowując zwiększoną uwagę, masz prawo wjechać na przejazd kolejowy, jeżeli opuszczanie półzapór dopiero się rozpoczęło?",
     "pregunta": "Extremando la precaución, ¿tienes derecho a entrar en un paso a nivel si el descenso de las semibarreras acaba de comenzar?",
     "respuesta_correcta": "NO",
@@ -118,7 +118,7 @@
   },
   {
     "id": 14,
-    "puntos": "3",
+    "puntos": 3,
     "pregunta_pl": "Czy podczas przechodzenia przez jezdnię, poza przejściem dla pieszych, przez osobę  o widocznej ograniczonej sprawności ruchowej, jesteś obowiązany zatrzymać się, aby umożliwić jej przejście ?",
     "pregunta": "Cuando una persona con movilidad visiblemente reducida cruza la calzada fuera de un paso de peatones, ¿estás obligado a detenerte para permitirle cruzar?",
     "respuesta_correcta": "SÍ",
@@ -127,7 +127,7 @@
   },
   {
     "id": 15,
-    "puntos": "3",
+    "puntos": 3,
     "pregunta_pl": "Czy kierujący pojazdem podczas omijania pieszego musi w razie potrzeby zmniejszyć prędkość?",
     "pregunta": "Al esquivar a un peatón, ¿debe el conductor reducir la velocidad si es necesario?",
     "respuesta_correcta": "SÍ",
@@ -136,7 +136,7 @@
   },
   {
     "id": 16,
-    "puntos": "3",
+    "puntos": 3,
     "pregunta_pl": "Czy kierujący pojazdem silnikowym w czasie wyprzedzania pieszego, podczas mgły poza obszarem zabudowanym, powinien dawać krótkotrwałe sygnały dźwiękowe?",
     "pregunta": "El conductor de un vehículo de motor, al adelantar a un peatón con niebla fuera de zona urbana, ¿debe dar señales acústicas breves?",
     "respuesta_correcta": "SÍ",
@@ -145,7 +145,7 @@
   },
   {
     "id": 17,
-    "puntos": "3",
+    "puntos": 3,
     "pregunta_pl": "Czy kierujący pojazdem silnikowym w czasie omijania pieszego, podczas mgły poza obszarem zabudowanym, powinien dawać krótkotrwałe sygnały dźwiękowe?",
     "pregunta": "El conductor de un vehículo de motor, al esquivar a un peatón con niebla fuera de zona urbana, ¿debe dar señales acústicas breves?",
     "respuesta_correcta": "SÍ",
@@ -154,7 +154,7 @@
   },
   {
     "id": 18,
-    "puntos": "3",
+    "puntos": 3,
     "pregunta_pl": "Czy kierujący pojazdem przejeżdżając obok przystanku tramwajowego i autobusowego komunikacji miejskiej, nie wyposażonego w wyspę dla pasażerów i wymagającego wyjścia pasażerów na jezdnię, ma obowiązek zatrzymać pojazd w takim miejscu, aby zapewnić pieszemu swobodne dojście do stojącego na tym przystanku autobusu?",
     "pregunta": "Al pasar junto a una parada de tranvía o autobús sin isleta que obliga a los pasajeros a salir a la calzada, ¿debe el conductor detener el vehículo para garantizar al peatón el libre acceso al autobús?",
     "respuesta_correcta": "SÍ",
@@ -163,7 +163,7 @@
   },
   {
     "id": 19,
-    "puntos": "2",
+    "puntos": 2,
     "pregunta_pl": "Kierując pojazdem poza obszarem zabudowanym w nocy na nieoświetlonej, krętej drodze, aby uniknąć najechania na nieoświetloną przeszkodę nie powinno się jechać z wykorzystaniem maksymalnego limitu prędkości. Czy to prawda ?",
     "pregunta": "Al conducir de noche fuera de zona urbana en una carretera sinuosa sin iluminación, para evitar chocar con un obstáculo no iluminado no se debe circular al límite máximo de velocidad. ¿Es cierto?",
     "respuesta_correcta": "SÍ",
@@ -172,7 +172,7 @@
   },
   {
     "id": 20,
-    "puntos": "2",
+    "puntos": 2,
     "pregunta_pl": "Czy pojazd poruszający się z dużą prędkością może być trudniejszy do zauważenia przez innych uczestników ruchu drogowego?",
     "pregunta": "¿Un vehículo que circula a gran velocidad puede ser más difícil de percibir por los demás usuarios de la vía?",
     "respuesta_correcta": "SÍ",
@@ -181,7 +181,7 @@
   },
   {
     "id": 21,
-    "puntos": "2",
+    "puntos": 2,
     "pregunta_pl": "Czy opóźnienie reakcji kierowcy o 1 sekundę przy prędkości dopuszczalnej na drodze ekspresowej może zwiększyć drogę zatrzymania o kilkadziesiąt metrów ?",
     "pregunta": "¿Un retraso de 1 segundo en la reacción del conductor a la velocidad permitida en una vía rápida puede aumentar la distancia de detención en varias decenas de metros?",
     "respuesta_correcta": "SÍ",
@@ -190,7 +190,7 @@
   },
   {
     "id": 22,
-    "puntos": "2",
+    "puntos": 2,
     "pregunta_pl": "Czy jadąc z prędkością 100 km/h pojazd pokonuje około 28 metrów na sekundę?",
     "pregunta": "¿Circulando a 100 km/h, el vehículo recorre aproximadamente 28 metros por segundo?",
     "respuesta_correcta": "SÍ",
@@ -199,7 +199,7 @@
   },
   {
     "id": 23,
-    "puntos": "1",
+    "puntos": 1,
     "pregunta_pl": "Czy kierujący hulajnogą elektryczną może przewozić pasażera?",
     "pregunta": "¿El conductor de un patinete eléctrico puede llevar a un pasajero?",
     "respuesta_correcta": "NO",
@@ -208,7 +208,7 @@
   },
   {
     "id": 24,
-    "puntos": "1",
+    "puntos": 1,
     "pregunta_pl": "Czy kierującemu pojazdem zezwala się na ciągnięcie osoby korzystającej z urządzenia wspomagającego ruch?",
     "pregunta": "¿Se permite al conductor de un vehículo remolcar a una persona que usa un dispositivo de ayuda a la movilidad?",
     "respuesta_correcta": "NO",
@@ -217,7 +217,7 @@
   },
   {
     "id": 25,
-    "puntos": "2",
+    "puntos": 2,
     "pregunta_pl": "Czy kierujący hulajnogą elektryczną może wyjątkowo korzystać z drogi dla pieszych?",
     "pregunta": "¿El conductor de un patinete eléctrico puede, excepcionalmente, usar la vía peatonal?",
     "respuesta_correcta": "SÍ",
@@ -226,7 +226,7 @@
   },
   {
     "id": 26,
-    "puntos": "2",
+    "puntos": 2,
     "pregunta_pl": "Czy kierujący urządzeniem transportu osobistego może przejeżdżać przez przejście dla pieszych?",
     "pregunta": "¿El conductor de un dispositivo de movilidad personal puede cruzar por un paso de peatones sobre el dispositivo?",
     "respuesta_correcta": "NO",
@@ -235,7 +235,7 @@
   },
   {
     "id": 27,
-    "puntos": "3",
+    "puntos": 3,
     "pregunta_pl": "Czy dojeżdżając do przejazdu kolejowego masz obowiązek upewnić się czy nie zbliża się pojazd szynowy w sytuacji, w której zapory są podniesione ?",
     "pregunta": "Al acercarte a un paso a nivel, ¿tienes la obligación de asegurarte de que no se aproxima un tren aunque las barreras estén levantadas?",
     "respuesta_correcta": "SÍ",
@@ -244,7 +244,7 @@
   },
   {
     "id": 28,
-    "puntos": "3",
+    "puntos": 3,
     "pregunta_pl": "Czy zbliżając się do przejazdu kolejowego powinieneś zwracać uwagę na sygnały, które mogą wskazywać, że zbliża się pojazd szynowy?",
     "pregunta": "Al aproximarte a un paso a nivel, ¿debes prestar atención a las señales que puedan indicar que se acerca un tren?",
     "respuesta_correcta": "SÍ",
@@ -253,7 +253,7 @@
   },
   {
     "id": 29,
-    "puntos": "2",
+    "puntos": 2,
     "pregunta_pl": "Czy wymijając hulajnogę elektryczną, jesteś obowiązany zachować odstęp minimum     1 m ?",
     "pregunta": "Al cruzarte con un patinete eléctrico, ¿estás obligado a mantener una distancia mínima de 1 m?",
     "respuesta_correcta": "NO",
@@ -262,7 +262,7 @@
   },
   {
     "id": 30,
-    "puntos": "1",
+    "puntos": 1,
     "pregunta_pl": "Jakiej kategorii prawo jazdy jest wymagane, gdy chcesz kierować czterokołowcem innym niż lekki?",
     "pregunta": "¿Qué categoría de permiso de conducir se requiere para conducir un cuatriciclo que no sea ligero?",
     "opciones_pl": {
@@ -281,7 +281,7 @@
   },
   {
     "id": 31,
-    "puntos": "1",
+    "puntos": 1,
     "pregunta_pl": "Który z obowiązków dotyczy właściciela samochodu osobowego?",
     "pregunta": "¿Cuál de estas obligaciones corresponde al propietario de un turismo?",
     "opciones_pl": {
@@ -300,7 +300,7 @@
   },
   {
     "id": 32,
-    "puntos": "2",
+    "puntos": 2,
     "pregunta_pl": "Kiedy powinieneś sprawdzać ciśnienie w ogumieniu samochodu osobowego?",
     "pregunta": "¿Cuándo debes comprobar la presión de los neumáticos de un turismo?",
     "opciones_pl": {
@@ -319,7 +319,7 @@
   },
   {
     "id": 33,
-    "puntos": "2",
+    "puntos": 2,
     "pregunta_pl": "W jaki sposób wolno Ci przewozić ładunek w przyczepie ciągniętej przez samochód osobowy?",
     "pregunta": "¿Cómo puedes transportar una carga en un remolque tirado por un turismo?",
     "opciones_pl": {
@@ -338,7 +338,7 @@
   },
   {
     "id": 34,
-    "puntos": "2",
+    "puntos": 2,
     "pregunta_pl": "W jaki sposób przewieziesz ładunek w przyczepie ciągniętej przez samochód osobowy?",
     "pregunta": "¿Cómo transportarás una carga en un remolque tirado por un turismo?",
     "opciones_pl": {
@@ -357,7 +357,7 @@
   },
   {
     "id": 35,
-    "puntos": "2",
+    "puntos": 2,
     "pregunta_pl": "Jak przewieziesz ładunek sypki w przyczepie ciągniętej przez samochód osobowy?",
     "pregunta": "¿Cómo transportarás una carga a granel en un remolque tirado por un turismo?",
     "opciones_pl": {
@@ -376,7 +376,7 @@
   },
   {
     "id": 36,
-    "puntos": "2",
+    "puntos": 2,
     "pregunta_pl": "Jak powinieneś zabezpieczyć urządzenie, którym zamocowałeś ładunek w przyczepie ciągniętej przez samochód osobowy?",
     "pregunta": "¿Cómo debes asegurar el dispositivo con el que has fijado la carga en un remolque tirado por un turismo?",
     "opciones_pl": {
@@ -395,7 +395,7 @@
   },
   {
     "id": 37,
-    "puntos": "2",
+    "puntos": 2,
     "pregunta_pl": "W jaki sposób powinien być umieszczony ładunek na samochodzie osobowym?",
     "pregunta": "¿Cómo debe colocarse una carga en un turismo?",
     "opciones_pl": {
@@ -414,7 +414,7 @@
   },
   {
     "id": 38,
-    "puntos": "2",
+    "puntos": 2,
     "pregunta_pl": "Jak umieścisz bagaż w samochodzie osobowym?",
     "pregunta": "¿Cómo colocarás el equipaje en un turismo?",
     "opciones_pl": {
@@ -433,7 +433,7 @@
   },
   {
     "id": 39,
-    "puntos": "2",
+    "puntos": 2,
     "pregunta_pl": "W jaki sposób umieścisz ładunek na przyczepie samochodu osobowego?",
     "pregunta": "¿Cómo colocarás una carga en el remolque de un turismo?",
     "opciones_pl": {
@@ -452,7 +452,7 @@
   },
   {
     "id": 40,
-    "puntos": "2",
+    "puntos": 2,
     "pregunta_pl": "Czego nie możesz robić kierując samochodem osobowym?",
     "pregunta": "¿Qué no puedes hacer conduciendo un turismo?",
     "opciones_pl": {
@@ -471,7 +471,7 @@
   },
   {
     "id": 41,
-    "puntos": "2",
+    "puntos": 2,
     "pregunta_pl": "Który z wymienionych sposobów przewożenia gaśnicy w samochodzie osobowym jest właściwy?",
     "pregunta": "¿Cuál de estas formas de transportar un extintor en un turismo es correcta?",
     "opciones_pl": {
@@ -490,7 +490,7 @@
   },
   {
     "id": 42,
-    "puntos": "2",
+    "puntos": 2,
     "pregunta_pl": "Jaki jest cel stosowania układu ASR w samochodzie osobowym?",
     "pregunta": "¿Cuál es el objetivo del sistema ASR en un turismo?",
     "opciones_pl": {
@@ -509,7 +509,7 @@
   },
   {
     "id": 43,
-    "puntos": "2",
+    "puntos": 2,
     "pregunta_pl": "Jaki jest cel stosowania układu ESP w samochodzie osobowym?",
     "pregunta": "¿Cuál es el objetivo del sistema ESP en un turismo?",
     "opciones_pl": {
@@ -528,7 +528,7 @@
   },
   {
     "id": 44,
-    "puntos": "3",
+    "puntos": 3,
     "pregunta_pl": "Jak zabezpieczysz krwawienie z rany przy braku jałowego opatrunku?",
     "pregunta": "¿Cómo detendrás una hemorragia de una herida si no dispones de un apósito estéril?",
     "opciones_pl": {
@@ -547,7 +547,7 @@
   },
   {
     "id": 45,
-    "puntos": "3",
+    "puntos": 3,
     "pregunta_pl": "Kiedy należy założyć opatrunek uciskowy?",
     "pregunta": "¿Cuándo debe aplicarse un vendaje compresivo?",
     "opciones_pl": {
@@ -566,7 +566,7 @@
   },
   {
     "id": 46,
-    "puntos": "3",
+    "puntos": 3,
     "pregunta_pl": "Kierujesz pojazdem w czasie deszczu. Którą z wymienionych czynności powinieneś przede wszystkim wykonać, by jechać bezpieczniej?",
     "pregunta": "Conduces bajo la lluvia. ¿Cuál de estas acciones debes realizar ante todo para conducir con más seguridad?",
     "opciones_pl": {
@@ -585,7 +585,7 @@
   },
   {
     "id": 47,
-    "puntos": "3",
+    "puntos": 3,
     "pregunta_pl": "Kierujesz samochodem osobowym podczas ulewnego deszczu. Którą z wymienionych czynności należy wykonać po wjechaniu w koleinę wypełnioną wodą?",
     "pregunta": "Conduces un turismo bajo lluvia intensa. ¿Qué debes hacer tras entrar en una rodada llena de agua?",
     "opciones_pl": {
@@ -604,7 +604,7 @@
   },
   {
     "id": 48,
-    "puntos": "3",
+    "puntos": 3,
     "pregunta_pl": "Która z wymienionych czynności może zwiększyć bezpieczeństwo podczas jazdy po zaśnieżonej drodze?",
     "pregunta": "¿Cuál de estas acciones puede aumentar la seguridad al conducir por una vía nevada?",
     "opciones_pl": {
@@ -623,7 +623,7 @@
   },
   {
     "id": 49,
-    "puntos": "2",
+    "puntos": 2,
     "pregunta_pl": "Którą z wymienionych czynności powinieneś wykonać, aby płynnie ruszyć z miejsca?",
     "pregunta": "¿Cuál de estas acciones debes realizar para arrancar suavemente?",
     "opciones_pl": {
@@ -642,7 +642,7 @@
   },
   {
     "id": 50,
-    "puntos": "2",
+    "puntos": 2,
     "pregunta_pl": "Czego nie masz prawa robić, gdy kierujesz samochodem osobowym?",
     "pregunta": "¿Qué no tienes derecho a hacer conduciendo un turismo?",
     "opciones_pl": {
@@ -661,7 +661,7 @@
   },
   {
     "id": 51,
-    "puntos": "3",
+    "puntos": 3,
     "pregunta_pl": "Którą z wymienionych czynności należy wykonać, kierując samochodem osobowym w nocy podczas mgły?",
     "pregunta": "¿Cuál de estas acciones debes realizar al conducir un turismo de noche con niebla?",
     "opciones_pl": {
@@ -680,7 +680,7 @@
   },
   {
     "id": 52,
-    "puntos": "3",
+    "puntos": 3,
     "pregunta_pl": "Kierujesz samochodem osobowym. Jak powinieneś postąpić w czasie przejazdu przez rozległą kałużę?",
     "pregunta": "Conduces un turismo. ¿Cómo debes actuar al pasar por un charco extenso?",
     "opciones_pl": {
@@ -699,7 +699,7 @@
   },
   {
     "id": 53,
-    "puntos": "3",
+    "puntos": 3,
     "pregunta_pl": "Jesteś świadkiem potrącenia pieszego. Jak powinieneś się zachować?",
     "pregunta": "Eres testigo del atropello de un peatón. ¿Cómo debes actuar?",
     "opciones_pl": {
@@ -718,7 +718,7 @@
   },
   {
     "id": 54,
-    "puntos": "3",
+    "puntos": 3,
     "pregunta_pl": "Jaki odstęp należy zachować podczas wymijania samochodem osobowym innego pojazdu?",
     "pregunta": "¿Qué distancia debes mantener al cruzarte con otro vehículo conduciendo un turismo?",
     "opciones_pl": {
@@ -737,7 +737,7 @@
   },
   {
     "id": 55,
-    "puntos": "3",
+    "puntos": 3,
     "pregunta_pl": "Podczas wykonywania którego z wymienionych manewrów masz obowiązek zachować odstęp nie mniejszy niż 1 metr od pojazdu?",
     "pregunta": "¿Durante cuál de estas maniobras tienes la obligación de mantener una distancia no menor de 1 metro respecto al vehículo?",
     "opciones_pl": {
@@ -756,7 +756,7 @@
   },
   {
     "id": 56,
-    "puntos": "3",
+    "puntos": 3,
     "pregunta_pl": "Jaki odstęp należy zachować podczas omijania samochodem osobowym przeszkody na drodze?",
     "pregunta": "¿Qué distancia debes mantener al esquivar con un turismo un obstáculo en la vía?",
     "opciones_pl": {
@@ -775,7 +775,7 @@
   },
   {
     "id": 57,
-    "puntos": "3",
+    "puntos": 3,
     "pregunta_pl": "Jaki odstęp należy zachować podczas wyprzedzania samochodu osobowego?",
     "pregunta": "¿Qué distancia debes mantener al adelantar a un turismo?",
     "opciones_pl": {
@@ -794,7 +794,7 @@
   },
   {
     "id": 58,
-    "puntos": "3",
+    "puntos": 3,
     "pregunta_pl": "Jaki odstęp należy zachować podczas wyprzedzania motocykla?",
     "pregunta": "¿Qué distancia debes mantener al adelantar a una motocicleta?",
     "opciones_pl": {
@@ -813,7 +813,7 @@
   },
   {
     "id": 59,
-    "puntos": "3",
+    "puntos": 3,
     "pregunta_pl": "Jaki odstęp należy zachować podczas wyprzedzania kolumny pieszych?",
     "pregunta": "¿Qué distancia debes mantener al adelantar a una columna de peatones?",
     "opciones_pl": {
@@ -832,7 +832,7 @@
   },
   {
     "id": 60,
-    "puntos": "3",
+    "puntos": 3,
     "pregunta_pl": "Jak dwukrotne zwiększenie prędkości samochodu osobowego wpływa na długość jego drogi hamowania?",
     "pregunta": "¿Cómo influye duplicar la velocidad de un turismo en su distancia de frenado?",
     "opciones_pl": {
@@ -851,7 +851,7 @@
   },
   {
     "id": 61,
-    "puntos": "3",
+    "puntos": 3,
     "pregunta_pl": "Jak duży odstęp od poprzedzającego pojazdu należy utrzymywać, kierując samochodem osobowym poza obszarem zabudowanym w tunelu o długości 600 metrów?",
     "pregunta": "¿Qué distancia respecto al vehículo precedente debes mantener conduciendo un turismo fuera de zona urbana en un túnel de 600 metros?",
     "opciones_pl": {
@@ -870,7 +870,7 @@
   },
   {
     "id": 62,
-    "puntos": "3",
+    "puntos": 3,
     "pregunta_pl": "Który z czynników ma bezpośredni wpływ na długość drogi zatrzymania samochodu osobowego?",
     "pregunta": "¿Cuál de estos factores influye directamente en la distancia de detención de un turismo?",
     "opciones_pl": {
@@ -889,7 +889,7 @@
   },
   {
     "id": 63,
-    "puntos": "3",
+    "puntos": 3,
     "pregunta_pl": "Który z czynników ma bezpośredni wpływ na długość drogi zatrzymania samochodu osobowego?",
     "pregunta": "¿Cuál de estos factores influye directamente en la distancia de detención de un turismo?",
     "opciones_pl": {
@@ -908,7 +908,7 @@
   },
   {
     "id": 64,
-    "puntos": "3",
+    "puntos": 3,
     "pregunta_pl": "Który z wymienionych elementów stanowi obowiązkowe wyposażenie każdego samochodu osobowego?",
     "pregunta": "¿Cuál de estos elementos es equipamiento obligatorio de todo turismo?",
     "opciones_pl": {
@@ -927,7 +927,7 @@
   },
   {
     "id": 65,
-    "puntos": "3",
+    "puntos": 3,
     "pregunta_pl": "Który z wymienionych elementów stanowi obowiązkowe wyposażenie każdego samochodu osobowego?",
     "pregunta": "¿Cuál de estos elementos es equipamiento obligatorio de todo turismo?",
     "opciones_pl": {
@@ -946,7 +946,7 @@
   },
   {
     "id": 66,
-    "puntos": "3",
+    "puntos": 3,
     "pregunta_pl": "Którego z wymienionych świateł wolno Ci używać, gdy kierujesz samochodem osobowym podczas mgły?",
     "pregunta": "¿Cuál de estas luces puedes usar conduciendo un turismo con niebla?",
     "opciones_pl": {
@@ -965,7 +965,7 @@
   },
   {
     "id": 67,
-    "puntos": "3",
+    "puntos": 3,
     "pregunta_pl": "Którą z tych czynności masz obowiązek wykonać podczas wyprzedzania samochodem osobowym we mgle poza obszarem zabudowanym?",
     "pregunta": "¿Cuál de estas acciones tienes la obligación de realizar al adelantar con un turismo en niebla fuera de zona urbana?",
     "opciones_pl": {
@@ -984,7 +984,7 @@
   },
   {
     "id": 68,
-    "puntos": "3",
+    "puntos": 3,
     "pregunta_pl": "Jak należy zachować się podczas wymijania samochodem osobowym w nocy innego pojazdu?",
     "pregunta": "¿Cómo debes comportarte al cruzarte de noche con otro vehículo conduciendo un turismo?",
     "opciones_pl": {
@@ -1003,7 +1003,7 @@
   },
   {
     "id": 69,
-    "puntos": "2",
+    "puntos": 2,
     "pregunta_pl": "Czy w każdym reflektorze samochodu osobowego wolno Ci zamiast żarówki halogenowej wykorzystywać lampę ksenonową?",
     "pregunta": "¿Puedes usar en cualquier faro de un turismo una lámpara de xenón en lugar de una bombilla halógena?",
     "opciones_pl": {
@@ -1022,7 +1022,7 @@
   },
   {
     "id": 70,
-    "puntos": "2",
+    "puntos": 2,
     "pregunta_pl": "Która z wymienionych czynności jest dozwolona podczas kierowania samochodem osobowym?",
     "pregunta": "¿Cuál de estas acciones está permitida al conducir un turismo?",
     "opciones_pl": {
@@ -1041,7 +1041,7 @@
   },
   {
     "id": 71,
-    "puntos": "1",
+    "puntos": 1,
     "pregunta_pl": "Jaka jest dopuszczalna minimalna głębokość bieżnika w oponie niewyposażonej we wskaźnik granicznego jej zużycia?",
     "pregunta": "¿Cuál es la profundidad mínima admisible del dibujo en un neumático sin indicador de desgaste límite?",
     "opciones_pl": {
@@ -1060,7 +1060,7 @@
   },
   {
     "id": 72,
-    "puntos": "1",
+    "puntos": 1,
     "pregunta_pl": "Która z wymienionych usterek, uniemożliwia bezpieczne używanie samochodu w ruchu drogowym?",
     "pregunta": "¿Cuál de estas averías impide el uso seguro del coche en la circulación?",
     "opciones_pl": {
@@ -1079,7 +1079,7 @@
   },
   {
     "id": 73,
-    "puntos": "2",
+    "puntos": 2,
     "pregunta_pl": "Jaki może być skutek zbyt słabego nacisku na pedał hamulca w samochodzie osobowym?",
     "pregunta": "¿Cuál puede ser la consecuencia de una presión demasiado débil sobre el pedal de freno en un turismo?",
     "opciones_pl": {
@@ -1098,7 +1098,7 @@
   },
   {
     "id": 74,
-    "puntos": "2",
+    "puntos": 2,
     "pregunta_pl": "Do czego może doprowadzić zbyt mocne hamowanie samochodu osobowego niewyposażonego w system ABS?",
     "pregunta": "¿A qué puede llevar un frenado demasiado fuerte de un turismo sin sistema ABS?",
     "opciones_pl": {
@@ -1117,7 +1117,7 @@
   },
   {
     "id": 75,
-    "puntos": "2",
+    "puntos": 2,
     "pregunta_pl": "Który ze sposobów hamowania samochodu osobowego wyposażonego w system ABS jest najbardziej efektywny?",
     "pregunta": "¿Cuál de estas formas de frenar un turismo con ABS es la más eficaz?",
     "opciones_pl": {
@@ -1136,7 +1136,7 @@
   },
   {
     "id": 76,
-    "puntos": "2",
+    "puntos": 2,
     "pregunta_pl": "Którą z czynności należy wykonać, gdy działający system ABS wypycha w czasie hamowania pedał hamulca?",
     "pregunta": "¿Qué debes hacer cuando el ABS en funcionamiento empuja hacia fuera el pedal de freno al frenar?",
     "opciones_pl": {
@@ -1155,7 +1155,7 @@
   },
   {
     "id": 77,
-    "puntos": "2",
+    "puntos": 2,
     "pregunta_pl": "W którym z przypadków system ABS może pomóc kierującemu pojazdem w utrzymaniu sterowności?",
     "pregunta": "¿En qué caso el ABS puede ayudar al conductor a mantener el control?",
     "opciones_pl": {
@@ -1174,7 +1174,7 @@
   },
   {
     "id": 78,
-    "puntos": "2",
+    "puntos": 2,
     "pregunta_pl": "Jaki efekt może wystąpić, gdy podczas ruszania na wzniesieniu zbyt wcześnie zwolnisz dźwignię hamulca awaryjnego, w porównaniu ze zwolnieniem pedału sprzęgła?",
     "pregunta": "¿Qué efecto puede producirse si, al arrancar en pendiente, sueltas el freno de mano demasiado pronto en relación con soltar el embrague?",
     "opciones_pl": {
@@ -1193,7 +1193,7 @@
   },
   {
     "id": 79,
-    "puntos": "1",
+    "puntos": 1,
     "pregunta_pl": "Które z wymienionych działań należy podjąć, gdy w czasie jazdy zaświeci się na czerwono lampka kontrolna układu hamulcowego?",
     "pregunta": "¿Qué debes hacer cuando se enciende en rojo el testigo del sistema de frenos durante la marcha?",
     "opciones_pl": {
@@ -1212,7 +1212,7 @@
   },
   {
     "id": 80,
-    "puntos": "1",
+    "puntos": 1,
     "pregunta_pl": "O czym ostrzega świecąca się na czerwono w czasie jazdy samochodem osobowym lampka kontrolna układu chłodzenia?",
     "pregunta": "¿De qué advierte el testigo del sistema de refrigeración encendido en rojo durante la marcha de un turismo?",
     "opciones_pl": {
@@ -1231,7 +1231,7 @@
   },
   {
     "id": 81,
-    "puntos": "1",
+    "puntos": 1,
     "pregunta_pl": "Która z wymienionych okoliczności może świadczyć o złym stanie technicznym samochodu osobowego?",
     "pregunta": "¿Cuál de estas circunstancias puede indicar mal estado técnico de un turismo?",
     "opciones_pl": {
@@ -1250,7 +1250,7 @@
   },
   {
     "id": 82,
-    "puntos": "1",
+    "puntos": 1,
     "pregunta_pl": "Który z wymienionych przypadków może świadczyć o złym stanie technicznym samochodu osobowego?",
     "pregunta": "¿Cuál de estos casos puede indicar mal estado técnico de un turismo?",
     "opciones_pl": {
@@ -1269,7 +1269,7 @@
   },
   {
     "id": 83,
-    "puntos": "1",
+    "puntos": 1,
     "pregunta_pl": "W którym z wymienionych przypadków, używanie samochodu osobowego nie zagraża bezpieczeństwu ruchu drogowego?",
     "pregunta": "¿En cuál de estos casos el uso de un turismo no amenaza la seguridad vial?",
     "opciones_pl": {
@@ -1288,7 +1288,7 @@
   },
   {
     "id": 84,
-    "puntos": "3",
+    "puntos": 3,
     "pregunta_pl": "Która z tych czynności zwiększy bezpieczeństwo jazdy, gdy kierujesz samochodem osobowym podczas mgły ograniczającej widoczność do 40 metrów?",
     "pregunta": "¿Cuál de estas acciones aumentará la seguridad al conducir un turismo con niebla que reduce la visibilidad a 40 metros?",
     "opciones_pl": {
@@ -1307,7 +1307,7 @@
   },
   {
     "id": 85,
-    "puntos": "3",
+    "puntos": 3,
     "pregunta_pl": "Jakie jest ryzyko poślizgu pojazdu podczas jazdy w czasie deszczu?",
     "pregunta": "¿Cuál es el riesgo de derrape del vehículo al conducir bajo la lluvia?",
     "opciones_pl": {
@@ -1326,7 +1326,7 @@
   },
   {
     "id": 86,
-    "puntos": "2",
+    "puntos": 2,
     "pregunta_pl": "Jaki wpływ ma prędkość jazdy na kąt widzenia kierującego samochodem osobowym?",
     "pregunta": "¿Qué influencia tiene la velocidad sobre el ángulo de visión del conductor de un turismo?",
     "opciones_pl": {
@@ -1345,7 +1345,7 @@
   },
   {
     "id": 87,
-    "puntos": "2",
+    "puntos": 2,
     "pregunta_pl": "Który z wymienionych czynników może ograniczyć pole widzenia kierującego samochodem osobowym?",
     "pregunta": "¿Cuál de estos factores puede reducir el campo de visión del conductor de un turismo?",
     "opciones_pl": {
@@ -1364,7 +1364,7 @@
   },
   {
     "id": 88,
-    "puntos": "2",
+    "puntos": 2,
     "pregunta_pl": "Który z wymienionych czynników może ograniczyć pole widzenia kierującego samochodem osobowym podczas jazdy nocą?",
     "pregunta": "¿Cuál de estos factores puede reducir el campo de visión del conductor de un turismo al conducir de noche?",
     "opciones_pl": {
@@ -1383,7 +1383,7 @@
   },
   {
     "id": 89,
-    "puntos": "2",
+    "puntos": 2,
     "pregunta_pl": "Który z wymienionych czynników ma wpływ na ograniczenie pola widzenia kierującego samochodem osobowym?",
     "pregunta": "¿Cuál de estos factores influye en la reducción del campo de visión del conductor de un turismo?",
     "opciones_pl": {
@@ -1402,7 +1402,7 @@
   },
   {
     "id": 90,
-    "puntos": "2",
+    "puntos": 2,
     "pregunta_pl": "Który z wymienionych czynników może powodować ograniczenie pola widzenia kierującego samochodem osobowym?",
     "pregunta": "¿Cuál de estos factores puede reducir el campo de visión del conductor de un turismo?",
     "opciones_pl": {
@@ -1421,7 +1421,7 @@
   },
   {
     "id": 91,
-    "puntos": "2",
+    "puntos": 2,
     "pregunta_pl": "Jaki wpływ ma prędkość jazdy na kąt widzenia kierującego samochodem osobowym?",
     "pregunta": "¿Qué influencia tiene la velocidad sobre el ángulo de visión del conductor de un turismo?",
     "opciones_pl": {
@@ -1440,7 +1440,7 @@
   },
   {
     "id": 92,
-    "puntos": "2",
+    "puntos": 2,
     "pregunta_pl": "Jak powinieneś postąpić, aby rozpędzić samochód osobowy na płaskim odcinku drogi?",
     "pregunta": "¿Cómo debes actuar para acelerar un turismo en un tramo llano?",
     "opciones_pl": {
@@ -1459,7 +1459,7 @@
   },
   {
     "id": 93,
-    "puntos": "2",
+    "puntos": 2,
     "pregunta_pl": "W jaki sposób wolno Ci przewozić rowery samochodem osobowym?",
     "pregunta": "¿Cómo puedes transportar bicicletas en un turismo?",
     "opciones_pl": {
@@ -1478,7 +1478,7 @@
   },
   {
     "id": 94,
-    "puntos": "1",
+    "puntos": 1,
     "pregunta_pl": "W którym z wymienionych przypadków regularne wykonywanie badania technicznego pojazdu ma wpływ na jego bezpieczne używanie w ruchu drogowym?",
     "pregunta": "¿En qué caso la realización periódica de la inspección técnica del vehículo influye en su uso seguro en la circulación?",
     "opciones_pl": {
@@ -1497,7 +1497,7 @@
   },
   {
     "id": 95,
-    "puntos": "2",
+    "puntos": 2,
     "pregunta_pl": "Jaki jest cel stosowania systemu ABS w samochodzie osobowym?",
     "pregunta": "¿Cuál es el objetivo del sistema ABS en un turismo?",
     "opciones_pl": {
@@ -1516,7 +1516,7 @@
   },
   {
     "id": 96,
-    "puntos": "3",
+    "puntos": 3,
     "pregunta_pl": "Jak należy postąpić, podczas jazdy samochodem osobowym po drodze pokrytej śniegiem?",
     "pregunta": "¿Cómo debes actuar al conducir un turismo por una vía cubierta de nieve?",
     "opciones_pl": {
@@ -1535,7 +1535,7 @@
   },
   {
     "id": 97,
-    "puntos": "3",
+    "puntos": 3,
     "pregunta_pl": "Kto podlega odpowiedzialności karnej w przypadku nieudzielenia pomocy poszkodowanemu w wypadku drogowym z bezpośrednim zagrożeniu utraty zdrowia i życia?",
     "pregunta": "¿Quién incurre en responsabilidad penal por no prestar auxilio a una víctima de un accidente con peligro directo para su vida o salud?",
     "opciones_pl": {
@@ -1554,7 +1554,7 @@
   },
   {
     "id": 98,
-    "puntos": "3",
+    "puntos": 3,
     "pregunta_pl": "Jak należy postąpić z poszkodowanym w wypadku drogowym, znajdującym się w pojeździe?",
     "pregunta": "¿Cómo se debe actuar con una víctima de accidente que se encuentra dentro del vehículo?",
     "opciones_pl": {
@@ -1573,7 +1573,7 @@
   },
   {
     "id": 99,
-    "puntos": "3",
+    "puntos": 3,
     "pregunta_pl": "Jesteś uczestnikiem lub świadkiem wypadku drogowego. Które z wymienionych informacji należy podać dzwoniąc pod numer alarmowy?",
     "pregunta": "Eres partícipe o testigo de un accidente. ¿Qué datos debes dar al llamar al número de emergencia?",
     "opciones_pl": {
@@ -1592,7 +1592,7 @@
   },
   {
     "id": 100,
-    "puntos": "3",
+    "puntos": 3,
     "pregunta_pl": "Jesteś uczestnikiem lub świadkiem wypadku drogowego. Jak należy postąpić, gdy na poszkodowanym pali się ubranie?",
     "pregunta": "Eres partícipe o testigo de un accidente. ¿Cómo debes actuar si a una víctima se le está quemando la ropa?",
     "opciones_pl": {
@@ -1611,7 +1611,7 @@
   },
   {
     "id": 101,
-    "puntos": "1",
+    "puntos": 1,
     "pregunta_pl": "Która z wymienionych awarii, uniemożliwia używanie samochodu osobowego w ruchu drogowym?",
     "pregunta": "¿Cuál de estas averías impide el uso de un turismo en la circulación?",
     "opciones_pl": {
@@ -1630,7 +1630,7 @@
   },
   {
     "id": 102,
-    "puntos": "1",
+    "puntos": 1,
     "pregunta_pl": "Które z wymienionych działań należy podjąć w pierwszej kolejności, gdy w czasie jazdy zaświeci się na czerwono lampka kontrolna ciśnienia oleju silnikowego?",
     "pregunta": "¿Qué debes hacer en primer lugar cuando se enciende en rojo el testigo de presión de aceite durante la marcha?",
     "opciones_pl": {
@@ -1649,7 +1649,7 @@
   },
   {
     "id": 103,
-    "puntos": "3",
+    "puntos": 3,
     "pregunta_pl": "Jaką funkcję spełniają poduszki powietrzne?",
     "pregunta": "¿Qué función cumplen los airbags?",
     "opciones_pl": {
@@ -1668,7 +1668,7 @@
   },
   {
     "id": 104,
-    "puntos": "3",
+    "puntos": 3,
     "pregunta_pl": "Kiedy masz obowiązek przełączyć światła drogowe na światła mijania?",
     "pregunta": "¿Cuándo tienes la obligación de cambiar las luces largas por las de cruce?",
     "opciones_pl": {
@@ -1687,7 +1687,7 @@
   },
   {
     "id": 105,
-    "puntos": "3",
+    "puntos": 3,
     "pregunta_pl": "Kiedy masz obowiązek przełączyć światła drogowe na światła mijania?",
     "pregunta": "¿Cuándo tienes la obligación de cambiar las luces largas por las de cruce?",
     "opciones_pl": {
@@ -1706,7 +1706,7 @@
   },
   {
     "id": 106,
-    "puntos": "2",
+    "puntos": 2,
     "pregunta_pl": "Co powinieneś widzieć w dobrze ustawionych lusterkach zewnętrznych, gdy kierujesz samochodem osobowym?",
     "pregunta": "¿Qué debes ver en los espejos exteriores bien regulados al conducir un turismo?",
     "opciones_pl": {
@@ -1725,7 +1725,7 @@
   },
   {
     "id": 107,
-    "puntos": "1",
+    "puntos": 1,
     "pregunta_pl": "Do czego służą światła pozycyjne pojazdu?",
     "pregunta": "¿Para qué sirven las luces de posición del vehículo?",
     "opciones_pl": {
@@ -1744,7 +1744,7 @@
   },
   {
     "id": 108,
-    "puntos": "1",
+    "puntos": 1,
     "pregunta_pl": "Jaki może być skutek nieprawidłowo ustawionych reflektorów świateł mijania?",
     "pregunta": "¿Cuál puede ser la consecuencia de unos faros de cruce mal regulados?",
     "opciones_pl": {
@@ -1763,7 +1763,7 @@
   },
   {
     "id": 109,
-    "puntos": "1",
+    "puntos": 1,
     "pregunta_pl": "Jaki może być skutek nieprawidłowo ustawionych reflektorów świateł mijania?",
     "pregunta": "¿Cuál puede ser la consecuencia de unos faros de cruce mal regulados?",
     "opciones_pl": {
@@ -1782,7 +1782,7 @@
   },
   {
     "id": 110,
-    "puntos": "3",
+    "puntos": 3,
     "pregunta_pl": "Jadąc zimą spotykasz na poboczu sinego, półprzytomnego, wyziębionego człowieka. Jak należy mu pomóc?",
     "pregunta": "En invierno encuentras en el arcén a una persona amoratada, semiinconsciente y con hipotermia. ¿Cómo debes ayudarla?",
     "opciones_pl": {
@@ -1801,7 +1801,7 @@
   },
   {
     "id": 111,
-    "puntos": "2",
+    "puntos": 2,
     "pregunta_pl": "Której z tych czynności nie masz prawa wykonywać samochodem osobowym?",
     "pregunta": "¿Cuál de estas acciones no tienes derecho a realizar con un turismo?",
     "opciones_pl": {
@@ -1820,7 +1820,7 @@
   },
   {
     "id": 112,
-    "puntos": "3",
+    "puntos": 3,
     "pregunta_pl": "Jaki odstęp od poprzedzającego pojazdu masz obowiązek zachować podczas zatrzymania w zatorze drogowym w tunelu?",
     "pregunta": "¿Qué distancia respecto al vehículo precedente tienes la obligación de mantener al detenerte en un atasco dentro de un túnel?",
     "opciones_pl": {
@@ -1839,7 +1839,7 @@
   },
   {
     "id": 113,
-    "puntos": "2",
+    "puntos": 2,
     "pregunta_pl": "Która z wymienionych czynności jest zabroniona podczas kierowania pojazdem?",
     "pregunta": "¿Cuál de estas acciones está prohibida al conducir un vehículo?",
     "opciones_pl": {
@@ -1858,7 +1858,7 @@
   },
   {
     "id": 114,
-    "puntos": "2",
+    "puntos": 2,
     "pregunta_pl": "Jakiej barwy chorągiewką wolno Ci oznaczyć ładunek wystający z tyłu samochodu osobowego?",
     "pregunta": "¿De qué color puede ser la banderola con la que señalizar una carga que sobresale por detrás de un turismo?",
     "opciones_pl": {
@@ -1877,7 +1877,7 @@
   },
   {
     "id": 115,
-    "puntos": "2",
+    "puntos": 2,
     "pregunta_pl": "Jakiej wielkości nie ma prawa przekroczyć rzeczywista masa całkowita przyczepy ciągniętej przez samochód osobowy?",
     "pregunta": "¿Qué valor no puede superar la masa total real de un remolque tirado por un turismo?",
     "opciones_pl": {
@@ -1896,7 +1896,7 @@
   },
   {
     "id": 116,
-    "puntos": "2",
+    "puntos": 2,
     "pregunta_pl": "Na której z tych dróg nie masz prawa holować samochodem osobowym innego pojazdu?",
     "pregunta": "¿En cuál de estas vías no tienes derecho a remolcar con un turismo a otro vehículo?",
     "opciones_pl": {
@@ -1915,7 +1915,7 @@
   },
   {
     "id": 117,
-    "puntos": "3",
+    "puntos": 3,
     "pregunta_pl": "W jakich warunkach drogowych dozwolone jest używanie łańcuchów przeciwślizgowych?",
     "pregunta": "¿En qué condiciones de la vía se permite el uso de cadenas antideslizantes?",
     "opciones_pl": {
@@ -1934,7 +1934,7 @@
   },
   {
     "id": 118,
-    "puntos": "3",
+    "puntos": 3,
     "pregunta_pl": "W jakich warunkach droga hamowania jest najdłuższa?",
     "pregunta": "¿En qué condiciones es más larga la distancia de frenado?",
     "opciones_pl": {
@@ -1953,7 +1953,7 @@
   },
   {
     "id": 119,
-    "puntos": "3",
+    "puntos": 3,
     "pregunta_pl": "Jaką funkcję w pojeździe spełnia system przeciwblokujący ABS?",
     "pregunta": "¿Qué función cumple en el vehículo el sistema antibloqueo ABS?",
     "opciones_pl": {
@@ -1972,7 +1972,7 @@
   },
   {
     "id": 120,
-    "puntos": "2",
+    "puntos": 2,
     "pregunta_pl": "Jak masz obowiązek oznakować holowany samochód osobowy?",
     "pregunta": "¿Cómo debes señalizar un turismo remolcado?",
     "opciones_pl": {
@@ -1991,7 +1991,7 @@
   },
   {
     "id": 121,
-    "puntos": "1",
+    "puntos": 1,
     "pregunta_pl": "Czy jako właściciel pojazdu masz obowiązek wskazać na żądanie uprawnionego organu, komu powierzyłeś pojazd do kierowania lub używania w określonym czasie?",
     "pregunta": "Como propietario del vehículo, ¿tienes la obligación de indicar, a petición del órgano competente, a quién confiaste el vehículo en un momento determinado?",
     "opciones_pl": {
@@ -2010,7 +2010,7 @@
   },
   {
     "id": 122,
-    "puntos": "1",
+    "puntos": 1,
     "pregunta_pl": "Czy wolno Ci kierować pojazdem, którego tablica rejestracyjna jest niewidoczna?",
     "pregunta": "¿Puedes conducir un vehículo cuya matrícula es ilegible?",
     "opciones_pl": {
@@ -2029,7 +2029,7 @@
   },
   {
     "id": 123,
-    "puntos": "1",
+    "puntos": 1,
     "pregunta_pl": "Czy wolno Ci nakleić na pojeździe znak określający inne państwo niż to, w którym pojazd został zarejestrowany?",
     "pregunta": "¿Puedes pegar en el vehículo un distintivo de un país distinto de aquel donde el vehículo está matriculado?",
     "opciones_pl": {
@@ -2048,7 +2048,7 @@
   },
   {
     "id": 124,
-    "puntos": "1",
+    "puntos": 1,
     "pregunta_pl": "Co należy sprawdzić, gdy lampka kontrolna kierunkowskazów zaczęła migać dużo szybciej?",
     "pregunta": "¿Qué debes comprobar cuando el testigo de los intermitentes empieza a parpadear mucho más rápido?",
     "opciones_pl": {
@@ -2067,7 +2067,7 @@
   },
   {
     "id": 125,
-    "puntos": "1",
+    "puntos": 1,
     "pregunta_pl": "Kiedy należy sprawdzać poziom oleju w silniku?",
     "pregunta": "¿Cuándo debe comprobarse el nivel de aceite del motor?",
     "opciones_pl": {
@@ -2086,7 +2086,7 @@
   },
   {
     "id": 126,
-    "puntos": "2",
+    "puntos": 2,
     "pregunta_pl": "Który bieg jest właściwy do rozpoczęcia jazdy samochodem osobowym na suchej nawierzchni?",
     "pregunta": "¿Qué marcha es la adecuada para iniciar la marcha de un turismo sobre firme seco?",
     "opciones_pl": {
@@ -2105,7 +2105,7 @@
   },
   {
     "id": 127,
-    "puntos": "2",
+    "puntos": 2,
     "pregunta_pl": "Które wymienione czynniki zależne od kierującego pojazdem mają istotny wpływ na jego ostrość widzenia?",
     "pregunta": "¿Cuáles de estos factores, dependientes del conductor, influyen de forma significativa en su agudeza visual?",
     "opciones_pl": {
@@ -2124,7 +2124,7 @@
   },
   {
     "id": 128,
-    "puntos": "2",
+    "puntos": 2,
     "pregunta_pl": "Jaki wpływ na pole widzenia kierującego pojazdem ma prędkość jazdy?",
     "pregunta": "¿Qué influencia tiene la velocidad sobre el campo de visión del conductor?",
     "opciones_pl": {
@@ -2143,7 +2143,7 @@
   },
   {
     "id": 129,
-    "puntos": "1",
+    "puntos": 1,
     "pregunta_pl": "Używanie pojazdu w sposób powodujący uciążliwości związane z nadmierną emisją spalin do środowiska lub nadmiernym hałasem jest:",
     "pregunta": "Usar el vehículo de modo que cause molestias por emisión excesiva de gases al medio ambiente o por ruido excesivo está:",
     "opciones_pl": {
@@ -2162,7 +2162,7 @@
   },
   {
     "id": 130,
-    "puntos": "1",
+    "puntos": 1,
     "pregunta_pl": "W której z wymienionych niebezpiecznych sytuacji na drodze najlepiej sprawdzi się pojazd wyposażony w tzw. ASR, czyli układ zapobiegający poślizgowi kół napędzanych podczas ruszania?",
     "pregunta": "¿En cuál de estas situaciones peligrosas resulta más útil un vehículo con ASR (sistema que evita el patinado de las ruedas motrices al arrancar)?",
     "opciones_pl": {
@@ -2181,7 +2181,7 @@
   },
   {
     "id": 131,
-    "puntos": "1",
+    "puntos": 1,
     "pregunta_pl": "W której z wymienionych niebezpiecznych sytuacji na drodze najlepiej sprawdzi się pojazd wyposażony w tzw. ASR, czyli układ zapobiegający poślizgowi kół napędzanych podczas ruszania?",
     "pregunta": "¿En cuál de estas situaciones peligrosas resulta más útil un vehículo con ASR (sistema que evita el patinado de las ruedas motrices al arrancar)?",
     "opciones_pl": {
@@ -2200,7 +2200,7 @@
   },
   {
     "id": 132,
-    "puntos": "1",
+    "puntos": 1,
     "pregunta_pl": "W której z wymienionych niebezpiecznych sytuacji na drodze najlepiej sprawdzi się pojazd wyposażony w tzw. ESP, czyli układ stabilizacji toru jazdy?",
     "pregunta": "¿En cuál de estas situaciones peligrosas resulta más útil un vehículo con ESP (sistema de estabilización de la trayectoria)?",
     "opciones_pl": {
@@ -2219,7 +2219,7 @@
   },
   {
     "id": 133,
-    "puntos": "1",
+    "puntos": 1,
     "pregunta_pl": "W której z wymienionych niebezpiecznych sytuacji na drodze najlepiej sprawdzi się pojazd wyposażony w tzw. ESP, czyli układ stabilizacji toru jazdy?",
     "pregunta": "¿En cuál de estas situaciones peligrosas resulta más útil un vehículo con ESP (sistema de estabilización de la trayectoria)?",
     "opciones_pl": {
@@ -2238,7 +2238,7 @@
   },
   {
     "id": 134,
-    "puntos": "2",
+    "puntos": 2,
     "pregunta_pl": "Czy dopuszczalne jest holowanie za pomocą połączenia sztywnego pojazdu o niesprawnym układzie kierowniczym?",
     "pregunta": "¿Se permite remolcar con enganche rígido un vehículo con la dirección averiada?",
     "opciones_pl": {
@@ -2257,7 +2257,7 @@
   },
   {
     "id": 135,
-    "puntos": "2",
+    "puntos": 2,
     "pregunta_pl": "Czy podczas holowania motocykla powinny być sprawne w nim dwa układy hamulcowe?",
     "pregunta": "Al remolcar una motocicleta, ¿deben funcionar en ella los dos sistemas de frenado?",
     "opciones_pl": {
@@ -2276,7 +2276,7 @@
   },
   {
     "id": 136,
-    "puntos": "2",
+    "puntos": 2,
     "pregunta_pl": "Przewożenie dziecka w foteliku bezpieczeństwa zamontowanym tyłem do kierunku jazdy na przednim siedzeniu pojazdu samochodowego, wyposażonego w poduszkę powietrzną dla pasażera jest:",
     "pregunta": "Transportar a un niño en una silla instalada en sentido contrario a la marcha, en el asiento delantero de un vehículo con airbag para el pasajero, está:",
     "opciones_pl": {
@@ -2295,7 +2295,7 @@
   },
   {
     "id": 137,
-    "puntos": "2",
+    "puntos": 2,
     "pregunta_pl": "Foteliki bezpieczeństwa dla dzieci oraz inne urządzenia przytrzymujące dla dzieci należy instalować w pojeździe:",
     "pregunta": "Las sillas infantiles de seguridad y otros dispositivos de retención infantil deben instalarse en el vehículo:",
     "opciones_pl": {
@@ -2314,7 +2314,7 @@
   },
   {
     "id": 138,
-    "puntos": "2",
+    "puntos": 2,
     "pregunta_pl": "Policjant zatrzyma prawo jazdy za pokwitowaniem w przypadku ujawnienia czynu polegającego na:\n\n\nPolicjant zatrzyma",
     "pregunta": "El policía retirará el permiso de conducir mediante recibo en caso de descubrir el hecho consistente en:",
     "opciones_pl": {
@@ -2333,7 +2333,7 @@
   },
   {
     "id": 139,
-    "puntos": "2",
+    "puntos": 2,
     "pregunta_pl": "Starosta wydaje decyzję administracyjną o zatrzymaniu prawa jazdy, gdy kierujący pojazdem przekroczył dopuszczalną prędkość o:",
     "pregunta": "El starosta (autoridad local) dicta resolución administrativa de retirada del permiso cuando el conductor superó la velocidad permitida en:",
     "opciones_pl": {
@@ -2352,7 +2352,7 @@
   },
   {
     "id": 140,
-    "puntos": "2",
+    "puntos": 2,
     "pregunta_pl": "W przypadku gdy kierujący przekroczył dopuszczalną prędkość o więcej niż 50 km/h na obszarze zabudowanym, starosta wydaje decyzję administracyjną o zatrzymaniu prawa jazdy na okres:",
     "pregunta": "Cuando el conductor superó la velocidad permitida en más de 50 km/h en zona urbana, el starosta dicta resolución de retirada del permiso por un periodo de:",
     "opciones_pl": {
@@ -2371,7 +2371,7 @@
   },
   {
     "id": 141,
-    "puntos": "2",
+    "puntos": 2,
     "pregunta_pl": "Dokumentem stwierdzającym dopuszczenie pojazdu samochodowego do ruchu jest:",
     "pregunta": "El documento que acredita la autorización de circulación de un vehículo de motor es:",
     "opciones_pl": {
@@ -2390,7 +2390,7 @@
   },
   {
     "id": 142,
-    "puntos": "2",
+    "puntos": 2,
     "pregunta_pl": "W jaki sposób przewozisz dziecko o wzroście mniejszym niż 150 cm na przednim siedzeniu samochodu osobowego, który ma pięć miejsc siedzących?",
     "pregunta": "¿Cómo transportas a un niño de menos de 150 cm de estatura en el asiento delantero de un turismo con cinco plazas?",
     "opciones_pl": {
@@ -2409,7 +2409,7 @@
   },
   {
     "id": 143,
-    "puntos": "2",
+    "puntos": 2,
     "pregunta_pl": "W jaki sposób przewozisz dziecko o wzroście mniejszym niż 150 cm samochodem osobowym, w którym jest pięć miejsc siedzących?",
     "pregunta": "¿Cómo transportas a un niño de menos de 150 cm en un turismo con cinco plazas?",
     "opciones_pl": {
@@ -2428,7 +2428,7 @@
   },
   {
     "id": 144,
-    "puntos": "2",
+    "puntos": 2,
     "pregunta_pl": "W jaki sposób zainstalujesz w pojeździe fotelik bezpieczeństwa służący do przewozu dziecka?",
     "pregunta": "¿Cómo instalarás en el vehículo una silla de seguridad para transportar a un niño?",
     "opciones_pl": {
@@ -2447,7 +2447,7 @@
   },
   {
     "id": 145,
-    "puntos": "2",
+    "puntos": 2,
     "pregunta_pl": "W jaki sposób w pojeździe zainstalujesz podtrzymujące dziecko urządzenie, które służy do jego przewozu?",
     "pregunta": "¿Cómo instalarás en el vehículo el dispositivo de retención para transportar a un niño?",
     "opciones_pl": {
@@ -2466,7 +2466,7 @@
   },
   {
     "id": 146,
-    "puntos": "2",
+    "puntos": 2,
     "pregunta_pl": "Jakie warunki powinien spełniać samochód osobowy, którym chcesz przewieźć dziecko, które ma mniej niż trzy lata?",
     "pregunta": "¿Qué condiciones debe cumplir el turismo con el que quieras transportar a un niño menor de tres años?",
     "opciones_pl": {
@@ -2485,7 +2485,7 @@
   },
   {
     "id": 147,
-    "puntos": "2",
+    "puntos": 2,
     "pregunta_pl": "Czym powinieneś się kierować wybierając fotelik lub urządzenie przytrzymujące służące do przewozu dziecka?",
     "pregunta": "¿Por qué debes guiarte al elegir la silla o el dispositivo de retención para transportar a un niño?",
     "opciones_pl": {
@@ -2504,7 +2504,7 @@
   },
   {
     "id": 148,
-    "puntos": "2",
+    "puntos": 2,
     "pregunta_pl": "Jakie muszą być spełnione warunki podczas przewożenia dziecka na tylnym siedzeniu samochodu osobowego?",
     "pregunta": "¿Qué condiciones deben cumplirse al transportar a un niño en el asiento trasero de un turismo?",
     "opciones_pl": {
@@ -2523,7 +2523,7 @@
   },
   {
     "id": 149,
-    "puntos": "2",
+    "puntos": 2,
     "pregunta_pl": "Jakie musisz spełnić warunki, gdy chcesz przewieźć dziecko na tylnym siedzeniu samochodu osobowego?",
     "pregunta": "¿Qué condiciones debes cumplir para transportar a un niño en el asiento trasero de un turismo?",
     "opciones_pl": {
@@ -2542,7 +2542,7 @@
   },
   {
     "id": 150,
-    "puntos": "2",
+    "puntos": 2,
     "pregunta_pl": "Co musisz zrobić, żeby przewieźć trzyletnie dziecko na tylnym siedzeniu samochodu osobowego, na którym w fotelikach już siedzi dwoje dzieci i nie ma możliwości zainstalowania trzeciego fotelika?",
     "pregunta": "¿Qué debes hacer para transportar a un niño de tres años en el asiento trasero de un turismo donde ya viajan dos niños en sillas y no cabe una tercera?",
     "opciones_pl": {
@@ -2561,7 +2561,7 @@
   },
   {
     "id": 151,
-    "puntos": "2",
+    "puntos": 2,
     "pregunta_pl": "Co musisz zrobić gdy chcesz przewieźć trzyletnie dziecko na tylnym siedzeniu samochodu osobowego, na którym w urządzeniach przytrzymujących już siedzi dwoje dzieci i nie ma możliwości zainstalowania trzeciego urządzenia?",
     "pregunta": "¿Qué debes hacer para transportar a un niño de tres años en el asiento trasero de un turismo donde ya viajan dos niños en dispositivos de retención y no cabe un tercero?",
     "opciones_pl": {
@@ -2580,7 +2580,7 @@
   },
   {
     "id": 152,
-    "puntos": "2",
+    "puntos": 2,
     "pregunta_pl": "Jakie dokumenty masz obowiązek mieć przy sobie i okazywać na żądanie uprawnionego organu podczas kontroli drogowej?",
     "pregunta": "¿Qué documentos tienes la obligación de llevar y mostrar a petición del órgano competente durante un control de tráfico?",
     "opciones_pl": {
@@ -2599,7 +2599,7 @@
   },
   {
     "id": 153,
-    "puntos": "2",
+    "puntos": 2,
     "pregunta_pl": "Jakie dokumenty masz obowiązek mieć przy sobie i okazywać na żądanie uprawnionego organu podczas kontroli drogowej?",
     "pregunta": "¿Qué documentos tienes la obligación de llevar y mostrar durante un control de tráfico?",
     "opciones_pl": {
@@ -2618,7 +2618,7 @@
   },
   {
     "id": 154,
-    "puntos": "2",
+    "puntos": 2,
     "pregunta_pl": "Jakie dokumenty masz obowiązek mieć przy sobie i okazywać na żądanie uprawnionego organu podczas kontroli drogowej?",
     "pregunta": "¿Qué documentos tienes la obligación de llevar y mostrar durante un control de tráfico?",
     "opciones_pl": {
@@ -2637,7 +2637,7 @@
   },
   {
     "id": 155,
-    "puntos": "2",
+    "puntos": 2,
     "pregunta_pl": "Jakie dokumenty masz obowiązek mieć przy sobie i okazywać na żądanie uprawnionego organu podczas kontroli drogowej?",
     "pregunta": "¿Qué documentos tienes la obligación de llevar y mostrar durante un control de tráfico?",
     "opciones_pl": {
@@ -2656,7 +2656,7 @@
   },
   {
     "id": 156,
-    "puntos": "2",
+    "puntos": 2,
     "pregunta_pl": "Jakie dokumenty masz obowiązek mieć przy sobie i okazywać na żądanie uprawnionego organu, gdy na terytorium Rzeczypospolitej kierujesz pojazdem, który jest zarejestrowany za granicą?",
     "pregunta": "¿Qué documentos tienes la obligación de llevar y mostrar en territorio polaco conduciendo un vehículo matriculado en el extranjero?",
     "opciones_pl": {
@@ -2675,7 +2675,7 @@
   },
   {
     "id": 157,
-    "puntos": "2",
+    "puntos": 2,
     "pregunta_pl": "Jakie dokumenty masz obowiązek mieć przy sobie i okazywać na żądanie uprawnionego organu, gdy na terytorium Rzeczypospolitej kierujesz pojazdem, który jest zarejestrowany za granicą?",
     "pregunta": "¿Qué documentos tienes la obligación de llevar y mostrar en territorio polaco conduciendo un vehículo matriculado en el extranjero?",
     "opciones_pl": {
@@ -2694,7 +2694,7 @@
   },
   {
     "id": 158,
-    "puntos": "2",
+    "puntos": 2,
     "pregunta_pl": "Jakie dokumenty masz obowiązek mieć przy sobie i okazywać na żądanie uprawnionego organu, gdy na terytorium Rzeczypospolitej kierujesz pojazdem, który jest zarejestrowany za granicą?",
     "pregunta": "¿Qué documentos tienes la obligación de llevar y mostrar en territorio polaco conduciendo un vehículo matriculado en el extranjero?",
     "opciones_pl": {
@@ -2713,7 +2713,7 @@
   },
   {
     "id": 159,
-    "puntos": "2",
+    "puntos": 2,
     "pregunta_pl": "Jakie dokumenty masz obowiązek mieć przy sobie i okazywać na żądanie uprawnionego organu podczas kontroli drogowej?",
     "pregunta": "¿Qué documentos tienes la obligación de llevar y mostrar durante un control de tráfico?",
     "opciones_pl": {
@@ -2732,7 +2732,7 @@
   },
   {
     "id": 160,
-    "puntos": "2",
+    "puntos": 2,
     "pregunta_pl": "Jakie dokumenty masz obowiązek mieć przy sobie i okazywać na żądanie uprawnionego organu podczas kontroli drogowej?",
     "pregunta": "¿Qué documentos tienes la obligación de llevar y mostrar durante un control de tráfico?",
     "opciones_pl": {
@@ -2751,7 +2751,7 @@
   },
   {
     "id": 161,
-    "puntos": "2",
+    "puntos": 2,
     "pregunta_pl": "Jakie dokumenty masz obowiązek mieć przy sobie i okazywać na żądanie uprawnionego organu podczas kontroli drogowej?",
     "pregunta": "¿Qué documentos tienes la obligación de llevar y mostrar durante un control de tráfico?",
     "opciones_pl": {
@@ -2770,7 +2770,7 @@
   },
   {
     "id": 162,
-    "puntos": "2",
+    "puntos": 2,
     "pregunta_pl": "Jaki dokument jesteś zobowiązany mieć przy sobie i okazywać na żądanie uprawnionego organu?",
     "pregunta": "¿Qué documento estás obligado a llevar y mostrar a petición del órgano competente?",
     "opciones_pl": {
@@ -2789,7 +2789,7 @@
   },
   {
     "id": 163,
-    "puntos": "2",
+    "puntos": 2,
     "pregunta_pl": "Za które naruszenie przepisów ruchu drogowego policjant zatrzyma prawo jazdy?",
     "pregunta": "¿Por cuál de estas infracciones de tráfico el policía retirará el permiso de conducir?",
     "opciones_pl": {
@@ -2808,7 +2808,7 @@
   },
   {
     "id": 164,
-    "puntos": "2",
+    "puntos": 2,
     "pregunta_pl": "Za które naruszenie przepisów ruchu drogowego policjant zatrzyma prawo jazdy?",
     "pregunta": "¿Por cuál de estas infracciones de tráfico el policía retirará el permiso de conducir?",
     "opciones_pl": {
@@ -2827,7 +2827,7 @@
   },
   {
     "id": 165,
-    "puntos": "2",
+    "puntos": 2,
     "pregunta_pl": "Ile czasu jest ważne pokwitowanie zatrzymania polskiego prawa jazdy za przekroczenie prędkości o ponad 50 km/h w obszarze zabudowanym, które wydał Ci policjant?",
     "pregunta": "¿Cuánto tiempo es válido el recibo de retención del permiso polaco por superar la velocidad en más de 50 km/h en zona urbana, expedido por el policía?",
     "opciones_pl": {
@@ -2846,7 +2846,7 @@
   },
   {
     "id": 166,
-    "puntos": "2",
+    "puntos": 2,
     "pregunta_pl": "Ile czasu jest ważne pokwitowanie zatrzymania przez policjanta prawa jazdy za przewożenie osób w liczbie przekraczającej o dwa liczbę miejsc określoną w dowodzie rejestracyjnym samochodu osobowego?",
     "pregunta": "¿Cuánto tiempo es válido el recibo de retención del permiso, expedido por el policía, por transportar en un turismo dos personas más de las plazas indicadas en el permiso de circulación?",
     "opciones_pl": {
@@ -2865,7 +2865,7 @@
   },
   {
     "id": 167,
-    "puntos": "2",
+    "puntos": 2,
     "pregunta_pl": "Jak postąpi policjant, jeżeli podczas kontroli drogowej ujawni, że przekroczyłeś prędkość o więcej niż 50 km/h w obszarze zabudowanym, ale było to związane z ratowaniem ludzkiego życia?",
     "pregunta": "¿Cómo actuará el policía si en un control descubre que superaste la velocidad en más de 50 km/h en zona urbana, pero fue para salvar una vida humana?",
     "opciones_pl": {
@@ -2884,7 +2884,7 @@
   },
   {
     "id": 168,
-    "puntos": "2",
+    "puntos": 2,
     "pregunta_pl": "Jak postąpi policjant, jeżeli podczas kontroli drogowej ujawni, że przekroczyłeś prędkość o więcej niż 50 km/h w obszarze zabudowanym, ale było to związane z ratowaniem ludzkiego życia?",
     "pregunta": "¿Cómo actuará el policía si en un control descubre que superaste la velocidad en más de 50 km/h en zona urbana, pero fue para salvar una vida humana?",
     "opciones_pl": {
@@ -2903,7 +2903,7 @@
   },
   {
     "id": 169,
-    "puntos": "2",
+    "puntos": 2,
     "pregunta_pl": "W jakim przypadku możesz przewozić trzecie dziecko, o wzroście poniżej 135 cm, na tylnym siedzeniu samochodu osobowego lub ciężarowego, przytrzymywane jedynie pasami bezpieczeństwa?",
     "pregunta": "¿En qué caso puedes transportar a un tercer niño de menos de 135 cm en el asiento trasero de un turismo o camión, sujeto solo con el cinturón?",
     "opciones_pl": {
@@ -2922,7 +2922,7 @@
   },
   {
     "id": 170,
-    "puntos": "2",
+    "puntos": 2,
     "pregunta_pl": "Kiedy wolno przewozić samochodem ciężarowym, na przednim siedzeniu, dziecko mające poniżej 150 cm wzrostu, przytrzymywane jedynie za pomocą pasów bezpieczeństwa?",
     "pregunta": "¿Cuándo se permite transportar en el asiento delantero de un camión a un niño de menos de 150 cm sujeto solo con el cinturón?",
     "opciones_pl": {
@@ -2941,7 +2941,7 @@
   },
   {
     "id": 171,
-    "puntos": "2",
+    "puntos": 2,
     "pregunta_pl": "Który z wymienionych dokumentów kierujący pojazdem zarejestrowanym na terytorium RP musi mieć przy sobie i okazywać na żądanie uprawnionego organu?",
     "pregunta": "¿Cuál de estos documentos debe llevar y mostrar el conductor de un vehículo matriculado en Polonia a petición del órgano competente?",
     "opciones_pl": {
@@ -2960,7 +2960,7 @@
   },
   {
     "id": 172,
-    "puntos": "2",
+    "puntos": 2,
     "pregunta_pl": "Czy inspektor transportu drogowego podczas kontrolowania pojazdu, który wykonuje transport drogowy, ma prawo weryfikować dane o pojeździe w Centralnej Ewidencji Pojazdów?",
     "pregunta": "¿Tiene el inspector de transporte por carretera, al controlar un vehículo que realiza transporte por carretera, derecho a verificar los datos del vehículo en el Registro Central de Vehículos?",
     "opciones_pl": {
@@ -2979,7 +2979,7 @@
   },
   {
     "id": 173,
-    "puntos": "2",
+    "puntos": 2,
     "pregunta_pl": "Kto może zwrócić dowód rejestracyjny, w przypadku jego zatrzymania podczas kontroli ruchu drogowego, w związku ze stwierdzeniem, że pojazd zagraża porządkowi ruchu?",
     "pregunta": "¿Quién puede devolver el permiso de circulación retenido en un control por constatar que el vehículo amenaza el orden del tráfico?",
     "opciones_pl": {
@@ -2998,7 +2998,7 @@
   },
   {
     "id": 174,
-    "puntos": "2",
+    "puntos": 2,
     "pregunta_pl": "Na jak długo zostanie zatrzymane prawo jazdy kierowcy, który przekroczył prędkość o więcej niż 50 km/h na obszarze zabudowanym?",
     "pregunta": "¿Por cuánto tiempo se retirará el permiso al conductor que superó la velocidad en más de 50 km/h en zona urbana?",
     "opciones_pl": {
@@ -3017,7 +3017,7 @@
   },
   {
     "id": 175,
-    "puntos": "2",
+    "puntos": 2,
     "pregunta_pl": "Na jak długo pokwitowanie zatrzymania prawa jazdy za przekroczenie dozwolonej prędkości na obszarze zabudowanym o więcej niż 50 km/h uprawnia do kierowania pojazdem?",
     "pregunta": "¿Durante cuánto tiempo autoriza a conducir el recibo de retención del permiso por superar la velocidad en zona urbana en más de 50 km/h?",
     "opciones_pl": {
@@ -3036,7 +3036,7 @@
   },
   {
     "id": 176,
-    "puntos": "2",
+    "puntos": 2,
     "pregunta_pl": "W jakim przypadku nie zostanie zatrzymane prawo jazdy za przekroczenie dozwolonej prędkości o więcej niż 50 km/h na obszarze zabudowanym?",
     "pregunta": "¿En qué caso no se retirará el permiso por superar la velocidad en más de 50 km/h en zona urbana?",
     "opciones_pl": {
@@ -3055,7 +3055,7 @@
   },
   {
     "id": 177,
-    "puntos": "2",
+    "puntos": 2,
     "pregunta_pl": "Chcesz przewieźć dziecko na przednim siedzeniu pojazdu samochodowego wyposażonego w przednią poduszkę dla pasażera, która jest aktywna. W jaki sposób możesz to zrobić?",
     "pregunta": "Quieres transportar a un niño en el asiento delantero de un vehículo con airbag del pasajero activo. ¿Cómo puedes hacerlo?",
     "opciones_pl": {
@@ -3074,7 +3074,7 @@
   },
   {
     "id": 178,
-    "puntos": "2",
+    "puntos": 2,
     "pregunta_pl": "Co grozi kierowcy, który samochodem ciężarowym przewozi o trzy osoby więcej od liczby miejsc wpisanej w dowodzie rejestracyjnym pojazdu?",
     "pregunta": "¿Qué le espera al conductor que transporta en un camión tres personas más de las plazas indicadas en el permiso de circulación?",
     "opciones_pl": {
@@ -3093,7 +3093,7 @@
   },
   {
     "id": 179,
-    "puntos": "3",
+    "puntos": 3,
     "pregunta_pl": "Na jakiej drodze obowiązuje kierującego zachowanie ściśle określonego minimalnego odstępu od pojazdu poprzedzającego?",
     "pregunta": "¿En qué vía está obligado el conductor a mantener una distancia mínima estrictamente definida respecto al vehículo precedente?",
     "opciones_pl": {
@@ -3112,7 +3112,7 @@
   },
   {
     "id": 180,
-    "puntos": "3",
+    "puntos": 3,
     "pregunta_pl": "Jaka jest dopuszczalna prędkość pojazdu z urządzeniem wystającym do przodu więcej niż 1,5 m od siedzenia dla kierującego?",
     "pregunta": "¿Cuál es la velocidad permitida de un vehículo con un dispositivo que sobresale más de 1,5 m hacia delante del asiento del conductor?",
     "opciones_pl": {
@@ -3131,7 +3131,7 @@
   },
   {
     "id": 181,
-    "puntos": "3",
+    "puntos": 3,
     "pregunta_pl": "Z jaką prędkością wolno poruszać się po autostradzie kierując samochodem osobowym?",
     "pregunta": "¿A qué velocidad se puede circular por autopista conduciendo un turismo?",
     "opciones_pl": {
@@ -3150,7 +3150,7 @@
   },
   {
     "id": 182,
-    "puntos": "3",
+    "puntos": 3,
     "pregunta_pl": "Jaka jest dopuszczalna prędkość czterokołowca na obszarze zabudowanym?",
     "pregunta": "¿Cuál es la velocidad permitida de un cuatriciclo en zona urbana?",
     "opciones_pl": {
@@ -3169,7 +3169,7 @@
   },
   {
     "id": 183,
-    "puntos": "3",
+    "puntos": 3,
     "pregunta_pl": "Z jaką maksymalną dopuszczalną prędkością możesz holować inny pojazd?",
     "pregunta": "¿A qué velocidad máxima permitida puedes remolcar a otro vehículo?",
     "opciones_pl": {
@@ -3188,7 +3188,7 @@
   },
   {
     "id": 184,
-    "puntos": "2",
+    "puntos": 2,
     "pregunta_pl": "Po spełnieniu, którego z wymienionych warunków można przewozić samochodem osobowym, poza fotelikiem bezpieczeństwa lub innym urządzeniem przytrzymującym, dziecko mające mniej niż 150 cm wzrostu?",
     "pregunta": "¿Cumplida cuál de estas condiciones se puede transportar en un turismo, fuera de silla o dispositivo de retención, a un niño de menos de 150 cm?",
     "opciones_pl": {
@@ -3207,7 +3207,7 @@
   },
   {
     "id": 185,
-    "puntos": "3",
+    "puntos": 3,
     "pregunta_pl": "Widząc osobę z białą laską przechodzącą przez jezdnię należy:",
     "pregunta": "Al ver a una persona con bastón blanco cruzando la calzada se debe:",
     "opciones_pl": {
@@ -3226,7 +3226,7 @@
   },
   {
     "id": 186,
-    "puntos": "3",
+    "puntos": 3,
     "pregunta_pl": "Czy każdy kierujący pojazdem ma obowiązek jechać z prędkością zapewniającą panowanie nad pojazdem ?",
     "pregunta": "¿Todo conductor tiene la obligación de circular a una velocidad que garantice el control del vehículo?",
     "opciones_pl": {
@@ -3245,7 +3245,7 @@
   },
   {
     "id": 187,
-    "puntos": "2",
+    "puntos": 2,
     "pregunta_pl": "Prędkość bezpieczna to prędkość :",
     "pregunta": "La velocidad segura es la velocidad:",
     "opciones_pl": {
@@ -3264,7 +3264,7 @@
   },
   {
     "id": 188,
-    "puntos": "1",
+    "puntos": 1,
     "pregunta_pl": "Czy prędkość pojazdu powinna być dostosowana do widoczności drogi ?",
     "pregunta": "¿La velocidad del vehículo debe adaptarse a la visibilidad de la vía?",
     "opciones_pl": {
@@ -3283,7 +3283,7 @@
   },
   {
     "id": 189,
-    "puntos": "1",
+    "puntos": 1,
     "pregunta_pl": "Jaki jest wpływ prędkości pojazdu na reakcję kierującego?",
     "pregunta": "¿Qué influencia tiene la velocidad del vehículo sobre la reacción del conductor?",
     "opciones_pl": {
@@ -3302,7 +3302,7 @@
   },
   {
     "id": 190,
-    "puntos": "3",
+    "puntos": 3,
     "pregunta_pl": "Czy prędkość przy jakiej doszło do wypadku ma wpływ na jego skutki ?",
     "pregunta": "¿La velocidad a la que se produjo el accidente influye en sus consecuencias?",
     "opciones_pl": {
@@ -3321,7 +3321,7 @@
   },
   {
     "id": 191,
-    "puntos": "2",
+    "puntos": 2,
     "pregunta_pl": "Które z poniższych zachowań świadczy o rozważnym i bezpiecznym prowadzeniu pojazdu?",
     "pregunta": "¿Cuál de estos comportamientos demuestra una conducción prudente y segura?",
     "opciones_pl": {
@@ -3378,7 +3378,7 @@
   },
   {
     "id": 194,
-    "puntos": "2",
+    "puntos": 2,
     "pregunta_pl": "Policjant zatrzyma wydane w kraju prawo jazdy za pokwitowaniem, w przypadku ujawnienia czynu polegającego na przewożeniu osób samochodem osobowym, w liczbie przekraczającej liczbę miejsc określoną w dowodzie rejestracyjnym o:",
     "pregunta": "El policía retirará el permiso expedido en el país, mediante recibo, al descubrir el transporte en un turismo de un número de personas que supera las plazas indicadas en el permiso de circulación en:",
     "opciones_pl": {
