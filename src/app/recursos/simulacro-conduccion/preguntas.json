@@ -1019,5 +1019,1145 @@
     "respuesta_correcta": "B",
     "tipo": "abc",
     "fuente": "Ministerstwo Infrastruktury (CC BY-SA 4.0)"
+  },
+  {
+    "id": 70,
+    "puntos": "2",
+    "pregunta_pl": "Która z wymienionych czynności jest dozwolona podczas kierowania samochodem osobowym?",
+    "pregunta": "¿Cuál de estas acciones está permitida al conducir un turismo?",
+    "opciones_pl": {
+      "A": "Korzystanie z nawigacji.",
+      "B": "Odpinanie pasa bezpieczeństwa.",
+      "C": "Korzystanie z telefonu wymagającego trzymania słuchawki w ręku."
+    },
+    "opciones": {
+      "A": "Usar el navegador.",
+      "B": "Desabrocharse el cinturón de seguridad.",
+      "C": "Usar un teléfono que requiera sostener el auricular con la mano."
+    },
+    "respuesta_correcta": "A",
+    "tipo": "abc",
+    "fuente": "Ministerstwo Infrastruktury (CC BY-SA 4.0)"
+  },
+  {
+    "id": 71,
+    "puntos": "1",
+    "pregunta_pl": "Jaka jest dopuszczalna minimalna głębokość bieżnika w oponie niewyposażonej we wskaźnik granicznego jej zużycia?",
+    "pregunta": "¿Cuál es la profundidad mínima admisible del dibujo en un neumático sin indicador de desgaste límite?",
+    "opciones_pl": {
+      "A": "1,6 milimetra.",
+      "B": "2,6 milimetra.",
+      "C": "3 milimetry."
+    },
+    "opciones": {
+      "A": "1,6 milímetros.",
+      "B": "2,6 milímetros.",
+      "C": "3 milímetros."
+    },
+    "respuesta_correcta": "A",
+    "tipo": "abc",
+    "fuente": "Ministerstwo Infrastruktury (CC BY-SA 4.0)"
+  },
+  {
+    "id": 72,
+    "puntos": "1",
+    "pregunta_pl": "Która z wymienionych usterek, uniemożliwia bezpieczne używanie samochodu w ruchu drogowym?",
+    "pregunta": "¿Cuál de estas averías impide el uso seguro del coche en la circulación?",
+    "opciones_pl": {
+      "A": "Zanieczyszczony wkład filtra powietrza.",
+      "B": "Przegrzewające się elektrody świec zapłonowych.",
+      "C": "Przepalona żarówka tylnego lewego kierunkowskazu."
+    },
+    "opciones": {
+      "A": "Filtro de aire sucio.",
+      "B": "Electrodos de las bujías sobrecalentados.",
+      "C": "Bombilla fundida del intermitente trasero izquierdo."
+    },
+    "respuesta_correcta": "C",
+    "tipo": "abc",
+    "fuente": "Ministerstwo Infrastruktury (CC BY-SA 4.0)"
+  },
+  {
+    "id": 73,
+    "puntos": "2",
+    "pregunta_pl": "Jaki może być skutek zbyt słabego nacisku na pedał hamulca w samochodzie osobowym?",
+    "pregunta": "¿Cuál puede ser la consecuencia de una presión demasiado débil sobre el pedal de freno en un turismo?",
+    "opciones_pl": {
+      "A": "Wydłużenie drogi hamowania.",
+      "B": "Zablokowanie kół.",
+      "C": "Utrata sterowności."
+    },
+    "opciones": {
+      "A": "Alargamiento de la distancia de frenado.",
+      "B": "Bloqueo de las ruedas.",
+      "C": "Pérdida de control."
+    },
+    "respuesta_correcta": "A",
+    "tipo": "abc",
+    "fuente": "Ministerstwo Infrastruktury (CC BY-SA 4.0)"
+  },
+  {
+    "id": 74,
+    "puntos": "2",
+    "pregunta_pl": "Do czego może doprowadzić zbyt mocne hamowanie samochodu osobowego niewyposażonego w system ABS?",
+    "pregunta": "¿A qué puede llevar un frenado demasiado fuerte de un turismo sin sistema ABS?",
+    "opciones_pl": {
+      "A": "Do skrócenia o co najmniej połowę drogi hamowania.",
+      "B": "Do utraty sterowności.",
+      "C": "Do zniszczenia hamulców."
+    },
+    "opciones": {
+      "A": "A reducir al menos a la mitad la distancia de frenado.",
+      "B": "A la pérdida de control.",
+      "C": "A destruir los frenos."
+    },
+    "respuesta_correcta": "B",
+    "tipo": "abc",
+    "fuente": "Ministerstwo Infrastruktury (CC BY-SA 4.0)"
+  },
+  {
+    "id": 75,
+    "puntos": "2",
+    "pregunta_pl": "Który ze sposobów hamowania samochodu osobowego wyposażonego w system ABS jest najbardziej efektywny?",
+    "pregunta": "¿Cuál de estas formas de frenar un turismo con ABS es la más eficaz?",
+    "opciones_pl": {
+      "A": "Pulsacyjne wciskanie pedału hamulca.",
+      "B": "Szybkie i mocne wciśnięcie pedału hamulca.",
+      "C": "Wciśnięcie pedału sprzęgła, a następnie pedału hamulca."
+    },
+    "opciones": {
+      "A": "Presionar el pedal de freno de forma pulsante.",
+      "B": "Presionar el pedal de freno rápida y fuertemente.",
+      "C": "Pisar el embrague y luego el pedal de freno."
+    },
+    "respuesta_correcta": "B",
+    "tipo": "abc",
+    "fuente": "Ministerstwo Infrastruktury (CC BY-SA 4.0)"
+  },
+  {
+    "id": 76,
+    "puntos": "2",
+    "pregunta_pl": "Którą z czynności należy wykonać, gdy działający system ABS wypycha w czasie hamowania pedał hamulca?",
+    "pregunta": "¿Qué debes hacer cuando el ABS en funcionamiento empuja hacia fuera el pedal de freno al frenar?",
+    "opciones_pl": {
+      "A": "Utrzymać siłę nacisku na pedał hamulca.",
+      "B": "Zmniejszyć siłę nacisku na pedał hamulca.",
+      "C": "Zwolnić pedał hamulca."
+    },
+    "opciones": {
+      "A": "Mantener la presión sobre el pedal de freno.",
+      "B": "Reducir la presión sobre el pedal de freno.",
+      "C": "Soltar el pedal de freno."
+    },
+    "respuesta_correcta": "A",
+    "tipo": "abc",
+    "fuente": "Ministerstwo Infrastruktury (CC BY-SA 4.0)"
+  },
+  {
+    "id": 77,
+    "puntos": "2",
+    "pregunta_pl": "W którym z przypadków system ABS może pomóc kierującemu pojazdem w utrzymaniu sterowności?",
+    "pregunta": "¿En qué caso el ABS puede ayudar al conductor a mantener el control?",
+    "opciones_pl": {
+      "A": "Przy hamowaniu, gdy pojazd wpadł w boczny poślizg.",
+      "B": "Wyłącznie podczas hamowania na prostym odcinku drogi.",
+      "C": "Wyłącznie podczas hamowania na zakręcie."
+    },
+    "opciones": {
+      "A": "Al frenar, cuando el vehículo entra en derrape lateral.",
+      "B": "Únicamente al frenar en un tramo recto.",
+      "C": "Únicamente al frenar en una curva."
+    },
+    "respuesta_correcta": "A",
+    "tipo": "abc",
+    "fuente": "Ministerstwo Infrastruktury (CC BY-SA 4.0)"
+  },
+  {
+    "id": 78,
+    "puntos": "2",
+    "pregunta_pl": "Jaki efekt może wystąpić, gdy podczas ruszania na wzniesieniu zbyt wcześnie zwolnisz dźwignię hamulca awaryjnego, w porównaniu ze zwolnieniem pedału sprzęgła?",
+    "pregunta": "¿Qué efecto puede producirse si, al arrancar en pendiente, sueltas el freno de mano demasiado pronto en relación con soltar el embrague?",
+    "opciones_pl": {
+      "A": "Unieruchomienie silnika.",
+      "B": "Stoczenie się pojazdu.",
+      "C": "Gwałtowne ruszenie."
+    },
+    "opciones": {
+      "A": "Calado del motor.",
+      "B": "Deslizamiento del vehículo hacia atrás.",
+      "C": "Arranque brusco."
+    },
+    "respuesta_correcta": "B",
+    "tipo": "abc",
+    "fuente": "Ministerstwo Infrastruktury (CC BY-SA 4.0)"
+  },
+  {
+    "id": 79,
+    "puntos": "1",
+    "pregunta_pl": "Które z wymienionych działań należy podjąć, gdy w czasie jazdy zaświeci się na czerwono lampka kontrolna układu hamulcowego?",
+    "pregunta": "¿Qué debes hacer cuando se enciende en rojo el testigo del sistema de frenos durante la marcha?",
+    "opciones_pl": {
+      "A": "Zmniejszyć prędkość i czekać, aż lampka zgaśnie.",
+      "B": "Zatrzymać pojazd i sprawdzić poziom płynu hamulcowego.",
+      "C": "Kontynuować jazdę i zgłosić ten stan przy najbliższych badaniach okresowych pojazdu."
+    },
+    "opciones": {
+      "A": "Reducir la velocidad y esperar a que el testigo se apague.",
+      "B": "Detener el vehículo y comprobar el nivel del líquido de frenos.",
+      "C": "Seguir conduciendo y comunicarlo en la próxima inspección periódica."
+    },
+    "respuesta_correcta": "B",
+    "tipo": "abc",
+    "fuente": "Ministerstwo Infrastruktury (CC BY-SA 4.0)"
+  },
+  {
+    "id": 80,
+    "puntos": "1",
+    "pregunta_pl": "O czym ostrzega świecąca się na czerwono w czasie jazdy samochodem osobowym lampka kontrolna układu chłodzenia?",
+    "pregunta": "¿De qué advierte el testigo del sistema de refrigeración encendido en rojo durante la marcha de un turismo?",
+    "opciones_pl": {
+      "A": "O zbyt wysokiej temperaturze płynu chłodniczego.",
+      "B": "O zbyt niskiej temperaturze płynu chłodniczego.",
+      "C": "O zbyt niskim poziomie płynu do spryskiwania szyby."
+    },
+    "opciones": {
+      "A": "De una temperatura demasiado alta del líquido refrigerante.",
+      "B": "De una temperatura demasiado baja del líquido refrigerante.",
+      "C": "De un nivel demasiado bajo del líquido limpiaparabrisas."
+    },
+    "respuesta_correcta": "A",
+    "tipo": "abc",
+    "fuente": "Ministerstwo Infrastruktury (CC BY-SA 4.0)"
+  },
+  {
+    "id": 81,
+    "puntos": "1",
+    "pregunta_pl": "Która z wymienionych okoliczności może świadczyć o złym stanie technicznym samochodu osobowego?",
+    "pregunta": "¿Cuál de estas circunstancias puede indicar mal estado técnico de un turismo?",
+    "opciones_pl": {
+      "A": "Emisja bezbarwnych spalin.",
+      "B": "Pozostawione na miejscu parkowania ślady wycieków płynów eksploatacyjnych.",
+      "C": "Zaświecenie się na czerwono lampki kontrolnej ładowania akumulatora przed uruchomieniem silnika."
+    },
+    "opciones": {
+      "A": "Emisión de humos incoloros.",
+      "B": "Manchas de fugas de líquidos en la plaza de aparcamiento.",
+      "C": "Encendido en rojo del testigo de carga de la batería antes de arrancar el motor."
+    },
+    "respuesta_correcta": "B",
+    "tipo": "abc",
+    "fuente": "Ministerstwo Infrastruktury (CC BY-SA 4.0)"
+  },
+  {
+    "id": 82,
+    "puntos": "1",
+    "pregunta_pl": "Który z wymienionych przypadków może świadczyć o złym stanie technicznym samochodu osobowego?",
+    "pregunta": "¿Cuál de estos casos puede indicar mal estado técnico de un turismo?",
+    "opciones_pl": {
+      "A": "Emisja czarnych lub niebieskich gęstych spalin.",
+      "B": "Emisja bezbarwnych spalin.",
+      "C": "Zaświecenie się na czerwono lampki kontrolnej ciśnienia oleju silnikowego przed uruchomieniem silnika."
+    },
+    "opciones": {
+      "A": "Emisión de humos negros o azules densos.",
+      "B": "Emisión de humos incoloros.",
+      "C": "Encendido en rojo del testigo de presión de aceite antes de arrancar el motor."
+    },
+    "respuesta_correcta": "A",
+    "tipo": "abc",
+    "fuente": "Ministerstwo Infrastruktury (CC BY-SA 4.0)"
+  },
+  {
+    "id": 83,
+    "puntos": "1",
+    "pregunta_pl": "W którym z wymienionych przypadków, używanie samochodu osobowego nie zagraża bezpieczeństwu ruchu drogowego?",
+    "pregunta": "¿En cuál de estos casos el uso de un turismo no amenaza la seguridad vial?",
+    "opciones_pl": {
+      "A": "Nadmiernie zużyte klocki lub tarcze hamulcowe.",
+      "B": "Uszkodzone przednie amortyzatory.",
+      "C": "Krótkotrwałe użycie koła dojazdowego, gdy jedna z opon uległa uszkodzeniu."
+    },
+    "opciones": {
+      "A": "Pastillas o discos de freno excesivamente desgastados.",
+      "B": "Amortiguadores delanteros dañados.",
+      "C": "Uso breve de la rueda de emergencia cuando uno de los neumáticos se ha dañado."
+    },
+    "respuesta_correcta": "C",
+    "tipo": "abc",
+    "fuente": "Ministerstwo Infrastruktury (CC BY-SA 4.0)"
+  },
+  {
+    "id": 84,
+    "puntos": "3",
+    "pregunta_pl": "Która z tych czynności zwiększy bezpieczeństwo jazdy, gdy kierujesz samochodem osobowym podczas mgły ograniczającej widoczność do 40 metrów?",
+    "pregunta": "¿Cuál de estas acciones aumentará la seguridad al conducir un turismo con niebla que reduce la visibilidad a 40 metros?",
+    "opciones_pl": {
+      "A": "Włączenie świateł drogowych.",
+      "B": "Zmniejszenie odstępu od poprzedzającego pojazdu.",
+      "C": "Włączenie świateł przeciwmgłowych tylnych."
+    },
+    "opciones": {
+      "A": "Encender las luces largas.",
+      "B": "Reducir la distancia con el vehículo precedente.",
+      "C": "Encender las luces antiniebla traseras."
+    },
+    "respuesta_correcta": "C",
+    "tipo": "abc",
+    "fuente": "Ministerstwo Infrastruktury (CC BY-SA 4.0)"
+  },
+  {
+    "id": 85,
+    "puntos": "3",
+    "pregunta_pl": "Jakie jest ryzyko poślizgu pojazdu podczas jazdy w czasie deszczu?",
+    "pregunta": "¿Cuál es el riesgo de derrape del vehículo al conducir bajo la lluvia?",
+    "opciones_pl": {
+      "A": "Największe w początkowej fazie deszczu.",
+      "B": "Najmniejsze w początkowej fazie deszczu.",
+      "C": "Największe w końcowej fazie deszczu."
+    },
+    "opciones": {
+      "A": "Mayor en la fase inicial de la lluvia.",
+      "B": "Menor en la fase inicial de la lluvia.",
+      "C": "Mayor en la fase final de la lluvia."
+    },
+    "respuesta_correcta": "A",
+    "tipo": "abc",
+    "fuente": "Ministerstwo Infrastruktury (CC BY-SA 4.0)"
+  },
+  {
+    "id": 86,
+    "puntos": "2",
+    "pregunta_pl": "Jaki wpływ ma prędkość jazdy na kąt widzenia kierującego samochodem osobowym?",
+    "pregunta": "¿Qué influencia tiene la velocidad sobre el ángulo de visión del conductor de un turismo?",
+    "opciones_pl": {
+      "A": "Wraz ze wzrostem prędkości kąt widzenia zawęża się.",
+      "B": "Wraz ze wzrostem prędkości kąt widzenia rozszerza się.",
+      "C": "Nie ma żadnego wpływu."
+    },
+    "opciones": {
+      "A": "Al aumentar la velocidad, el ángulo de visión se estrecha.",
+      "B": "Al aumentar la velocidad, el ángulo de visión se amplía.",
+      "C": "No tiene ninguna influencia."
+    },
+    "respuesta_correcta": "A",
+    "tipo": "abc",
+    "fuente": "Ministerstwo Infrastruktury (CC BY-SA 4.0)"
+  },
+  {
+    "id": 87,
+    "puntos": "2",
+    "pregunta_pl": "Który z wymienionych czynników może ograniczyć pole widzenia kierującego samochodem osobowym?",
+    "pregunta": "¿Cuál de estos factores puede reducir el campo de visión del conductor de un turismo?",
+    "opciones_pl": {
+      "A": "Używanie klimatyzacji podczas opadów deszczu.",
+      "B": "Lusterko wewnętrzne.",
+      "C": "Oślepiające światła innych pojazdów jadących z przeciwka."
+    },
+    "opciones": {
+      "A": "Usar el aire acondicionado durante la lluvia.",
+      "B": "El espejo interior.",
+      "C": "Las luces deslumbrantes de otros vehículos que vienen de frente."
+    },
+    "respuesta_correcta": "C",
+    "tipo": "abc",
+    "fuente": "Ministerstwo Infrastruktury (CC BY-SA 4.0)"
+  },
+  {
+    "id": 88,
+    "puntos": "2",
+    "pregunta_pl": "Który z wymienionych czynników może ograniczyć pole widzenia kierującego samochodem osobowym podczas jazdy nocą?",
+    "pregunta": "¿Cuál de estos factores puede reducir el campo de visión del conductor de un turismo al conducir de noche?",
+    "opciones_pl": {
+      "A": "Zmniejszona prędkość.",
+      "B": "Uszkodzony system ABS.",
+      "C": "Niewłaściwie ustawione światła."
+    },
+    "opciones": {
+      "A": "Velocidad reducida.",
+      "B": "Sistema ABS averiado.",
+      "C": "Luces mal reguladas."
+    },
+    "respuesta_correcta": "C",
+    "tipo": "abc",
+    "fuente": "Ministerstwo Infrastruktury (CC BY-SA 4.0)"
+  },
+  {
+    "id": 89,
+    "puntos": "2",
+    "pregunta_pl": "Który z wymienionych czynników ma wpływ na ograniczenie pola widzenia kierującego samochodem osobowym?",
+    "pregunta": "¿Cuál de estos factores influye en la reducción del campo de visión del conductor de un turismo?",
+    "opciones_pl": {
+      "A": "Mruganie oczami w czasie przerwy w jeździe.",
+      "B": "15 minut odpoczynku po dwugodzinnej jeździe.",
+      "C": "Kierowanie pojazdem w stanie nietrzeźwości."
+    },
+    "opciones": {
+      "A": "Parpadear durante una pausa en la conducción.",
+      "B": "15 minutos de descanso tras dos horas de conducción.",
+      "C": "Conducir en estado de embriaguez."
+    },
+    "respuesta_correcta": "C",
+    "tipo": "abc",
+    "fuente": "Ministerstwo Infrastruktury (CC BY-SA 4.0)"
+  },
+  {
+    "id": 90,
+    "puntos": "2",
+    "pregunta_pl": "Który z wymienionych czynników może powodować ograniczenie pola widzenia kierującego samochodem osobowym?",
+    "pregunta": "¿Cuál de estos factores puede reducir el campo de visión del conductor de un turismo?",
+    "opciones_pl": {
+      "A": "Zbyt nisko lub zbyt wysoko ustawiony fotel kierującego.",
+      "B": "15 minut odpoczynku po dwugodzinnej jeździe.",
+      "C": "Okulary przeciwsłoneczne używane w słoneczny dzień."
+    },
+    "opciones": {
+      "A": "Asiento del conductor colocado demasiado bajo o demasiado alto.",
+      "B": "15 minutos de descanso tras dos horas de conducción.",
+      "C": "Gafas de sol usadas en un día soleado."
+    },
+    "respuesta_correcta": "A",
+    "tipo": "abc",
+    "fuente": "Ministerstwo Infrastruktury (CC BY-SA 4.0)"
+  },
+  {
+    "id": 91,
+    "puntos": "2",
+    "pregunta_pl": "Jaki wpływ ma prędkość jazdy na kąt widzenia kierującego samochodem osobowym?",
+    "pregunta": "¿Qué influencia tiene la velocidad sobre el ángulo de visión del conductor de un turismo?",
+    "opciones_pl": {
+      "A": "Wraz ze wzrostem prędkości kąt widzenia jest większy.",
+      "B": "Wraz ze wzrostem prędkości kąt widzenia jest mniejszy.",
+      "C": "Nie ma żadnego wpływu."
+    },
+    "opciones": {
+      "A": "Al aumentar la velocidad, el ángulo de visión es mayor.",
+      "B": "Al aumentar la velocidad, el ángulo de visión es menor.",
+      "C": "No tiene ninguna influencia."
+    },
+    "respuesta_correcta": "B",
+    "tipo": "abc",
+    "fuente": "Ministerstwo Infrastruktury (CC BY-SA 4.0)"
+  },
+  {
+    "id": 92,
+    "puntos": "2",
+    "pregunta_pl": "Jak powinieneś postąpić, aby rozpędzić samochód osobowy na płaskim odcinku drogi?",
+    "pregunta": "¿Cómo debes actuar para acelerar un turismo en un tramo llano?",
+    "opciones_pl": {
+      "A": "Wykorzystać maksymalne obroty silnika na każdym biegu.",
+      "B": "Przyspieszyć do takiej prędkości na niższym biegu, by po włączeniu następnego biegu pojazd nie szarpał i nie dusił się.",
+      "C": "W każdym przypadku zwiększyć biegi o dwa."
+    },
+    "opciones": {
+      "A": "Usar las revoluciones máximas del motor en cada marcha.",
+      "B": "Acelerar en una marcha inferior hasta una velocidad tal que, al meter la siguiente, el vehículo no dé tirones ni se ahogue.",
+      "C": "Subir siempre dos marchas de golpe."
+    },
+    "respuesta_correcta": "B",
+    "tipo": "abc",
+    "fuente": "Ministerstwo Infrastruktury (CC BY-SA 4.0)"
+  },
+  {
+    "id": 93,
+    "puntos": "2",
+    "pregunta_pl": "W jaki sposób wolno Ci przewozić rowery samochodem osobowym?",
+    "pregunta": "¿Cómo puedes transportar bicicletas en un turismo?",
+    "opciones_pl": {
+      "A": "Umieszczone w uchwytach z tyłu pojazdu ograniczającym czytelność tablicy rejestracyjnej.",
+      "B": "Umieszczone w uchwytach z tyłu pojazdu zasłaniającym jedno światło pojazdu.",
+      "C": "Umieszczone w uchwytach zamontowanych na bagażniku dachowym."
+    },
+    "opciones": {
+      "A": "En soportes traseros que dificulten la lectura de la matrícula.",
+      "B": "En soportes traseros que tapen una luz del vehículo.",
+      "C": "En soportes montados en la baca del techo."
+    },
+    "respuesta_correcta": "C",
+    "tipo": "abc",
+    "fuente": "Ministerstwo Infrastruktury (CC BY-SA 4.0)"
+  },
+  {
+    "id": 94,
+    "puntos": "1",
+    "pregunta_pl": "W którym z wymienionych przypadków regularne wykonywanie badania technicznego pojazdu ma wpływ na jego bezpieczne używanie w ruchu drogowym?",
+    "pregunta": "¿En qué caso la realización periódica de la inspección técnica del vehículo influye en su uso seguro en la circulación?",
+    "opciones_pl": {
+      "A": "Wyłącznie po upływie okresu gwarancji pojazdu.",
+      "B": "Tylko w okresie gwarancji pojazdu.",
+      "C": "W całym okresie używania pojazdu."
+    },
+    "opciones": {
+      "A": "Solo tras finalizar el periodo de garantía del vehículo.",
+      "B": "Solo durante el periodo de garantía del vehículo.",
+      "C": "Durante todo el periodo de uso del vehículo."
+    },
+    "respuesta_correcta": "C",
+    "tipo": "abc",
+    "fuente": "Ministerstwo Infrastruktury (CC BY-SA 4.0)"
+  },
+  {
+    "id": 95,
+    "puntos": "2",
+    "pregunta_pl": "Jaki jest cel stosowania systemu ABS w samochodzie osobowym?",
+    "pregunta": "¿Cuál es el objetivo del sistema ABS en un turismo?",
+    "opciones_pl": {
+      "A": "Zapobieganie utracie stabilności i zapewnienie kierowalności pojazdu podczas jego hamowania.",
+      "B": "Zapobieganie przed wpadnięciem pojazdu w poślizg - niezależnie od jego prędkości i warunków na drodze.",
+      "C": "Ułatwianie pokonywania zakrętów."
+    },
+    "opciones": {
+      "A": "Evitar la pérdida de estabilidad y mantener la maniobrabilidad del vehículo al frenar.",
+      "B": "Evitar que el vehículo derrape, independientemente de su velocidad y del estado de la vía.",
+      "C": "Facilitar el trazado de las curvas."
+    },
+    "respuesta_correcta": "A",
+    "tipo": "abc",
+    "fuente": "Ministerstwo Infrastruktury (CC BY-SA 4.0)"
+  },
+  {
+    "id": 96,
+    "puntos": "3",
+    "pregunta_pl": "Jak należy postąpić, podczas jazdy samochodem osobowym po drodze pokrytej śniegiem?",
+    "pregunta": "¿Cómo debes actuar al conducir un turismo por una vía cubierta de nieve?",
+    "opciones_pl": {
+      "A": "Unikać gwałtownych ruchów kierownicą.",
+      "B": "Odłączyć system kontroli trakcji.",
+      "C": "Na podjazdach zwiększyć prędkość."
+    },
+    "opciones": {
+      "A": "Evitar movimientos bruscos del volante.",
+      "B": "Desconectar el control de tracción.",
+      "C": "Aumentar la velocidad en las subidas."
+    },
+    "respuesta_correcta": "A",
+    "tipo": "abc",
+    "fuente": "Ministerstwo Infrastruktury (CC BY-SA 4.0)"
+  },
+  {
+    "id": 97,
+    "puntos": "3",
+    "pregunta_pl": "Kto podlega odpowiedzialności karnej w przypadku nieudzielenia pomocy poszkodowanemu w wypadku drogowym z bezpośrednim zagrożeniu utraty zdrowia i życia?",
+    "pregunta": "¿Quién incurre en responsabilidad penal por no prestar auxilio a una víctima de un accidente con peligro directo para su vida o salud?",
+    "opciones_pl": {
+      "A": "Każda osoba, która mogła udzielić pomocy bez narażenia siebie lub innej osoby na niebezpieczeństwo utraty życia lub ciężkiego uszczerbku zdrowia.",
+      "B": "Tylko lekarz.",
+      "C": "Tylko uczestnik wypadku drogowego."
+    },
+    "opciones": {
+      "A": "Toda persona que pudiera prestar ayuda sin exponerse a sí misma ni a otros a peligro de muerte o daño grave.",
+      "B": "Solo un médico.",
+      "C": "Solo un partícipe del accidente."
+    },
+    "respuesta_correcta": "A",
+    "tipo": "abc",
+    "fuente": "Ministerstwo Infrastruktury (CC BY-SA 4.0)"
+  },
+  {
+    "id": 98,
+    "puntos": "3",
+    "pregunta_pl": "Jak należy postąpić z poszkodowanym w wypadku drogowym, znajdującym się w pojeździe?",
+    "pregunta": "¿Cómo se debe actuar con una víctima de accidente que se encuentra dentro del vehículo?",
+    "opciones_pl": {
+      "A": "Należy go ewakuować z pojazdu - w każdym przypadku.",
+      "B": "Należy go ewakuować z pojazdu - w przypadku stwierdzenia u niego zatrzymania akcji serca.",
+      "C": "Należy go zawsze pozostawić w pojeździe - do czasu przybycia lekarza."
+    },
+    "opciones": {
+      "A": "Hay que evacuarla del vehículo, en todos los casos.",
+      "B": "Hay que evacuarla del vehículo si se detecta parada cardíaca.",
+      "C": "Hay que dejarla siempre en el vehículo hasta que llegue el médico."
+    },
+    "respuesta_correcta": "B",
+    "tipo": "abc",
+    "fuente": "Ministerstwo Infrastruktury (CC BY-SA 4.0)"
+  },
+  {
+    "id": 99,
+    "puntos": "3",
+    "pregunta_pl": "Jesteś uczestnikiem lub świadkiem wypadku drogowego. Które z wymienionych informacji należy podać dzwoniąc pod numer alarmowy?",
+    "pregunta": "Eres partícipe o testigo de un accidente. ¿Qué datos debes dar al llamar al número de emergencia?",
+    "opciones_pl": {
+      "A": "Miejsce zdarzenia oraz liczbę i stan ofiar wypadku.",
+      "B": "Tylko liczbę pojazdów biorących udział w wypadku.",
+      "C": "Tylko liczbę ofiar wypadku."
+    },
+    "opciones": {
+      "A": "El lugar del suceso y el número y estado de las víctimas.",
+      "B": "Solo el número de vehículos implicados.",
+      "C": "Solo el número de víctimas."
+    },
+    "respuesta_correcta": "A",
+    "tipo": "abc",
+    "fuente": "Ministerstwo Infrastruktury (CC BY-SA 4.0)"
+  },
+  {
+    "id": 100,
+    "puntos": "3",
+    "pregunta_pl": "Jesteś uczestnikiem lub świadkiem wypadku drogowego. Jak należy postąpić, gdy na poszkodowanym pali się ubranie?",
+    "pregunta": "Eres partícipe o testigo de un accidente. ¿Cómo debes actuar si a una víctima se le está quemando la ropa?",
+    "opciones_pl": {
+      "A": "Przewrócić osobę na ziemię i ugasić ogień poprzez przykrycie np. kurtką, kocem, płaszczem.",
+      "B": "Poczekać na przyjazd Straży Pożarnej.",
+      "C": "Ugasić ogień gaśnicą."
+    },
+    "opciones": {
+      "A": "Tumbar a la persona en el suelo y apagar el fuego cubriéndola con, por ejemplo, una chaqueta o manta.",
+      "B": "Esperar a que lleguen los bomberos.",
+      "C": "Apagar el fuego con un extintor."
+    },
+    "respuesta_correcta": "A",
+    "tipo": "abc",
+    "fuente": "Ministerstwo Infrastruktury (CC BY-SA 4.0)"
+  },
+  {
+    "id": 101,
+    "puntos": "1",
+    "pregunta_pl": "Która z wymienionych awarii, uniemożliwia używanie samochodu osobowego w ruchu drogowym?",
+    "pregunta": "¿Cuál de estas averías impide el uso de un turismo en la circulación?",
+    "opciones_pl": {
+      "A": "Niedziałające czujniki parkowania.",
+      "B": "Niedziałająca klimatyzacja.",
+      "C": "Niedziałające światła hamowania \"stop\"."
+    },
+    "opciones": {
+      "A": "Sensores de aparcamiento que no funcionan.",
+      "B": "Aire acondicionado que no funciona.",
+      "C": "Luces de freno que no funcionan."
+    },
+    "respuesta_correcta": "C",
+    "tipo": "abc",
+    "fuente": "Ministerstwo Infrastruktury (CC BY-SA 4.0)"
+  },
+  {
+    "id": 102,
+    "puntos": "1",
+    "pregunta_pl": "Które z wymienionych działań należy podjąć w pierwszej kolejności, gdy w czasie jazdy zaświeci się na czerwono lampka kontrolna ciśnienia oleju silnikowego?",
+    "pregunta": "¿Qué debes hacer en primer lugar cuando se enciende en rojo el testigo de presión de aceite durante la marcha?",
+    "opciones_pl": {
+      "A": "Kontynuować jazdę ze zmniejszoną prędkością.",
+      "B": "Zwiększyć obroty silnika.",
+      "C": "Zatrzymać pojazd i wyłączyć silnik."
+    },
+    "opciones": {
+      "A": "Seguir conduciendo a velocidad reducida.",
+      "B": "Aumentar las revoluciones del motor.",
+      "C": "Detener el vehículo y apagar el motor."
+    },
+    "respuesta_correcta": "C",
+    "tipo": "abc",
+    "fuente": "Ministerstwo Infrastruktury (CC BY-SA 4.0)"
+  },
+  {
+    "id": 103,
+    "puntos": "3",
+    "pregunta_pl": "Jaką funkcję spełniają poduszki powietrzne?",
+    "pregunta": "¿Qué función cumplen los airbags?",
+    "opciones_pl": {
+      "A": "Zmniejszają uszkodzenia pojazdu podczas zderzenia.",
+      "B": "Zapewniają pełną ochronę kierującego i pasażerów podczas zderzenia.",
+      "C": "Zmniejszają obrażenia ciała, jakim może ulec kierujący i pasażerowie w wyniku zderzenia."
+    },
+    "opciones": {
+      "A": "Reducen los daños del vehículo en una colisión.",
+      "B": "Garantizan la protección total del conductor y los pasajeros en una colisión.",
+      "C": "Reducen las lesiones que pueden sufrir el conductor y los pasajeros en una colisión."
+    },
+    "respuesta_correcta": "C",
+    "tipo": "abc",
+    "fuente": "Ministerstwo Infrastruktury (CC BY-SA 4.0)"
+  },
+  {
+    "id": 104,
+    "puntos": "3",
+    "pregunta_pl": "Kiedy masz obowiązek przełączyć światła drogowe na światła mijania?",
+    "pregunta": "¿Cuándo tienes la obligación de cambiar las luces largas por las de cruce?",
+    "opciones_pl": {
+      "A": "Gdy z przeciwka nadjeżdża inny pojazd.",
+      "B": "Gdy zaczyna padać deszcz.",
+      "C": "Gdy wjeżdżasz na obszar zabudowany."
+    },
+    "opciones": {
+      "A": "Cuando viene otro vehículo de frente.",
+      "B": "Cuando empieza a llover.",
+      "C": "Cuando entras en zona urbana."
+    },
+    "respuesta_correcta": "A",
+    "tipo": "abc",
+    "fuente": "Ministerstwo Infrastruktury (CC BY-SA 4.0)"
+  },
+  {
+    "id": 105,
+    "puntos": "3",
+    "pregunta_pl": "Kiedy masz obowiązek przełączyć światła drogowe na światła mijania?",
+    "pregunta": "¿Cuándo tienes la obligación de cambiar las luces largas por las de cruce?",
+    "opciones_pl": {
+      "A": "Zawsze, gdy widzisz pojazd poprzedzający.",
+      "B": "Zawsze, gdy istnieje możliwość oślepienia kierującego pojazdem poprzedzającym.",
+      "C": "Zawsze, gdy widzisz pojedynczego pieszego na jezdni."
+    },
+    "opciones": {
+      "A": "Siempre que veas el vehículo precedente.",
+      "B": "Siempre que exista posibilidad de deslumbrar al conductor del vehículo precedente.",
+      "C": "Siempre que veas a un peatón aislado en la calzada."
+    },
+    "respuesta_correcta": "B",
+    "tipo": "abc",
+    "fuente": "Ministerstwo Infrastruktury (CC BY-SA 4.0)"
+  },
+  {
+    "id": 106,
+    "puntos": "2",
+    "pregunta_pl": "Co powinieneś widzieć w dobrze ustawionych lusterkach zewnętrznych, gdy kierujesz samochodem osobowym?",
+    "pregunta": "¿Qué debes ver en los espejos exteriores bien regulados al conducir un turismo?",
+    "opciones_pl": {
+      "A": "Tylko boki pojazdu.",
+      "B": "Obszar za pojazdem i boki pojazdu.",
+      "C": "Tylko sąsiedni pas ruchu."
+    },
+    "opciones": {
+      "A": "Solo los laterales del vehículo.",
+      "B": "La zona detrás del vehículo y sus laterales.",
+      "C": "Solo el carril contiguo."
+    },
+    "respuesta_correcta": "B",
+    "tipo": "abc",
+    "fuente": "Ministerstwo Infrastruktury (CC BY-SA 4.0)"
+  },
+  {
+    "id": 107,
+    "puntos": "1",
+    "pregunta_pl": "Do czego służą światła pozycyjne pojazdu?",
+    "pregunta": "¿Para qué sirven las luces de posición del vehículo?",
+    "opciones_pl": {
+      "A": "Do oświetlania drogi.",
+      "B": "Do określania pozycji pojazdu.",
+      "C": "Do sygnalizowania zmiany pasa ruchu."
+    },
+    "opciones": {
+      "A": "Para iluminar la vía.",
+      "B": "Para indicar la posición del vehículo.",
+      "C": "Para señalizar el cambio de carril."
+    },
+    "respuesta_correcta": "B",
+    "tipo": "abc",
+    "fuente": "Ministerstwo Infrastruktury (CC BY-SA 4.0)"
+  },
+  {
+    "id": 108,
+    "puntos": "1",
+    "pregunta_pl": "Jaki może być skutek nieprawidłowo ustawionych reflektorów świateł mijania?",
+    "pregunta": "¿Cuál puede ser la consecuencia de unos faros de cruce mal regulados?",
+    "opciones_pl": {
+      "A": "Zwiększone zużycie paliwa.",
+      "B": "Zwiększone zużycie żarówek.",
+      "C": "Oślepianie kierujących nadjeżdżających z przeciwka."
+    },
+    "opciones": {
+      "A": "Mayor consumo de combustible.",
+      "B": "Mayor desgaste de las bombillas.",
+      "C": "Deslumbramiento de los conductores que vienen de frente."
+    },
+    "respuesta_correcta": "C",
+    "tipo": "abc",
+    "fuente": "Ministerstwo Infrastruktury (CC BY-SA 4.0)"
+  },
+  {
+    "id": 109,
+    "puntos": "1",
+    "pregunta_pl": "Jaki może być skutek nieprawidłowo ustawionych reflektorów świateł mijania?",
+    "pregunta": "¿Cuál puede ser la consecuencia de unos faros de cruce mal regulados?",
+    "opciones_pl": {
+      "A": "Zwiększone zużycie paliwa.",
+      "B": "Pogorszenie widoczności drogi w nocy.",
+      "C": "Zwiększone zużycie żarówek."
+    },
+    "opciones": {
+      "A": "Mayor consumo de combustible.",
+      "B": "Peor visibilidad de la vía por la noche.",
+      "C": "Mayor desgaste de las bombillas."
+    },
+    "respuesta_correcta": "B",
+    "tipo": "abc",
+    "fuente": "Ministerstwo Infrastruktury (CC BY-SA 4.0)"
+  },
+  {
+    "id": 110,
+    "puntos": "3",
+    "pregunta_pl": "Jadąc zimą spotykasz na poboczu sinego, półprzytomnego, wyziębionego człowieka. Jak należy mu pomóc?",
+    "pregunta": "En invierno encuentras en el arcén a una persona amoratada, semiinconsciente y con hipotermia. ¿Cómo debes ayudarla?",
+    "opciones_pl": {
+      "A": "Podać mu gorący napój.",
+      "B": "Podać mu alkohol.",
+      "C": "Wezwać zespół ratownictwa medycznego, zabrać go do samochodu, okryć i powoli ogrzewać."
+    },
+    "opciones": {
+      "A": "Darle una bebida caliente.",
+      "B": "Darle alcohol.",
+      "C": "Llamar al servicio de emergencias médicas, llevarla al coche, cubrirla y calentarla lentamente."
+    },
+    "respuesta_correcta": "C",
+    "tipo": "abc",
+    "fuente": "Ministerstwo Infrastruktury (CC BY-SA 4.0)"
+  },
+  {
+    "id": 111,
+    "puntos": "2",
+    "pregunta_pl": "Której z tych czynności nie masz prawa wykonywać samochodem osobowym?",
+    "pregunta": "¿Cuál de estas acciones no tienes derecho a realizar con un turismo?",
+    "opciones_pl": {
+      "A": "Ciągnąć przyczepy lekkiej.",
+      "B": "Holować innego samochodu osobowego na obszarze zabudowanym.",
+      "C": "Ciągnąć dzieci na sankach."
+    },
+    "opciones": {
+      "A": "Arrastrar un remolque ligero.",
+      "B": "Remolcar a otro turismo en zona urbana.",
+      "C": "Arrastrar a niños en trineo."
+    },
+    "respuesta_correcta": "C",
+    "tipo": "abc",
+    "fuente": "Ministerstwo Infrastruktury (CC BY-SA 4.0)"
+  },
+  {
+    "id": 112,
+    "puntos": "3",
+    "pregunta_pl": "Jaki odstęp od poprzedzającego pojazdu masz obowiązek zachować podczas zatrzymania w zatorze drogowym w tunelu?",
+    "pregunta": "¿Qué distancia respecto al vehículo precedente tienes la obligación de mantener al detenerte en un atasco dentro de un túnel?",
+    "opciones_pl": {
+      "A": "Nie mniejszy niż 3 metry.",
+      "B": "Nie mniejszy niż 5 metrów.",
+      "C": "Nie mniejszy niż 10 metrów."
+    },
+    "opciones": {
+      "A": "No menor de 3 metros.",
+      "B": "No menor de 5 metros.",
+      "C": "No menor de 10 metros."
+    },
+    "respuesta_correcta": "B",
+    "tipo": "abc",
+    "fuente": "Ministerstwo Infrastruktury (CC BY-SA 4.0)"
+  },
+  {
+    "id": 113,
+    "puntos": "2",
+    "pregunta_pl": "Która z wymienionych czynności jest zabroniona podczas kierowania pojazdem?",
+    "pregunta": "¿Cuál de estas acciones está prohibida al conducir un vehículo?",
+    "opciones_pl": {
+      "A": "Obsługiwanie radia.",
+      "B": "Używanie nawigacji GPS.",
+      "C": "Rozmawianie przez telefon, który wymaga trzymania słuchawki lub mikrofonu w ręku."
+    },
+    "opciones": {
+      "A": "Manejar la radio.",
+      "B": "Usar el navegador GPS.",
+      "C": "Hablar por un teléfono que requiera sostener el auricular o micrófono con la mano."
+    },
+    "respuesta_correcta": "C",
+    "tipo": "abc",
+    "fuente": "Ministerstwo Infrastruktury (CC BY-SA 4.0)"
+  },
+  {
+    "id": 114,
+    "puntos": "2",
+    "pregunta_pl": "Jakiej barwy chorągiewką wolno Ci oznaczyć ładunek wystający z tyłu samochodu osobowego?",
+    "pregunta": "¿De qué color puede ser la banderola con la que señalizar una carga que sobresale por detrás de un turismo?",
+    "opciones_pl": {
+      "A": "Zieloną.",
+      "B": "Żółtą.",
+      "C": "Czerwoną."
+    },
+    "opciones": {
+      "A": "Verde.",
+      "B": "Amarilla.",
+      "C": "Roja."
+    },
+    "respuesta_correcta": "C",
+    "tipo": "abc",
+    "fuente": "Ministerstwo Infrastruktury (CC BY-SA 4.0)"
+  },
+  {
+    "id": 115,
+    "puntos": "2",
+    "pregunta_pl": "Jakiej wielkości nie ma prawa przekroczyć rzeczywista masa całkowita przyczepy ciągniętej przez samochód osobowy?",
+    "pregunta": "¿Qué valor no puede superar la masa total real de un remolque tirado por un turismo?",
+    "opciones_pl": {
+      "A": "Masy własnej samochodu.",
+      "B": "Rzeczywistej masy całkowitej samochodu.",
+      "C": "Rzeczywistej masy całkowitej samochodu pomniejszonej o 40%."
+    },
+    "opciones": {
+      "A": "La masa en vacío del coche.",
+      "B": "La masa total real del coche.",
+      "C": "La masa total real del coche reducida en un 40%."
+    },
+    "respuesta_correcta": "B",
+    "tipo": "abc",
+    "fuente": "Ministerstwo Infrastruktury (CC BY-SA 4.0)"
+  },
+  {
+    "id": 116,
+    "puntos": "2",
+    "pregunta_pl": "Na której z tych dróg nie masz prawa holować samochodem osobowym innego pojazdu?",
+    "pregunta": "¿En cuál de estas vías no tienes derecho a remolcar con un turismo a otro vehículo?",
+    "opciones_pl": {
+      "A": "Na autostradzie.",
+      "B": "Na drodze ekspresowej.",
+      "C": "W strefie zamieszkania."
+    },
+    "opciones": {
+      "A": "En autopista.",
+      "B": "En vía rápida.",
+      "C": "En zona residencial."
+    },
+    "respuesta_correcta": "A",
+    "tipo": "abc",
+    "fuente": "Ministerstwo Infrastruktury (CC BY-SA 4.0)"
+  },
+  {
+    "id": 117,
+    "puntos": "3",
+    "pregunta_pl": "W jakich warunkach drogowych dozwolone jest używanie łańcuchów przeciwślizgowych?",
+    "pregunta": "¿En qué condiciones de la vía se permite el uso de cadenas antideslizantes?",
+    "opciones_pl": {
+      "A": "Gdy kierujesz pojazdem w okresie od początku grudnia do końca lutego, niezależnie od tego, czy droga jest pokryta śniegiem.",
+      "B": "Gdy temperatura powietrza jest mniejsza niż 0 stopni Celsjusza, niezależnie od tego, czy droga jest pokryta śniegiem.",
+      "C": "Gdy droga jest pokryta śniegiem."
+    },
+    "opciones": {
+      "A": "Al conducir entre principios de diciembre y finales de febrero, esté o no la vía cubierta de nieve.",
+      "B": "Cuando la temperatura es inferior a 0 °C, esté o no la vía cubierta de nieve.",
+      "C": "Cuando la vía está cubierta de nieve."
+    },
+    "respuesta_correcta": "C",
+    "tipo": "abc",
+    "fuente": "Ministerstwo Infrastruktury (CC BY-SA 4.0)"
+  },
+  {
+    "id": 118,
+    "puntos": "3",
+    "pregunta_pl": "W jakich warunkach droga hamowania jest najdłuższa?",
+    "pregunta": "¿En qué condiciones es más larga la distancia de frenado?",
+    "opciones_pl": {
+      "A": "Na drodze suchej.",
+      "B": "Na drodze mokrej.",
+      "C": "Na drodze oblodzonej."
+    },
+    "opciones": {
+      "A": "En vía seca.",
+      "B": "En vía mojada.",
+      "C": "En vía helada."
+    },
+    "respuesta_correcta": "C",
+    "tipo": "abc",
+    "fuente": "Ministerstwo Infrastruktury (CC BY-SA 4.0)"
+  },
+  {
+    "id": 119,
+    "puntos": "3",
+    "pregunta_pl": "Jaką funkcję w pojeździe spełnia system przeciwblokujący ABS?",
+    "pregunta": "¿Qué función cumple en el vehículo el sistema antibloqueo ABS?",
+    "opciones_pl": {
+      "A": "Zapobiega poślizgowi kół podczas ruszania.",
+      "B": "Umożliwia zachowanie kontroli nad pojazdem podczas gwałtownego hamowania.",
+      "C": "Zawsze skraca drogę hamowania."
+    },
+    "opciones": {
+      "A": "Evita el patinado de las ruedas al arrancar.",
+      "B": "Permite mantener el control del vehículo durante un frenado brusco.",
+      "C": "Siempre acorta la distancia de frenado."
+    },
+    "respuesta_correcta": "B",
+    "tipo": "abc",
+    "fuente": "Ministerstwo Infrastruktury (CC BY-SA 4.0)"
+  },
+  {
+    "id": 120,
+    "puntos": "2",
+    "pregunta_pl": "Jak masz obowiązek oznakować holowany samochód osobowy?",
+    "pregunta": "¿Cómo debes señalizar un turismo remolcado?",
+    "opciones_pl": {
+      "A": "Włączyć światła awaryjne.",
+      "B": "Umieścić z tyłu po lewej stronie ostrzegawczy trójkąt odblaskowy.",
+      "C": "Włączyć tylne światło przeciwmgłowe."
+    },
+    "opciones": {
+      "A": "Encender las luces de emergencia.",
+      "B": "Colocar detrás, en el lado izquierdo, un triángulo reflectante de advertencia.",
+      "C": "Encender la luz antiniebla trasera."
+    },
+    "respuesta_correcta": "B",
+    "tipo": "abc",
+    "fuente": "Ministerstwo Infrastruktury (CC BY-SA 4.0)"
+  },
+  {
+    "id": 121,
+    "puntos": "1",
+    "pregunta_pl": "Czy jako właściciel pojazdu masz obowiązek wskazać na żądanie uprawnionego organu, komu powierzyłeś pojazd do kierowania lub używania w określonym czasie?",
+    "pregunta": "Como propietario del vehículo, ¿tienes la obligación de indicar, a petición del órgano competente, a quién confiaste el vehículo en un momento determinado?",
+    "opciones_pl": {
+      "A": "Tak, chyba że jest to pojazd wykorzystywany do prowadzenia działalności gospodarczej.",
+      "B": "Tak, chyba że pojazd został użyty wbrew Twojej woli i wiedzy przez nieznaną osobę, czemu nie mogłeś zapobiec.",
+      "C": "Nie mam takiego obowiązku."
+    },
+    "opciones": {
+      "A": "Sí, salvo que sea un vehículo usado para actividad económica.",
+      "B": "Sí, salvo que el vehículo fuera usado contra tu voluntad y sin tu conocimiento por una persona desconocida, sin que pudieras evitarlo.",
+      "C": "No tengo tal obligación."
+    },
+    "respuesta_correcta": "B",
+    "tipo": "abc",
+    "fuente": "Ministerstwo Infrastruktury (CC BY-SA 4.0)"
+  },
+  {
+    "id": 122,
+    "puntos": "1",
+    "pregunta_pl": "Czy wolno Ci kierować pojazdem, którego tablica rejestracyjna jest niewidoczna?",
+    "pregunta": "¿Puedes conducir un vehículo cuya matrícula es ilegible?",
+    "opciones_pl": {
+      "A": "Tak, bez żadnych ograniczeń.",
+      "B": "Tak, gdy tablica jest przesłonięta przez wystający ładunek.",
+      "C": "Nie, jest to zabronione."
+    },
+    "opciones": {
+      "A": "Sí, sin ninguna restricción.",
+      "B": "Sí, cuando la matrícula está tapada por una carga que sobresale.",
+      "C": "No, está prohibido."
+    },
+    "respuesta_correcta": "C",
+    "tipo": "abc",
+    "fuente": "Ministerstwo Infrastruktury (CC BY-SA 4.0)"
+  },
+  {
+    "id": 123,
+    "puntos": "1",
+    "pregunta_pl": "Czy wolno Ci nakleić na pojeździe znak określający inne państwo niż to, w którym pojazd został zarejestrowany?",
+    "pregunta": "¿Puedes pegar en el vehículo un distintivo de un país distinto de aquel donde el vehículo está matriculado?",
+    "opciones_pl": {
+      "A": "Tak, bez żadnych ograniczeń.",
+      "B": "Tak, ale pod warunkiem, że pojazd posiada tablicę rejestracyjną z oznaczeniem „PL”.",
+      "C": "Nie, jest to zabronione."
+    },
+    "opciones": {
+      "A": "Sí, sin ninguna restricción.",
+      "B": "Sí, siempre que el vehículo tenga matrícula con el distintivo «PL».",
+      "C": "No, está prohibido."
+    },
+    "respuesta_correcta": "C",
+    "tipo": "abc",
+    "fuente": "Ministerstwo Infrastruktury (CC BY-SA 4.0)"
+  },
+  {
+    "id": 124,
+    "puntos": "1",
+    "pregunta_pl": "Co należy sprawdzić, gdy lampka kontrolna kierunkowskazów zaczęła migać dużo szybciej?",
+    "pregunta": "¿Qué debes comprobar cuando el testigo de los intermitentes empieza a parpadear mucho más rápido?",
+    "opciones_pl": {
+      "A": "Napięcie akumulatora.",
+      "B": "Sprawność bezpieczników.",
+      "C": "Sprawność żarówek kierunkowskazów."
+    },
+    "opciones": {
+      "A": "La tensión de la batería.",
+      "B": "El estado de los fusibles.",
+      "C": "El estado de las bombillas de los intermitentes."
+    },
+    "respuesta_correcta": "C",
+    "tipo": "abc",
+    "fuente": "Ministerstwo Infrastruktury (CC BY-SA 4.0)"
+  },
+  {
+    "id": 125,
+    "puntos": "1",
+    "pregunta_pl": "Kiedy należy sprawdzać poziom oleju w silniku?",
+    "pregunta": "¿Cuándo debe comprobarse el nivel de aceite del motor?",
+    "opciones_pl": {
+      "A": "Przy uruchomionym silniku.",
+      "B": "Natychmiast po unieruchomieniu silnika.",
+      "C": "Przed uruchomieniem zimnego silnika albo co najmniej po kilku minutach po jego wyłączeniu."
+    },
+    "opciones": {
+      "A": "Con el motor en marcha.",
+      "B": "Inmediatamente después de apagar el motor.",
+      "C": "Antes de arrancar el motor en frío o al menos unos minutos después de apagarlo."
+    },
+    "respuesta_correcta": "C",
+    "tipo": "abc",
+    "fuente": "Ministerstwo Infrastruktury (CC BY-SA 4.0)"
+  },
+  {
+    "id": 126,
+    "puntos": "2",
+    "pregunta_pl": "Który bieg jest właściwy do rozpoczęcia jazdy samochodem osobowym na suchej nawierzchni?",
+    "pregunta": "¿Qué marcha es la adecuada para iniciar la marcha de un turismo sobre firme seco?",
+    "opciones_pl": {
+      "A": "Drugi.",
+      "B": "Pierwszy.",
+      "C": "Ten, na którym jazda została zakończona."
+    },
+    "opciones": {
+      "A": "Segunda.",
+      "B": "Primera.",
+      "C": "Aquella en la que se terminó de conducir."
+    },
+    "respuesta_correcta": "B",
+    "tipo": "abc",
+    "fuente": "Ministerstwo Infrastruktury (CC BY-SA 4.0)"
+  },
+  {
+    "id": 127,
+    "puntos": "2",
+    "pregunta_pl": "Które wymienione czynniki zależne od kierującego pojazdem mają istotny wpływ na jego ostrość widzenia?",
+    "pregunta": "¿Cuáles de estos factores, dependientes del conductor, influyen de forma significativa en su agudeza visual?",
+    "opciones_pl": {
+      "A": "Temperatura i wilgotność powietrza.",
+      "B": "Stan nawierzchni jezdni, pora dnia lub nocy.",
+      "C": "Koncentracja uwagi, aktualne samopoczucie i stan zdrowia."
+    },
+    "opciones": {
+      "A": "La temperatura y la humedad del aire.",
+      "B": "El estado del firme, la hora del día o de la noche.",
+      "C": "La concentración, el estado de ánimo y de salud."
+    },
+    "respuesta_correcta": "C",
+    "tipo": "abc",
+    "fuente": "Ministerstwo Infrastruktury (CC BY-SA 4.0)"
+  },
+  {
+    "id": 128,
+    "puntos": "2",
+    "pregunta_pl": "Jaki wpływ na pole widzenia kierującego pojazdem ma prędkość jazdy?",
+    "pregunta": "¿Qué influencia tiene la velocidad sobre el campo de visión del conductor?",
+    "opciones_pl": {
+      "A": "Wraz ze wzrostem prędkości zawęża się pole widzenia.",
+      "B": "Wraz ze wzrostem prędkości rozszerza się pole widzenia.",
+      "C": "Prędkość jazdy nie ma wpływu na pole widzenia kierującego."
+    },
+    "opciones": {
+      "A": "Al aumentar la velocidad, el campo de visión se estrecha.",
+      "B": "Al aumentar la velocidad, el campo de visión se amplía.",
+      "C": "La velocidad no influye en el campo de visión del conductor."
+    },
+    "respuesta_correcta": "A",
+    "tipo": "abc",
+    "fuente": "Ministerstwo Infrastruktury (CC BY-SA 4.0)"
+  },
+  {
+    "id": 129,
+    "puntos": "1",
+    "pregunta_pl": "Używanie pojazdu w sposób powodujący uciążliwości związane z nadmierną emisją spalin do środowiska lub nadmiernym hałasem jest:",
+    "pregunta": "Usar el vehículo de modo que cause molestias por emisión excesiva de gases al medio ambiente o por ruido excesivo está:",
+    "opciones_pl": {
+      "A": "zabronione w obszarze zabudowanym.",
+      "B": "zabronione.",
+      "C": "zabronione tylko w strefie zamieszkania."
+    },
+    "opciones": {
+      "A": "prohibido en zona urbana.",
+      "B": "prohibido.",
+      "C": "prohibido solo en zona residencial."
+    },
+    "respuesta_correcta": "B",
+    "tipo": "abc",
+    "fuente": "Ministerstwo Infrastruktury (CC BY-SA 4.0)"
   }
 ]
