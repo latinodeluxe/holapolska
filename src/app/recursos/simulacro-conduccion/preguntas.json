@@ -2159,5 +2159,1240 @@
     "respuesta_correcta": "B",
     "tipo": "abc",
     "fuente": "Ministerstwo Infrastruktury (CC BY-SA 4.0)"
+  },
+  {
+    "id": 130,
+    "puntos": "1",
+    "pregunta_pl": "W której z wymienionych niebezpiecznych sytuacji na drodze najlepiej sprawdzi się pojazd wyposażony w tzw. ASR, czyli układ zapobiegający poślizgowi kół napędzanych podczas ruszania?",
+    "pregunta": "¿En cuál de estas situaciones peligrosas resulta más útil un vehículo con ASR (sistema que evita el patinado de las ruedas motrices al arrancar)?",
+    "opciones_pl": {
+      "A": "W sytuacji zjeżdżania ze wzniesienia.",
+      "B": "W sytuacji zjeżdżania ze wzniesienia drogą o dużym natężeniu ruchu.",
+      "C": "W sytuacji nagłego przyspieszenia na mokrej nawierzchni."
+    },
+    "opciones": {
+      "A": "Al descender una pendiente.",
+      "B": "Al descender una pendiente por una vía muy transitada.",
+      "C": "En caso de aceleración brusca sobre firme mojado."
+    },
+    "respuesta_correcta": "C",
+    "tipo": "abc",
+    "fuente": "Ministerstwo Infrastruktury (CC BY-SA 4.0)"
+  },
+  {
+    "id": 131,
+    "puntos": "1",
+    "pregunta_pl": "W której z wymienionych niebezpiecznych sytuacji na drodze najlepiej sprawdzi się pojazd wyposażony w tzw. ASR, czyli układ zapobiegający poślizgowi kół napędzanych podczas ruszania?",
+    "pregunta": "¿En cuál de estas situaciones peligrosas resulta más útil un vehículo con ASR (sistema que evita el patinado de las ruedas motrices al arrancar)?",
+    "opciones_pl": {
+      "A": "W sytuacji zjeżdżania ze wzniesienia drogą o dużym natężeniu ruchu.",
+      "B": "W sytuacji konieczności wjeżdżania na wzniesienie.",
+      "C": "W sytuacji gwałtownego ruszania na śliskiej nawierzchni."
+    },
+    "opciones": {
+      "A": "Al descender una pendiente por una vía muy transitada.",
+      "B": "Al tener que subir una pendiente.",
+      "C": "Al arrancar bruscamente sobre firme deslizante."
+    },
+    "respuesta_correcta": "C",
+    "tipo": "abc",
+    "fuente": "Ministerstwo Infrastruktury (CC BY-SA 4.0)"
+  },
+  {
+    "id": 132,
+    "puntos": "1",
+    "pregunta_pl": "W której z wymienionych niebezpiecznych sytuacji na drodze najlepiej sprawdzi się pojazd wyposażony w tzw. ESP, czyli układ stabilizacji toru jazdy?",
+    "pregunta": "¿En cuál de estas situaciones peligrosas resulta más útil un vehículo con ESP (sistema de estabilización de la trayectoria)?",
+    "opciones_pl": {
+      "A": "W sytuacji pokonywania ostrego zakrętu i trudności z utrzymaniem oczekiwanego toru jazdy.",
+      "B": "W sytuacji konieczności nagłego przyspieszenie na drodze gruntowej.",
+      "C": "W sytuacji konieczności utrzymania stałej prędkości."
+    },
+    "opciones": {
+      "A": "Al tomar una curva cerrada con dificultad para mantener la trayectoria deseada.",
+      "B": "Al tener que acelerar bruscamente en un camino de tierra.",
+      "C": "Al tener que mantener una velocidad constante."
+    },
+    "respuesta_correcta": "A",
+    "tipo": "abc",
+    "fuente": "Ministerstwo Infrastruktury (CC BY-SA 4.0)"
+  },
+  {
+    "id": 133,
+    "puntos": "1",
+    "pregunta_pl": "W której z wymienionych niebezpiecznych sytuacji na drodze najlepiej sprawdzi się pojazd wyposażony w tzw. ESP, czyli układ stabilizacji toru jazdy?",
+    "pregunta": "¿En cuál de estas situaciones peligrosas resulta más útil un vehículo con ESP (sistema de estabilización de la trayectoria)?",
+    "opciones_pl": {
+      "A": "W sytuacji konieczności utrzymania stałej prędkości.",
+      "B": "W sytuacji konieczności wjeżdżania na wzniesienie.",
+      "C": "W sytuacji konieczności pokonywania kilku następujących po sobie zakrętów."
+    },
+    "opciones": {
+      "A": "Al tener que mantener una velocidad constante.",
+      "B": "Al tener que subir una pendiente.",
+      "C": "Al tener que tomar varias curvas sucesivas."
+    },
+    "respuesta_correcta": "C",
+    "tipo": "abc",
+    "fuente": "Ministerstwo Infrastruktury (CC BY-SA 4.0)"
+  },
+  {
+    "id": 134,
+    "puntos": "2",
+    "pregunta_pl": "Czy dopuszczalne jest holowanie za pomocą połączenia sztywnego pojazdu o niesprawnym układzie kierowniczym?",
+    "pregunta": "¿Se permite remolcar con enganche rígido un vehículo con la dirección averiada?",
+    "opciones_pl": {
+      "A": "Nie.",
+      "B": "Tak, ale tylko w obszarze niezabudowanym.",
+      "C": "Tak, ale tylko w obszarze zabudowanym."
+    },
+    "opciones": {
+      "A": "No.",
+      "B": "Sí, pero solo fuera de zona urbana.",
+      "C": "Sí, pero solo en zona urbana."
+    },
+    "respuesta_correcta": "A",
+    "tipo": "abc",
+    "fuente": "Ministerstwo Infrastruktury (CC BY-SA 4.0)"
+  },
+  {
+    "id": 135,
+    "puntos": "2",
+    "pregunta_pl": "Czy podczas holowania motocykla powinny być sprawne w nim dwa układy hamulcowe?",
+    "pregunta": "Al remolcar una motocicleta, ¿deben funcionar en ella los dos sistemas de frenado?",
+    "opciones_pl": {
+      "A": "Tak, ale tylko przy prędkości powyżej 20 km/h.",
+      "B": "Tak.",
+      "C": "Nie, wystarczy jeden."
+    },
+    "opciones": {
+      "A": "Sí, pero solo a velocidad superior a 20 km/h.",
+      "B": "Sí.",
+      "C": "No, basta con uno."
+    },
+    "respuesta_correcta": "B",
+    "tipo": "abc",
+    "fuente": "Ministerstwo Infrastruktury (CC BY-SA 4.0)"
+  },
+  {
+    "id": 136,
+    "puntos": "2",
+    "pregunta_pl": "Przewożenie dziecka w foteliku bezpieczeństwa zamontowanym tyłem do kierunku jazdy na przednim siedzeniu pojazdu samochodowego, wyposażonego w poduszkę powietrzną dla pasażera jest:",
+    "pregunta": "Transportar a un niño en una silla instalada en sentido contrario a la marcha, en el asiento delantero de un vehículo con airbag para el pasajero, está:",
+    "opciones_pl": {
+      "A": "dozwolone bez ograniczeń.",
+      "B": "zabronione.",
+      "C": "dozwolone, jeżeli poduszka powietrzna nie jest aktywna podczas przewożenia."
+    },
+    "opciones": {
+      "A": "permitido sin restricciones.",
+      "B": "prohibido.",
+      "C": "permitido si el airbag no está activo durante el transporte."
+    },
+    "respuesta_correcta": "C",
+    "tipo": "abc",
+    "fuente": "Ministerstwo Infrastruktury (CC BY-SA 4.0)"
+  },
+  {
+    "id": 137,
+    "puntos": "2",
+    "pregunta_pl": "Foteliki bezpieczeństwa dla dzieci oraz inne urządzenia przytrzymujące dla dzieci należy instalować w pojeździe:",
+    "pregunta": "Las sillas infantiles de seguridad y otros dispositivos de retención infantil deben instalarse en el vehículo:",
+    "opciones_pl": {
+      "A": "w sposób bezpieczny i estetyczny.",
+      "B": "w sposób umożliwiający łatwy dostęp do dziecka.",
+      "C": "zgodnie z zaleceniami producenta urządzenia."
+    },
+    "opciones": {
+      "A": "de forma segura y estética.",
+      "B": "de forma que permitan un fácil acceso al niño.",
+      "C": "según las indicaciones del fabricante del dispositivo."
+    },
+    "respuesta_correcta": "C",
+    "tipo": "abc",
+    "fuente": "Ministerstwo Infrastruktury (CC BY-SA 4.0)"
+  },
+  {
+    "id": 138,
+    "puntos": "2",
+    "pregunta_pl": "Policjant zatrzyma prawo jazdy za pokwitowaniem w przypadku ujawnienia czynu polegającego na:\n\n\nPolicjant zatrzyma",
+    "pregunta": "El policía retirará el permiso de conducir mediante recibo en caso de descubrir el hecho consistente en:",
+    "opciones_pl": {
+      "A": "kierowaniu pojazdem z prędkością przekraczającą dopuszczalną o 50 km/h na obszarze zabudowanym.",
+      "B": "kierowaniu pojazdem z prędkością przekraczającą dopuszczalną o więcej niż 50 km/h na obszarze zabudowanym.",
+      "C": "kierowaniu pojazdem z prędkością przekraczającą dopuszczalną o 50 km/h poza obszarem zabudowanym."
+    },
+    "opciones": {
+      "A": "conducir a una velocidad que supera la permitida en 50 km/h en zona urbana.",
+      "B": "conducir a una velocidad que supera la permitida en más de 50 km/h en zona urbana.",
+      "C": "conducir a una velocidad que supera la permitida en 50 km/h fuera de zona urbana."
+    },
+    "respuesta_correcta": "B",
+    "tipo": "abc",
+    "fuente": "Ministerstwo Infrastruktury (CC BY-SA 4.0)"
+  },
+  {
+    "id": 139,
+    "puntos": "2",
+    "pregunta_pl": "Starosta wydaje decyzję administracyjną o zatrzymaniu prawa jazdy, gdy kierujący pojazdem przekroczył dopuszczalną prędkość o:",
+    "pregunta": "El starosta (autoridad local) dicta resolución administrativa de retirada del permiso cuando el conductor superó la velocidad permitida en:",
+    "opciones_pl": {
+      "A": "więcej niż 50 km/h na obszarze zabudowanym.",
+      "B": "50 km/h na obszarze zabudowanym.",
+      "C": "50 km/h poza obszarem zabudowanym."
+    },
+    "opciones": {
+      "A": "más de 50 km/h en zona urbana.",
+      "B": "50 km/h en zona urbana.",
+      "C": "50 km/h fuera de zona urbana."
+    },
+    "respuesta_correcta": "A",
+    "tipo": "abc",
+    "fuente": "Ministerstwo Infrastruktury (CC BY-SA 4.0)"
+  },
+  {
+    "id": 140,
+    "puntos": "2",
+    "pregunta_pl": "W przypadku gdy kierujący przekroczył dopuszczalną prędkość o więcej niż 50 km/h na obszarze zabudowanym, starosta wydaje decyzję administracyjną o zatrzymaniu prawa jazdy na okres:",
+    "pregunta": "Cuando el conductor superó la velocidad permitida en más de 50 km/h en zona urbana, el starosta dicta resolución de retirada del permiso por un periodo de:",
+    "opciones_pl": {
+      "A": "1 miesiąca.",
+      "B": "2 miesięcy.",
+      "C": "3 miesięcy."
+    },
+    "opciones": {
+      "A": "1 mes.",
+      "B": "2 meses.",
+      "C": "3 meses."
+    },
+    "respuesta_correcta": "C",
+    "tipo": "abc",
+    "fuente": "Ministerstwo Infrastruktury (CC BY-SA 4.0)"
+  },
+  {
+    "id": 141,
+    "puntos": "2",
+    "pregunta_pl": "Dokumentem stwierdzającym dopuszczenie pojazdu samochodowego do ruchu jest:",
+    "pregunta": "El documento que acredita la autorización de circulación de un vehículo de motor es:",
+    "opciones_pl": {
+      "A": "dowód rejestracyjny.",
+      "B": "karta pojazdu.",
+      "C": "nalepka kontrolna na przedniej szybie."
+    },
+    "opciones": {
+      "A": "el permiso de circulación.",
+      "B": "la ficha del vehículo.",
+      "C": "la pegatina de control del parabrisas."
+    },
+    "respuesta_correcta": "A",
+    "tipo": "abc",
+    "fuente": "Ministerstwo Infrastruktury (CC BY-SA 4.0)"
+  },
+  {
+    "id": 142,
+    "puntos": "2",
+    "pregunta_pl": "W jaki sposób przewozisz dziecko o wzroście mniejszym niż 150 cm na przednim siedzeniu samochodu osobowego, który ma pięć miejsc siedzących?",
+    "pregunta": "¿Cómo transportas a un niño de menos de 150 cm de estatura en el asiento delantero de un turismo con cinco plazas?",
+    "opciones_pl": {
+      "A": " Na kolanach pasażera.",
+      "B": " W foteliku bezpieczeństwa lub innym urządzeniu przytrzymującym dziecko.",
+      "C": "W foteliku bezpieczeństwa tyłem do kierunku jazdy, jeżeli pojazd ma aktywną poduszkę powietrzną dla pasażera."
+    },
+    "opciones": {
+      "A": "En el regazo del pasajero.",
+      "B": "En una silla de seguridad u otro dispositivo de retención infantil.",
+      "C": "En silla de seguridad orientada hacia atrás, si el vehículo tiene el airbag del pasajero activo."
+    },
+    "respuesta_correcta": "B",
+    "tipo": "abc",
+    "fuente": "Ministerstwo Infrastruktury (CC BY-SA 4.0)"
+  },
+  {
+    "id": 143,
+    "puntos": "2",
+    "pregunta_pl": "W jaki sposób przewozisz dziecko o wzroście mniejszym niż 150 cm samochodem osobowym, w którym jest pięć miejsc siedzących?",
+    "pregunta": "¿Cómo transportas a un niño de menos de 150 cm en un turismo con cinco plazas?",
+    "opciones_pl": {
+      "A": "Na przednim siedzeniu bez fotelika lub innego urządzenia przytrzymującego dziecko.",
+      "B": "Na przednim siedzeniu w innym niż fotelik urządzeniu przytrzymującym dziecko.",
+      "C": "Na tylnym siedzeniu bez zapiętych pasów bezpieczeństwa."
+    },
+    "opciones": {
+      "A": "En el asiento delantero sin silla ni dispositivo de retención.",
+      "B": "En el asiento delantero en un dispositivo de retención distinto de la silla.",
+      "C": "En el asiento trasero sin el cinturón abrochado."
+    },
+    "respuesta_correcta": "B",
+    "tipo": "abc",
+    "fuente": "Ministerstwo Infrastruktury (CC BY-SA 4.0)"
+  },
+  {
+    "id": 144,
+    "puntos": "2",
+    "pregunta_pl": "W jaki sposób zainstalujesz w pojeździe fotelik bezpieczeństwa służący do przewozu dziecka?",
+    "pregunta": "¿Cómo instalarás en el vehículo una silla de seguridad para transportar a un niño?",
+    "opciones_pl": {
+      "A": "W sposób wygodny dla dziecka.",
+      "B": "W sposób wygodny dla siebie.",
+      "C": "Zgodnie z zaleceniami producenta urządzenia."
+    },
+    "opciones": {
+      "A": "De forma cómoda para el niño.",
+      "B": "De forma cómoda para ti.",
+      "C": "Según las indicaciones del fabricante del dispositivo."
+    },
+    "respuesta_correcta": "C",
+    "tipo": "abc",
+    "fuente": "Ministerstwo Infrastruktury (CC BY-SA 4.0)"
+  },
+  {
+    "id": 145,
+    "puntos": "2",
+    "pregunta_pl": "W jaki sposób w pojeździe zainstalujesz podtrzymujące dziecko urządzenie, które służy do jego przewozu?",
+    "pregunta": "¿Cómo instalarás en el vehículo el dispositivo de retención para transportar a un niño?",
+    "opciones_pl": {
+      "A": "Tak, jak życzy sobie tego dziecko.",
+      "B": "W sposób wygodny dla siebie.",
+      "C": "Zalecany przez producenta urządzenia."
+    },
+    "opciones": {
+      "A": "Como desee el niño.",
+      "B": "De forma cómoda para ti.",
+      "C": "Según lo recomendado por el fabricante del dispositivo."
+    },
+    "respuesta_correcta": "C",
+    "tipo": "abc",
+    "fuente": "Ministerstwo Infrastruktury (CC BY-SA 4.0)"
+  },
+  {
+    "id": 146,
+    "puntos": "2",
+    "pregunta_pl": "Jakie warunki powinien spełniać samochód osobowy, którym chcesz przewieźć dziecko, które ma mniej niż trzy lata?",
+    "pregunta": "¿Qué condiciones debe cumplir el turismo con el que quieras transportar a un niño menor de tres años?",
+    "opciones_pl": {
+      "A": " Powinien być wyposażony w pasy i fotelik bezpieczeństwa.",
+      "B": " Może nie mieć pasów bezpieczeństwa.  ",
+      "C": "Nie musi być wyposażony w pasy i fotelik bezpieczeństwa."
+    },
+    "opciones": {
+      "A": "Debe estar equipado con cinturones y silla de seguridad.",
+      "B": "Puede no tener cinturones de seguridad.",
+      "C": "No tiene que estar equipado con cinturones ni silla de seguridad."
+    },
+    "respuesta_correcta": "A",
+    "tipo": "abc",
+    "fuente": "Ministerstwo Infrastruktury (CC BY-SA 4.0)"
+  },
+  {
+    "id": 147,
+    "puntos": "2",
+    "pregunta_pl": "Czym powinieneś się kierować wybierając fotelik lub urządzenie przytrzymujące służące do przewozu dziecka?",
+    "pregunta": "¿Por qué debes guiarte al elegir la silla o el dispositivo de retención para transportar a un niño?",
+    "opciones_pl": {
+      "A": "Estetyką.",
+      "B": "Właściwymi warunkami technicznymi dotyczącymi tych urządzeń.",
+      "C": "Przede wszystkim wygodą."
+    },
+    "opciones": {
+      "A": "Por la estética.",
+      "B": "Por los requisitos técnicos adecuados a estos dispositivos.",
+      "C": "Ante todo por la comodidad."
+    },
+    "respuesta_correcta": "B",
+    "tipo": "abc",
+    "fuente": "Ministerstwo Infrastruktury (CC BY-SA 4.0)"
+  },
+  {
+    "id": 148,
+    "puntos": "2",
+    "pregunta_pl": "Jakie muszą być spełnione warunki podczas przewożenia dziecka na tylnym siedzeniu samochodu osobowego?",
+    "pregunta": "¿Qué condiciones deben cumplirse al transportar a un niño en el asiento trasero de un turismo?",
+    "opciones_pl": {
+      "A": "Przewożone dziecko ma co najmniej 135 cm wzrostu, jest przypięte tylko pasami bezpieczeństwa, gdyż masa i wzrost uniemożliwia przewóz w foteliku lub innym urządzeniu przytrzymującym  dziecko.",
+      "B": "Przewożone dziecko ma co najmniej 125 cm wzrostu, jest przypięte tylko pasami bezpieczeństwa, gdyż masa i wzrost uniemożliwia przewóz w foteliku.",
+      "C": "Nie można przekraczać prędkości 50 km/h."
+    },
+    "opciones": {
+      "A": "El niño mide al menos 135 cm y va sujeto solo con el cinturón, porque su peso y estatura impiden usar silla u otro dispositivo de retención.",
+      "B": "El niño mide al menos 125 cm y va sujeto solo con el cinturón, porque su peso y estatura impiden usar silla.",
+      "C": "No se puede superar los 50 km/h."
+    },
+    "respuesta_correcta": "A",
+    "tipo": "abc",
+    "fuente": "Ministerstwo Infrastruktury (CC BY-SA 4.0)"
+  },
+  {
+    "id": 149,
+    "puntos": "2",
+    "pregunta_pl": "Jakie musisz spełnić warunki, gdy chcesz przewieźć dziecko na tylnym siedzeniu samochodu osobowego?",
+    "pregunta": "¿Qué condiciones debes cumplir para transportar a un niño en el asiento trasero de un turismo?",
+    "opciones_pl": {
+      "A": "Przewożone dziecko ma co najmniej 125 cm wzrostu, jest przypięte tylko pasami bezpieczeństwa, gdyż masa i wzrost uniemożliwia przewóz w urządzeniu przytrzymującym.",
+      "B": "Nie można przekraczać prędkości 40 km/h.",
+      "C": "Przewożone dziecko ma co najmniej 135 cm wzrostu, jest przypięte tylko pasami bezpieczeństwa, gdyż masa i wzrost uniemożliwia przewóz w urządzeniu przytrzymującym."
+    },
+    "opciones": {
+      "A": "El niño mide al menos 125 cm y va sujeto solo con el cinturón, porque su peso y estatura impiden usar dispositivo de retención.",
+      "B": "No se puede superar los 40 km/h.",
+      "C": "El niño mide al menos 135 cm y va sujeto solo con el cinturón, porque su peso y estatura impiden usar dispositivo de retención."
+    },
+    "respuesta_correcta": "C",
+    "tipo": "abc",
+    "fuente": "Ministerstwo Infrastruktury (CC BY-SA 4.0)"
+  },
+  {
+    "id": 150,
+    "puntos": "2",
+    "pregunta_pl": "Co musisz zrobić, żeby przewieźć trzyletnie dziecko na tylnym siedzeniu samochodu osobowego, na którym w fotelikach już siedzi dwoje dzieci i nie ma możliwości zainstalowania trzeciego fotelika?",
+    "pregunta": "¿Qué debes hacer para transportar a un niño de tres años en el asiento trasero de un turismo donde ya viajan dos niños en sillas y no cabe una tercera?",
+    "opciones_pl": {
+      "A": "Musisz zabezpieczyć dziecko pasami bezpieczeństwa.",
+      "B": "Powinieneś posadzić dziecko na kolanach osoby dorosłej. ",
+      "C": "Musisz zablokować tylne drzwi, uniemożliwiając ich otwarcie od zewnątrz."
+    },
+    "opciones": {
+      "A": "Debes asegurar al niño con el cinturón de seguridad.",
+      "B": "Debes sentar al niño en el regazo de un adulto.",
+      "C": "Debes bloquear las puertas traseras para impedir su apertura desde fuera."
+    },
+    "respuesta_correcta": "A",
+    "tipo": "abc",
+    "fuente": "Ministerstwo Infrastruktury (CC BY-SA 4.0)"
+  },
+  {
+    "id": 151,
+    "puntos": "2",
+    "pregunta_pl": "Co musisz zrobić gdy chcesz przewieźć trzyletnie dziecko na tylnym siedzeniu samochodu osobowego, na którym w urządzeniach przytrzymujących już siedzi dwoje dzieci i nie ma możliwości zainstalowania trzeciego urządzenia?",
+    "pregunta": "¿Qué debes hacer para transportar a un niño de tres años en el asiento trasero de un turismo donde ya viajan dos niños en dispositivos de retención y no cabe un tercero?",
+    "opciones_pl": {
+      "A": "Powinieneś zapewnić dziecku podstawkę na nogi.",
+      "B": "Musisz zabezpieczyć dziecko pasami bezpieczeństwa.",
+      "C": "Powinieneś posadzić dziecko na środku tylnego siedzenia."
+    },
+    "opciones": {
+      "A": "Proporcionarle un reposapiés.",
+      "B": "Asegurar al niño con el cinturón de seguridad.",
+      "C": "Sentar al niño en el centro del asiento trasero."
+    },
+    "respuesta_correcta": "B",
+    "tipo": "abc",
+    "fuente": "Ministerstwo Infrastruktury (CC BY-SA 4.0)"
+  },
+  {
+    "id": 152,
+    "puntos": "2",
+    "pregunta_pl": "Jakie dokumenty masz obowiązek mieć przy sobie i okazywać na żądanie uprawnionego organu podczas kontroli drogowej?",
+    "pregunta": "¿Qué documentos tienes la obligación de llevar y mostrar a petición del órgano competente durante un control de tráfico?",
+    "opciones_pl": {
+      "A": "Potwierdzenie opłaty obowiązkowego ubezpieczenia odpowiedzialności cywilnej.",
+      "B": "Pokwitowanie zatrzymania dowodu rejestracyjnego w okresie, w którym uprawnia ono do używania pojazdu.",
+      "C": "W każdym przypadku zaświadczenie o przeprowadzonym badaniu technicznym. "
+    },
+    "opciones": {
+      "A": "El justificante de pago del seguro obligatorio de responsabilidad civil.",
+      "B": "El recibo de retención del permiso de circulación durante el periodo en que este autoriza el uso del vehículo.",
+      "C": "En todo caso, el certificado de la inspección técnica realizada."
+    },
+    "respuesta_correcta": "B",
+    "tipo": "abc",
+    "fuente": "Ministerstwo Infrastruktury (CC BY-SA 4.0)"
+  },
+  {
+    "id": 153,
+    "puntos": "2",
+    "pregunta_pl": "Jakie dokumenty masz obowiązek mieć przy sobie i okazywać na żądanie uprawnionego organu podczas kontroli drogowej?",
+    "pregunta": "¿Qué documentos tienes la obligación de llevar y mostrar durante un control de tráfico?",
+    "opciones_pl": {
+      "A": "Potwierdzenie opłaty ubezpieczenia AC.",
+      "B": "Pokwitowanie zatrzymania pozwolenia czasowego w okresie, w którym uprawnia ono do używania pojazdu.",
+      "C": "Zaświadczenie o przeprowadzonym badaniu technicznym, w przypadku, gdy pojazd jest zasilany gazem."
+    },
+    "opciones": {
+      "A": "El justificante de pago del seguro a todo riesgo.",
+      "B": "El recibo de retención del permiso temporal durante el periodo en que este autoriza el uso del vehículo.",
+      "C": "El certificado de inspección técnica, cuando el vehículo funciona con gas."
+    },
+    "respuesta_correcta": "B",
+    "tipo": "abc",
+    "fuente": "Ministerstwo Infrastruktury (CC BY-SA 4.0)"
+  },
+  {
+    "id": 154,
+    "puntos": "2",
+    "pregunta_pl": "Jakie dokumenty masz obowiązek mieć przy sobie i okazywać na żądanie uprawnionego organu podczas kontroli drogowej?",
+    "pregunta": "¿Qué documentos tienes la obligación de llevar y mostrar durante un control de tráfico?",
+    "opciones_pl": {
+      "A": "Dowód rejestracyjny.",
+      "B": "Pokwitowanie zatrzymania dowodu rejestracyjnego w okresie, w którym uprawnia ono do używania pojazdu.",
+      "C": "Świadectwo zgodności z warunkami technicznymi."
+    },
+    "opciones": {
+      "A": "El permiso de circulación.",
+      "B": "El recibo de retención del permiso de circulación durante el periodo en que este autoriza el uso del vehículo.",
+      "C": "El certificado de conformidad con los requisitos técnicos."
+    },
+    "respuesta_correcta": "B",
+    "tipo": "abc",
+    "fuente": "Ministerstwo Infrastruktury (CC BY-SA 4.0)"
+  },
+  {
+    "id": 155,
+    "puntos": "2",
+    "pregunta_pl": "Jakie dokumenty masz obowiązek mieć przy sobie i okazywać na żądanie uprawnionego organu podczas kontroli drogowej?",
+    "pregunta": "¿Qué documentos tienes la obligación de llevar y mostrar durante un control de tráfico?",
+    "opciones_pl": {
+      "A": "Pokwitowanie zatrzymania pozwolenia czasowego w okresie, w którym uprawnia ono do używania pojazdu.",
+      "B": "Świadectwo zgodności WE.",
+      "C": "Dowód rejestracyjny."
+    },
+    "opciones": {
+      "A": "El recibo de retención del permiso temporal durante el periodo en que este autoriza el uso del vehículo.",
+      "B": "El certificado de conformidad CE.",
+      "C": "El permiso de circulación."
+    },
+    "respuesta_correcta": "A",
+    "tipo": "abc",
+    "fuente": "Ministerstwo Infrastruktury (CC BY-SA 4.0)"
+  },
+  {
+    "id": 156,
+    "puntos": "2",
+    "pregunta_pl": "Jakie dokumenty masz obowiązek mieć przy sobie i okazywać na żądanie uprawnionego organu, gdy na terytorium Rzeczypospolitej kierujesz pojazdem, który jest zarejestrowany za granicą?",
+    "pregunta": "¿Qué documentos tienes la obligación de llevar y mostrar en territorio polaco conduciendo un vehículo matriculado en el extranjero?",
+    "opciones_pl": {
+      "A": "Dokument dopuszczający pojazd do ruchu. ",
+      "B": "Dokument potwierdzający zawarcie umowy ubezpieczenia od nieszczęśliwych wypadków.",
+      "C": "Kopię zaświadczenia o przeprowadzonym badaniu technicznym."
+    },
+    "opciones": {
+      "A": "El documento que autoriza la circulación del vehículo.",
+      "B": "El documento que acredita un seguro de accidentes.",
+      "C": "Una copia del certificado de la inspección técnica."
+    },
+    "respuesta_correcta": "A",
+    "tipo": "abc",
+    "fuente": "Ministerstwo Infrastruktury (CC BY-SA 4.0)"
+  },
+  {
+    "id": 157,
+    "puntos": "2",
+    "pregunta_pl": "Jakie dokumenty masz obowiązek mieć przy sobie i okazywać na żądanie uprawnionego organu, gdy na terytorium Rzeczypospolitej kierujesz pojazdem, który jest zarejestrowany za granicą?",
+    "pregunta": "¿Qué documentos tienes la obligación de llevar y mostrar en territorio polaco conduciendo un vehículo matriculado en el extranjero?",
+    "opciones_pl": {
+      "A": "Dowód własności pojazdu.",
+      "B": "Dokument potwierdzający zawarcie umowy obowiązkowego ubezpieczenia odpowiedzialności cywilnej posiadacza pojazdu.",
+      "C": "Dokument potwierdzający opłatę skarbową."
+    },
+    "opciones": {
+      "A": "El título de propiedad del vehículo.",
+      "B": "El documento que acredita el seguro obligatorio de responsabilidad civil del titular del vehículo.",
+      "C": "El justificante del pago de la tasa administrativa."
+    },
+    "respuesta_correcta": "B",
+    "tipo": "abc",
+    "fuente": "Ministerstwo Infrastruktury (CC BY-SA 4.0)"
+  },
+  {
+    "id": 158,
+    "puntos": "2",
+    "pregunta_pl": "Jakie dokumenty masz obowiązek mieć przy sobie i okazywać na żądanie uprawnionego organu, gdy na terytorium Rzeczypospolitej kierujesz pojazdem, który jest zarejestrowany za granicą?",
+    "pregunta": "¿Qué documentos tienes la obligación de llevar y mostrar en territorio polaco conduciendo un vehículo matriculado en el extranjero?",
+    "opciones_pl": {
+      "A": "Profesjonalny dowód rejestracyjny.",
+      "B": "Dowód opłacenia składki za obowiązkowe ubezpieczenie odpowiedzialności cywilnej.",
+      "C": "Dokument potwierdzający opłatę za korzystanie z autostrad i dróg ekspresowych."
+    },
+    "opciones": {
+      "A": "El permiso de circulación profesional.",
+      "B": "El justificante del pago de la prima del seguro obligatorio de responsabilidad civil.",
+      "C": "El justificante del pago por el uso de autopistas y vías rápidas."
+    },
+    "respuesta_correcta": "B",
+    "tipo": "abc",
+    "fuente": "Ministerstwo Infrastruktury (CC BY-SA 4.0)"
+  },
+  {
+    "id": 159,
+    "puntos": "2",
+    "pregunta_pl": "Jakie dokumenty masz obowiązek mieć przy sobie i okazywać na żądanie uprawnionego organu podczas kontroli drogowej?",
+    "pregunta": "¿Qué documentos tienes la obligación de llevar y mostrar durante un control de tráfico?",
+    "opciones_pl": {
+      "A": "Krajowe prawo jazdy.",
+      "B": "Inny dokument stwierdzający uprawnienie do kierowania pojazdem niż wydane w kraju prawo jazdy.",
+      "C": "Świadectwo kwalifikacji."
+    },
+    "opciones": {
+      "A": "El permiso de conducir nacional.",
+      "B": "Un documento que acredite la autorización para conducir distinto del permiso expedido en el país.",
+      "C": "El certificado de cualificación."
+    },
+    "respuesta_correcta": "B",
+    "tipo": "abc",
+    "fuente": "Ministerstwo Infrastruktury (CC BY-SA 4.0)"
+  },
+  {
+    "id": 160,
+    "puntos": "2",
+    "pregunta_pl": "Jakie dokumenty masz obowiązek mieć przy sobie i okazywać na żądanie uprawnionego organu podczas kontroli drogowej?",
+    "pregunta": "¿Qué documentos tienes la obligación de llevar y mostrar durante un control de tráfico?",
+    "opciones_pl": {
+      "A": "Orzeczenie lekarskie, jeżeli wykonujesz zarobkowy przewóz osób.",
+      "B": "Pokwitowanie zatrzymania prawa jazdy w okresie, w którym upoważnia ono do kierowania. ",
+      "C": "Orzeczenie psychologiczne."
+    },
+    "opciones": {
+      "A": "El certificado médico, si realizas transporte de personas con fines lucrativos.",
+      "B": "El recibo de retención del permiso de conducir durante el periodo en que este autoriza a conducir.",
+      "C": "El certificado psicológico."
+    },
+    "respuesta_correcta": "B",
+    "tipo": "abc",
+    "fuente": "Ministerstwo Infrastruktury (CC BY-SA 4.0)"
+  },
+  {
+    "id": 161,
+    "puntos": "2",
+    "pregunta_pl": "Jakie dokumenty masz obowiązek mieć przy sobie i okazywać na żądanie uprawnionego organu podczas kontroli drogowej?",
+    "pregunta": "¿Qué documentos tienes la obligación de llevar y mostrar durante un control de tráfico?",
+    "opciones_pl": {
+      "A": "Orzeczenie psychologiczne, jeżeli wykonujesz zarobkowy przewóz osób.",
+      "B": "Pokwitowanie zatrzymania prawa jazdy w okresie, w którym upoważnia ono do kierowania.",
+      "C": "Orzeczenie lekarskie. "
+    },
+    "opciones": {
+      "A": "El certificado psicológico, si realizas transporte de personas con fines lucrativos.",
+      "B": "El recibo de retención del permiso de conducir durante el periodo en que este autoriza a conducir.",
+      "C": "El certificado médico."
+    },
+    "respuesta_correcta": "B",
+    "tipo": "abc",
+    "fuente": "Ministerstwo Infrastruktury (CC BY-SA 4.0)"
+  },
+  {
+    "id": 162,
+    "puntos": "2",
+    "pregunta_pl": "Jaki dokument jesteś zobowiązany mieć przy sobie i okazywać na żądanie uprawnionego organu?",
+    "pregunta": "¿Qué documento estás obligado a llevar y mostrar a petición del órgano competente?",
+    "opciones_pl": {
+      "A": "Dokument potwierdzający uczestnictwo w kursie kwalifikacji wstępnej.",
+      "B": "Dokument stwierdzający uprawnienie do kierowania pojazdem inny niż wydane w kraju prawo jazdy.",
+      "C": "Dokument stwierdzający ukończenie kursu z pierwszej pomocy przedmedycznej."
+    },
+    "opciones": {
+      "A": "El documento que acredite la participación en un curso de cualificación inicial.",
+      "B": "El documento que acredite la autorización para conducir distinto del permiso expedido en el país.",
+      "C": "El documento que acredite haber realizado un curso de primeros auxilios."
+    },
+    "respuesta_correcta": "B",
+    "tipo": "abc",
+    "fuente": "Ministerstwo Infrastruktury (CC BY-SA 4.0)"
+  },
+  {
+    "id": 163,
+    "puntos": "2",
+    "pregunta_pl": "Za które naruszenie przepisów ruchu drogowego policjant zatrzyma prawo jazdy?",
+    "pregunta": "¿Por cuál de estas infracciones de tráfico el policía retirará el permiso de conducir?",
+    "opciones_pl": {
+      "A": "Za wyprzedzanie z naruszeniem pojedynczej linii ciągłej.",
+      "B": "Za przewożenie osób w liczbie przekraczającej o dwa liczbę miejsc określoną w dowodzie rejestracyjnym samochodu osobowego.",
+      "C": "Za wymijanie na przejeździe kolejowym."
+    },
+    "opciones": {
+      "A": "Por adelantar cruzando una línea continua simple.",
+      "B": "Por transportar en un turismo dos personas más de las plazas indicadas en el permiso de circulación.",
+      "C": "Por cruzarse con otro vehículo en un paso a nivel."
+    },
+    "respuesta_correcta": "B",
+    "tipo": "abc",
+    "fuente": "Ministerstwo Infrastruktury (CC BY-SA 4.0)"
+  },
+  {
+    "id": 164,
+    "puntos": "2",
+    "pregunta_pl": "Za które naruszenie przepisów ruchu drogowego policjant zatrzyma prawo jazdy?",
+    "pregunta": "¿Por cuál de estas infracciones de tráfico el policía retirará el permiso de conducir?",
+    "opciones_pl": {
+      "A": "Za wyprzedzanie przed przejściem dla pieszych, gdzie ruch jest kierowany.",
+      "B": "Za przewożenie osób w liczbie przekraczającej o dwa liczbę miejsc określoną w pozwoleniu czasowym samochodu osobowego.",
+      "C": "Za wymijanie na przejeździe dla rowerzystów."
+    },
+    "opciones": {
+      "A": "Por adelantar antes de un paso de peatones donde el tráfico está regulado.",
+      "B": "Por transportar en un turismo dos personas más de las plazas indicadas en el permiso temporal.",
+      "C": "Por cruzarse con otro vehículo en un paso para ciclistas."
+    },
+    "respuesta_correcta": "B",
+    "tipo": "abc",
+    "fuente": "Ministerstwo Infrastruktury (CC BY-SA 4.0)"
+  },
+  {
+    "id": 165,
+    "puntos": "2",
+    "pregunta_pl": "Ile czasu jest ważne pokwitowanie zatrzymania polskiego prawa jazdy za przekroczenie prędkości o ponad 50 km/h w obszarze zabudowanym, które wydał Ci policjant?",
+    "pregunta": "¿Cuánto tiempo es válido el recibo de retención del permiso polaco por superar la velocidad en más de 50 km/h en zona urbana, expedido por el policía?",
+    "opciones_pl": {
+      "A": "12 godzin.",
+      "B": "24 godziny.",
+      "C": "72 godziny."
+    },
+    "opciones": {
+      "A": "12 horas.",
+      "B": "24 horas.",
+      "C": "72 horas."
+    },
+    "respuesta_correcta": "B",
+    "tipo": "abc",
+    "fuente": "Ministerstwo Infrastruktury (CC BY-SA 4.0)"
+  },
+  {
+    "id": 166,
+    "puntos": "2",
+    "pregunta_pl": "Ile czasu jest ważne pokwitowanie zatrzymania przez policjanta prawa jazdy za przewożenie osób w liczbie przekraczającej o dwa liczbę miejsc określoną w dowodzie rejestracyjnym samochodu osobowego?",
+    "pregunta": "¿Cuánto tiempo es válido el recibo de retención del permiso, expedido por el policía, por transportar en un turismo dos personas más de las plazas indicadas en el permiso de circulación?",
+    "opciones_pl": {
+      "A": "12 godzin.",
+      "B": "24 godziny.",
+      "C": "72 godziny."
+    },
+    "opciones": {
+      "A": "12 horas.",
+      "B": "24 horas.",
+      "C": "72 horas."
+    },
+    "respuesta_correcta": "B",
+    "tipo": "abc",
+    "fuente": "Ministerstwo Infrastruktury (CC BY-SA 4.0)"
+  },
+  {
+    "id": 167,
+    "puntos": "2",
+    "pregunta_pl": "Jak postąpi policjant, jeżeli podczas kontroli drogowej ujawni, że przekroczyłeś prędkość o więcej niż 50 km/h w obszarze zabudowanym, ale było to związane z ratowaniem ludzkiego życia?",
+    "pregunta": "¿Cómo actuará el policía si en un control descubre que superaste la velocidad en más de 50 km/h en zona urbana, pero fue para salvar una vida humana?",
+    "opciones_pl": {
+      "A": "Zatrzyma prawo jazdy.",
+      "B": "Pouczy i skieruje na egzamin kontrolny.",
+      "C": "Nie zatrzyma prawa jazdy."
+    },
+    "opciones": {
+      "A": "Retirará el permiso de conducir.",
+      "B": "Amonestará y remitirá a un examen de control.",
+      "C": "No retirará el permiso de conducir."
+    },
+    "respuesta_correcta": "C",
+    "tipo": "abc",
+    "fuente": "Ministerstwo Infrastruktury (CC BY-SA 4.0)"
+  },
+  {
+    "id": 168,
+    "puntos": "2",
+    "pregunta_pl": "Jak postąpi policjant, jeżeli podczas kontroli drogowej ujawni, że przekroczyłeś prędkość o więcej niż 50 km/h w obszarze zabudowanym, ale było to związane z ratowaniem ludzkiego życia?",
+    "pregunta": "¿Cómo actuará el policía si en un control descubre que superaste la velocidad en más de 50 km/h en zona urbana, pero fue para salvar una vida humana?",
+    "opciones_pl": {
+      "A": "Zatrzyma prawo jazdy.",
+      "B": "Skieruje na dodatkowe szkolenie.",
+      "C": "Odstąpi od zatrzymania prawa jazdy."
+    },
+    "opciones": {
+      "A": "Retirará el permiso de conducir.",
+      "B": "Remitirá a formación adicional.",
+      "C": "No retirará el permiso de conducir."
+    },
+    "respuesta_correcta": "C",
+    "tipo": "abc",
+    "fuente": "Ministerstwo Infrastruktury (CC BY-SA 4.0)"
+  },
+  {
+    "id": 169,
+    "puntos": "2",
+    "pregunta_pl": "W jakim przypadku możesz przewozić trzecie dziecko, o wzroście poniżej 135 cm, na tylnym siedzeniu samochodu osobowego lub ciężarowego, przytrzymywane jedynie pasami bezpieczeństwa?",
+    "pregunta": "¿En qué caso puedes transportar a un tercer niño de menos de 135 cm en el asiento trasero de un turismo o camión, sujeto solo con el cinturón?",
+    "opciones_pl": {
+      "A": "Jeżeli dwoje dzieci przewożonych jest w fotelikach bezpieczeństwa i nie ma możliwości zainstalowania trzeciego fotelika, a trzecie dziecko ma ukończone 3 lata.",
+      "B": "Tylko, jeżeli trzecie dziecko ma wzrost co najmniej 100 cm wzrostu.",
+      "C": "Tylko, jeżeli trzecie dziecko ukończyło 15 lat."
+    },
+    "opciones": {
+      "A": "Si dos niños viajan en sillas de seguridad y no cabe una tercera, y el tercer niño tiene cumplidos 3 años.",
+      "B": "Solo si el tercer niño mide al menos 100 cm.",
+      "C": "Solo si el tercer niño tiene cumplidos 15 años."
+    },
+    "respuesta_correcta": "A",
+    "tipo": "abc",
+    "fuente": "Ministerstwo Infrastruktury (CC BY-SA 4.0)"
+  },
+  {
+    "id": 170,
+    "puntos": "2",
+    "pregunta_pl": "Kiedy wolno przewozić samochodem ciężarowym, na przednim siedzeniu, dziecko mające poniżej 150 cm wzrostu, przytrzymywane jedynie za pomocą pasów bezpieczeństwa?",
+    "pregunta": "¿Cuándo se permite transportar en el asiento delantero de un camión a un niño de menos de 150 cm sujeto solo con el cinturón?",
+    "opciones_pl": {
+      "A": "Jeżeli dziecko ma co najmniej 135 cm wzrostu.",
+      "B": "Jeżeli w samochodzie tym nie ma możliwości zamontowania fotelika bezpieczeństwa.",
+      "C": "Jeżeli dziecko ma zaświadczenie lekarskie o przeciwwskazaniu do przewożenia w foteliku bezpieczeństwa."
+    },
+    "opciones": {
+      "A": "Si el niño mide al menos 135 cm.",
+      "B": "Si en el vehículo no es posible montar una silla de seguridad.",
+      "C": "Si el niño dispone de certificado médico de contraindicación para viajar en silla de seguridad."
+    },
+    "respuesta_correcta": "C",
+    "tipo": "abc",
+    "fuente": "Ministerstwo Infrastruktury (CC BY-SA 4.0)"
+  },
+  {
+    "id": 171,
+    "puntos": "2",
+    "pregunta_pl": "Który z wymienionych dokumentów kierujący pojazdem zarejestrowanym na terytorium RP musi mieć przy sobie i okazywać na żądanie uprawnionego organu?",
+    "pregunta": "¿Cuál de estos documentos debe llevar y mostrar el conductor de un vehículo matriculado en Polonia a petición del órgano competente?",
+    "opciones_pl": {
+      "A": "Potwierdzenie opłacenia obowiązkowego ubezpieczenia odpowiedzialności cywilnej właściciela pojazdu.",
+      "B": "Dowód rejestracyjny.",
+      "C": "Jeśli kierujący ma uprawnienia do kierowania ograniczone do pojazdu wyposażonego w blokadę alkoholową - zaświadczenie o pozytywnym wyniku badania technicznego w tym zakresie."
+    },
+    "opciones": {
+      "A": "El justificante de pago del seguro obligatorio de responsabilidad civil del titular del vehículo.",
+      "B": "El permiso de circulación.",
+      "C": "Si tiene autorización limitada a vehículo con inmovilizador por alcohol, el certificado de resultado positivo de la inspección técnica en ese aspecto."
+    },
+    "respuesta_correcta": "C",
+    "tipo": "abc",
+    "fuente": "Ministerstwo Infrastruktury (CC BY-SA 4.0)"
+  },
+  {
+    "id": 172,
+    "puntos": "2",
+    "pregunta_pl": "Czy inspektor transportu drogowego podczas kontrolowania pojazdu, który wykonuje transport drogowy, ma prawo weryfikować dane o pojeździe w Centralnej Ewidencji Pojazdów?",
+    "pregunta": "¿Tiene el inspector de transporte por carretera, al controlar un vehículo que realiza transporte por carretera, derecho a verificar los datos del vehículo en el Registro Central de Vehículos?",
+    "opciones_pl": {
+      "A": "Tak, w tym zakresie przysługują takie same prawa jak policji.",
+      "B": "Nie, takie uprawnienia posiada tylko policja.",
+      "C": "Nie, do weryfikacji danych o pojeździe w Centralnej Ewidencji Pojazdów uprawnione są tylko: policja, straż graniczna i służby celno-skarbowe. "
+    },
+    "opciones": {
+      "A": "Sí, en este ámbito tiene los mismos derechos que la policía.",
+      "B": "No, esa competencia la tiene solo la policía.",
+      "C": "No, para verificar datos en el Registro Central solo están facultadas la policía, la guardia de fronteras y los servicios aduaneros y fiscales."
+    },
+    "respuesta_correcta": "A",
+    "tipo": "abc",
+    "fuente": "Ministerstwo Infrastruktury (CC BY-SA 4.0)"
+  },
+  {
+    "id": 173,
+    "puntos": "2",
+    "pregunta_pl": "Kto może zwrócić dowód rejestracyjny, w przypadku jego zatrzymania podczas kontroli ruchu drogowego, w związku ze stwierdzeniem, że pojazd zagraża porządkowi ruchu?",
+    "pregunta": "¿Quién puede devolver el permiso de circulación retenido en un control por constatar que el vehículo amenaza el orden del tráfico?",
+    "opciones_pl": {
+      "A": "Jednostka upoważniona do przeprowadzania badań technicznych po przeprowadzeniu badania technicznego odpowiadającego przyczynie zatrzymania dowodu rejestracyjnego.",
+      "B": "Straż Miejska.",
+      "C": "Zarządca drogi."
+    },
+    "opciones": {
+      "A": "El centro autorizado para realizar inspecciones técnicas, tras la inspección correspondiente al motivo de la retención.",
+      "B": "La Guardia Municipal.",
+      "C": "El titular de la vía."
+    },
+    "respuesta_correcta": "A",
+    "tipo": "abc",
+    "fuente": "Ministerstwo Infrastruktury (CC BY-SA 4.0)"
+  },
+  {
+    "id": 174,
+    "puntos": "2",
+    "pregunta_pl": "Na jak długo zostanie zatrzymane prawo jazdy kierowcy, który przekroczył prędkość o więcej niż 50 km/h na obszarze zabudowanym?",
+    "pregunta": "¿Por cuánto tiempo se retirará el permiso al conductor que superó la velocidad en más de 50 km/h en zona urbana?",
+    "opciones_pl": {
+      "A": "Na 3 miesięce.",
+      "B": "Na 6 miesięcy.",
+      "C": "Na 1 miesiąc."
+    },
+    "opciones": {
+      "A": "Por 3 meses.",
+      "B": "Por 6 meses.",
+      "C": "Por 1 mes."
+    },
+    "respuesta_correcta": "A",
+    "tipo": "abc",
+    "fuente": "Ministerstwo Infrastruktury (CC BY-SA 4.0)"
+  },
+  {
+    "id": 175,
+    "puntos": "2",
+    "pregunta_pl": "Na jak długo pokwitowanie zatrzymania prawa jazdy za przekroczenie dozwolonej prędkości na obszarze zabudowanym o więcej niż 50 km/h uprawnia do kierowania pojazdem?",
+    "pregunta": "¿Durante cuánto tiempo autoriza a conducir el recibo de retención del permiso por superar la velocidad en zona urbana en más de 50 km/h?",
+    "opciones_pl": {
+      "A": "Przez okres 24 godzin od chwili zatrzymania prawa jazdy. ",
+      "B": "Przez okres 7 dni od chwili zatrzymania prawa jazdy.",
+      "C": "Przez okres 72 godzin od chwili zatrzymania prawa jazdy."
+    },
+    "opciones": {
+      "A": "Durante 24 horas desde la retención del permiso.",
+      "B": "Durante 7 días desde la retención del permiso.",
+      "C": "Durante 72 horas desde la retención del permiso."
+    },
+    "respuesta_correcta": "A",
+    "tipo": "abc",
+    "fuente": "Ministerstwo Infrastruktury (CC BY-SA 4.0)"
+  },
+  {
+    "id": 176,
+    "puntos": "2",
+    "pregunta_pl": "W jakim przypadku nie zostanie zatrzymane prawo jazdy za przekroczenie dozwolonej prędkości o więcej niż 50 km/h na obszarze zabudowanym?",
+    "pregunta": "¿En qué caso no se retirará el permiso por superar la velocidad en más de 50 km/h en zona urbana?",
+    "opciones_pl": {
+      "A": "Jeżeli kierujący pojazdem dopuścił się naruszenia działając w celu uchylenia bezpośredniego niebezpieczeństwa grożącego dobru chronionemu prawem.",
+      "B": "Jeżeli jadący z tyłu kierowca drugim pojazdem za pomocą świateł ostrzegawczych i sygnału dźwiękowego dawał znaki do zwiększenia prędkości.",
+      "C": "Jeżeli kierujący zwiększył prędkość w celu szybszego zjechania ze skrzyżowania dróg przy świecącym się sygnale zielonym."
+    },
+    "opciones": {
+      "A": "Si el conductor cometió la infracción para evitar un peligro directo que amenazaba un bien protegido por la ley.",
+      "B": "Si el conductor de detrás, con luces y bocina, le hacía señales para que aumentara la velocidad.",
+      "C": "Si el conductor aumentó la velocidad para salir antes del cruce con el semáforo en verde."
+    },
+    "respuesta_correcta": "A",
+    "tipo": "abc",
+    "fuente": "Ministerstwo Infrastruktury (CC BY-SA 4.0)"
+  },
+  {
+    "id": 177,
+    "puntos": "2",
+    "pregunta_pl": "Chcesz przewieźć dziecko na przednim siedzeniu pojazdu samochodowego wyposażonego w przednią poduszkę dla pasażera, która jest aktywna. W jaki sposób możesz to zrobić?",
+    "pregunta": "Quieres transportar a un niño en el asiento delantero de un vehículo con airbag del pasajero activo. ¿Cómo puedes hacerlo?",
+    "opciones_pl": {
+      "A": "W foteliku bezpieczeństwa tyłem do kierunku jazdy.",
+      "B": "W foteliku bezpieczeństwa przodem do kierunku jazdy.",
+      "C": "W innym urządzeniu przytrzymującym dziecko tyłem do kierunku jazdy."
+    },
+    "opciones": {
+      "A": "En silla de seguridad orientada hacia atrás.",
+      "B": "En silla de seguridad orientada hacia delante.",
+      "C": "En otro dispositivo de retención orientado hacia atrás."
+    },
+    "respuesta_correcta": "B",
+    "tipo": "abc",
+    "fuente": "Ministerstwo Infrastruktury (CC BY-SA 4.0)"
+  },
+  {
+    "id": 178,
+    "puntos": "2",
+    "pregunta_pl": "Co grozi kierowcy, który samochodem ciężarowym przewozi o trzy osoby więcej od liczby miejsc wpisanej w dowodzie rejestracyjnym pojazdu?",
+    "pregunta": "¿Qué le espera al conductor que transporta en un camión tres personas más de las plazas indicadas en el permiso de circulación?",
+    "opciones_pl": {
+      "A": "Zatrzymanie prawa jazdy na okres 3 miesięcy.",
+      "B": "Zatrzymanie prawa jazdy na okres 3 miesięcy i kontrolne sprawdzenie kwalifikacji.",
+      "C": "Zatrzymanie prawa jazdy na okres 6 miesięcy."
+    },
+    "opciones": {
+      "A": "Retirada del permiso por 3 meses.",
+      "B": "Retirada del permiso por 3 meses y verificación de control de la cualificación.",
+      "C": "Retirada del permiso por 6 meses."
+    },
+    "respuesta_correcta": "A",
+    "tipo": "abc",
+    "fuente": "Ministerstwo Infrastruktury (CC BY-SA 4.0)"
+  },
+  {
+    "id": 179,
+    "puntos": "3",
+    "pregunta_pl": "Na jakiej drodze obowiązuje kierującego zachowanie ściśle określonego minimalnego odstępu od pojazdu poprzedzającego?",
+    "pregunta": "¿En qué vía está obligado el conductor a mantener una distancia mínima estrictamente definida respecto al vehículo precedente?",
+    "opciones_pl": {
+      "A": "Na drodze ekspresowej.",
+      "B": "Na drodze dwujezdniowej co najmniej o dwóch pasach przeznaczonych dla każdego kierunku ruchu.",
+      "C": "Na drodze jednojezdniowej poza obszarem zabudowanym."
+    },
+    "opciones": {
+      "A": "En vía rápida.",
+      "B": "En vía de doble calzada con al menos dos carriles por sentido.",
+      "C": "En vía de calzada única fuera de zona urbana."
+    },
+    "respuesta_correcta": "A",
+    "tipo": "abc",
+    "fuente": "Ministerstwo Infrastruktury (CC BY-SA 4.0)"
+  },
+  {
+    "id": 180,
+    "puntos": "3",
+    "pregunta_pl": "Jaka jest dopuszczalna prędkość pojazdu z urządzeniem wystającym do przodu więcej niż 1,5 m od siedzenia dla kierującego?",
+    "pregunta": "¿Cuál es la velocidad permitida de un vehículo con un dispositivo que sobresale más de 1,5 m hacia delante del asiento del conductor?",
+    "opciones_pl": {
+      "A": "40 km/h na obszarze zabudowanym.",
+      "B": "60 km/h poza obszarem zabudowanym.",
+      "C": "30 km/h bez względu na obszar w jakim się porusza."
+    },
+    "opciones": {
+      "A": "40 km/h en zona urbana.",
+      "B": "60 km/h fuera de zona urbana.",
+      "C": "30 km/h con independencia de la zona."
+    },
+    "respuesta_correcta": "B",
+    "tipo": "abc",
+    "fuente": "Ministerstwo Infrastruktury (CC BY-SA 4.0)"
+  },
+  {
+    "id": 181,
+    "puntos": "3",
+    "pregunta_pl": "Z jaką prędkością wolno poruszać się po autostradzie kierując samochodem osobowym?",
+    "pregunta": "¿A qué velocidad se puede circular por autopista conduciendo un turismo?",
+    "opciones_pl": {
+      "A": "Zapewniającą panowanie nad pojazdem z uwzględnieniem warunków, w jakich ruch się odbywa, nie wyższą niż 140 km/h.",
+      "B": "Uwzględniającą warunki atmosferyczne, w jakich ruch się odbywa / śnieżyca, ulewa itp./, nie mniejszą niż 40 km/h.",
+      "C": "Dowolną zapewniającą panowanie nad pojazdem."
+    },
+    "opciones": {
+      "A": "A la que garantice el control del vehículo según las condiciones de circulación, no superior a 140 km/h.",
+      "B": "Teniendo en cuenta las condiciones meteorológicas (nevada, lluvia intensa, etc.), no inferior a 40 km/h.",
+      "C": "Cualquiera que garantice el control del vehículo."
+    },
+    "respuesta_correcta": "A",
+    "tipo": "abc",
+    "fuente": "Ministerstwo Infrastruktury (CC BY-SA 4.0)"
+  },
+  {
+    "id": 182,
+    "puntos": "3",
+    "pregunta_pl": "Jaka jest dopuszczalna prędkość czterokołowca na obszarze zabudowanym?",
+    "pregunta": "¿Cuál es la velocidad permitida de un cuatriciclo en zona urbana?",
+    "opciones_pl": {
+      "A": "50 km/h bez względu na jego dopuszczalną masę całkowitą.",
+      "B": "40 km/h, jeżeli jego dopuszczalna masa całkowita przekracza 3,5 t.",
+      "C": "20 km/h."
+    },
+    "opciones": {
+      "A": "50 km/h con independencia de su masa máxima autorizada.",
+      "B": "40 km/h si su masa máxima autorizada supera las 3,5 t.",
+      "C": "20 km/h."
+    },
+    "respuesta_correcta": "A",
+    "tipo": "abc",
+    "fuente": "Ministerstwo Infrastruktury (CC BY-SA 4.0)"
+  },
+  {
+    "id": 183,
+    "puntos": "3",
+    "pregunta_pl": "Z jaką maksymalną dopuszczalną prędkością możesz holować inny pojazd?",
+    "pregunta": "¿A qué velocidad máxima permitida puedes remolcar a otro vehículo?",
+    "opciones_pl": {
+      "A": "50 km/h w obszarze zabudowanym.",
+      "B": "60 km/h poza obszarem zabudowanym.",
+      "C": "80 km/h na drodze dwujezdniowej o co najmniej dwóch pasach przeznaczonych dla każdego kierunku ruchu."
+    },
+    "opciones": {
+      "A": "50 km/h en zona urbana.",
+      "B": "60 km/h fuera de zona urbana.",
+      "C": "80 km/h en vía de doble calzada con al menos dos carriles por sentido."
+    },
+    "respuesta_correcta": "B",
+    "tipo": "abc",
+    "fuente": "Ministerstwo Infrastruktury (CC BY-SA 4.0)"
+  },
+  {
+    "id": 184,
+    "puntos": "2",
+    "pregunta_pl": "Po spełnieniu, którego z wymienionych warunków można przewozić samochodem osobowym, poza fotelikiem bezpieczeństwa lub innym urządzeniem przytrzymującym, dziecko mające mniej niż 150 cm wzrostu?",
+    "pregunta": "¿Cumplida cuál de estas condiciones se puede transportar en un turismo, fuera de silla o dispositivo de retención, a un niño de menos de 150 cm?",
+    "opciones_pl": {
+      "A": "Prędkość pojazdu nie przekroczy 40 km/h. ",
+      "B": "Dziecko posiada zaświadczenie lekarskie o przeciwwskazaniu do przewożenia w foteliku lub innym urządzeniu.",
+      "C": "Pojazd posiada dodatkowe oznakowanie, które wskazuje, że jest nim przewożone dziecko."
+    },
+    "opciones": {
+      "A": "La velocidad del vehículo no superará los 40 km/h.",
+      "B": "El niño dispone de certificado médico de contraindicación para viajar en silla u otro dispositivo.",
+      "C": "El vehículo lleva señalización adicional que indica que transporta a un niño."
+    },
+    "respuesta_correcta": "B",
+    "tipo": "abc",
+    "fuente": "Ministerstwo Infrastruktury (CC BY-SA 4.0)"
+  },
+  {
+    "id": 185,
+    "puntos": "3",
+    "pregunta_pl": "Widząc osobę z białą laską przechodzącą przez jezdnię należy:",
+    "pregunta": "Al ver a una persona con bastón blanco cruzando la calzada se debe:",
+    "opciones_pl": {
+      "A": "zatrzymać pojazd w celu umożliwienia jej przejścia",
+      "B": "użyć sygnału dźwiękowego, jeśli przechodzi poza wyznaczonym przejściem dla pieszych",
+      "C": "w każdym przypadku zmienić bieg na wyższy"
+    },
+    "opciones": {
+      "A": "detener el vehículo para permitirle cruzar.",
+      "B": "usar la bocina si cruza fuera del paso de peatones señalizado.",
+      "C": "cambiar en todo caso a una marcha superior."
+    },
+    "respuesta_correcta": "A",
+    "tipo": "abc",
+    "fuente": "Ministerstwo Infrastruktury (CC BY-SA 4.0)"
+  },
+  {
+    "id": 186,
+    "puntos": "3",
+    "pregunta_pl": "Czy każdy kierujący pojazdem ma obowiązek jechać z prędkością zapewniającą panowanie nad pojazdem ?",
+    "pregunta": "¿Todo conductor tiene la obligación de circular a una velocidad que garantice el control del vehículo?",
+    "opciones_pl": {
+      "A": "Tak, zawsze obowiązek dotyczy wszystkich kierujących pojazdami.",
+      "B": "Nie, obowiązek dotyczy jedynie kierowców pojazdów samochodowych.",
+      "C": "Tak, ale wyłącznie w obszarze zabudowanym."
+    },
+    "opciones": {
+      "A": "Sí, la obligación afecta siempre a todos los conductores.",
+      "B": "No, la obligación afecta solo a los conductores de vehículos de motor.",
+      "C": "Sí, pero únicamente en zona urbana."
+    },
+    "respuesta_correcta": "A",
+    "tipo": "abc",
+    "fuente": "Ministerstwo Infrastruktury (CC BY-SA 4.0)"
+  },
+  {
+    "id": 187,
+    "puntos": "2",
+    "pregunta_pl": "Prędkość bezpieczna to prędkość :",
+    "pregunta": "La velocidad segura es la velocidad:",
+    "opciones_pl": {
+      "A": "która zapewnia panowanie nad pojazdem. ",
+      "B": "która jest równa dopuszczalnej prędkości na danym odcinku drogi. ",
+      "C": "którą \"podpowiada\" nawigacja w Twoim pojeździe."
+    },
+    "opciones": {
+      "A": "que garantiza el control del vehículo.",
+      "B": "que es igual a la velocidad permitida en ese tramo de vía.",
+      "C": "que «sugiere» el navegador de tu vehículo."
+    },
+    "respuesta_correcta": "A",
+    "tipo": "abc",
+    "fuente": "Ministerstwo Infrastruktury (CC BY-SA 4.0)"
+  },
+  {
+    "id": 188,
+    "puntos": "1",
+    "pregunta_pl": "Czy prędkość pojazdu powinna być dostosowana do widoczności drogi ?",
+    "pregunta": "¿La velocidad del vehículo debe adaptarse a la visibilidad de la vía?",
+    "opciones_pl": {
+      "A": "Tak, jadę na tyle szybko na ile mam zapewnioną pełną widoczność drogi - niezależnie od limitów prędkości.",
+      "B": "Tak, wskaźnikiem jest możliwość obserwacji znaków drogowych.",
+      "C": "Tak ,ale wyłącznie po zmroku."
+    },
+    "opciones": {
+      "A": "Sí, conduzco tan rápido como me permita la visibilidad plena de la vía, independientemente de los límites de velocidad.",
+      "B": "Sí, el indicador es la posibilidad de observar las señales de tráfico.",
+      "C": "Sí, pero solo tras el anochecer."
+    },
+    "respuesta_correcta": "A",
+    "tipo": "abc",
+    "fuente": "Ministerstwo Infrastruktury (CC BY-SA 4.0)"
+  },
+  {
+    "id": 189,
+    "puntos": "1",
+    "pregunta_pl": "Jaki jest wpływ prędkości pojazdu na reakcję kierującego?",
+    "pregunta": "¿Qué influencia tiene la velocidad del vehículo sobre la reacción del conductor?",
+    "opciones_pl": {
+      "A": "Żaden. ",
+      "B": "Im większa prędkość, tym szybsza reakcja.",
+      "C": "Im większa prędkość, tym mniej czasu na reakcję."
+    },
+    "opciones": {
+      "A": "Ninguna.",
+      "B": "Cuanto mayor es la velocidad, más rápida es la reacción.",
+      "C": "Cuanto mayor es la velocidad, menos tiempo hay para reaccionar."
+    },
+    "respuesta_correcta": "C",
+    "tipo": "abc",
+    "fuente": "Ministerstwo Infrastruktury (CC BY-SA 4.0)"
+  },
+  {
+    "id": 190,
+    "puntos": "3",
+    "pregunta_pl": "Czy prędkość przy jakiej doszło do wypadku ma wpływ na jego skutki ?",
+    "pregunta": "¿La velocidad a la que se produjo el accidente influye en sus consecuencias?",
+    "opciones_pl": {
+      "A": "Nie.",
+      "B": "Tak, ale tylko przy czołowym zderzeniu.",
+      "C": "Tak."
+    },
+    "opciones": {
+      "A": "No.",
+      "B": "Sí, pero solo en una colisión frontal.",
+      "C": "Sí."
+    },
+    "respuesta_correcta": "C",
+    "tipo": "abc",
+    "fuente": "Ministerstwo Infrastruktury (CC BY-SA 4.0)"
+  },
+  {
+    "id": 191,
+    "puntos": "2",
+    "pregunta_pl": "Które z poniższych zachowań świadczy o rozważnym i bezpiecznym prowadzeniu pojazdu?",
+    "pregunta": "¿Cuál de estos comportamientos demuestra una conducción prudente y segura?",
+    "opciones_pl": {
+      "A": "Utrzymywanie stałej maksymalnej dopuszczalnej prędkości niezależnie od zmieniających się  warunków drogowych.",
+      "B": "Rozwijanie maksymalnych dopuszczalnych prędkości i maksymalnych możliwych przyspieszeń, wtedy jest większa szansa na uniknięcie zagrożenia bezpieczeństwa.",
+      "C": "Zwiększenie uwagi przy zbliżaniu się do przejścia dla pieszych. "
+    },
+    "opciones": {
+      "A": "Mantener la velocidad máxima permitida constante, independientemente de las cambiantes condiciones de la vía.",
+      "B": "Alcanzar las velocidades máximas permitidas y las aceleraciones máximas posibles, pues así hay más posibilidad de evitar un peligro.",
+      "C": "Aumentar la atención al acercarse a un paso de peatones."
+    },
+    "respuesta_correcta": "C",
+    "tipo": "abc",
+    "fuente": "Ministerstwo Infrastruktury (CC BY-SA 4.0)"
+  },
+  {
+    "id": 192,
+    "puntos": 2,
+    "pregunta_pl": "Jaką decyzję podejmie starosta, jeśli zostałeś zatrzymany do kontroli kierując pojazdem pomimo przedłużeniu okresu zatrzymania prawa jazdy do sześciu miesięcy za przekroczenie prędkości o więcej niż 50 km/h w obszarze  zabudowanym?",
+    "pregunta": "¿Qué decisión tomará el starosta si te controlan conduciendo pese a la prórroga a seis meses de la retención del permiso por superar la velocidad en más de 50 km/h en zona urbana?",
+    "opciones_pl": {
+      "A": "Przedłuży okres zatrzymania o kolejne trzy miesiące.",
+      "B": "Przedłuży okres zatrzymania o kolejne cztery miesiące.",
+      "C": "Cofnie uprawnienie do kierowania pojazdami na okres 5 lat od dnia stwierdzenia tego zdarzenia."
+    },
+    "opciones": {
+      "A": "Prorrogará la retención otros tres meses.",
+      "B": "Prorrogará la retención otros cuatro meses.",
+      "C": "Retirará la autorización para conducir durante 5 años desde la constatación del hecho."
+    },
+    "respuesta_correcta": "C",
+    "tipo": "abc",
+    "fuente": "Ministerstwo Infrastruktury (CC BY-SA 4.0)"
+  },
+  {
+    "id": 193,
+    "puntos": 2,
+    "pregunta_pl": "Jaką decyzję podejmie starosta, jeśli zostałeś zatrzymany do kontroli kierując pojazdem pomimo przedłużenia okresu zatrzymania prawa jazdy do sześciu miesięcy za przewożenie osób w liczbie przekraczającej o dwa liczbę miejsc określoną w dowodzie rejestracyjnym samochodu osobowego?",
+    "pregunta": "¿Qué decisión tomará el starosta si te controlan conduciendo pese a la prórroga a seis meses de la retención del permiso por transportar en un turismo dos personas más de las plazas indicadas en el permiso de circulación?",
+    "opciones_pl": {
+      "A": "Przedłuży okres zatrzymania o kolejne trzy miesiące.",
+      "B": "Przedłuży okres zatrzymania o kolejne cztery miesiące.",
+      "C": "Cofnie uprawnienie do kierowania pojazdami na okres 5 lat od dnia stwierdzenia tego zdarzenia."
+    },
+    "opciones": {
+      "A": "Prorrogará la retención otros tres meses.",
+      "B": "Prorrogará la retención otros cuatro meses.",
+      "C": "Retirará la autorización para conducir durante 5 años desde la constatación del hecho."
+    },
+    "respuesta_correcta": "C",
+    "tipo": "abc",
+    "fuente": "Ministerstwo Infrastruktury (CC BY-SA 4.0)"
+  },
+  {
+    "id": 194,
+    "puntos": "2",
+    "pregunta_pl": "Policjant zatrzyma wydane w kraju prawo jazdy za pokwitowaniem, w przypadku ujawnienia czynu polegającego na przewożeniu osób samochodem osobowym, w liczbie przekraczającej liczbę miejsc określoną w dowodzie rejestracyjnym o:",
+    "pregunta": "El policía retirará el permiso expedido en el país, mediante recibo, al descubrir el transporte en un turismo de un número de personas que supera las plazas indicadas en el permiso de circulación en:",
+    "opciones_pl": {
+      "A": "1 osobę.",
+      "B": "2 osoby.",
+      "C": "3 osoby."
+    },
+    "opciones": {
+      "A": "1 persona.",
+      "B": "2 personas.",
+      "C": "3 personas."
+    },
+    "respuesta_correcta": "C",
+    "tipo": "abc",
+    "fuente": "Ministerstwo Infrastruktury (CC BY-SA 4.0)"
   }
 ]
